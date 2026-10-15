@@ -1,0 +1,15 @@
+{
+  "day": 0,
+  "last_run": null,
+  "polish_rotation": {
+    "order": ["grammar", "words_deep", "grammar", "fact"],
+    "next_index": 0
+  },
+  "tech_rotation": {
+    "order": ["angular", "leadership", "news", "architecture", "ai", "backend", "classic"],
+    "next_index": 0
+  },
+  "srs_intervals_days": { "1": 1, "2": 3, "3": 7, "4": 14, "5": 30 },
+  "new_words_per_day": 5,
+  "review_words_per_day": 5
+}
