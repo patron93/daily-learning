@@ -30,5 +30,7 @@
     "5": 30
   },
   "new_words_per_day": 5,
-  "review_words_per_day": 5
+  "review_words_per_day": 5,
+  "polish_last_run": "2026-10-15",
+  "tech_last_run": "2026-10-15"
 }
