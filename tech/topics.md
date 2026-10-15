@@ -4,7 +4,7 @@
 Свои темы можно дописывать в любое место.
 
 ## angular
-- [ ] Signals глубже: computed, effect, когда effect — антипаттерн
+- [x] Signals глубже: computed, effect, когда effect — антипаттерн
 - [ ] linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - [ ] Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - [ ] Deferrable views (@defer): стратегии триггеров и влияние на бандл
@@ -78,3 +78,4 @@
 
 ## Пройдено
 <!-- формат: - YYYY-MM-DD · категория · тема -->
+- 2026-10-15 · angular · Signals глубже: computed, effect, когда effect — антипаттерн

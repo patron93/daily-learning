@@ -10,5 +10,61 @@
     "reviews": "сколько раз повторялось",
     "next_review": "YYYY-MM-DD"
   },
-  "words": []
+  "words": [
+    {
+      "pl": "biurko",
+      "ru": "письменный стол",
+      "pos": "noun-n",
+      "example": "Mój laptop jest na biurku. — Мой ноутбук на столе.",
+      "topic": "IT-офис",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-16"
+    },
+    {
+      "pl": "spotkanie",
+      "ru": "встреча, митинг",
+      "pos": "noun-n",
+      "example": "Mamy spotkanie o dziesiątej. — У нас встреча в десять.",
+      "topic": "IT-офис",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-16"
+    },
+    {
+      "pl": "szef",
+      "ru": "начальник, шеф",
+      "pos": "noun-m",
+      "example": "Szef jest dziś w biurze. — Начальник сегодня в офисе.",
+      "topic": "IT-офис",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-16"
+    },
+    {
+      "pl": "przerwa",
+      "ru": "перерыв",
+      "pos": "noun-f",
+      "example": "Teraz mamy przerwę na kawę. — Сейчас у нас перерыв на кофе.",
+      "topic": "IT-офис",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-16"
+    },
+    {
+      "pl": "zadanie",
+      "ru": "задача, задание",
+      "pos": "noun-n",
+      "example": "To zadanie jest pilne. — Эта задача срочная.",
+      "topic": "IT-офис",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-16"
+    }
+  ]
 }
