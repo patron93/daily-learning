@@ -61,6 +61,7 @@ export default defineConfig({
       { text: 'Словарь', link: '/vocabulary' },
       { text: 'Грамматика', link: '/polish/grammar' },
       { text: 'Темы', link: '/tech/topics' },
+      { text: 'Тренажёр', link: '/trainer' },
     ],
     sidebar: [
       {
@@ -69,6 +70,7 @@ export default defineConfig({
           { text: '📖 Словарь', link: '/vocabulary' },
           { text: '✅ План грамматики', link: '/polish/grammar' },
           { text: '🗂 Темы профразвития', link: '/tech/topics' },
+          { text: '🧩 Тренажёр', link: '/trainer' },
         ],
       },
       ...lessonsSidebar(),

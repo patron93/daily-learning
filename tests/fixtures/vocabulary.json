@@ -1,0 +1,213 @@
+{
+  "words": [
+    {
+      "pl": "kawa",
+      "ru": "кофе",
+      "pos": "noun-f",
+      "example": "Piję kawę bez cukru. — Пью кофе без сахара.",
+      "topic": "Напитки",
+      "added": "2026-10-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "herbata",
+      "ru": "чай",
+      "pos": "noun-f",
+      "example": "Herbata jest gorąca. — Чай горячий.",
+      "topic": "Напитки",
+      "added": "2026-10-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "cukier",
+      "ru": "сахар",
+      "pos": "noun-m",
+      "example": "Dodaję cukier do herbaty. — Я добавляю сахар в чай.",
+      "topic": "Напитки",
+      "added": "2026-10-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "mleko",
+      "ru": "молоко",
+      "pos": "noun-n",
+      "example": "Kupuję mleko w sklepie. — Я покупаю молоко в магазине.",
+      "topic": "Напитки",
+      "added": "2026-10-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "kubek",
+      "ru": "чашка, кружка",
+      "pos": "noun-m",
+      "example": "Na stole stoi nowy kubek. — На столе стоит новая чашка.",
+      "topic": "Посуда",
+      "added": "2026-10-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "przerwa",
+      "ru": "перерыв",
+      "pos": "noun-f",
+      "example": "Mamy przerwę obiadową. — У нас обеденный перерыв.",
+      "topic": "Работа",
+      "added": "2026-10-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "źródło",
+      "ru": "источник",
+      "pos": "noun-n",
+      "example": "To jest główne źródło informacji. — Это главный источник информации.",
+      "topic": "Медиа",
+      "added": "2026-10-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "spotkanie",
+      "ru": "встреча, митинг",
+      "pos": "noun-n",
+      "example": "Mamy spotkanie o dziesiątej. — У нас встреча в десять.",
+      "topic": "Работа",
+      "added": "2026-10-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "szybko",
+      "ru": "быстро",
+      "pos": "adv",
+      "example": "Mówię szybko po polsku. — Я говорю по-польски быстро.",
+      "topic": "Язык",
+      "added": "2026-10-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "biurko",
+      "ru": "письменный стол",
+      "pos": "noun-n",
+      "example": "Mój laptop jest na biurku. — Мой ноутбук на столе.",
+      "topic": "Офис",
+      "added": "2026-10-13",
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-20"
+    },
+    {
+      "pl": "dobrze",
+      "ru": "хорошо",
+      "pos": "adv",
+      "example": "Dobrze, dziękuję. — Хорошо, спасибо.",
+      "topic": "Вежливость",
+      "added": "2026-10-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "pracować",
+      "ru": "работать",
+      "pos": "verb",
+      "example": "Pracuję w biurze. — Я работаю в офисе.",
+      "topic": "Работа",
+      "added": "2026-10-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "dom",
+      "ru": "дом",
+      "pos": "noun-m",
+      "example": "Mój dom jest duży. — Мой дом большой.",
+      "topic": "Жильё",
+      "added": "2026-09-28",
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-05"
+    },
+    {
+      "pl": "kot",
+      "ru": "кот",
+      "pos": "noun-m",
+      "example": "Mój kot śpi na kanapie. — Мой кот спит на диване.",
+      "topic": "Животные",
+      "added": "2026-09-30",
+      "box": 1,
+      "reviews": 1,
+      "next_review": "2026-10-01"
+    },
+    {
+      "pl": "okno",
+      "ru": "окно",
+      "pos": "noun-n",
+      "example": "Otwieram okno w kuchni. — Я открываю окно на кухне.",
+      "topic": "Жильё",
+      "added": "2026-10-03",
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "książka",
+      "ru": "книга",
+      "pos": "noun-f",
+      "example": "Czytam książkę wieczorem. — Я читаю книгу вечером.",
+      "topic": "Досуг",
+      "added": "2026-10-04",
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-10-18"
+    },
+    {
+      "pl": "samochód",
+      "ru": "машина, автомобиль",
+      "pos": "noun-m",
+      "example": "Mój samochód jest czerwony. — Моя машина красная.",
+      "topic": "Транспорт",
+      "added": "2026-09-25",
+      "box": 2,
+      "reviews": 0,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "zielony",
+      "ru": "зелёный",
+      "pos": "adj",
+      "example": "Trawa jest zielona. — Трава зелёная.",
+      "topic": "Цвета",
+      "added": "2026-09-22",
+      "box": 5,
+      "reviews": 4,
+      "next_review": "2026-10-30"
+    },
+    {
+      "pl": "jeść",
+      "ru": "есть (пищу)",
+      "pos": "verb",
+      "example": "Lubię jeść obiad. — Я люблю есть обед.",
+      "topic": "Еда",
+      "added": "2026-09-18",
+      "box": 3,
+      "reviews": 1,
+      "next_review": "2026-10-25"
+    }
+  ]
+}

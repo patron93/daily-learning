@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-17",
+  "track": "polish",
+  "topic": "Biernik (винительный падеж)",
+  "questions": [
+    {
+      "id": "acc-1",
+      "type": "choice",
+      "prompt": "Mam ___ (siostra).",
+      "options": ["siostrę", "siostra", "siostry", "siostrą"],
+      "answer": "siostrę",
+      "explain": "Mieć + biernik: женский род на -a меняется на -ę. Mam siostrę."
+    },
+    {
+      "id": "acc-2",
+      "type": "gap",
+      "prompt": "Piję ___ (kawa) codziennie.",
+      "answers": ["kawę"],
+      "explain": "Pić + biernik: kawa → kawę."
+    },
+    {
+      "id": "acc-3",
+      "type": "choice",
+      "prompt": "Widzę ___ (kot) na dachu.",
+      "options": ["kot", "kota", "kotu", "kotem"],
+      "answer": "kota",
+      "explain": "Одушевлённый мужской род в винительном падеже совпадает с родительным: kot → kota."
+    },
+    {
+      "id": "acc-4",
+      "type": "gap",
+      "prompt": "Czytam ___ (książka) wieczorem.",
+      "answers": ["książkę"],
+      "explain": "Czytać + biernik: książka → książkę."
+    },
+    {
+      "id": "acc-5",
+      "type": "choice",
+      "prompt": "Kupuję ___ (mleko) w sklepie.",
+      "options": ["mleko", "mleka", "mlekiem", "mleku"],
+      "answer": "mleko",
+      "explain": "Средний род в винительном падеже не меняется: mleko → mleko."
+    },
+    {
+      "id": "acc-6",
+      "type": "choice",
+      "prompt": "Lubię ___ (zielony kolor).",
+      "options": ["zielony", "zielonego", "zielonym", "zielonej"],
+      "answer": "zielony",
+      "explain": "Неодушевлённый мужской род: винительный падеж совпадает с именительным. Lubię zielony kolor."
+    },
+    {
+      "id": "acc-7",
+      "type": "gap",
+      "prompt": "Mam dobrego ___ (przyjaciel) w Krakowie.",
+      "answers": ["przyjaciela"],
+      "explain": "Одушевлённый мужской род: винительный совпадает с родительным: przyjaciel → przyjaciela."
+    },
+    {
+      "id": "acc-8",
+      "type": "choice",
+      "prompt": "Zamawiam ___ (pizza) na obiad.",
+      "options": ["pizzę", "pizza", "pizzy", "pizzą"],
+      "answer": "pizzę",
+      "explain": "Zamawiać + biernik: pizza → pizzę."
+    },
+    {
+      "id": "acc-9",
+      "type": "gap",
+      "prompt": "Znam tę ___ (dziewczyna) z pracy.",
+      "answers": ["dziewczynę"],
+      "explain": "Znać + biernik: dziewczyna → dziewczynę; «tę» — винительный падеж от «ta»."
+    }
+  ]
+}
