@@ -52,6 +52,7 @@ export default defineConfig({
     'profile.md',
     'feedback.md',
     'templates/**',
+    'docs/**',
     'node_modules/**',
   ],
   themeConfig: {
