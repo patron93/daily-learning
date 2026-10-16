@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-20",
+  "track": "polish",
+  "topic": "Celownik (дательный падеж)",
+  "questions": [
+    {
+      "id": "dat-1",
+      "type": "choice",
+      "prompt": "Dziękuję ___ (mama) za obiad.",
+      "options": ["mamie", "mamę", "mama", "mamą"],
+      "answer": "mamie",
+      "explain": "Dziękować + celownik: mama → mamie."
+    },
+    {
+      "id": "dat-2",
+      "type": "gap",
+      "prompt": "Daję ___ (brat) książkę.",
+      "answers": ["bratu"],
+      "explain": "Dać + celownik: brat → bratu."
+    },
+    {
+      "id": "dat-3",
+      "type": "choice",
+      "prompt": "Pomagam ___ (koleżanka) w pracy.",
+      "options": ["koleżance", "koleżankę", "koleżanką", "koleżanka"],
+      "answer": "koleżance",
+      "explain": "Pomagać + celownik: женский род на -a → -e."
+    },
+    {
+      "id": "dat-4",
+      "type": "gap",
+      "prompt": "Kupuję prezent ___ (żona).",
+      "answers": ["żonie"],
+      "explain": "Celownik: żona → żonie."
+    },
+    {
+      "id": "dat-5",
+      "type": "choice",
+      "prompt": "Mówię ___ (nauczyciel) dzień dobry.",
+      "options": ["nauczycielowi", "nauczyciela", "nauczycielem", "nauczyciel"],
+      "answer": "nauczycielowi",
+      "explain": "Mówić + celownik: nauczyciel → nauczycielowi."
+    },
+    {
+      "id": "dat-6",
+      "type": "choice",
+      "prompt": "Piszę ___ (przyjaciel) list.",
+      "options": ["przyjacielowi", "przyjaciela", "przyjacielem", "przyjaciel"],
+      "answer": "przyjacielowi",
+      "explain": "Pisać + celownik: przyjaciel → przyjacielowi."
+    },
+    {
+      "id": "dat-7",
+      "type": "gap",
+      "prompt": "Robię kawę ___ (siostra).",
+      "answers": ["siostrze"],
+      "explain": "Celownik: siostra → siostrze."
+    },
+    {
+      "id": "dat-8",
+      "type": "choice",
+      "prompt": "Zawsze ufam ___ (lekarz).",
+      "options": ["lekarzowi", "lekarza", "lekarzem", "lekarz"],
+      "answer": "lekarzowi",
+      "explain": "Ufać + celownik: lekarz → lekarzowi."
+    }
+  ]
+}

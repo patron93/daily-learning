@@ -16,4 +16,8 @@
 
 **Почитать:** [{источник}]({url})
 
+## 🧩 Квиз
+
+<LessonQuiz date="{YYYY-MM-DD}" track="tech" />
+
 <sub>Хочешь что-то поменять? Допиши в feedback.md в репозитории.</sub>

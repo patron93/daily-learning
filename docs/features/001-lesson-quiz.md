@@ -2,7 +2,7 @@
 
 > An interactive quiz at the end of every new lesson (today's topic + recap of past topics) and a free-play "Trainer" page, both running in the browser on the static site.
 
-Status: agreed
+Status: shipped
 
 ## Problem / motivation
 
@@ -154,11 +154,11 @@ Lesson `2026-10-18-tech` on Angular `linkedSignal`, quiz file with 8 choice ques
 
 ## Zones (delivery plan)
 
-Three zones, merged and deployed strictly in order Z1 → Z2 → Z3 (Z3 makes the daily task embed `<LessonQuiz>`, which must already be registered on the live site). Validation per zone: `npm test` + `npm run build` (the repo has no SDD validate scripts). No zone adds `lessons/*.quiz.json`; sample data lives in `tests/fixtures/` only.
+Three zones, implemented in order Z1 → Z2 → Z3 on one branch `agent/lesson-quiz` and delivered as a single PR (so the `<LessonQuiz>` embed in templates and its registration land together). Validation: `npm test` + `npm run build` (the repo has no SDD validate scripts). No zone adds `lessons/*.quiz.json`; sample data lives in `tests/fixtures/` only.
 
 Shared design: logic in `.vitepress/quiz/*.ts` (no vue/vitepress imports, testable in node); item keys `w:<pl>` and `q:<date>-<track>:<id>`; dates are `YYYY-MM-DD` strings with day math via `Date.UTC`; RNG always passed in (`mulberry32`), seeded in the browser from `crypto.getRandomValues`.
 
-### Z1 — Quiz logic and CI gate (`agent/quiz-logic`)
+### Z1 — Quiz logic and CI gate
 
 Nothing visible on the site changes. Covers AC 2, 4–8, 11, 12 (logic level).
 
@@ -171,7 +171,7 @@ Nothing visible on the site changes. Covers AC 2, 4–8, 11, 12 (logic level).
 
 Order: Z1.1 → Z1.2 → (Z1.3 ∥ Z1.4).
 
-### Z2 — Quiz UI and Trainer page (`agent/quiz-ui`)
+### Z2 — Quiz UI and Trainer page
 
 Covers AC 1, 3, 4, 9, 10, 14 in the browser.
 
@@ -182,9 +182,9 @@ Covers AC 1, 3, 4, 9, 10, 14 in the browser.
 
 Order: Z2.1 → Z2.2. Manual check in `npm run dev` at 375 px with a temporary local copy of a fixture quiz and a scratch lesson, both removed before commit (verifier checks the diff).
 
-### Z3 — Daily task switches to quizzes (`agent/quiz-daily-task`)
+### Z3 — Daily task switches to quizzes
 
-Covers AC 13. Lands only after Z2 is deployed.
+Covers AC 13.
 
 | Item | Tier | Files | Done when |
 |---|---|---|---|

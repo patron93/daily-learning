@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-12",
+  "track": "polish",
+  "topic": "Dopełniacz (родительный падеж)",
+  "questions": [
+    {
+      "id": "gen-1",
+      "type": "choice",
+      "prompt": "Nie mam ___ (czas).",
+      "options": ["czasu", "czas", "czasem", "czasie"],
+      "answer": "czasu",
+      "explain": "Nie mieć + dopełniacz: czas → czasu."
+    },
+    {
+      "id": "gen-2",
+      "type": "choice",
+      "prompt": "Jestem z ___ (Warszawa).",
+      "options": ["Warszawa", "Warszawy", "Warszawę", "Warszawie"],
+      "answer": "Warszawy",
+      "explain": "Z + dopełniacz: Warszawa → Warszawy."
+    },
+    {
+      "id": "gen-3",
+      "type": "gap",
+      "prompt": "Nie ma ___ (woda) w butelce.",
+      "answers": ["wody"],
+      "explain": "Nie ma + dopełniacz: woda → wody."
+    },
+    {
+      "id": "gen-4",
+      "type": "choice",
+      "prompt": "Brakuje ___ (pieniądze) na wycieczkę.",
+      "options": ["pieniędzy", "pieniądze", "pieniądzom", "pieniędzmi"],
+      "answer": "pieniędzy",
+      "explain": "Brakować + dopełniacz: pieniądze → pieniędzy."
+    },
+    {
+      "id": "gen-5",
+      "type": "gap",
+      "prompt": "Obok ___ (szkoła) jest park.",
+      "answers": ["szkoły"],
+      "explain": "Obok + dopełniacz: szkoła → szkoły."
+    },
+    {
+      "id": "gen-6",
+      "type": "choice",
+      "prompt": "Nie ma ___ (kot) w domu.",
+      "options": ["kota", "kot", "kotu", "kotem"],
+      "answer": "kota",
+      "explain": "Nie ma + dopełniacz; одушевлённый мужской род: kot → kota."
+    },
+    {
+      "id": "gen-7",
+      "type": "choice",
+      "prompt": "Dużo ___ (ludzie) na ulicy.",
+      "options": ["ludzi", "ludziach", "ludzie", "ludźmi"],
+      "answer": "ludzi",
+      "explain": "Dużo + dopełniacz mnogiego: ludzie → ludzi."
+    },
+    {
+      "id": "gen-8",
+      "type": "gap",
+      "prompt": "Idę do ___ (sklep) po chleb.",
+      "answers": ["sklepu"],
+      "explain": "Do + dopełniacz: sklep → sklepu."
+    }
+  ]
+}
