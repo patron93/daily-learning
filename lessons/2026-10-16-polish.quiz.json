@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "track": "polish",
+  "topic": "Ложные друзья в магазине",
+  "questions": [
+    {"id": "ff-1", "type": "choice", "prompt": "Что такое «owoce»?", "options": ["фрукты", "овощи", "орехи", "ягоды"], "answer": "фрукты", "explain": "Owoce — фрукты. Овощи — warzywa."},
+    {"id": "ff-2", "type": "choice", "prompt": "Как по-польски «дыня»?", "options": ["melon", "dynia", "arbuz", "dyń"], "answer": "melon", "explain": "Dynia — это тыква, а дыня — melon. Arbuz — арбуз."},
+    {"id": "ff-3", "type": "gap", "prompt": "Pomidory i ogórki to ___ (овощи).", "answers": ["warzywa"], "explain": "Овощи — warzywa; owoce — фрукты."},
+    {"id": "ff-4", "type": "choice", "prompt": "Pierogi z jagodami — это вареники с…", "options": ["черникой", "клубникой", "малиной", "вишней"], "answer": "черникой", "explain": "В быту jagody — это черника. Клубника — truskawki, малина — maliny."},
+    {"id": "ff-5", "type": "choice", "prompt": "Что такое «ser biały»?", "options": ["творог", "белый сыр-моцарелла", "сливки", "серый сыр"], "answer": "творог", "explain": "Ser biały, он же twaróg, — творог. Ser — сыр, а «серый» — szary."},
+    {"id": "ff-6", "type": "gap", "prompt": "Kot jest ___ (серый).", "answers": ["szary"], "explain": "Серый — szary. Не путай с ser — сыр."},
+    {"id": "ff-7", "type": "choice", "prompt": "Na śniadanie jem ___ z masłem (булочку).", "options": ["bułkę", "baton", "bułka", "kaszę"], "answer": "bułkę", "explain": "Bułka — булочка; после jeść нужен винительный падеж: bułkę."},
+    {"id": "ff-8", "type": "choice", "prompt": "Что продаётся под надписью «kasza gryczana»?", "options": ["гречневая крупа", "готовая манная каша", "кукурузные хлопья", "рис"], "answer": "гречневая крупа", "explain": "Kasza — прежде всего крупа; kasza gryczana — гречка."},
+    {"id": "ff-9", "type": "choice", "prompt": "Кассир говорит: «Proszę, oto reszta». Что тебе дают?", "options": ["сдачу", "остатки еды", "скидку", "пакет"], "answer": "сдачу", "explain": "Reszta на кассе — сдача. «Reszty nie trzeba» — сдачи не надо."},
+    {"id": "ff-10", "type": "gap", "prompt": "Zupa z ___ (тыква) jest pyszna.", "answers": ["dyni"], "explain": "Dynia — тыква; после z в значении «из» — родительный падеж: z dyni."}
+  ]
+}

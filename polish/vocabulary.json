@@ -18,9 +18,9 @@
       "example": "Mój laptop jest na biurku. — Мой ноутбук на столе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-16"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
     },
     {
       "pl": "spotkanie",
@@ -29,9 +29,9 @@
       "example": "Mamy spotkanie o dziesiątej. — У нас встреча в десять.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-16"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
     },
     {
       "pl": "szef",
@@ -40,9 +40,9 @@
       "example": "Szef jest dziś w biurze. — Начальник сегодня в офисе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-16"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
     },
     {
       "pl": "przerwa",
@@ -51,9 +51,9 @@
       "example": "Teraz mamy przerwę na kawę. — Сейчас у нас перерыв на кофе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-16"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
     },
     {
       "pl": "zadanie",
@@ -62,9 +62,64 @@
       "example": "To zadanie jest pilne. — Эта задача срочная.",
       "topic": "IT-офис",
       "added": "2026-10-15",
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "sklep",
+      "ru": "магазин",
+      "pos": "noun-m",
+      "example": "Idę do sklepu po chleb. — Иду в магазин за хлебом.",
+      "topic": "Магазин",
+      "added": "2026-10-16",
       "box": 1,
       "reviews": 0,
-      "next_review": "2026-10-16"
+      "next_review": "2026-10-17"
+    },
+    {
+      "pl": "zakupy",
+      "ru": "покупки",
+      "pos": "noun-pl",
+      "example": "W sobotę robię zakupy. — В субботу я делаю покупки.",
+      "topic": "Магазин",
+      "added": "2026-10-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-17"
+    },
+    {
+      "pl": "koszyk",
+      "ru": "корзина",
+      "pos": "noun-m",
+      "example": "Mam pełny koszyk. — У меня полная корзина.",
+      "topic": "Магазин",
+      "added": "2026-10-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-17"
+    },
+    {
+      "pl": "paragon",
+      "ru": "чек",
+      "pos": "noun-m",
+      "example": "Czy potrzebuje Pan paragon? — Вам нужен чек?",
+      "topic": "Магазин",
+      "added": "2026-10-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-17"
+    },
+    {
+      "pl": "reszta",
+      "ru": "сдача; остаток",
+      "pos": "noun-f",
+      "example": "Proszę, oto reszta. — Пожалуйста, вот сдача.",
+      "topic": "Магазин",
+      "added": "2026-10-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-17"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "day": 1,
-  "last_run": "2026-10-15",
+  "day": 2,
+  "last_run": "2026-10-16",
   "polish_rotation": {
     "order": [
       "grammar",
@@ -8,7 +8,7 @@
       "grammar",
       "fact"
     ],
-    "next_index": 1
+    "next_index": 2
   },
   "tech_rotation": {
     "order": [
@@ -31,6 +31,6 @@
   },
   "new_words_per_day": 5,
   "review_words_per_day": 5,
-  "polish_last_run": "2026-10-15",
+  "polish_last_run": "2026-10-16",
   "tech_last_run": "2026-10-15"
 }
