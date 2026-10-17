@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-17",
+  "track": "polish",
+  "topic": "Ударение: предпоследний слог и исключения",
+  "questions": [
+    {"id": "acc-1", "type": "choice", "prompt": "На какой слог обычно падает ударение в польском?", "options": ["на предпоследний", "на первый", "на последний", "на любой, как в русском"], "answer": "на предпоследний", "explain": "Базовое правило: ударение на предпоследнем слоге — przy-STA-nek, TRAM-waj."},
+    {"id": "acc-2", "type": "choice", "prompt": "Где ударение в слове «bilet»?", "options": ["BI-let", "bi-LET"], "answer": "BI-let", "explain": "Два слога, ударяем предпоследний: BI-let. В отличие от русского «билЕт»."},
+    {"id": "acc-3", "type": "choice", "prompt": "Где ударение в слове «przesiadka»?", "options": ["prze-SIAD-ka", "PRZE-siad-ka", "prze-siad-KA"], "answer": "prze-SIAD-ka", "explain": "«i» перед гласной — знак мягкости, слогов три: prze-siad-ka. Ударение на предпоследнем."},
+    {"id": "acc-4", "type": "choice", "prompt": "Как правильно ударять «bilety» (билеты)?", "options": ["bi-LE-ty", "BI-le-ty", "bi-le-TY"], "answer": "bi-LE-ty", "explain": "Слово стало длиннее — ударение переехало, чтобы остаться на предпоследнем слоге."},
+    {"id": "acc-5", "type": "choice", "prompt": "Какое слово — классическое исключение с ударением на третий слог с конца?", "options": ["muzyka", "tramwaj", "przystanek", "spóźnienie"], "answer": "muzyka", "explain": "Слова на -yka/-ika: MU-zy-ka, gra-MA-ty-ka, ma-te-MA-ty-ka."},
+    {"id": "acc-6", "type": "choice", "prompt": "Где ударение в «byliśmy» (мы были)?", "options": ["by-LI-śmy", "BY-li-śmy", "by-li-ŚMY"], "answer": "by-LI-śmy", "explain": "Формы на -liśmy/-liście — исключение: ударение на третий слог с конца, здесь это «LI»."},
+    {"id": "acc-7", "type": "choice", "prompt": "Сколько слогов в слове «spóźnienie»?", "options": ["3", "4", "5"], "answer": "3", "explain": "spóź-nie-nie: «ie» после n — один слог, i только смягчает. Ударение: spóź-NIE-nie."},
+    {"id": "acc-8", "type": "gap", "prompt": "Czekam na ___ (остановка), bo tramwaj ma spóźnienie.", "answers": ["przystanku"], "explain": "Na + местный падеж: przystanek → na przystanku. Ударение: przy-STAN-ku."},
+    {"id": "acc-9", "type": "gap", "prompt": "Mam jedną ___ (пересадка) na dworcu.", "answers": ["przesiadkę"], "explain": "Mieć + винительный падеж: przesiadka → przesiadkę."},
+    {"id": "acc-10", "type": "choice", "prompt": "Как произносится «nie ma»?", "options": ["как одно слово: NIE-ma", "nie MA, с ударением на ma", "два ударения: NIE MA"], "answer": "как одно слово: NIE-ma", "explain": "Короткое nie прилипает к глаголу, и вместе они ударяются как одно двусложное слово."}
+  ]
+}
