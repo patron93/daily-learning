@@ -80,3 +80,4 @@
 <!-- формат: - YYYY-MM-DD · категория · тема -->
 - 2026-10-15 · angular · Signals глубже: computed, effect, когда effect — антипаттерн
 - 2026-10-16 · leadership · 1:1 встречи: структура, вопросы, как не превратить их в статус-митинг
+- 2026-10-17 · news · Lockfile для GitHub Actions (public preview, 14.10.2026)
