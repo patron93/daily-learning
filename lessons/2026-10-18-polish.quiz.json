@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-18",
+  "track": "polish",
+  "topic": "Imieniny: польские именины и «Sto lat!»",
+  "questions": [
+    {"id": "imi-1", "type": "choice", "prompt": "Что празднуют в imieniny?", "options": ["день своего имени по календарю", "день рождения", "годовщину свадьбы", "окончание учёбы"], "answer": "день своего имени по календарю", "explain": "Imieniny — именины, день имени по календарю святых. День рождения — urodziny."},
+    {"id": "imi-2", "type": "choice", "prompt": "Dziś ___ imieniny Łukasza.", "options": ["są", "jest", "był", "jestem"], "answer": "są", "explain": "Imieniny бывает только во мн. ч., поэтому глагол тоже во мн. ч.: są."},
+    {"id": "imi-3", "type": "choice", "prompt": "Кто обычно приносит торт в офис в день именин?", "options": ["сам именинник", "начальник", "отдел кадров", "никто, это не принято"], "answer": "сам именинник", "explain": "По обычаю именинник угощает коллег: tort, pączki или конфеты."},
+    {"id": "imi-4", "type": "gap", "prompt": "Wszystkiego ___ z okazji imienin!", "answers": ["najlepszego"], "explain": "Wszystkiego najlepszego! — Всего наилучшего! Главная фраза для поздравления."},
+    {"id": "imi-5", "type": "choice", "prompt": "Что значит «Sto lat!»?", "options": ["пожелание долгой жизни, «сто лет»", "«сто раз спасибо»", "«сто процентов»", "«давно не виделись»"], "answer": "пожелание долгой жизни, «сто лет»", "explain": "Sto lat — «сто лет», пожелание и название праздничной песни вместо Happy Birthday."},
+    {"id": "imi-6", "type": "choice", "prompt": "Mam dla ciebie mały prezent. Что такое prezent?", "options": ["подарок", "презентация", "присутствие", "настоящее время"], "answer": "подарок", "explain": "Prezent — подарок. Презентация — prezentacja."},
+    {"id": "imi-7", "type": "gap", "prompt": "Dziękuję za ___ (приглашение)!", "answers": ["zaproszenie"], "explain": "Dziękować za + biernik; zaproszenie (n) в винительном не меняется."},
+    {"id": "imi-8", "type": "choice", "prompt": "Składam ci najlepsze życzenia. Что значит składać życzenia?", "options": ["поздравлять", "загадывать желание", "складывать вещи", "подписывать документы"], "answer": "поздравлять", "explain": "Życzenia — поздравления, пожелания; składać życzenia — поздравлять."},
+    {"id": "imi-9", "type": "choice", "prompt": "W sobotę robię imprezę. Что такое impreza?", "options": ["вечеринка", "официальное мероприятие", "впечатление", "предприятие"], "answer": "вечеринка", "explain": "Impreza в разговорной речи — вечеринка, тусовка. Ложный друг."},
+    {"id": "imi-10", "type": "gap", "prompt": "Dziś są imieniny ___ (Ania).", "answers": ["Ani"], "explain": "Чьи именины? — родительный падеж: Ania → Ani."}
+  ]
+}

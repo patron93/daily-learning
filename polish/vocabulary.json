@@ -128,9 +128,9 @@
       "example": "Czekam na przystanku. — Я жду на остановке.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-18"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-21"
     },
     {
       "pl": "bilet",
@@ -139,9 +139,9 @@
       "example": "Kupiłem bilet w automacie. — Я купил билет в автомате.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-18"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-21"
     },
     {
       "pl": "tramwaj",
@@ -150,9 +150,9 @@
       "example": "Jadę do pracy tramwajem. — Я еду на работу на трамвае.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-18"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-21"
     },
     {
       "pl": "przesiadka",
@@ -161,9 +161,9 @@
       "example": "Mam jedną przesiadkę. — У меня одна пересадка.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-18"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-21"
     },
     {
       "pl": "spóźnienie",
@@ -172,9 +172,64 @@
       "example": "Pociąg ma spóźnienie. — Поезд опаздывает.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "imieniny",
+      "ru": "именины",
+      "pos": "noun-pl",
+      "example": "Dziś są imieniny Łukasza. — Сегодня именины Лукаша.",
+      "topic": "Праздники",
+      "added": "2026-10-18",
       "box": 1,
       "reviews": 0,
-      "next_review": "2026-10-18"
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "życzenia",
+      "ru": "поздравления, пожелания",
+      "pos": "noun-pl",
+      "example": "Składam ci najlepsze życzenia! — Поздравляю тебя от всей души!",
+      "topic": "Праздники",
+      "added": "2026-10-18",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "prezent",
+      "ru": "подарок",
+      "pos": "noun-m",
+      "example": "Mam dla ciebie mały prezent. — У меня для тебя маленький подарок.",
+      "topic": "Праздники",
+      "added": "2026-10-18",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "tort",
+      "ru": "торт",
+      "pos": "noun-m",
+      "example": "Kupiłem tort czekoladowy. — Я купил шоколадный торт.",
+      "topic": "Праздники",
+      "added": "2026-10-18",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-19"
+    },
+    {
+      "pl": "zaproszenie",
+      "ru": "приглашение",
+      "pos": "noun-n",
+      "example": "Dziękuję za zaproszenie! — Спасибо за приглашение!",
+      "topic": "Праздники",
+      "added": "2026-10-18",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-19"
     }
   ]
 }
