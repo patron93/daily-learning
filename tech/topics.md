@@ -33,7 +33,7 @@
 - [ ] Staff/Principal путь против менеджерского: в чём разница
 
 ## architecture
-- [ ] Монорепо: Nx, границы модулей, enforce-module-boundaries
+- [x] Монорепо: Nx, границы модулей, enforce-module-boundaries
 - [ ] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - [ ] Feature-sliced / domain-driven структура фронтенда
 - [ ] Дизайн-системы и библиотеки компонентов: версионирование, токены
@@ -81,3 +81,4 @@
 - 2026-10-15 · angular · Signals глубже: computed, effect, когда effect — антипаттерн
 - 2026-10-16 · leadership · 1:1 встречи: структура, вопросы, как не превратить их в статус-митинг
 - 2026-10-17 · news · Lockfile для GitHub Actions (public preview, 14.10.2026)
+- 2026-10-18 · architecture · Монорепо: Nx, границы модулей, enforce-module-boundaries
