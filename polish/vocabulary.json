@@ -18,9 +18,9 @@
       "example": "Mój laptop jest na biurku. — Мой ноутбук на столе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-19"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "spotkanie",
@@ -29,9 +29,9 @@
       "example": "Mamy spotkanie o dziesiątej. — У нас встреча в десять.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-19"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "szef",
@@ -40,9 +40,9 @@
       "example": "Szef jest dziś w biurze. — Начальник сегодня в офисе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-19"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "przerwa",
@@ -51,9 +51,9 @@
       "example": "Teraz mamy przerwę na kawę. — Сейчас у нас перерыв на кофе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-19"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "zadanie",
@@ -62,9 +62,9 @@
       "example": "To zadanie jest pilne. — Эта задача срочная.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-19"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "sklep",
@@ -230,6 +230,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-19"
+    },
+    {
+      "pl": "zespół",
+      "ru": "команда (рабочая), коллектив",
+      "pos": "noun-m",
+      "example": "Jestem liderem zespołu. — Я руководитель команды.",
+      "topic": "Знакомство и команда",
+      "added": "2026-10-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-20"
+    },
+    {
+      "pl": "kolega",
+      "ru": "коллега; приятель",
+      "pos": "noun-m",
+      "example": "To jest mój kolega z pracy. — Это мой коллега по работе.",
+      "topic": "Знакомство и команда",
+      "added": "2026-10-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-20"
+    },
+    {
+      "pl": "koleżanka",
+      "ru": "коллега (женщина); подруга",
+      "pos": "noun-f",
+      "example": "Ania jest moją koleżanką. — Аня — моя коллега.",
+      "topic": "Знакомство и команда",
+      "added": "2026-10-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-20"
+    },
+    {
+      "pl": "firma",
+      "ru": "фирма, компания",
+      "pos": "noun-f",
+      "example": "Nasza firma jest w Warszawie. — Наша компания в Варшаве.",
+      "topic": "Знакомство и команда",
+      "added": "2026-10-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-20"
+    },
+    {
+      "pl": "nazwisko",
+      "ru": "фамилия",
+      "pos": "noun-n",
+      "example": "Jak ma pan na nazwisko? — Как ваша фамилия?",
+      "topic": "Знакомство и команда",
+      "added": "2026-10-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-20"
     }
   ]
 }

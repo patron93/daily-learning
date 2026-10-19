@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-19",
+  "track": "polish",
+  "topic": "Być в настоящем времени и «To jest…»",
+  "questions": [
+    {"id": "byc-1", "type": "choice", "prompt": "(Ja) ___ z Białorusi.", "options": ["jestem", "jesteś", "jest", "są"], "answer": "jestem", "explain": "1-е лицо ед. ч.: jestem. Местоимение ja можно опустить."},
+    {"id": "byc-2", "type": "gap", "prompt": "My ___ w biurze.", "answers": ["jesteśmy"], "explain": "1-е лицо мн. ч.: jesteśmy — мы есть."},
+    {"id": "byc-3", "type": "choice", "prompt": "Marek i Piotr ___ backendowcami.", "options": ["jest", "są", "jesteście", "jesteśmy"], "answer": "są", "explain": "3-е лицо мн. ч. (oni): są."},
+    {"id": "byc-4", "type": "gap", "prompt": "Ty ___ zmęczony?", "answers": ["jesteś"], "explain": "2-е лицо ед. ч.: jesteś."},
+    {"id": "byc-5", "type": "choice", "prompt": "Как вежливо спросить мужчину «Вы из Польши?»", "options": ["Pan jest z Polski?", "Pan jesteś z Polski?", "Wy jesteście z Polski?", "Pan są z Polski?"], "answer": "Pan jest z Polski?", "explain": "Pan / Pani + глагол в 3-м лице ед. ч.: Pan jest…"},
+    {"id": "byc-6", "type": "choice", "prompt": "To ___ moi koledzy z zespołu.", "options": ["jest", "są", "jestem", "jesteś"], "answer": "są", "explain": "Множественное число после to: to są. Ед. ч. — to jest."},
+    {"id": "byc-7", "type": "gap", "prompt": "Co to ___? — To jest bilet.", "answers": ["jest"], "explain": "Вопрос «Что это?»: Co to jest?"},
+    {"id": "byc-8", "type": "choice", "prompt": "Как сказать «Я не начальник»?", "options": ["Nie jestem szefem.", "Jestem nie szefem.", "Nie jest szefem.", "Nie są szefem."], "answer": "Nie jestem szefem.", "explain": "Nie ставится перед глаголом: nie jestem."},
+    {"id": "byc-9", "type": "gap", "prompt": "Wy ___ z Krakowa?", "answers": ["jesteście"], "explain": "2-е лицо мн. ч. (wy): jesteście."},
+    {"id": "byc-10", "type": "choice", "prompt": "Что значит «Jak ma pan na nazwisko?»", "options": ["Как ваша фамилия?", "Как называется ваша фирма?", "Как ваше прозвище?", "Как ваше имя?"], "answer": "Как ваша фамилия?", "explain": "Nazwisko — фамилия (ложный друг). Имя — imię, название — nazwa."}
+  ]
+}
