@@ -22,6 +22,15 @@
     ],
     "next_index": 6
   },
+  "electric_rotation": {
+    "order": [
+      "theory",
+      "theory",
+      "theory",
+      "practice"
+    ],
+    "next_index": 0
+  },
   "srs_intervals_days": {
     "1": 1,
     "2": 3,
@@ -32,5 +41,6 @@
   "new_words_per_day": 5,
   "review_words_per_day": 5,
   "polish_last_run": "2026-10-20",
-  "tech_last_run": "2026-10-20"
+  "tech_last_run": "2026-10-20",
+  "electric_last_run": null
 }

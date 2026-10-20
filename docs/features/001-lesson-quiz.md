@@ -51,7 +51,7 @@ Lessons are read-only: a static exercise with answers in a spoiler, and a review
 
 ### Quiz file
 
-Path: `lessons/YYYY-MM-DD-<track>.quiz.json`, `track` ∈ `polish | tech`, written in the same commit as the lesson. 8–10 questions per file.
+Path: `lessons/YYYY-MM-DD-<track>.quiz.json`, `track` ∈ `polish | tech | electric` (electric added later, works like tech: choice only), written in the same commit as the lesson. 8–10 questions per file.
 
 ```json
 {

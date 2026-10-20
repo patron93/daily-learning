@@ -56,6 +56,7 @@ function restart() {
         <select v-model="track" class="qz-select">
           <option value="polish">Польский</option>
           <option value="tech">Профразвитие</option>
+          <option value="electric">Электрика</option>
         </select>
       </label>
       <button type="button" class="qz-btn qz-primary" @click="start">Начать</button>

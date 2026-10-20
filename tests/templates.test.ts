@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const readTemplate = (track: 'polish' | 'tech') =>
+const readTemplate = (track: 'polish' | 'tech' | 'electric') =>
   readFileSync(resolve(root, 'templates', `${track}.md`), 'utf8');
 
 const lines = (md: string) => md.split('\n');
@@ -18,7 +18,7 @@ describe('polish template', () => {
   });
 });
 
-describe.each(['polish', 'tech'] as const)('%s template quiz section', (track) => {
+describe.each(['polish', 'tech', 'electric'] as const)('%s template quiz section', (track) => {
   const md = readTemplate(track);
 
   it('ends with the quiz heading as the last level-2 heading', () => {
