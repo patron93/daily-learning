@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20",
+  "track": "polish",
+  "topic": "Ложные друзья дома: dywan, lustro, pokój",
+  "questions": [
+    {"id": "ff-1", "type": "choice", "prompt": "Что значит «dywan»?", "options": ["диван", "ковёр", "одеяло", "подушка"], "answer": "ковёр", "explain": "Dywan — ковёр. Диван по-польски kanapa или sofa."},
+    {"id": "ff-2", "type": "choice", "prompt": "Как по-польски «зеркало»?", "options": ["żyrandol", "lustro", "okno", "szkło"], "answer": "lustro", "explain": "Lustro — зеркало. Люстра — żyrandol."},
+    {"id": "ff-3", "type": "choice", "prompt": "Mieszkanie ma trzy ___. (три комнаты)", "options": ["pokoje", "spokoje", "kanapy", "lustra"], "answer": "pokoje", "explain": "Pokój — комната, мн. ч. pokoje. Spokój — покой, тишина."},
+    {"id": "ff-4", "type": "gap", "prompt": "Daj mi ___! (Оставь меня в покое!)", "answers": ["spokój"], "explain": "«Покой» — spokój. Pokój — комната или мир."},
+    {"id": "ff-5", "type": "choice", "prompt": "«Zapomniałem kluczy» значит:", "options": ["Я запомнил ключи", "Я забыл ключи", "Я нашёл ключи", "Я потерял ключи"], "answer": "Я забыл ключи", "explain": "Zapomnieć — забыть. Запомнить — zapamiętać."},
+    {"id": "ff-6", "type": "gap", "prompt": "Muszę to ___. (Мне нужно это запомнить.)", "answers": ["zapamiętać"], "explain": "Zapamiętać — запомнить; zapomnieć — наоборот, забыть."},
+    {"id": "ff-7", "type": "choice", "prompt": "«Ona ma piękną urodę» — это…", "options": ["комплимент", "оскорбление", "диагноз", "жалоба"], "answer": "комплимент", "explain": "Uroda — красота, внешность. Salon urody — салон красоты."},
+    {"id": "ff-8", "type": "choice", "prompt": "Mam ___ o czynsz. (У меня вопрос по квартплате.)", "options": ["pytanie", "tortury", "pytać", "spokój"], "answer": "pytanie", "explain": "Pytać — спрашивать, pytanie — вопрос. «Пытать» — torturować."},
+    {"id": "ff-9", "type": "choice", "prompt": "Wieczorem leżę na ___. (Вечером лежу на диване.)", "options": ["dywanie", "kanapie", "lustrze", "pokoju"], "answer": "kanapie", "explain": "Диван — kanapa, na kanapie (местный падеж). Na dywanie — на ковре."},
+    {"id": "ff-10", "type": "gap", "prompt": "W dużym pokoju nie działa ___. (люстра)", "answers": ["żyrandol", "zyrandol"], "explain": "Люстра — żyrandol, а lustro — зеркало."}
+  ]
+}

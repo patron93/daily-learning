@@ -183,9 +183,9 @@
       "example": "Dziś są imieniny Łukasza. — Сегодня именины Лукаша.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-19"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-23"
     },
     {
       "pl": "życzenia",
@@ -194,9 +194,9 @@
       "example": "Składam ci najlepsze życzenia! — Поздравляю тебя от всей души!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-19"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-23"
     },
     {
       "pl": "prezent",
@@ -205,9 +205,9 @@
       "example": "Mam dla ciebie mały prezent. — У меня для тебя маленький подарок.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-19"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-23"
     },
     {
       "pl": "tort",
@@ -216,9 +216,9 @@
       "example": "Kupiłem tort czekoladowy. — Я купил шоколадный торт.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-19"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-23"
     },
     {
       "pl": "zaproszenie",
@@ -227,9 +227,9 @@
       "example": "Dziękuję za zaproszenie! — Спасибо за приглашение!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-19"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-23"
     },
     {
       "pl": "zespół",
@@ -285,6 +285,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-20"
+    },
+    {
+      "pl": "mieszkanie",
+      "ru": "квартира; жильё",
+      "pos": "noun-n",
+      "example": "Szukam mieszkania w Warszawie. — Я ищу квартиру в Варшаве.",
+      "topic": "дом и квартира",
+      "added": "2026-10-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "pokój",
+      "ru": "комната; мир",
+      "pos": "noun-m",
+      "example": "Mieszkanie ma dwa pokoje. — В квартире две комнаты.",
+      "topic": "дом и квартира",
+      "added": "2026-10-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "czynsz",
+      "ru": "квартплата, арендная плата",
+      "pos": "noun-m",
+      "example": "Czynsz jest do dziesiątego. — Квартплата до десятого числа.",
+      "topic": "дом и квартира",
+      "added": "2026-10-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "sąsiad",
+      "ru": "сосед",
+      "pos": "noun-m",
+      "example": "Mój sąsiad jest bardzo miły. — Мой сосед очень приятный.",
+      "topic": "дом и квартира",
+      "added": "2026-10-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-21"
+    },
+    {
+      "pl": "klucz",
+      "ru": "ключ",
+      "pos": "noun-m",
+      "example": "Gdzie są klucze do mieszkania? — Где ключи от квартиры?",
+      "topic": "дом и квартира",
+      "added": "2026-10-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-21"
     }
   ]
 }
