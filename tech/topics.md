@@ -55,7 +55,7 @@
 - [ ] Angular + AI: генерация кода, best practices, llms.txt
 
 ## backend
-- [ ] Node.js event loop глубже: microtasks, libuv
+- [x] Node.js event loop глубже: microtasks, libuv
 - [ ] NestJS для Angular-разработчика: те же идеи DI и декораторов
 - [ ] REST vs GraphQL vs tRPC: компромиссы
 - [ ] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
@@ -83,3 +83,4 @@
 - 2026-10-17 · news · Lockfile для GitHub Actions (public preview, 14.10.2026)
 - 2026-10-18 · architecture · Монорепо: Nx, границы модулей, enforce-module-boundaries
 - 2026-10-19 · ai · Как работают LLM: токены, контекстное окно, temperature (без математики)
+- 2026-10-20 · backend · Node.js event loop глубже: microtasks, libuv
