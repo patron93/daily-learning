@@ -10,7 +10,7 @@ permissions:
   pages: write
   id-token: write
 
-# два урока с разницей 8 минут: деплои встают в очередь, а не отменяют друг друга
+# три урока с разницей 8 минут: деплои встают в очередь, а не отменяют друг друга
 concurrency:
   group: pages
   cancel-in-progress: false

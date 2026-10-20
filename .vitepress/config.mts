@@ -6,7 +6,9 @@ import { fileURLToPath } from 'node:url'
 const root = fileURLToPath(new URL('..', import.meta.url))
 const lessonsDir = path.join(root, 'lessons')
 
-const ICONS: Record<string, string> = { polish: '🇵🇱', tech: '💻' }
+const ICONS: Record<string, string> = { polish: '🇵🇱', tech: '💻', electric: '⚡' }
+const TRACK_ORDER = ['polish', 'tech', 'electric']
+const trackRank = (link: string) => TRACK_ORDER.findIndex((t) => link.endsWith(`-${t}`))
 
 // Боковое меню: уроки по дням, новые сверху
 function lessonsSidebar(): DefaultTheme.SidebarItem[] {
@@ -34,15 +36,15 @@ function lessonsSidebar(): DefaultTheme.SidebarItem[] {
   return [...byDate.entries()].map(([date, items], i) => ({
     text: `${dayOf.has(date) ? `День ${dayOf.get(date)} · ` : ''}${date}`,
     collapsed: i > 6,
-    // польский раньше профразвития, как в расписании
-    items: items.sort((a, b) => (a.link! > b.link! ? 1 : -1)),
+    // порядок как в расписании: польский, профразвитие, электрика
+    items: items.sort((a, b) => trackRank(a.link!) - trackRank(b.link!)),
   }))
 }
 
 export default defineConfig({
   lang: 'ru-RU',
   title: 'Daily learning',
-  description: 'Ежедневные уроки: польский и профразвитие тимлида',
+  description: 'Ежедневные уроки: польский, профразвитие тимлида и электрика',
   base: '/daily-learning/',
   cleanUrls: true,
   ignoreDeadLinks: true,
@@ -61,6 +63,7 @@ export default defineConfig({
       { text: 'Словарь', link: '/vocabulary' },
       { text: 'Грамматика', link: '/polish/grammar' },
       { text: 'Темы', link: '/tech/topics' },
+      { text: 'Электрика', link: '/electric/curriculum' },
       { text: 'Тренажёр', link: '/trainer' },
     ],
     sidebar: [
@@ -70,6 +73,7 @@ export default defineConfig({
           { text: '📖 Словарь', link: '/vocabulary' },
           { text: '✅ План грамматики', link: '/polish/grammar' },
           { text: '🗂 Темы профразвития', link: '/tech/topics' },
+          { text: '⚡ План по электрике', link: '/electric/curriculum' },
           { text: '🧩 Тренажёр', link: '/trainer' },
         ],
       },

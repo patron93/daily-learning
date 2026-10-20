@@ -3,6 +3,7 @@ import { validateQuizFile } from '../../.vitepress/quiz/schema'
 
 const POLISH_FILE = '2026-10-17-polish.quiz.json'
 const TECH_FILE = '2026-10-18-tech.quiz.json'
+const ELECTRIC_FILE = '2026-10-21-electric.quiz.json'
 
 type Data = Record<string, unknown>
 
@@ -51,6 +52,16 @@ function techFile(overrides: Data = {}): Data {
   }
 }
 
+function electricFile(overrides: Data = {}): Data {
+  return {
+    date: '2026-10-21',
+    track: 'electric',
+    topic: 'УЗО: типы и номиналы',
+    questions: choices(8),
+    ...overrides,
+  }
+}
+
 function withQuestion(data: Data, index: number, patch: Data): Data {
   const questions = data.questions as Data[]
   return {
@@ -72,6 +83,10 @@ describe('validateQuizFile', () => {
 
   it('accepts a valid tech file', () => {
     expect(validateQuizFile(TECH_FILE, techFile())).toEqual([])
+  })
+
+  it('accepts a valid electric file', () => {
+    expect(validateQuizFile(ELECTRIC_FILE, electricFile())).toEqual([])
   })
 
   it('rejects a file name that does not match the pattern', () => {
@@ -142,6 +157,11 @@ describe('validateQuizFile', () => {
   it('rejects a gap question on the tech track', () => {
     const data = withQuestion(techFile(), 0, gap('q1'))
     expect(validateQuizFile(TECH_FILE, data)).toEqual([expect.stringMatching(/"q1".*only on the polish track/)])
+  })
+
+  it('rejects a gap question on the electric track', () => {
+    const data = withQuestion(electricFile(), 0, gap('q1'))
+    expect(validateQuizFile(ELECTRIC_FILE, data)).toEqual([expect.stringMatching(/"q1".*only on the polish track/)])
   })
 
   it('rejects a gap question with an empty answers list', () => {

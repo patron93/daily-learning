@@ -1,7 +1,7 @@
 // Validation rules for lessons/YYYY-MM-DD-<track>.quiz.json. Pure TS, no vue/vitepress imports.
 // Returns human-readable errors; an empty array means the file is valid.
 
-const FILE_NAME_RE = /^(\d{4}-\d{2}-\d{2})-(polish|tech)\.quiz\.json$/
+const FILE_NAME_RE = /^(\d{4}-\d{2}-\d{2})-(polish|tech|electric)\.quiz\.json$/
 
 const MIN_QUESTIONS = 8
 const MAX_QUESTIONS = 10
@@ -92,7 +92,7 @@ export function validateQuizFile(fileName: string, data: unknown): string[] {
 
   const name = FILE_NAME_RE.exec(fileName)
   if (!name) {
-    errors.push(`file name "${fileName}" must match YYYY-MM-DD-polish.quiz.json or YYYY-MM-DD-tech.quiz.json`)
+    errors.push(`file name "${fileName}" must match YYYY-MM-DD-<polish|tech|electric>.quiz.json`)
   }
 
   if (!isObject(data)) {

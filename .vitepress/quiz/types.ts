@@ -1,4 +1,4 @@
-export type Track = 'polish' | 'tech'
+export type Track = 'polish' | 'tech' | 'electric'
 
 export type Word = {
   pl: string
