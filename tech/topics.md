@@ -66,6 +66,7 @@
 
 ## classic
 - [x] SOLID на примерах Angular
+- [ ] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
 - [ ] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [ ] «Clean Code» с критикой: что устарело
 - [ ] Закон Конвея и Team Topologies
