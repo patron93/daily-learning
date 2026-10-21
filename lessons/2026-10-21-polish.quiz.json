@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-21",
+  "track": "polish",
+  "topic": "Род существительных: как угадать по окончанию",
+  "questions": [
+    {"id": "gen-1", "type": "choice", "prompt": "Какого рода «herbata»?", "options": ["m", "ż", "n"], "answer": "ż", "explain": "Окончание -a → женский род: ta herbata. В русском «чай» мужского рода — ловушка."},
+    {"id": "gen-2", "type": "choice", "prompt": "___ mleko jest zimne.", "options": ["Ten", "Ta", "To"], "answer": "To", "explain": "Mleko оканчивается на -o → средний род, поэтому to."},
+    {"id": "gen-3", "type": "choice", "prompt": "Какого рода «sól»?", "options": ["m", "ż", "n"], "answer": "ż", "explain": "Sól — женский род, хотя оканчивается на согласную: ta sól, как и русское «соль»."},
+    {"id": "gen-4", "type": "gap", "prompt": "___ chleb jest świeży. (этот)", "answers": ["Ten", "ten"], "explain": "Chleb оканчивается на согласную → мужской род: ten chleb."},
+    {"id": "gen-5", "type": "choice", "prompt": "Mój kolega jest bardzo ___.", "options": ["miły", "miła", "miłe"], "answer": "miły", "explain": "Kolega — мужчина, поэтому мужской род, несмотря на окончание -a."},
+    {"id": "gen-6", "type": "choice", "prompt": "Какое слово женского рода?", "options": ["kraj", "temat", "wiadomość", "klucz"], "answer": "wiadomość", "explain": "Слова на -ść почти всегда женского рода: ta wiadomość. Kraj и temat — мужского, в отличие от русских «страна» и «тема»."},
+    {"id": "gen-7", "type": "gap", "prompt": "To jabłko jest ___. (słodki)", "answers": ["słodkie"], "explain": "Jabłko — средний род, прилагательное получает окончание -e: słodkie."},
+    {"id": "gen-8", "type": "choice", "prompt": "Ta ___ jest ważna.", "options": ["temat", "noc", "imię", "biurko"], "answer": "noc", "explain": "Ta требует женского рода. Noc — ж (на согласную, как русское «ночь»)."},
+    {"id": "gen-9", "type": "choice", "prompt": "Какого рода «imię»?", "options": ["m", "ż", "n"], "answer": "n", "explain": "Окончание -ę → средний род: to imię."},
+    {"id": "gen-10", "type": "gap", "prompt": "Ta herbata jest ___. (gorący)", "answers": ["gorąca"], "explain": "Herbata — женский род, прилагательное на -a: gorąca."}
+  ]
+}

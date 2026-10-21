@@ -73,9 +73,9 @@
       "example": "Idę do sklepu po chleb. — Иду в магазин за хлебом.",
       "topic": "Магазин",
       "added": "2026-10-16",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-20"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "zakupy",
@@ -84,9 +84,9 @@
       "example": "W sobotę robię zakupy. — В субботу я делаю покупки.",
       "topic": "Магазин",
       "added": "2026-10-16",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-20"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "koszyk",
@@ -95,9 +95,9 @@
       "example": "Mam pełny koszyk. — У меня полная корзина.",
       "topic": "Магазин",
       "added": "2026-10-16",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-20"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "paragon",
@@ -106,9 +106,9 @@
       "example": "Czy potrzebuje Pan paragon? — Вам нужен чек?",
       "topic": "Магазин",
       "added": "2026-10-16",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-20"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "reszta",
@@ -117,9 +117,9 @@
       "example": "Proszę, oto reszta. — Пожалуйста, вот сдача.",
       "topic": "Магазин",
       "added": "2026-10-16",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-20"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "przystanek",
@@ -340,6 +340,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-21"
+    },
+    {
+      "pl": "chleb",
+      "ru": "хлеб",
+      "pos": "noun-m",
+      "example": "Kupuję świeży chleb rano. — Я покупаю свежий хлеб утром.",
+      "topic": "Еда",
+      "added": "2026-10-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-22"
+    },
+    {
+      "pl": "herbata",
+      "ru": "чай",
+      "pos": "noun-f",
+      "example": "Herbata jest jeszcze gorąca. — Чай ещё горячий.",
+      "topic": "Еда",
+      "added": "2026-10-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-22"
+    },
+    {
+      "pl": "mleko",
+      "ru": "молоко",
+      "pos": "noun-n",
+      "example": "Mleko jest w lodówce. — Молоко в холодильнике.",
+      "topic": "Еда",
+      "added": "2026-10-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-22"
+    },
+    {
+      "pl": "jabłko",
+      "ru": "яблоко",
+      "pos": "noun-n",
+      "example": "To jabłko jest bardzo słodkie. — Это яблоко очень сладкое.",
+      "topic": "Еда",
+      "added": "2026-10-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-22"
+    },
+    {
+      "pl": "sól",
+      "ru": "соль",
+      "pos": "noun-f",
+      "example": "Podaj mi sól, proszę. — Передай мне соль, пожалуйста.",
+      "topic": "Еда",
+      "added": "2026-10-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-22"
     }
   ]
 }
