@@ -65,7 +65,7 @@
 - [ ] CI/CD: кеширование, affected-сборки, preview-окружения
 
 ## classic
-- [ ] SOLID на примерах Angular
+- [x] SOLID на примерах Angular
 - [ ] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [ ] «Clean Code» с критикой: что устарело
 - [ ] Закон Конвея и Team Topologies
@@ -84,3 +84,4 @@
 - 2026-10-18 · architecture · Монорепо: Nx, границы модулей, enforce-module-boundaries
 - 2026-10-19 · ai · Как работают LLM: токены, контекстное окно, temperature (без математики)
 - 2026-10-20 · backend · Node.js event loop глубже: microtasks, libuv
+- 2026-10-21 · classic · SOLID на примерах Angular

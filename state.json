@@ -20,7 +20,7 @@
       "backend",
       "classic"
     ],
-    "next_index": 6
+    "next_index": 0
   },
   "electric_rotation": {
     "order": [
@@ -41,6 +41,6 @@
   "new_words_per_day": 5,
   "review_words_per_day": 5,
   "polish_last_run": "2026-10-21",
-  "tech_last_run": "2026-10-20",
+  "tech_last_run": "2026-10-21",
   "electric_last_run": null
 }
