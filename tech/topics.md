@@ -66,7 +66,7 @@
 
 ## classic
 - [x] SOLID на примерах Angular
-- [ ] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
+- [x] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
 - [ ] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [ ] «Clean Code» с критикой: что устарело
 - [ ] Закон Конвея и Team Topologies
@@ -86,3 +86,4 @@
 - 2026-10-19 · ai · Как работают LLM: токены, контекстное окно, temperature (без математики)
 - 2026-10-20 · backend · Node.js event loop глубже: microtasks, libuv
 - 2026-10-21 · classic · SOLID на примерах Angular
+- 2026-10-22 · classic · SOLID в Angular подробно: good vs bad (по запросу из feedback.md)
