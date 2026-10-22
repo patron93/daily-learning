@@ -238,9 +238,9 @@
       "example": "Jestem liderem zespołu. — Я руководитель команды.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-20"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-25"
     },
     {
       "pl": "kolega",
@@ -249,9 +249,9 @@
       "example": "To jest mój kolega z pracy. — Это мой коллега по работе.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-20"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-25"
     },
     {
       "pl": "koleżanka",
@@ -260,9 +260,9 @@
       "example": "Ania jest moją koleżanką. — Аня — моя коллега.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-20"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-25"
     },
     {
       "pl": "firma",
@@ -271,9 +271,9 @@
       "example": "Nasza firma jest w Warszawie. — Наша компания в Варшаве.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-20"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-25"
     },
     {
       "pl": "nazwisko",
@@ -282,9 +282,9 @@
       "example": "Jak ma pan na nazwisko? — Как ваша фамилия?",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-20"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-25"
     },
     {
       "pl": "mieszkanie",
@@ -395,6 +395,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-22"
+    },
+    {
+      "pl": "kelner",
+      "ru": "официант",
+      "pos": "noun-m",
+      "example": "Kelner zaraz przyjdzie. — Официант сейчас подойдёт.",
+      "topic": "Ресторан",
+      "added": "2026-10-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-23"
+    },
+    {
+      "pl": "stolik",
+      "ru": "столик",
+      "pos": "noun-m",
+      "example": "Mamy wolny stolik przy oknie? — У нас есть свободный столик у окна?",
+      "topic": "Ресторан",
+      "added": "2026-10-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-23"
+    },
+    {
+      "pl": "zupa",
+      "ru": "суп",
+      "pos": "noun-f",
+      "example": "Dziś zupa dnia to żurek. — Сегодня суп дня — журек.",
+      "topic": "Ресторан",
+      "added": "2026-10-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-23"
+    },
+    {
+      "pl": "rachunek",
+      "ru": "счёт (в ресторане, банковский)",
+      "pos": "noun-m",
+      "example": "Poproszę rachunek. — Счёт, пожалуйста.",
+      "topic": "Ресторан",
+      "added": "2026-10-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-23"
+    },
+    {
+      "pl": "napiwek",
+      "ru": "чаевые",
+      "pos": "noun-m",
+      "example": "Zostawiłem napiwek dla kelnera. — Я оставил чаевые официанту.",
+      "topic": "Ресторан",
+      "added": "2026-10-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-23"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "track": "polish",
+  "topic": "В ресторане: «Smacznego!» и коварное «dziękuję»",
+  "questions": [
+    {"id": "rest-1", "type": "choice", "prompt": "Официант ставит перед тобой суп и говорит «Smacznego!». Что ответить?", "options": ["Dziękuję, nawzajem!", "Na zdrowie!", "Nie ma za co!", "Reszty nie trzeba."], "answer": "Dziękuję, nawzajem!", "explain": "На «Smacznego!» отвечают «Dziękuję, nawzajem!» — «Спасибо, взаимно!»."},
+    {"id": "rest-2", "type": "gap", "prompt": "Przepraszam, poproszę ___ . (счёт)", "answers": ["rachunek"], "explain": "Счёт к оплате в ресторане — rachunek. Paragon — это чек после оплаты."},
+    {"id": "rest-3", "type": "choice", "prompt": "Ты отдаёшь официанту 100 zł за счёт на 70 zł и говоришь «Dziękuję». Что, скорее всего, произойдёт?", "options": ["Он решит, что сдачи не надо", "Он принесёт сдачу 30 zł", "Он принесёт новый счёт", "Он спросит про карту"], "answer": "Он решит, что сдачи не надо", "explain": "«Dziękuję» при передаче наличных часто понимают как «оставьте сдачу себе». Говори «dziękuję» после того, как получил сдачу."},
+    {"id": "rest-4", "type": "choice", "prompt": "Коллега благодарит тебя за пиццу: «Dzięki za pizzę!». Как вежливо ответить?", "options": ["Nie ma za co!", "Na zdrowie!", "Smacznego!", "Nawzajem!"], "answer": "Nie ma za co!", "explain": "«Na zdrowie» в ответ на «спасибо» поляки не говорят — это тост или «будь здоров» при чихании. Правильно: «Nie ma za co!» или «Proszę!»."},
+    {"id": "rest-5", "type": "gap", "prompt": "Zostawiłem 10% ___ dla kelnera. (чаевые)", "answers": ["napiwku", "napiwek"], "explain": "Чаевые — napiwek. После количества (10%) нужен родительный падеж с беглым e: napiwku. Форма napiwek тоже засчитывается."},
+    {"id": "rest-6", "type": "choice", "prompt": "Кто-то чихнул в офисе. Что сказать?", "options": ["Na zdrowie!", "Smacznego!", "Nawzajem!", "Poproszę!"], "answer": "Na zdrowie!", "explain": "«Na zdrowie!» — и тост, и «будь здоров» при чихании."},
+    {"id": "rest-7", "type": "choice", "prompt": "Как сказать «Мы платим отдельно»?", "options": ["Płacimy osobno.", "Płacimy razem.", "Ja stawiam.", "Reszty nie trzeba."], "answer": "Płacimy osobno.", "explain": "Osobno — отдельно, razem — вместе. «Ja stawiam» — «я угощаю»."},
+    {"id": "rest-8", "type": "gap", "prompt": "Mamy wolny ___ przy oknie? (столик)", "answers": ["stolik"], "explain": "Stolik — столик в кафе или ресторане (m)."},
+    {"id": "rest-9", "type": "choice", "prompt": "Какое слово означает «чек из кассы после оплаты»?", "options": ["paragon", "rachunek", "napiwek", "reszta"], "answer": "paragon", "explain": "Paragon — кассовый чек. Rachunek — счёт к оплате, reszta — сдача, napiwek — чаевые."},
+    {"id": "rest-10", "type": "choice", "prompt": "Что значит «Reszty nie trzeba»?", "options": ["Сдачи не надо", "Остальное не нужно заказывать", "Счёт не нужен", "Отдыхать не надо"], "answer": "Сдачи не надо", "explain": "Reszta — сдача; после «nie trzeba» — родительный падеж: reszty."}
+  ]
+}
