@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "track": "polish",
+  "topic": "Спряжение -m/-sz: mam, czytam, rozumiem",
+  "questions": [
+    {"id": "conj-1", "type": "gap", "prompt": "Wieczorem (ja) ___ książkę. (czytać)", "answers": ["czytam"], "explain": "Ja: основа czyta- + -m → czytam."},
+    {"id": "conj-2", "type": "choice", "prompt": "Ty ___ podcastów w tramwaju? (słuchać)", "options": ["słuchasz", "słucham", "słucha", "słuchają"], "answer": "słuchasz", "explain": "Ty: окончание -sz → słuchasz."},
+    {"id": "conj-3", "type": "choice", "prompt": "Oni ___ na review. (czekać)", "options": ["czekają", "czekaju", "czekamy", "czekacie"], "answer": "czekają", "explain": "Oni/one: -ją → czekają. Формы *czekaju* в польском нет."},
+    {"id": "conj-4", "type": "gap", "prompt": "My ___ daily o dziewiątej. (mieć)", "answers": ["mamy"], "explain": "Mieć спрягается с короткой основой ma-: mam, masz, ma, mamy, macie, mają."},
+    {"id": "conj-5", "type": "choice", "prompt": "Nie ___ , możesz powtórzyć? (rozumieć)", "options": ["rozumiem", "rozumam", "rozumię", "rozumie"], "answer": "rozumiem", "explain": "Rozumieć — подгруппа -em/-esz: rozumiem, rozumiesz… rozumieją."},
+    {"id": "conj-6", "type": "gap", "prompt": "Czy (wy) ___ , co ustaliliśmy? (pamiętać)", "answers": ["pamiętacie"], "explain": "Wy: -cie → pamiętacie."},
+    {"id": "conj-7", "type": "choice", "prompt": "Как вежливо спросить мужчину «У вас есть минутка?»", "options": ["Czy Pan ma chwilę?", "Czy Pan masz chwilę?", "Czy Pan macie chwilę?", "Czy Pan mam chwilę?"], "answer": "Czy Pan ma chwilę?", "explain": "С Pan/Pani глагол стоит в 3-м лице единственного числа: ma."},
+    {"id": "conj-8", "type": "choice", "prompt": "Какой глагол по-польски — «смотреть фильм»?", "options": ["oglądać", "oglądać się", "patrzeć się", "widzieć film"], "answer": "oglądać", "explain": "Oglądać film/serial/mecz — смотреть. Oglądać się — оглядываться."},
+    {"id": "conj-9", "type": "choice", "prompt": "Słucham ___ . (музыку)", "options": ["muzyki", "muzykę", "muzyka", "muzyką"], "answer": "muzyki", "explain": "Słuchać требует родительного падежа: słucham muzyki."},
+    {"id": "conj-10", "type": "gap", "prompt": "W weekend (ja) ___ w domu. (odpoczywać)", "answers": ["odpoczywam"], "explain": "Odpoczywać → odpoczywam: обычная схема -am/-asz."}
+  ]
+}

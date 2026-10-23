@@ -293,9 +293,9 @@
       "example": "Szukam mieszkania w Warszawie. — Я ищу квартиру в Варшаве.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-21"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "pokój",
@@ -304,9 +304,9 @@
       "example": "Mieszkanie ma dwa pokoje. — В квартире две комнаты.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-21"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "czynsz",
@@ -315,9 +315,9 @@
       "example": "Czynsz jest do dziesiątego. — Квартплата до десятого числа.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-21"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "sąsiad",
@@ -326,9 +326,9 @@
       "example": "Mój sąsiad jest bardzo miły. — Мой сосед очень приятный.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-21"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "klucz",
@@ -337,9 +337,9 @@
       "example": "Gdzie są klucze do mieszkania? — Где ключи от квартиры?",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-21"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-26"
     },
     {
       "pl": "chleb",
@@ -450,6 +450,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-23"
+    },
+    {
+      "pl": "czytać",
+      "ru": "читать",
+      "pos": "verb",
+      "example": "Wieczorem czytam książkę. — Вечером я читаю книгу.",
+      "topic": "Свободное время: глаголы -am/-asz",
+      "added": "2026-10-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-24"
+    },
+    {
+      "pl": "słuchać",
+      "ru": "слушать",
+      "pos": "verb",
+      "example": "Słuchasz podcastów w tramwaju? — Ты слушаешь подкасты в трамвае?",
+      "topic": "Свободное время: глаголы -am/-asz",
+      "added": "2026-10-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-24"
+    },
+    {
+      "pl": "oglądać",
+      "ru": "смотреть (фильм, сериал, матч)",
+      "pos": "verb",
+      "example": "W piątek oglądamy film. — В пятницу мы смотрим фильм.",
+      "topic": "Свободное время: глаголы -am/-asz",
+      "added": "2026-10-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-24"
+    },
+    {
+      "pl": "pamiętać",
+      "ru": "помнить",
+      "pos": "verb",
+      "example": "Pamiętam twoje imię. — Я помню твоё имя.",
+      "topic": "Свободное время: глаголы -am/-asz",
+      "added": "2026-10-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-24"
+    },
+    {
+      "pl": "odpoczywać",
+      "ru": "отдыхать",
+      "pos": "verb",
+      "example": "W weekend odpoczywam w domu. — На выходных я отдыхаю дома.",
+      "topic": "Свободное время: глаголы -am/-asz",
+      "added": "2026-10-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-24"
     }
   ]
 }
