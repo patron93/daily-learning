@@ -5,7 +5,7 @@
 
 ## angular
 - [x] Signals глубже: computed, effect, когда effect — антипаттерн
-- [ ] linkedSignal и resource / httpResource: асинхронные данные на сигналах
+- [x] linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - [ ] Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - [ ] Deferrable views (@defer): стратегии триггеров и влияние на бандл
 - [ ] Control flow (@if/@for/@switch) и почему track важен для производительности
@@ -87,3 +87,4 @@
 - 2026-10-20 · backend · Node.js event loop глубже: microtasks, libuv
 - 2026-10-21 · classic · SOLID на примерах Angular
 - 2026-10-22 · classic · SOLID в Angular подробно: good vs bad (по запросу из feedback.md)
+- 2026-10-23 · angular · linkedSignal и resource / httpResource: асинхронные данные на сигналах
