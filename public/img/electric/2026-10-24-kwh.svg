@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="system-ui,sans-serif">
+  <rect width="720" height="300" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">1 кВт·ч: мощность × время</text>
+  <text x="40" y="75" font-size="14" fill="#24292f">Обогреватель 1000 Вт × 1 час = 1 кВт·ч</text>
+  <rect x="40" y="85" width="640" height="26" rx="4" fill="#fff" stroke="#d0d7de"/>
+  <rect x="40" y="85" width="640" height="26" rx="4" fill="#cf222e" opacity=".85"/>
+  <text x="360" y="104" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">1 час</text>
+  <text x="40" y="145" font-size="14" fill="#24292f">Лампа LED 10 Вт × 100 часов = 1 кВт·ч</text>
+  <rect x="40" y="155" width="640" height="26" rx="4" fill="#fff" stroke="#d0d7de"/>
+  <rect x="40" y="155" width="640" height="26" rx="4" fill="#1a7f37" opacity=".85"/>
+  <text x="360" y="174" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">100 часов</text>
+  <text x="40" y="215" font-size="14" fill="#24292f">Чайник 2000 Вт × 30 минут = 1 кВт·ч</text>
+  <rect x="40" y="225" width="640" height="26" rx="4" fill="#fff" stroke="#d0d7de"/>
+  <rect x="40" y="225" width="640" height="26" rx="4" fill="#0969da" opacity=".85"/>
+  <text x="360" y="244" text-anchor="middle" font-size="13" fill="#fff" font-weight="700">0,5 часа</text>
+  <text x="360" y="282" text-anchor="middle" font-size="13" fill="#57606a">Счётчик считает именно такие «порции» энергии</text>
+</svg>

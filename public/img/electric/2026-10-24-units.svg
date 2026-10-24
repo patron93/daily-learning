@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="system-ui,sans-serif">
+  <rect width="720" height="330" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">Четыре величины на примере водяного шланга</text>
+  <rect x="30" y="60" width="150" height="190" rx="10" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="105" y="90" text-anchor="middle" font-size="22" font-weight="700" fill="#0969da">V — вольт</text>
+  <text x="105" y="120" text-anchor="middle" font-size="14" fill="#24292f">«давление» воды</text>
+  <text x="105" y="145" text-anchor="middle" font-size="14" fill="#24292f">в розетке 230 В</text>
+  <text x="105" y="230" text-anchor="middle" font-size="13" fill="#57606a">wolt</text>
+  <rect x="195" y="60" width="150" height="190" rx="10" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+  <text x="270" y="90" text-anchor="middle" font-size="22" font-weight="700" fill="#1a7f37">A — ампер</text>
+  <text x="270" y="120" text-anchor="middle" font-size="14" fill="#24292f">«литров в секунду»</text>
+  <text x="270" y="145" text-anchor="middle" font-size="14" fill="#24292f">сколько заряда течёт</text>
+  <text x="270" y="230" text-anchor="middle" font-size="13" fill="#57606a">amper</text>
+  <rect x="360" y="60" width="150" height="190" rx="10" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+  <text x="435" y="90" text-anchor="middle" font-size="22" font-weight="700" fill="#9a6700">Ω — ом</text>
+  <text x="435" y="120" text-anchor="middle" font-size="14" fill="#24292f">«узость шланга»</text>
+  <text x="435" y="145" text-anchor="middle" font-size="14" fill="#24292f">как сильно мешает току</text>
+  <text x="435" y="230" text-anchor="middle" font-size="13" fill="#57606a">om</text>
+  <rect x="525" y="60" width="165" height="190" rx="10" fill="#ffebe9" stroke="#cf222e" stroke-width="2"/>
+  <text x="607" y="90" text-anchor="middle" font-size="22" font-weight="700" fill="#cf222e">W — ватт</text>
+  <text x="607" y="120" text-anchor="middle" font-size="14" fill="#24292f">«мощность струи»</text>
+  <text x="607" y="145" text-anchor="middle" font-size="14" fill="#24292f">W = V × A</text>
+  <text x="607" y="230" text-anchor="middle" font-size="13" fill="#57606a">wat</text>
+  <text x="360" y="285" text-anchor="middle" font-size="16" fill="#24292f">I = U / R      P = U × I      E = P × t</text>
+  <text x="360" y="310" text-anchor="middle" font-size="13" fill="#57606a">ток, напряжение, сопротивление, мощность, энергия</text>
+</svg>
