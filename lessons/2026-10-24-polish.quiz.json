@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-24",
+  "track": "polish",
+  "topic": "У врача: «Co Panu dolega?» и «Boli mnie…»",
+  "questions": [
+    {"id": "doc-1", "type": "choice", "prompt": "Как сказать «У меня болит голова»?", "options": ["Boli mnie głowa.", "U mnie boli głowa.", "Boli mi głowę.", "Mam boli głowa."], "answer": "Boli mnie głowa.", "explain": "Boli + mnie (винительный от ja) + часть тела в именительном."},
+    {"id": "doc-2", "type": "gap", "prompt": "___ mnie plecy. (boleć, они)", "answers": ["Bolą", "bolą"], "explain": "Plecy — только множественное число, поэтому bolą, а не boli."},
+    {"id": "doc-3", "type": "choice", "prompt": "Врач спрашивает: «Co Panu dolega?». Что он хочет узнать?", "options": ["Что вас беспокоит", "Сколько вам лет", "Есть ли у вас страховка", "Куда вам выписать рецепт"], "answer": "Что вас беспокоит", "explain": "Dolegać — «беспокоить, донимать»; dolegliwości — жалобы."},
+    {"id": "doc-4", "type": "gap", "prompt": "Mam ___ od wczoraj. (gorączka)", "answers": ["gorączkę"], "explain": "Mieć + винительный: -a → -ę."},
+    {"id": "doc-5", "type": "choice", "prompt": "Chciałbym się ___ do lekarza rodzinnego.", "options": ["zapisać", "zapisywać się", "nagrać", "napisać"], "answer": "zapisać", "explain": "Zapisać się do lekarza — записаться к врачу (без «на приём»)."},
+    {"id": "doc-6", "type": "choice", "prompt": "Что значит «Czy jest wolny termin na dziś?»", "options": ["Есть свободное время приёма на сегодня?", "Есть ли сегодня свободный срок сдачи?", "Сегодня выходной?", "Можно сегодня без записи?"], "answer": "Есть свободное время приёма на сегодня?", "explain": "Termin у врача — дата и время визита."},
+    {"id": "doc-7", "type": "choice", "prompt": "Коллега пишет: «Jestem na L4». Что это значит?", "options": ["Он на больничном", "Он на четвёртом этаже", "Он в отпуске", "Он на удалёнке"], "answer": "Он на больничном", "explain": "L4 — разговорное название больничного (сейчас электронный e-ZLA)."},
+    {"id": "doc-8", "type": "choice", "prompt": "«Рецепт супа» по-польски:", "options": ["przepis na zupę", "recepta na zupę", "termin na zupę", "lek na zupę"], "answer": "przepis na zupę", "explain": "Recepta — только рецепт на лекарство; рецепт блюда — przepis."},
+    {"id": "doc-9", "type": "gap", "prompt": "Proszę głęboko ___. (дышать)", "answers": ["oddychać"], "explain": "Oddychać — дышать; Proszę + инфинитив — вежливая просьба."},
+    {"id": "doc-10", "type": "choice", "prompt": "Женщина пишет в чат команды, что заболела:", "options": ["Jestem chora.", "Jestem chory.", "Mam chora.", "Boli mnie chora."], "answer": "Jestem chora.", "explain": "Chory (м) / chora (ж) — «больной/больная»: jestem chora."}
+  ]
+}

@@ -128,9 +128,9 @@
       "example": "Czekam na przystanku. — Я жду на остановке.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-21"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "bilet",
@@ -139,9 +139,9 @@
       "example": "Kupiłem bilet w automacie. — Я купил билет в автомате.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-21"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "tramwaj",
@@ -150,9 +150,9 @@
       "example": "Jadę do pracy tramwajem. — Я еду на работу на трамвае.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-21"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "przesiadka",
@@ -161,9 +161,9 @@
       "example": "Mam jedną przesiadkę. — У меня одна пересадка.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-21"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "spóźnienie",
@@ -172,9 +172,9 @@
       "example": "Pociąg ma spóźnienie. — Поезд опаздывает.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-21"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "imieniny",
@@ -505,6 +505,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-24"
+    },
+    {
+      "pl": "lekarz",
+      "ru": "врач",
+      "pos": "noun-m",
+      "example": "Muszę iść do lekarza. — Мне нужно сходить к врачу.",
+      "topic": "У врача: разговорные фразы",
+      "added": "2026-10-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-25"
+    },
+    {
+      "pl": "przychodnia",
+      "ru": "поликлиника",
+      "pos": "noun-f",
+      "example": "Przychodnia jest otwarta do osiemnastej. — Поликлиника открыта до шести вечера.",
+      "topic": "У врача: разговорные фразы",
+      "added": "2026-10-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-25"
+    },
+    {
+      "pl": "recepta",
+      "ru": "рецепт (на лекарство)",
+      "pos": "noun-f",
+      "example": "Lekarz wystawił mi e-receptę. — Врач выписал мне электронный рецепт.",
+      "topic": "У врача: разговорные фразы",
+      "added": "2026-10-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-25"
+    },
+    {
+      "pl": "apteka",
+      "ru": "аптека",
+      "pos": "noun-f",
+      "example": "Apteka jest obok przystanku. — Аптека рядом с остановкой.",
+      "topic": "У врача: разговорные фразы",
+      "added": "2026-10-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-25"
+    },
+    {
+      "pl": "gorączka",
+      "ru": "температура, жар",
+      "pos": "noun-f",
+      "example": "Mam gorączkę od wczoraj. — У меня температура со вчерашнего дня.",
+      "topic": "У врача: разговорные фразы",
+      "added": "2026-10-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-25"
     }
   ]
 }
