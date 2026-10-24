@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="system-ui, sans-serif">
+  <rect width="640" height="440" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Матрица Skill × Will (Landsberg)</text>
+  <!-- quadrants -->
+  <rect x="110" y="50" width="250" height="160" fill="#fef3c7" stroke="#d97706"/>
+  <rect x="360" y="50" width="250" height="160" fill="#dcfce7" stroke="#16a34a"/>
+  <rect x="110" y="210" width="250" height="160" fill="#fee2e2" stroke="#dc2626"/>
+  <rect x="360" y="210" width="250" height="160" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="235" y="95" text-anchor="middle" font-size="20" font-weight="700" fill="#92400e">GUIDE</text>
+  <text x="235" y="122" text-anchor="middle" font-size="13" fill="#374151">хочет, но пока не умеет</text>
+  <text x="235" y="145" text-anchor="middle" font-size="13" fill="#374151">обучай, разбирай вместе,</text>
+  <text x="235" y="165" text-anchor="middle" font-size="13" fill="#374151">частые короткие чекпоинты</text>
+  <text x="485" y="95" text-anchor="middle" font-size="20" font-weight="700" fill="#166534">DELEGATE</text>
+  <text x="485" y="122" text-anchor="middle" font-size="13" fill="#374151">умеет и хочет</text>
+  <text x="485" y="145" text-anchor="middle" font-size="13" fill="#374151">отдай результат, а не шаги;</text>
+  <text x="485" y="165" text-anchor="middle" font-size="13" fill="#374151">растягивай задачами</text>
+  <text x="235" y="255" text-anchor="middle" font-size="20" font-weight="700" fill="#991b1b">DIRECT</text>
+  <text x="235" y="282" text-anchor="middle" font-size="13" fill="#374151">не умеет и не хочет</text>
+  <text x="235" y="305" text-anchor="middle" font-size="13" fill="#374151">чёткие шаги и сроки,</text>
+  <text x="235" y="325" text-anchor="middle" font-size="13" fill="#374151">выясни причину низкой мотивации</text>
+  <text x="485" y="255" text-anchor="middle" font-size="20" font-weight="700" fill="#1e40af">EXCITE</text>
+  <text x="485" y="282" text-anchor="middle" font-size="13" fill="#374151">умеет, но не хочет</text>
+  <text x="485" y="305" text-anchor="middle" font-size="13" fill="#374151">найди, что «выключило»,</text>
+  <text x="485" y="325" text-anchor="middle" font-size="13" fill="#374151">свяжи задачу с его целями</text>
+  <!-- axes -->
+  <line x1="110" y1="390" x2="620" y2="390" stroke="#1f2937" stroke-width="2"/>
+  <polygon points="620,385 630,390 620,395" fill="#1f2937"/>
+  <text x="365" y="420" text-anchor="middle" font-size="14" fill="#1f2937">Skill (навык в ЭТОЙ задаче) →</text>
+  <line x1="90" y1="370" x2="90" y2="50" stroke="#1f2937" stroke-width="2"/>
+  <polygon points="85,50 90,40 95,50" fill="#1f2937"/>
+  <text x="60" y="210" text-anchor="middle" font-size="14" fill="#1f2937" transform="rotate(-90 60 210)">Will (желание) →</text>
+</svg>
