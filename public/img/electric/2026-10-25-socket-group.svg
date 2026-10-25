@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="system-ui,sans-serif">
+  <rect width="720" height="300" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">Группа розеток: токи приборов складываются</text>
+  <rect x="30" y="100" width="110" height="80" rx="8" fill="#ffebe9" stroke="#cf222e" stroke-width="2"/>
+  <text x="85" y="132" text-anchor="middle" font-size="14" font-weight="700" fill="#cf222e">Автомат B16</text>
+  <text x="85" y="154" text-anchor="middle" font-size="13">предел 16 А</text>
+  <path d="M140 140 H680" stroke="#24292f" stroke-width="4"/>
+  <g stroke="#24292f" stroke-width="2">
+    <path d="M250 140 V200 M400 140 V200 M550 140 V200"/>
+  </g>
+  <rect x="200" y="200" width="100" height="60" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+  <text x="250" y="226" text-anchor="middle" font-size="13">Чайник</text>
+  <text x="250" y="246" text-anchor="middle" font-size="13">2000 Вт = 8,7 А</text>
+  <rect x="350" y="200" width="100" height="60" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+  <text x="400" y="226" text-anchor="middle" font-size="13">Фен</text>
+  <text x="400" y="246" text-anchor="middle" font-size="13">1800 Вт = 7,8 А</text>
+  <rect x="500" y="200" width="100" height="60" rx="6" fill="#dafbe1" stroke="#1a7f37" stroke-width="2"/>
+  <text x="550" y="226" text-anchor="middle" font-size="13">Тостер</text>
+  <text x="550" y="246" text-anchor="middle" font-size="13">800 Вт = 3,5 А</text>
+  <text x="400" y="80" text-anchor="middle" font-size="15" fill="#24292f">8,7 + 7,8 + 3,5 = 20 А &gt; 16 А → автомат отключится</text>
+  <text x="400" y="110" text-anchor="middle" font-size="13" fill="#57606a">напряжение у всех 230 В, а ток общей линии — сумма</text>
+</svg>

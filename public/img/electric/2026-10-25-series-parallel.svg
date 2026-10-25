@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="system-ui,sans-serif">
+  <rect width="720" height="360" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">Две лампы: последовательно и параллельно</text>
+  <text x="180" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#cf222e">Последовательно (одна «тропинка»)</text>
+  <g fill="none" stroke="#24292f" stroke-width="3">
+    <path d="M60 110 H110 M250 110 H300 V270 H60 V110"/>
+  </g>
+  <rect x="110" y="95" width="60" height="30" rx="4" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+  <rect x="190" y="95" width="60" height="30" rx="4" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+  <text x="140" y="116" text-anchor="middle" font-size="13">Лампа 1</text>
+  <text x="220" y="116" text-anchor="middle" font-size="13">Лампа 2</text>
+  <path d="M170 110 H190" stroke="#24292f" stroke-width="3"/>
+  <circle cx="60" cy="190" r="22" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="60" y="195" text-anchor="middle" font-size="13" fill="#0969da">230 В</text>
+  <text x="180" y="170" text-anchor="middle" font-size="14" fill="#24292f">ток один и тот же везде</text>
+  <text x="180" y="192" text-anchor="middle" font-size="14" fill="#24292f">напряжение делится: 115 В + 115 В</text>
+  <text x="180" y="214" text-anchor="middle" font-size="14" fill="#24292f">сопротивления складываются</text>
+  <text x="180" y="236" text-anchor="middle" font-size="14" fill="#cf222e">одна перегорела — погасли обе</text>
+  <text x="540" y="62" text-anchor="middle" font-size="16" font-weight="700" fill="#1a7f37">Параллельно (как в квартире)</text>
+  <g fill="none" stroke="#24292f" stroke-width="3">
+    <path d="M400 100 H680 M400 270 H680 M400 100 V270 M480 100 V135 M480 215 V270 M600 100 V135 M600 215 V270"/>
+  </g>
+  <rect x="450" y="135" width="60" height="80" rx="4" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+  <rect x="570" y="135" width="60" height="80" rx="4" fill="#fff8c5" stroke="#bf8700" stroke-width="2"/>
+  <text x="480" y="180" text-anchor="middle" font-size="13">Лампа 1</text>
+  <text x="600" y="180" text-anchor="middle" font-size="13">Лампа 2</text>
+  <circle cx="400" cy="185" r="22" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+  <text x="400" y="190" text-anchor="middle" font-size="13" fill="#0969da">230 В</text>
+  <text x="540" y="298" text-anchor="middle" font-size="14" fill="#24292f">на каждой лампе полные 230 В; токи складываются</text>
+  <text x="540" y="320" text-anchor="middle" font-size="14" fill="#1a7f37">одна перегорела — вторая горит</text>
+  <text x="180" y="320" text-anchor="middle" font-size="13" fill="#57606a">szeregowo — последовательно</text>
+  <text x="180" y="338" text-anchor="middle" font-size="13" fill="#57606a">równolegle — параллельно</text>
+</svg>
