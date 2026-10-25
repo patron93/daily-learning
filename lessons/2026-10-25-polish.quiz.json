@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-25",
+  "track": "polish",
+  "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+  "questions": [
+    {"id": "konj-1", "type": "choice", "prompt": "Ja ___ maila do szefa. (pisać)", "options": ["piszę", "pisam", "pisze", "piszesz"], "answer": "piszę", "explain": "Pisać → piszę: чередование s → sz и окончание -ę для ja."},
+    {"id": "konj-2", "type": "gap", "prompt": "Ty ___ po polsku bardzo dobrze. (mówić)", "answers": ["mówisz"], "explain": "Группа -ę/-isz: mówię, mówisz."},
+    {"id": "konj-3", "type": "choice", "prompt": "Co ___ w weekend? (wy, robić)", "options": ["robicie", "robiecie", "robią", "robimy"], "answer": "robicie", "explain": "Гласная из формы ty (robisz → i) сохраняется: robimy, robicie."},
+    {"id": "konj-4", "type": "gap", "prompt": "Oni ___ się polskiego. (uczyć się)", "answers": ["uczą"], "explain": "Форма oni всегда на носовое -ą: uczą się."},
+    {"id": "konj-5", "type": "choice", "prompt": "Почему «uczysz», а не «uczisz»?", "options": ["После cz, sz, rz, ż пишется y, а не i", "Это исключение, его надо просто запомнить", "Потому что глагол возвратный", "Так пишут только в разговорной речи"], "answer": "После cz, sz, rz, ż пишется y, а не i", "explain": "После шипящих cz, sz, rz, ż в польском всегда y: uczysz, uczy, uczymy."},
+    {"id": "konj-6", "type": "gap", "prompt": "Teraz ___ na spotkanie. (ja, iść)", "answers": ["idę"], "explain": "Iść: idę, idziesz, idzie… — ja на -ę."},
+    {"id": "konj-7", "type": "choice", "prompt": "Как правильно: «Мы пишем тесты»?", "options": ["Piszemy testy.", "Pisamy testy.", "Piszymy testy.", "Piszą testy."], "answer": "Piszemy testy.", "explain": "Pisać — группа -ę/-esz: piszesz → piszemy."},
+    {"id": "konj-8", "type": "choice", "prompt": "Что значит «Co robisz?»", "options": ["Что делаешь?", "Где работаешь?", "Что пишешь?", "Куда идёшь?"], "answer": "Что делаешь?", "explain": "Robić — «делать», а не «работать» (работать — pracować)."},
+    {"id": "konj-9", "type": "gap", "prompt": "Junior ___ się szybko. (uczyć się, on)", "answers": ["uczy"], "explain": "On/ona: uczy się — без окончания -sz."},
+    {"id": "konj-10", "type": "choice", "prompt": "Какая пара форм ja/ty верна для «mówić»?", "options": ["mówię / mówisz", "mówię / mówiesz", "mówiam / mówiasz", "mówi / mówisz"], "answer": "mówię / mówisz", "explain": "Запоминай глагол по двум формам — ja и ty: mówię, mówisz."}
+  ]
+}

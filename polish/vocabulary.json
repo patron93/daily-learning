@@ -348,9 +348,9 @@
       "example": "Kupuję świeży chleb rano. — Я покупаю свежий хлеб утром.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-22"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "herbata",
@@ -359,9 +359,9 @@
       "example": "Herbata jest jeszcze gorąca. — Чай ещё горячий.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-22"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "mleko",
@@ -370,9 +370,9 @@
       "example": "Mleko jest w lodówce. — Молоко в холодильнике.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-22"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "jabłko",
@@ -381,9 +381,9 @@
       "example": "To jabłko jest bardzo słodkie. — Это яблоко очень сладкое.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-22"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "sól",
@@ -392,9 +392,9 @@
       "example": "Podaj mi sól, proszę. — Передай мне соль, пожалуйста.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-22"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-28"
     },
     {
       "pl": "kelner",
@@ -560,6 +560,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-25"
+    },
+    {
+      "pl": "pisać",
+      "ru": "писать",
+      "pos": "verb",
+      "example": "Piszę maila do klienta. — Я пишу письмо клиенту.",
+      "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+      "added": "2026-10-25",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-26"
+    },
+    {
+      "pl": "mówić",
+      "ru": "говорить",
+      "pos": "verb",
+      "example": "Mówię trochę po polsku. — Я немного говорю по-польски.",
+      "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+      "added": "2026-10-25",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-26"
+    },
+    {
+      "pl": "robić",
+      "ru": "делать",
+      "pos": "verb",
+      "example": "Co robisz w weekend? — Что делаешь на выходных?",
+      "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+      "added": "2026-10-25",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-26"
+    },
+    {
+      "pl": "uczyć się",
+      "ru": "учиться, учить (что-то)",
+      "pos": "verb",
+      "example": "Uczę się polskiego codziennie. — Я учу польский каждый день.",
+      "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+      "added": "2026-10-25",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-26"
+    },
+    {
+      "pl": "iść",
+      "ru": "идти (пешком)",
+      "pos": "verb",
+      "example": "Idę na spotkanie. — Я иду на встречу.",
+      "topic": "Глаголы на -ę: piszę, mówię, uczę się",
+      "added": "2026-10-25",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-26"
     }
   ]
 }

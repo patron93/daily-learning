@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect width="640" height="360" fill="#fdfcf7" rx="16"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Запомни две формы: ja и ty</text>
+  <text x="320" y="58" text-anchor="middle" font-size="14" fill="#6b7280">гласная из формы ty переходит в on, my, wy; ja → -ę, oni → -ą</text>
+  <g>
+    <rect x="30" y="80" width="280" height="250" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="170" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#0369a1">-ę / -esz</text>
+    <text x="170" y="130" text-anchor="middle" font-size="14" fill="#374151">pisać, iść</text>
+    <g font-size="16" fill="#111827">
+      <text x="60" y="165">ja</text><text x="150" y="165">pisz<tspan fill="#dc2626" font-weight="bold">ę</tspan></text>
+      <text x="60" y="193">ty</text><text x="150" y="193">pisz<tspan fill="#0284c7" font-weight="bold">esz</tspan></text>
+      <text x="60" y="221">on/ona</text><text x="150" y="221">pisz<tspan fill="#0284c7" font-weight="bold">e</tspan></text>
+      <text x="60" y="249">my</text><text x="150" y="249">pisz<tspan fill="#0284c7" font-weight="bold">emy</tspan></text>
+      <text x="60" y="277">wy</text><text x="150" y="277">pisz<tspan fill="#0284c7" font-weight="bold">ecie</tspan></text>
+      <text x="60" y="305">oni</text><text x="150" y="305">pisz<tspan fill="#dc2626" font-weight="bold">ą</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect x="330" y="80" width="280" height="250" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="470" y="108" text-anchor="middle" font-size="18" font-weight="bold" fill="#15803d">-ę / -isz (-ysz)</text>
+    <text x="470" y="130" text-anchor="middle" font-size="14" fill="#374151">mówić, robić, uczyć się</text>
+    <g font-size="16" fill="#111827">
+      <text x="360" y="165">ja</text><text x="450" y="165">mówi<tspan fill="#dc2626" font-weight="bold">ę</tspan></text>
+      <text x="360" y="193">ty</text><text x="450" y="193">mów<tspan fill="#16a34a" font-weight="bold">isz</tspan></text>
+      <text x="360" y="221">on/ona</text><text x="450" y="221">mów<tspan fill="#16a34a" font-weight="bold">i</tspan></text>
+      <text x="360" y="249">my</text><text x="450" y="249">mów<tspan fill="#16a34a" font-weight="bold">imy</tspan></text>
+      <text x="360" y="277">wy</text><text x="450" y="277">mów<tspan fill="#16a34a" font-weight="bold">icie</tspan></text>
+      <text x="360" y="305">oni</text><text x="450" y="305">mówi<tspan fill="#dc2626" font-weight="bold">ą</tspan></text>
+    </g>
+  </g>
+</svg>
