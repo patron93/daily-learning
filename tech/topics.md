@@ -89,3 +89,4 @@
 - 2026-10-22 · classic · SOLID в Angular подробно: good vs bad (по запросу из feedback.md)
 - 2026-10-23 · angular · linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - 2026-10-24 · leadership · Делегирование: матрица «навык × желание», уровни делегирования
+- 2026-10-25 · news · TypeScript 7.1 Beta: публичный API нативного компилятора и путь Angular на TS 7 (20.10.2026)
