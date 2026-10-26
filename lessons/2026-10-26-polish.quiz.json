@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "track": "polish",
+  "topic": "Zdrobnienia: уменьшительные формы",
+  "questions": [
+    {"id": "zdr-1", "type": "choice", "prompt": "Какое уменьшительное от «kawa» чаще всего звучит на офисной кухне?", "options": ["kawka", "kawek", "kawko", "kawik"], "answer": "kawka", "explain": "Kawa — женский род, суффикс -ka: kawka. Ещё ласковее — kawusia."},
+    {"id": "zdr-2", "type": "gap", "prompt": "___, zaraz sprawdzę. (Секундочку, сейчас проверю.)", "answers": ["Chwileczkę", "chwileczkę", "Chwilkę", "chwilkę"], "explain": "Chwila → chwilka → chwileczka; во фразе стоит винительный падеж: chwileczkę."},
+    {"id": "zdr-3", "type": "choice", "prompt": "Зачем поляки чаще всего используют zdrobnienia в разговоре с коллегой?", "options": ["чтобы смягчить фразу и звучать вежливее", "чтобы говорить с ним как с ребёнком", "чтобы показать иронию", "только в письменной речи"], "answer": "чтобы смягчить фразу и звучать вежливее", "explain": "Masz chwileczkę? звучит мягче, чем Masz chwilę? — это вежливость, а не сюсюканье."},
+    {"id": "zdr-4", "type": "choice", "prompt": "Уменьшительное от «ciastko»:", "options": ["ciasteczko", "ciastka", "ciastek", "ciastkuś"], "answer": "ciasteczko", "explain": "Ciastko само уже уменьшительное от ciasto, поэтому следующая ступень — ciasteczko (суффикс -eczko для среднего рода)."},
+    {"id": "zdr-5", "type": "choice", "prompt": "Как коллеги обычно называют Katarzynę в офисе?", "options": ["Kasia", "Katia", "Kata", "Rynka"], "answer": "Kasia", "explain": "Katarzyna → Kasia. На работе уменьшительные имена — норма, полное имя звучит официально."},
+    {"id": "zdr-6", "type": "gap", "prompt": "Robię sobie ___, chcesz też? (кофеёк)", "answers": ["kawkę", "kawusię"], "explain": "Robić + винительный падеж: kawka → kawkę (kawusia → kawusię)."},
+    {"id": "zdr-7", "type": "choice", "prompt": "Уменьшительное от «kubek»:", "options": ["kubeczek", "kubka", "kubik", "kubeczko"], "answer": "kubeczek", "explain": "Мужской род: -ek → -eczek. Kubek → kubeczek, как «чашка → чашечка»."},
+    {"id": "zdr-8", "type": "choice", "prompt": "Pijesz kawę z ___? (сахар)", "options": ["cukrem", "cukierem", "cukier", "cukru"], "answer": "cukrem", "explain": "Z + творительный падеж; в cukier беглое e выпадает: z cukrem."},
+    {"id": "zdr-9", "type": "choice", "prompt": "Какое слово НЕ является уменьшительным от другого слова в современном польском?", "options": ["kawa", "kawka", "chwilka", "piwko"], "answer": "kawa", "explain": "Kawa — базовая форма; kawka, chwilka, piwko — zdrobnienia от kawa, chwila, piwo."},
+    {"id": "zdr-10", "type": "gap", "prompt": "Masz ___? Mam pytanie. (минутка, базовая форма в вин. падеже)", "answers": ["chwilę"], "explain": "Chwila → chwilę (винительный падеж женского рода: -a → -ę)."}
+  ]
+}

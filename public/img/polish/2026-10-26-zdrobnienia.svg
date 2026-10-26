@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Arial, sans-serif">
+  <rect width="640" height="340" fill="#fdfcf7" rx="16"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Zdrobnienia: чем меньше, тем вежливее</text>
+  <text x="320" y="58" text-anchor="middle" font-size="14" fill="#6b7280">m → -ek · ż → -ka · n → -ko, вторая ступень ещё ласковее</text>
+  <g font-size="18" text-anchor="middle">
+    <rect x="30" y="85" width="170" height="60" rx="10" fill="#e5e7eb"/>
+    <text x="115" y="122" fill="#111827">kawa</text>
+    <rect x="235" y="85" width="170" height="60" rx="10" fill="#fde68a"/>
+    <text x="320" y="122" fill="#111827">kaw<tspan fill="#b45309" font-weight="bold">ka</tspan></text>
+    <rect x="440" y="85" width="170" height="60" rx="10" fill="#fca5a5"/>
+    <text x="525" y="122" fill="#111827">kaw<tspan fill="#b91c1c" font-weight="bold">usia</tspan></text>
+
+    <rect x="30" y="165" width="170" height="60" rx="10" fill="#e5e7eb"/>
+    <text x="115" y="202" fill="#111827">chwila</text>
+    <rect x="235" y="165" width="170" height="60" rx="10" fill="#fde68a"/>
+    <text x="320" y="202" fill="#111827">chwil<tspan fill="#b45309" font-weight="bold">ka</tspan></text>
+    <rect x="440" y="165" width="170" height="60" rx="10" fill="#fca5a5"/>
+    <text x="525" y="202" fill="#111827">chwil<tspan fill="#b91c1c" font-weight="bold">eczka</tspan></text>
+
+    <rect x="30" y="245" width="170" height="60" rx="10" fill="#e5e7eb"/>
+    <text x="115" y="282" fill="#111827">Tomasz</text>
+    <rect x="235" y="245" width="170" height="60" rx="10" fill="#fde68a"/>
+    <text x="320" y="282" fill="#111827">Tom<tspan fill="#b45309" font-weight="bold">ek</tspan></text>
+    <rect x="440" y="245" width="170" height="60" rx="10" fill="#fca5a5"/>
+    <text x="525" y="282" fill="#111827">Tom<tspan fill="#b91c1c" font-weight="bold">uś</tspan></text>
+  </g>
+  <g stroke="#9ca3af" stroke-width="3" fill="#9ca3af">
+    <line x1="203" y1="115" x2="228" y2="115"/><line x1="408" y1="115" x2="433" y2="115"/>
+    <line x1="203" y1="195" x2="228" y2="195"/><line x1="408" y1="195" x2="433" y2="195"/>
+    <line x1="203" y1="275" x2="228" y2="275"/><line x1="408" y1="275" x2="433" y2="275"/>
+  </g>
+  <g font-size="12" fill="#6b7280" text-anchor="middle">
+    <text x="115" y="330">нейтрально</text><text x="320" y="330">мягко, по-дружески</text><text x="525" y="330">очень ласково</text>
+  </g>
+</svg>

@@ -183,9 +183,9 @@
       "example": "Dziś są imieniny Łukasza. — Сегодня именины Лукаша.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-23"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "życzenia",
@@ -194,9 +194,9 @@
       "example": "Składam ci najlepsze życzenia! — Поздравляю тебя от всей души!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-23"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "prezent",
@@ -205,9 +205,9 @@
       "example": "Mam dla ciebie mały prezent. — У меня для тебя маленький подарок.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-23"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "tort",
@@ -216,9 +216,9 @@
       "example": "Kupiłem tort czekoladowy. — Я купил шоколадный торт.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-23"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "zaproszenie",
@@ -227,9 +227,9 @@
       "example": "Dziękuję za zaproszenie! — Спасибо за приглашение!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-23"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "zespół",
@@ -615,6 +615,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-26"
+    },
+    {
+      "pl": "kawa",
+      "ru": "кофе",
+      "pos": "noun-f",
+      "example": "Idziemy na kawę? — Пойдём на кофе?",
+      "topic": "Zdrobnienia: kawka, chwileczka",
+      "added": "2026-10-26",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-27"
+    },
+    {
+      "pl": "ciastko",
+      "ru": "пирожное, печенье",
+      "pos": "noun-n",
+      "example": "Do kawy biorę ciastko. — К кофе я беру пирожное.",
+      "topic": "Zdrobnienia: kawka, chwileczka",
+      "added": "2026-10-26",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-27"
+    },
+    {
+      "pl": "kubek",
+      "ru": "кружка",
+      "pos": "noun-m",
+      "example": "To mój kubek, nie twój! — Это моя кружка, не твоя!",
+      "topic": "Zdrobnienia: kawka, chwileczka",
+      "added": "2026-10-26",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-27"
+    },
+    {
+      "pl": "cukier",
+      "ru": "сахар",
+      "pos": "noun-m",
+      "example": "Pijesz kawę z cukrem? — Ты пьёшь кофе с сахаром?",
+      "topic": "Zdrobnienia: kawka, chwileczka",
+      "added": "2026-10-26",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-27"
+    },
+    {
+      "pl": "chwila",
+      "ru": "момент, минутка",
+      "pos": "noun-f",
+      "example": "Masz chwilę? — Есть минутка?",
+      "topic": "Zdrobnienia: kawka, chwileczka",
+      "added": "2026-10-26",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-27"
     }
   ]
 }
