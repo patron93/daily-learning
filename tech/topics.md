@@ -34,7 +34,7 @@
 
 ## architecture
 - [x] Монорепо: Nx, границы модулей, enforce-module-boundaries
-- [ ] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
+- [x] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - [ ] Feature-sliced / domain-driven структура фронтенда
 - [ ] Дизайн-системы и библиотеки компонентов: версионирование, токены
 - [ ] State management: классификация состояний (server, UI, URL, form)
@@ -90,3 +90,4 @@
 - 2026-10-23 · angular · linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - 2026-10-24 · leadership · Делегирование: матрица «навык × желание», уровни делегирования
 - 2026-10-25 · news · TypeScript 7.1 Beta: публичный API нативного компилятора и путь Angular на TS 7 (20.10.2026)
+- 2026-10-26 · architecture · Micro-frontends: Module Federation / Native Federation, когда оно того не стоит

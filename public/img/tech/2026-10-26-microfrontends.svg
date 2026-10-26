@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="system-ui, sans-serif">
+  <rect width="680" height="430" fill="#ffffff"/>
+  <text x="340" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Native Federation: как shell собирает приложение в рантайме</text>
+
+  <!-- shell -->
+  <rect x="230" y="50" width="220" height="70" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="340" y="75" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">Shell (host)</text>
+  <text x="340" y="94" text-anchor="middle" font-size="12" fill="#374151">роутер, layout, auth</text>
+  <text x="340" y="110" text-anchor="middle" font-size="12" fill="#374151">federation.manifest.json</text>
+
+  <!-- step labels -->
+  <text x="40" y="160" font-size="12" fill="#6b7280">① читает manifest:</text>
+  <text x="40" y="176" font-size="12" fill="#6b7280">имя → URL remoteEntry.json</text>
+
+  <!-- arrows to remotes -->
+  <line x1="290" y1="120" x2="140" y2="200" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="140,200 152,191 147,203" fill="#6b7280"/>
+  <line x1="390" y1="120" x2="540" y2="200" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="540,200 528,191 533,203" fill="#6b7280"/>
+
+  <!-- remotes -->
+  <rect x="40" y="200" width="200" height="80" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="140" y="224" text-anchor="middle" font-size="14" font-weight="700" fill="#14532d">Remote «checkout»</text>
+  <text x="140" y="243" text-anchor="middle" font-size="12" fill="#374151">команда A, свой деплой</text>
+  <text x="140" y="261" text-anchor="middle" font-size="12" fill="#374151">remoteEntry.json: exposes,</text>
+  <text x="140" y="275" text-anchor="middle" font-size="12" fill="#374151">shared + версии</text>
+
+  <rect x="440" y="200" width="200" height="80" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="540" y="224" text-anchor="middle" font-size="14" font-weight="700" fill="#14532d">Remote «profile»</text>
+  <text x="540" y="243" text-anchor="middle" font-size="12" fill="#374151">команда B, свой деплой</text>
+  <text x="540" y="261" text-anchor="middle" font-size="12" fill="#374151">remoteEntry.json: exposes,</text>
+  <text x="540" y="275" text-anchor="middle" font-size="12" fill="#374151">shared + версии</text>
+
+  <!-- import map -->
+  <line x1="140" y1="280" x2="290" y2="320" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="540" y1="280" x2="390" y2="320" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="190" y="320" width="300" height="56" rx="10" fill="#fef3c7" stroke="#d97706"/>
+  <text x="340" y="343" text-anchor="middle" font-size="14" font-weight="700" fill="#78350f">② общий import map</text>
+  <text x="340" y="362" text-anchor="middle" font-size="12" fill="#374151">@angular/core → один URL на всех (singleton)</text>
+
+  <text x="340" y="400" text-anchor="middle" font-size="12" fill="#374151">③ loadRemoteModule('checkout', './routes') → обычный import() ES-модуля</text>
+  <text x="340" y="418" text-anchor="middle" font-size="11" fill="#6b7280">Без webpack-рантайма: esbuild-сборка Angular CLI + стандарты браузера (es-module-shims как полифилл)</text>
+</svg>
