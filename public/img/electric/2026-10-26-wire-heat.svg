@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" font-family="system-ui,sans-serif">
+  <rect width="720" height="320" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">Провод как узкая труба: тот же ток греет тонкий провод сильнее</text>
+  <text x="30" y="75" font-size="14" font-weight="700" fill="#24292f">1,5 мм², 16 А</text>
+  <rect x="170" y="62" width="400" height="14" rx="7" fill="#d4a017" stroke="#24292f"/>
+  <text x="590" y="75" font-size="14" fill="#cf222e" font-weight="700">≈ 3,0 Вт на метр</text>
+  <text x="30" y="135" font-size="14" font-weight="700" fill="#24292f">2,5 мм², 16 А</text>
+  <rect x="170" y="118" width="400" height="22" rx="11" fill="#d4a017" stroke="#24292f"/>
+  <text x="590" y="135" font-size="14" fill="#9a6700" font-weight="700">≈ 1,8 Вт на метр</text>
+  <text x="30" y="195" font-size="14" font-weight="700" fill="#24292f">1,5 мм², 25 А</text>
+  <rect x="170" y="182" width="400" height="14" rx="7" fill="#cf222e" stroke="#24292f"/>
+  <circle r="5" fill="#fff"><animateMotion dur="2s" repeatCount="indefinite" path="M170 189 H570"/></circle>
+  <circle r="5" fill="#fff"><animateMotion dur="2s" begin="1s" repeatCount="indefinite" path="M170 189 H570"/></circle>
+  <text x="590" y="195" font-size="14" fill="#cf222e" font-weight="700">≈ 7,4 Вт на метр</text>
+  <text x="360" y="250" text-anchor="middle" font-size="15" fill="#24292f">Нагрев P = I² × R: ток вдвое больше → тепла вчетверо больше</text>
+  <text x="360" y="275" text-anchor="middle" font-size="13" fill="#57606a">R = ρ × L / S: длиннее провод или тоньше сечение → больше сопротивление</text>
+  <text x="360" y="298" text-anchor="middle" font-size="12" fill="#57606a">Расчёт для меди, ρ ≈ 0,0178 Ом·мм²/м, туда и обратно 40 м</text>
+</svg>

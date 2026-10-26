@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="system-ui,sans-serif">
+  <rect width="720" height="300" rx="14" fill="#f6f8fa"/>
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="700" fill="#24292f">Перегрузка и короткое замыкание</text>
+  <rect x="25" y="50" width="325" height="225" rx="10" fill="#fff8c5" stroke="#9a6700" stroke-width="2"/>
+  <text x="187" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#9a6700">Перегрузка</text>
+  <text x="187" y="108" text-anchor="middle" font-size="13">Слишком много приборов на линии</text>
+  <text x="187" y="132" text-anchor="middle" font-size="13">Ток чуть выше нормы: 20–40 А</text>
+  <text x="187" y="156" text-anchor="middle" font-size="13">Провод греется медленно, минуты</text>
+  <text x="187" y="180" text-anchor="middle" font-size="13">Срабатывает тепловой расцепитель</text>
+  <text x="187" y="215" text-anchor="middle" font-size="13" font-weight="700">Автомат отключает с задержкой</text>
+  <text x="187" y="240" text-anchor="middle" font-size="12" fill="#57606a">Чем больше перегруз, тем быстрее</text>
+  <rect x="370" y="50" width="325" height="225" rx="10" fill="#ffebe9" stroke="#cf222e" stroke-width="2"/>
+  <text x="532" y="78" text-anchor="middle" font-size="16" font-weight="700" fill="#cf222e">Короткое замыкание</text>
+  <text x="532" y="108" text-anchor="middle" font-size="13">Фаза соединилась с нулём без нагрузки</text>
+  <text x="532" y="132" text-anchor="middle" font-size="13">Ток сотни и тысячи ампер</text>
+  <text x="532" y="156" text-anchor="middle" font-size="13">Дуга, искры, плавление за доли секунды</text>
+  <text x="532" y="180" text-anchor="middle" font-size="13">Срабатывает электромагнитный расцепитель</text>
+  <text x="532" y="215" text-anchor="middle" font-size="13" font-weight="700">Автомат отключает мгновенно</text>
+  <text x="532" y="240" text-anchor="middle" font-size="12" fill="#57606a">В пределах 0,1 с и быстрее</text>
+</svg>
