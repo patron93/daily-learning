@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27",
+  "track": "polish",
+  "topic": "Отрицание: nie + родительный падеж",
+  "questions": [
+    {"id": "neg-1", "type": "choice", "prompt": "Nie mam ___ (kawa).", "options": ["kawy", "kawę", "kawa", "kawą"], "answer": "kawy", "explain": "После nie biernik меняется на dopełniacz: kawa → kawy."},
+    {"id": "neg-2", "type": "gap", "prompt": "Nie piję ___ (woda) z kranu.", "answers": ["wody"], "explain": "Pić требует biernik (wodę), а с nie — dopełniacz: wody."},
+    {"id": "neg-3", "type": "choice", "prompt": "W lodówce nie ma ___ (masło).", "options": ["masła", "masło", "masłu", "masły"], "answer": "masła", "explain": "Средний род -o → -a: masło → masła."},
+    {"id": "neg-4", "type": "gap", "prompt": "Nie jem ___ (ser) wieczorem.", "answers": ["sera"], "explain": "Ser — мужской род, родительный на -a: sera."},
+    {"id": "neg-5", "type": "choice", "prompt": "Как правильно: «У меня нет времени»?", "options": ["Nie mam czasu.", "Nie mam czas.", "Nie mam czasa.", "Nie jest czasu."], "answer": "Nie mam czasu.", "explain": "Czas — одно из слов мужского рода с окончанием -u: czasu."},
+    {"id": "neg-6", "type": "choice", "prompt": "To nie jest ___ (lodówka), to zamrażarka.", "options": ["lodówka", "lodówki", "lodówkę", "lodówce"], "answer": "lodówka", "explain": "С być правило не работает: To jest lodówka → To nie jest lodówka."},
+    {"id": "neg-7", "type": "gap", "prompt": "Przepraszam, nie ma już ___ (chleb)?", "answers": ["chleba"], "explain": "Nie ma + dopełniacz: chleb → chleba."},
+    {"id": "neg-8", "type": "choice", "prompt": "Nie kupuję ___ (jajko) w tym sklepie.", "options": ["jajka", "jajko", "jajku", "jajkiem"], "answer": "jajka", "explain": "Средний род -o → -a: jajko → jajka."},
+    {"id": "neg-9", "type": "choice", "prompt": "Какая фраза с ошибкой?", "options": ["Nie piję wodę.", "Nie piję wody.", "Nie mam mleka.", "Nie widzę błędu."], "answer": "Nie piję wodę.", "explain": "После nie нужен родительный: wody, а не wodę."},
+    {"id": "neg-10", "type": "gap", "prompt": "Szefa dziś ___ ___ w biurze. (нет)", "answers": ["nie ma"], "explain": "«Нет» в смысле «отсутствует» — nie ma + dopełniacz (szefa)."}
+  ]
+}

@@ -403,9 +403,9 @@
       "example": "Kelner zaraz przyjdzie. — Официант сейчас подойдёт.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-23"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-30"
     },
     {
       "pl": "stolik",
@@ -414,9 +414,9 @@
       "example": "Mamy wolny stolik przy oknie? — У нас есть свободный столик у окна?",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-23"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-30"
     },
     {
       "pl": "zupa",
@@ -425,9 +425,9 @@
       "example": "Dziś zupa dnia to żurek. — Сегодня суп дня — журек.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-23"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-30"
     },
     {
       "pl": "rachunek",
@@ -436,9 +436,9 @@
       "example": "Poproszę rachunek. — Счёт, пожалуйста.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-23"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-30"
     },
     {
       "pl": "napiwek",
@@ -447,9 +447,9 @@
       "example": "Zostawiłem napiwek dla kelnera. — Я оставил чаевые официанту.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-23"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-30"
     },
     {
       "pl": "czytać",
@@ -670,6 +670,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-27"
+    },
+    {
+      "pl": "lodówka",
+      "ru": "холодильник",
+      "pos": "noun-f",
+      "example": "W lodówce nie ma mleka. — В холодильнике нет молока.",
+      "topic": "Отрицание: nie + родительный падеж",
+      "added": "2026-10-27",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-28"
+    },
+    {
+      "pl": "masło",
+      "ru": "сливочное масло",
+      "pos": "noun-n",
+      "example": "Nie mam masła. — У меня нет масла.",
+      "topic": "Отрицание: nie + родительный падеж",
+      "added": "2026-10-27",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-28"
+    },
+    {
+      "pl": "jajko",
+      "ru": "яйцо",
+      "pos": "noun-n",
+      "example": "Kupuję jajka na śniadanie. — Я покупаю яйца на завтрак.",
+      "topic": "Отрицание: nie + родительный падеж",
+      "added": "2026-10-27",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-28"
+    },
+    {
+      "pl": "ser",
+      "ru": "сыр",
+      "pos": "noun-m",
+      "example": "Nie jem sera wieczorem. — Я не ем сыр вечером.",
+      "topic": "Отрицание: nie + родительный падеж",
+      "added": "2026-10-27",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-28"
+    },
+    {
+      "pl": "woda",
+      "ru": "вода",
+      "pos": "noun-f",
+      "example": "Woda gazowana czy niegazowana? — Вода с газом или без?",
+      "topic": "Отрицание: nie + родительный падеж",
+      "added": "2026-10-27",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-28"
     }
   ]
 }
