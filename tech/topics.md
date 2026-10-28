@@ -56,7 +56,7 @@
 
 ## backend
 - [x] Node.js event loop глубже: microtasks, libuv
-- [ ] NestJS для Angular-разработчика: те же идеи DI и декораторов
+- [x] NestJS для Angular-разработчика: те же идеи DI и декораторов
 - [ ] REST vs GraphQL vs tRPC: компромиссы
 - [ ] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
 - [ ] PostgreSQL: индексы, EXPLAIN, N+1
@@ -92,3 +92,4 @@
 - 2026-10-25 · news · TypeScript 7.1 Beta: публичный API нативного компилятора и путь Angular на TS 7 (20.10.2026)
 - 2026-10-26 · architecture · Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - 2026-10-27 · ai · AI-агенты для кодинга в команде: правила, ревью, риски
+- 2026-10-28 · backend · NestJS для Angular-разработчика: те же идеи DI и декораторов

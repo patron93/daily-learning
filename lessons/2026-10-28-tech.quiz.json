@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-28",
+  "track": "tech",
+  "topic": "NestJS для Angular-разработчика",
+  "questions": [
+    {
+      "id": "nest-1",
+      "type": "choice",
+      "prompt": "Сервис в Nest с дефолтным scope хранит поле currentUserId. Что произойдёт под нагрузкой?",
+      "options": [
+        "Ничего: каждый запрос получает свой экземпляр сервиса",
+        "Параллельные запросы разных пользователей перезаписывают одно и то же поле",
+        "Nest выбросит ошибку при старте из-за изменяемого поля",
+        "Поле будет изолировано по сессии автоматически"
+      ],
+      "answer": "Параллельные запросы разных пользователей перезаписывают одно и то же поле",
+      "explain": "Дефолтный scope в Nest — синглтон на весь процесс. В Angular root-синглтон живёт в одной вкладке одного пользователя, на сервере же его делят все запросы."
+    },
+    {
+      "id": "nest-2",
+      "type": "choice",
+      "prompt": "Почему Scope.REQUEST не стоит включать «на всякий случай»?",
+      "options": [
+        "Он не работает с контроллерами",
+        "Он всплывает по цепочке зависимостей: все потребители тоже создаются на каждый запрос",
+        "Он отключает guards",
+        "Он требует GraphQL"
+      ],
+      "answer": "Он всплывает по цепочке зависимостей: все потребители тоже создаются на каждый запрос",
+      "explain": "Request-scoped провайдер делает request-scoped всех, кто от него зависит, вплоть до контроллера. Это лишние создания объектов на каждый запрос."
+    },
+    {
+      "id": "nest-3",
+      "type": "choice",
+      "prompt": "Ошибка «Nest can't resolve dependencies of OrdersService (?)» при работающем PaymentsService. Самая вероятная причина?",
+      "options": [
+        "PaymentsService не помечен как standalone",
+        "PaymentsModule не экспортирует PaymentsService или OrdersModule не импортирует PaymentsModule",
+        "Нужно заменить конструктор на inject()",
+        "В PaymentsService нет метода onModuleInit"
+      ],
+      "answer": "PaymentsModule не экспортирует PaymentsService или OrdersModule не импортирует PaymentsModule",
+      "explain": "Модули в Nest инкапсулируют провайдеры: снаружи видно только то, что есть в exports, и только тем модулям, которые сделали imports."
+    },
+    {
+      "id": "nest-4",
+      "type": "choice",
+      "prompt": "Как правильно запросить зависимость в сервисе Nest?",
+      "options": [
+        "Через функцию inject() в поле класса",
+        "Через параметр конструктора; для интерфейсов и значений — @Inject(TOKEN)",
+        "Только через @Global() модуль",
+        "Через providedIn: 'root'"
+      ],
+      "answer": "Через параметр конструктора; для интерфейсов и значений — @Inject(TOKEN)",
+      "explain": "В Nest нет функции inject() как в Angular. Инъекция по типу идёт через конструктор и метаданные; интерфейсы в рантайме не существуют, поэтому нужен токен."
+    },
+    {
+      "id": "nest-5",
+      "type": "choice",
+      "prompt": "Разработчик заменил import { PaymentsService } на import type { PaymentsService } в файле сервиса-потребителя. Что сломается?",
+      "options": [
+        "Только тесты",
+        "Ничего, это просто оптимизация бандла",
+        "DI: в метаданных конструктора не будет реального класса, и Nest не найдёт провайдер",
+        "Сборка TypeScript"
+      ],
+      "answer": "DI: в метаданных конструктора не будет реального класса, и Nest не найдёт провайдер",
+      "explain": "Инъекция по типу опирается на emitDecoratorMetadata, которому нужна ссылка на класс в рантайме. import type стирается при компиляции."
+    },
+    {
+      "id": "nest-6",
+      "type": "choice",
+      "prompt": "Где правильнее всего проверять роль пользователя для эндпоинта?",
+      "options": [
+        "В pipe",
+        "В guard",
+        "В exception filter",
+        "В interceptor после обработчика"
+      ],
+      "answer": "В guard",
+      "explain": "Guard отвечает на вопрос «пускать ли» и выполняется до interceptors и pipes. Проверка в другом месте работает, но ломает порядок и ожидания команды."
+    },
+    {
+      "id": "nest-7",
+      "type": "choice",
+      "prompt": "Какой порядок выполнения верный?",
+      "options": [
+        "Guard → Pipe → Interceptor → Handler",
+        "Middleware → Guard → Interceptor → Pipe → Handler",
+        "Pipe → Guard → Middleware → Handler",
+        "Interceptor → Middleware → Guard → Handler"
+      ],
+      "answer": "Middleware → Guard → Interceptor → Pipe → Handler",
+      "explain": "Middleware первыми, потом guards, затем interceptors (часть «до»), pipes обрабатывают аргументы прямо перед вызовом обработчика."
+    },
+    {
+      "id": "nest-8",
+      "type": "choice",
+      "prompt": "Что поменялось в валидации в NestJS 12?",
+      "options": [
+        "class-validator удалён из фреймворка",
+        "Декораторы @Body/@Query/@Param принимают опцию schema с Standard Schema-схемой (например, Zod) при глобальном StandardSchemaValidationPipe",
+        "Валидация теперь только через guards",
+        "Pipes заменены interceptors"
+      ],
+      "answer": "Декораторы @Body/@Query/@Param принимают опцию schema с Standard Schema-схемой (например, Zod) при глобальном StandardSchemaValidationPipe",
+      "explain": "Nest 12 открыл валидацию для Standard Schema-библиотек. Классический ValidationPipe с class-validator продолжает работать, обе схемы могут сосуществовать."
+    },
+    {
+      "id": "nest-9",
+      "type": "choice",
+      "prompt": "Как лучше всего сделать контекст запроса (userId, traceId) доступным глубоко в сервисах без Scope.REQUEST?",
+      "options": [
+        "Положить его в поле синглтон-сервиса",
+        "Передавать аргументом или хранить в AsyncLocalStorage (например, через nestjs-cls)",
+        "Сделать сервис @Global()",
+        "Записать в process.env"
+      ],
+      "answer": "Передавать аргументом или хранить в AsyncLocalStorage (например, через nestjs-cls)",
+      "explain": "AsyncLocalStorage привязывает данные к асинхронной цепочке одного запроса, не создавая провайдеры заново на каждый запрос."
+    }
+  ]
+}
