@@ -458,9 +458,9 @@
       "example": "Wieczorem czytam książkę. — Вечером я читаю книгу.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-24"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "słuchać",
@@ -469,9 +469,9 @@
       "example": "Słuchasz podcastów w tramwaju? — Ты слушаешь подкасты в трамвае?",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-24"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "oglądać",
@@ -480,9 +480,9 @@
       "example": "W piątek oglądamy film. — В пятницу мы смотрим фильм.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-24"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "pamiętać",
@@ -491,9 +491,9 @@
       "example": "Pamiętam twoje imię. — Я помню твоё имя.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-24"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "odpoczywać",
@@ -502,9 +502,9 @@
       "example": "W weekend odpoczywam w domu. — На выходных я отдыхаю дома.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-24"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-10-31"
     },
     {
       "pl": "lekarz",
@@ -725,6 +725,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-28"
+    },
+    {
+      "pl": "zawód",
+      "ru": "профессия",
+      "pos": "noun-m",
+      "example": "Z zawodu jestem programistą. — По профессии я программист.",
+      "topic": "Ложные друзья в IT-офисе",
+      "added": "2026-10-28",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-29"
+    },
+    {
+      "pl": "termin",
+      "ru": "срок, дедлайн; запись на время",
+      "pos": "noun-m",
+      "example": "Termin mija w piątek. — Срок истекает в пятницу.",
+      "topic": "Ложные друзья в IT-офисе",
+      "added": "2026-10-28",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-29"
+    },
+    {
+      "pl": "uwaga",
+      "ru": "внимание; замечание",
+      "pos": "noun-f",
+      "example": "Mam jedną uwagę do kodu. — У меня одно замечание к коду.",
+      "topic": "Ложные друзья в IT-офисе",
+      "added": "2026-10-28",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-29"
+    },
+    {
+      "pl": "narada",
+      "ru": "совещание",
+      "pos": "noun-f",
+      "example": "Narada jest o dziesiątej. — Совещание в десять.",
+      "topic": "Ложные друзья в IT-офисе",
+      "added": "2026-10-28",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-29"
+    },
+    {
+      "pl": "pilny",
+      "ru": "срочный; прилежный",
+      "pos": "adj",
+      "example": "To jest pilne zadanie. — Это срочная задача.",
+      "topic": "Ложные друзья в IT-офисе",
+      "added": "2026-10-28",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-29"
     }
   ]
 }

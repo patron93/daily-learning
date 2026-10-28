@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif">
+  <rect width="640" height="380" fill="#fdfcf7" rx="16"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Ложные друзья в офисе</text>
+  <text x="320" y="58" text-anchor="middle" font-size="14" fill="#6b7280">кажется → на самом деле</text>
+  <g font-size="17">
+    <g>
+      <rect x="30" y="76" width="580" height="50" rx="10" fill="#f3f4f6"/>
+      <text x="50" y="107" font-weight="bold" fill="#111827">zawód</text>
+      <text x="200" y="107" fill="#b91c1c" text-decoration="line-through">завод</text>
+      <text x="370" y="107" fill="#15803d" font-weight="bold">профессия</text>
+    </g>
+    <g>
+      <rect x="30" y="134" width="580" height="50" rx="10" fill="#f3f4f6"/>
+      <text x="50" y="165" font-weight="bold" fill="#111827">termin</text>
+      <text x="200" y="165" fill="#b91c1c" text-decoration="line-through">термин</text>
+      <text x="370" y="165" fill="#15803d" font-weight="bold">срок, дедлайн</text>
+    </g>
+    <g>
+      <rect x="30" y="192" width="580" height="50" rx="10" fill="#f3f4f6"/>
+      <text x="50" y="223" font-weight="bold" fill="#111827">uwaga</text>
+      <text x="200" y="223" fill="#b91c1c" text-decoration="line-through">уважение</text>
+      <text x="370" y="223" fill="#15803d" font-weight="bold">внимание, замечание</text>
+    </g>
+    <g>
+      <rect x="30" y="250" width="580" height="50" rx="10" fill="#f3f4f6"/>
+      <text x="50" y="281" font-weight="bold" fill="#111827">pilny</text>
+      <text x="200" y="281" fill="#b91c1c" text-decoration="line-through">пыльный</text>
+      <text x="370" y="281" fill="#15803d" font-weight="bold">срочный</text>
+    </g>
+    <g>
+      <rect x="30" y="308" width="580" height="50" rx="10" fill="#f3f4f6"/>
+      <text x="50" y="339" font-weight="bold" fill="#111827">narada</text>
+      <text x="200" y="339" fill="#b91c1c" text-decoration="line-through">наряд</text>
+      <text x="370" y="339" fill="#15803d" font-weight="bold">совещание</text>
+    </g>
+  </g>
+</svg>

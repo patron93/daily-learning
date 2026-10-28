@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "track": "polish",
+  "topic": "Ложные друзья в IT-офисе",
+  "questions": [
+    {"id": "ff-1", "type": "choice", "prompt": "Jaki jest Pana zawód? Что спрашивают?", "options": ["Кем вы работаете?", "На каком заводе вы работаете?", "Какой у вас завод?", "Где вы живёте?"], "answer": "Кем вы работаете?", "explain": "Zawód — профессия. Завод по-польски fabryka или zakład."},
+    {"id": "ff-2", "type": "choice", "prompt": "Termin mija w piątek. Что это значит?", "options": ["Срок истекает в пятницу.", "Термин объяснят в пятницу.", "Встреча проходит в пятницу.", "Пятница — выходной."], "answer": "Срок истекает в пятницу.", "explain": "Termin в рабочем контексте — срок, дедлайн (бел. «тэрмін»)."},
+    {"id": "ff-3", "type": "choice", "prompt": "Как сказать «уважение» по-польски?", "options": ["szacunek", "uwaga", "uważanie", "narada"], "answer": "szacunek", "explain": "Uwaga — внимание или замечание, а уважение — szacunek."},
+    {"id": "ff-4", "type": "gap", "prompt": "Dziękuję za ___ do kodu. (замечания, мн. ч.)", "answers": ["uwagi"], "explain": "Uwaga → uwagi: «спасибо за замечания» после code review."},
+    {"id": "ff-5", "type": "choice", "prompt": "W temacie maila: «Pilne!». Это значит…", "options": ["Срочно!", "Пыльно!", "Внимательно!", "Важно для архива"], "answer": "Срочно!", "explain": "Pilny — срочный. Пыльный — zakurzony."},
+    {"id": "ff-6", "type": "gap", "prompt": "Nie mogę rozmawiać, jestem na ___. (совещание)", "answers": ["naradzie"], "explain": "Narada — совещание; na + местный падеж: na naradzie."},
+    {"id": "ff-7", "type": "choice", "prompt": "— Masz czas? — Owszem. Что ответил коллега?", "options": ["Да, конечно.", "Вовсе нет.", "Не знаю.", "Позже."], "answer": "Да, конечно.", "explain": "Owszem — «да, действительно», а не русское «вовсе»."},
+    {"id": "ff-8", "type": "choice", "prompt": "Praca na pełen etat — это…", "options": ["работа на полную ставку", "работа на этаже", "работа по этапам", "временная подработка"], "answer": "работа на полную ставку", "explain": "Etat — ставка, штатная должность."},
+    {"id": "ff-9", "type": "gap", "prompt": "To jest ___ zadanie, termin jest jutro. (срочное)", "answers": ["pilne"], "explain": "Zadanie — средний род, поэтому pilne."},
+    {"id": "ff-10", "type": "choice", "prompt": "Mam termin u dentysty. Что это значит?", "options": ["У меня запись к стоматологу.", "Я знаю термин стоматолога.", "Я стоматолог.", "У меня болят зубы."], "answer": "У меня запись к стоматологу.", "explain": "Termin — ещё и время записи (wizyta na konkretny termin)."}
+  ]
+}
