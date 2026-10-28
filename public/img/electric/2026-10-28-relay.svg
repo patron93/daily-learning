@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="Реле: слабый ток катушки управляет мощным контактом">
+<rect width="760" height="340" rx="10" fill="#f8fafc"/>
+<text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Реле: слабая цепь управления включает мощную цепь</text>
+<text x="40" y="62" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1d4ed8">Цепь управления (12 В DC, ~0,05 А)</text>
+<rect x="60" y="90" width="60" height="50" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="90" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1d4ed8">12 В</text>
+<line x1="120" y1="115" x2="200" y2="115" stroke="#1d4ed8" stroke-width="2"/>
+<g stroke="#1d4ed8" stroke-width="3" fill="none"><path d="M200 115 q10 -25 20 0 q10 25 20 0 q10 -25 20 0 q10 25 20 0"/></g>
+<text x="250" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1d4ed8">катушка (электромагнит)</text>
+<line x1="280" y1="115" x2="320" y2="115" stroke="#1d4ed8" stroke-width="2"/><line x1="320" y1="115" x2="320" y2="190" stroke="#1d4ed8" stroke-width="2"/><line x1="90" y1="140" x2="90" y2="190" stroke="#1d4ed8" stroke-width="2"/><line x1="90" y1="190" x2="320" y2="190" stroke="#1d4ed8" stroke-width="2"/>
+<text x="205" y="208" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">замкнули эту цепь, катушка притянула якорь</text>
+<text x="400" y="62" font-family="sans-serif" font-size="13" font-weight="bold" fill="#b91c1c">Силовая цепь (230 В AC, ~8 А)</text>
+<circle cx="440" cy="250" r="5" fill="#b91c1c"/><circle cx="600" cy="250" r="5" fill="#b91c1c"/>
+<line x1="440" y1="250" x2="540" y2="212" stroke="#b91c1c" stroke-width="4"><animate attributeName="y2" values="250;212;250" dur="4s" repeatCount="indefinite"/></line>
+<text x="520" y="282" font-family="sans-serif" font-size="12" fill="#b91c1c">контакт: электрически не связан с катушкой</text>
+<line x1="380" y1="250" x2="440" y2="250" stroke="#b91c1c" stroke-width="2"/><line x1="600" y1="250" x2="680" y2="250" stroke="#b91c1c" stroke-width="2"/>
+<text x="690" y="244" font-family="sans-serif" font-size="12" fill="#b91c1c">лампа / нагрузка</text>
+<line x1="320" y1="150" x2="440" y2="236" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="350" y="326" font-family="sans-serif" font-size="12" fill="#b45309">пунктир: механическая связь (якорь), а не электрическая</text>
+</svg>

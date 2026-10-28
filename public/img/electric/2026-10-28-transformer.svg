@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="Трансформатор: две катушки на общем железном сердечнике">
+<rect width="760" height="360" rx="10" fill="#f8fafc"/>
+<text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Трансформатор: две катушки, общий сердечник, нет прямого контакта</text>
+<rect x="250" y="70" width="260" height="220" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+<rect x="290" y="110" width="180" height="140" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+<text x="380" y="185" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">железный сердечник</text>
+<text x="380" y="202" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">(поток замкнут по кругу)</text>
+<g stroke="#b91c1c" stroke-width="4">
+<line x1="236" y1="100" x2="264" y2="108"/><line x1="236" y1="116" x2="264" y2="124"/><line x1="236" y1="132" x2="264" y2="140"/><line x1="236" y1="148" x2="264" y2="156"/><line x1="236" y1="164" x2="264" y2="172"/><line x1="236" y1="180" x2="264" y2="188"/><line x1="236" y1="196" x2="264" y2="204"/><line x1="236" y1="212" x2="264" y2="220"/><line x1="236" y1="228" x2="264" y2="236"/><line x1="236" y1="244" x2="264" y2="252"/>
+</g>
+<g stroke="#1d4ed8" stroke-width="4">
+<line x1="496" y1="150" x2="524" y2="158"/><line x1="496" y1="170" x2="524" y2="178"/><line x1="496" y1="190" x2="524" y2="198"/><line x1="496" y1="210" x2="524" y2="218"/>
+</g>
+<line x1="150" y1="130" x2="236" y2="100" stroke="#b91c1c" stroke-width="2"/><line x1="150" y1="230" x2="236" y2="252" stroke="#b91c1c" stroke-width="2"/>
+<line x1="524" y1="158" x2="620" y2="130" stroke="#1d4ed8" stroke-width="2"/><line x1="524" y1="218" x2="620" y2="240" stroke="#1d4ed8" stroke-width="2"/>
+<text x="20" y="150" font-family="sans-serif" font-size="14" font-weight="bold" fill="#b91c1c">Вход: 230 В AC</text>
+<text x="20" y="170" font-family="sans-serif" font-size="12" fill="#b91c1c">первичная: 10 витков</text>
+<text x="560" y="115" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1d4ed8">Выход: 23 В AC</text>
+<text x="560" y="263" font-family="sans-serif" font-size="12" fill="#1d4ed8">вторичная: 1 виток</text>
+<path d="M300 130 L460 130 L460 230 L300 230 Z" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="8 5">
+<animate attributeName="stroke-dashoffset" from="0" to="-26" dur="1.2s" repeatCount="indefinite"/></path>
+<text x="380" y="124" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#b45309">меняющееся магнитное поле</text>
+<text x="380" y="330" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0f172a">U_вых / U_вх = витки_вых / витки_вх (пример: 1/10 → 230 В станет 23 В)</text>
+<text x="380" y="350" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">Работает только на AC: поле должно меняться. На батарейке (DC) выход будет ноль.</text>
+</svg>
