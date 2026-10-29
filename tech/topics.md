@@ -67,7 +67,7 @@
 ## classic
 - [x] SOLID на примерах Angular
 - [x] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
-- [ ] Паттерны: Strategy, Facade, Adapter во фронтенде
+- [x] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [ ] «Clean Code» с критикой: что устарело
 - [ ] Закон Конвея и Team Topologies
 - [ ] «The Pragmatic Programmer»: ключевые идеи
@@ -93,3 +93,4 @@
 - 2026-10-26 · architecture · Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - 2026-10-27 · ai · AI-агенты для кодинга в команде: правила, ревью, риски
 - 2026-10-28 · backend · NestJS для Angular-разработчика: те же идеи DI и декораторов
+- 2026-10-29 · classic · Паттерны: Strategy, Facade, Adapter во фронтенде
