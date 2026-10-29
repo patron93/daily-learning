@@ -11,7 +11,7 @@
 - [x] (2026-10-23) Спряжение -m/-sz (mam, czytam): глаголы I группы
 - [x] (2026-10-25) Спряжение -ę/-esz (piszę, idę) и -ę/-isz (robię, mówię)
 - [x] (2026-10-27) Отрицание nie + родительный падеж (mam kawę → nie mam kawy)
-- [ ] Винительный падеж (biernik): кого? что?
+- [x] (2026-10-29) Винительный падеж (biernik): кого? что?
 - [ ] Числительные 1–100 и «ile kosztuje?»
 - [ ] Mianownik vs narzędnik: «Jestem programistą»
 - [ ] Вежливые формы: Pan / Pani / Państwo

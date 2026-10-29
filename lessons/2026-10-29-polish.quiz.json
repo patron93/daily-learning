@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-29",
+  "track": "polish",
+  "topic": "Винительный падеж (biernik)",
+  "questions": [
+    {"id": "bier-1", "type": "choice", "prompt": "Przymierzam ___ (kurtka).", "options": ["kurtkę", "kurtka", "kurtki", "kurtką"], "answer": "kurtkę", "explain": "Женский род на -a в biernik: -a → -ę."},
+    {"id": "bier-2", "type": "choice", "prompt": "Kupuję nowy ___ (sweter).", "options": ["sweter", "swetra", "swetrę", "swetrze"], "answer": "sweter", "explain": "Неодушевлённый мужской род в biernik не меняется."},
+    {"id": "bier-3", "type": "choice", "prompt": "Widzę ___ (brat) w sklepie.", "options": ["brata", "brat", "bratę", "bratem"], "answer": "brata", "explain": "Одушевлённый мужской род получает -a, как в русском «вижу брата»."},
+    {"id": "bier-4", "type": "gap", "prompt": "Zakładam ___ (czapka), bo jest zimno.", "answers": ["czapkę"], "explain": "Czapka — ż на -a, значит czapkę."},
+    {"id": "bier-5", "type": "gap", "prompt": "Piję ___ (mleko) codziennie.", "answers": ["mleko"], "explain": "Средний род в biernik не меняется."},
+    {"id": "bier-6", "type": "choice", "prompt": "Mam ___ kurtkę.", "options": ["ciepłą", "ciepła", "ciepłej", "ciepły"], "answer": "ciepłą", "explain": "Прилагательное женского рода в biernik: -a → -ą (ciepłą kurtkę)."},
+    {"id": "bier-7", "type": "choice", "prompt": "Czy mogę przymierzyć ___ czapkę?", "options": ["tę", "ta", "tej", "ten"], "answer": "tę", "explain": "Ta → tę в biernik. В разговоре слышно «tą», но норма — tę."},
+    {"id": "bier-8", "type": "gap", "prompt": "Widzę ___ (kolega) z pracy.", "answers": ["kolegę"], "explain": "Kolega — мужчина, но на -a, поэтому склоняется как женский род: kolegę."},
+    {"id": "bier-9", "type": "choice", "prompt": "Mam kurtkę → отрицание:", "options": ["Nie mam kurtki.", "Nie mam kurtkę.", "Nie mam kurtka.", "Nie mam kurtką."], "answer": "Nie mam kurtki.", "explain": "После nie biernik переходит в родительный падеж: kurtki."},
+    {"id": "bier-10", "type": "choice", "prompt": "Proszę większy ___ (rozmiar).", "options": ["rozmiar", "rozmiaru", "rozmiara", "rozmiarę"], "answer": "rozmiar", "explain": "Rozmiar — неодушевлённый m, в biernik не меняется."}
+  ]
+}

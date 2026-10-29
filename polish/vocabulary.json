@@ -238,9 +238,9 @@
       "example": "Jestem liderem zespołu. — Я руководитель команды.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-25"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "kolega",
@@ -249,9 +249,9 @@
       "example": "To jest mój kolega z pracy. — Это мой коллега по работе.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-25"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "koleżanka",
@@ -260,9 +260,9 @@
       "example": "Ania jest moją koleżanką. — Аня — моя коллега.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-25"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "firma",
@@ -271,9 +271,9 @@
       "example": "Nasza firma jest w Warszawie. — Наша компания в Варшаве.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-25"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "nazwisko",
@@ -282,9 +282,9 @@
       "example": "Jak ma pan na nazwisko? — Как ваша фамилия?",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-25"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "mieszkanie",
@@ -780,6 +780,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-29"
+    },
+    {
+      "pl": "kurtka",
+      "ru": "куртка",
+      "pos": "noun-f",
+      "example": "Kupuję ciepłą kurtkę na zimę. — Я покупаю тёплую куртку на зиму.",
+      "topic": "Одежда и магазин",
+      "added": "2026-10-29",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-30"
+    },
+    {
+      "pl": "sweter",
+      "ru": "свитер",
+      "pos": "noun-m",
+      "example": "Mam nowy sweter. — У меня новый свитер.",
+      "topic": "Одежда и магазин",
+      "added": "2026-10-29",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-30"
+    },
+    {
+      "pl": "czapka",
+      "ru": "шапка",
+      "pos": "noun-f",
+      "example": "Zakładam czapkę, bo jest zimno. — Надеваю шапку, потому что холодно.",
+      "topic": "Одежда и магазин",
+      "added": "2026-10-29",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-30"
+    },
+    {
+      "pl": "rozmiar",
+      "ru": "размер",
+      "pos": "noun-m",
+      "example": "Jaki rozmiar Pan nosi? — Какой размер вы носите?",
+      "topic": "Одежда и магазин",
+      "added": "2026-10-29",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-30"
+    },
+    {
+      "pl": "przymierzać",
+      "ru": "примерять",
+      "pos": "verb",
+      "example": "Czy mogę przymierzyć tę kurtkę? — Можно примерить эту куртку?",
+      "topic": "Одежда и магазин",
+      "added": "2026-10-29",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-30"
     }
   ]
 }
