@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="Три провода: L, N и PE">
+<rect width="760" height="330" rx="10" fill="#f8fafc"/>
+<text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold" fill="#0f172a">Три провода розетки: у каждого своя работа</text>
+<rect x="40" y="60" width="200" height="60" rx="6" fill="#fff" stroke="#92400e" stroke-width="2"/>
+<text x="140" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#92400e">L — фаза</text>
+<text x="140" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">коричневый/чёрный/серый, ~230 В</text>
+<rect x="280" y="60" width="200" height="60" rx="6" fill="#fff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="380" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1d4ed8">N — «ноль»</text>
+<text x="380" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">синий; рабочий ток возвращается</text>
+<rect x="520" y="60" width="200" height="60" rx="6" fill="#fff" stroke="#15803d" stroke-width="2"/>
+<text x="620" y="85" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#15803d">PE — защитный</text>
+<text x="620" y="105" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">жёлто-зелёный; тока в норме нет</text>
+<text x="140" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0f172a">несёт ток к прибору</text>
+<text x="380" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0f172a">несёт ток обратно</text>
+<text x="620" y="160" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0f172a">спасает только при аварии</text>
+<rect x="40" y="195" width="680" height="95" rx="8" fill="#ecfdf5" stroke="#16a34a"/>
+<text x="60" y="222" font-family="sans-serif" font-size="13" fill="#0f172a">N и PE соединены вместе только в одной точке (в щите/на вводе, при разделении PEN).</text>
+<text x="60" y="246" font-family="sans-serif" font-size="13" fill="#0f172a">После неё они идут раздельно и снова не соединяются: иначе рабочий ток потечёт по PE и корпусам.</text>
+<text x="60" y="270" font-family="sans-serif" font-size="13" fill="#b91c1c">Нельзя «для простоты» ставить перемычку N–PE в розетке.</text>
+</svg>
