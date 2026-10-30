@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "track": "polish",
+  "topic": "Wszystkich Świętych",
+  "questions": [
+    {"id": "wsz-1", "type": "choice", "prompt": "Что значит польское слово «grób»?", "options": ["могила", "гроб", "гриб", "гром"], "answer": "могила", "explain": "Ложный друг: grób — могила, а гроб по-польски trumna."},
+    {"id": "wsz-2", "type": "choice", "prompt": "Как по-польски «гроб»?", "options": ["trumna", "grób", "znicz", "cmentarz"], "answer": "trumna", "explain": "Trumna — гроб; grób — могила."},
+    {"id": "wsz-3", "type": "choice", "prompt": "Какая фраза естественнее всего значит «едем навестить могилы родных»?", "options": ["Jedziemy na groby.", "Jedziemy na trumny.", "Jedziemy do grobu.", "Jedziemy na świece."], "answer": "Jedziemy na groby.", "explain": "Устойчивое выражение: iść / jechać na groby — навестить могилы близких."},
+    {"id": "wsz-4", "type": "choice", "prompt": "Какой день 2 ноября?", "options": ["Zaduszki", "Wszystkich Świętych", "Imieniny", "Dziady Mickiewicza"], "answer": "Zaduszki", "explain": "1 ноября — Wszystkich Świętych (выходной), 2 ноября — Zaduszki, день поминовения умерших, обычный рабочий день."},
+    {"id": "wsz-5", "type": "choice", "prompt": "В каком падеже стоит «Wszystkich Świętych» в названии праздника?", "options": ["родительный мн. ч. (dopełniacz)", "именительный мн. ч. (mianownik)", "винительный ед. ч. (biernik)", "творительный мн. ч. (narzędnik)"], "answer": "родительный мн. ч. (dopełniacz)", "explain": "Полностью: (Dzień) Wszystkich Świętych — «(день) всех святых», родительный падеж множественного числа."},
+    {"id": "wsz-6", "type": "gap", "prompt": "Zapalam ___ na grobie babci. (лампадку)", "answers": ["znicz"], "explain": "Znicz — лампадка в стакане; в biernik мужской неодушевлённый не меняется."},
+    {"id": "wsz-7", "type": "gap", "prompt": "W niedzielę jedziemy na ___. (кладбище)", "answers": ["cmentarz"], "explain": "Jechać na + biernik: na cmentarz; неодушевлённый m не меняется."},
+    {"id": "wsz-8", "type": "choice", "prompt": "Как произносится «grób»?", "options": ["[груп]", "[гроб]", "[гроп]", "[груб]"], "answer": "[груп]", "explain": "ó читается как «у», а звонкая b на конце слова оглушается до «п»."},
+    {"id": "wsz-9", "type": "choice", "prompt": "Wspominamy ___ (dziadek) przy stole.", "options": ["dziadka", "dziadek", "dziadkiem", "dziadku"], "answer": "dziadka", "explain": "Wspominać + biernik; dziadek — одушевлённый m, поэтому -a (и беглое e выпадает): dziadka."},
+    {"id": "wsz-10", "type": "choice", "prompt": "Коллега пишет: «Jutro jadę na groby do rodziny». Что уместно ответить?", "options": ["Rozumiem, spokojnej drogi.", "Smacznego!", "Sto lat!", "Wszystkiego najlepszego!"], "answer": "Rozumiem, spokojnej drogi.", "explain": "Нейтрально и вежливо: «Понимаю, спокойной дороги». Поздравления здесь неуместны."}
+  ]
+}

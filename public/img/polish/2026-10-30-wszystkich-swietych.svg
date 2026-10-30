@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+  <rect width="640" height="360" fill="#fdfcf7" rx="16"/>
+  <rect x="0" y="230" width="640" height="130" fill="#e7e5df" rx="0"/>
+  <text x="320" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">1 listopada: idziemy na groby</text>
+  <text x="320" y="58" text-anchor="middle" font-size="14" fill="#6b7280">cmentarz — кладбище · grób — могила (не гроб!) · trumna — гроб</text>
+  <!-- grave -->
+  <rect x="240" y="110" width="160" height="120" rx="60" fill="#9ca3af" stroke="#4b5563" stroke-width="2"/>
+  <rect x="200" y="225" width="240" height="45" rx="6" fill="#6b7280"/>
+  <text x="320" y="165" text-anchor="middle" font-size="18" fill="#f9fafb" font-weight="bold">grób</text>
+  <text x="320" y="190" text-anchor="middle" font-size="13" fill="#f3f4f6">могила</text>
+  <!-- znicze -->
+  <g>
+    <rect x="215" y="200" width="22" height="30" rx="3" fill="#dc2626"/>
+    <ellipse cx="226" cy="193" rx="5" ry="9" fill="#f59e0b">
+      <animate attributeName="ry" values="9;11;8;9" dur="1.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <rect x="404" y="200" width="22" height="30" rx="3" fill="#dc2626"/>
+    <ellipse cx="415" cy="193" rx="5" ry="9" fill="#f59e0b">
+      <animate attributeName="ry" values="9;8;11;9" dur="1.4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <!-- flowers -->
+  <g>
+    <circle cx="290" cy="245" r="10" fill="#facc15"/><circle cx="310" cy="242" r="10" fill="#fb923c"/>
+    <circle cx="330" cy="245" r="10" fill="#facc15"/><circle cx="350" cy="242" r="10" fill="#fb923c"/>
+  </g>
+  <!-- labels -->
+  <g font-size="15" fill="#111827">
+    <line x1="215" y1="200" x2="120" y2="150" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="30" y="140" font-weight="bold" fill="#b91c1c">znicz</text>
+    <text x="30" y="160" font-size="13" fill="#4b5563">лампадка (не świeca)</text>
+    <line x1="350" y1="250" x2="500" y2="300" stroke="#ea580c" stroke-width="1.5"/>
+    <text x="470" y="318" font-weight="bold" fill="#c2410c">kwiaty</text>
+    <text x="470" y="338" font-size="13" fill="#4b5563">chryzantemy</text>
+    <text x="470" y="130" font-weight="bold" fill="#1f2937">Wszystkich Świętych</text>
+    <text x="470" y="150" font-size="13" fill="#4b5563">1.11 — выходной</text>
+    <text x="470" y="180" font-weight="bold" fill="#1f2937">Zaduszki</text>
+    <text x="470" y="200" font-size="13" fill="#4b5563">2.11 — рабочий день</text>
+    <text x="30" y="318" font-size="14">Zapalam znicz i wspominam bliskich.</text>
+    <text x="30" y="338" font-size="12" fill="#6b7280">Зажигаю лампадку и вспоминаю близких.</text>
+  </g>
+</svg>

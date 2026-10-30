@@ -513,9 +513,9 @@
       "example": "Muszę iść do lekarza. — Мне нужно сходить к врачу.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-25"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "przychodnia",
@@ -524,9 +524,9 @@
       "example": "Przychodnia jest otwarta do osiemnastej. — Поликлиника открыта до шести вечера.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-25"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "recepta",
@@ -535,9 +535,9 @@
       "example": "Lekarz wystawił mi e-receptę. — Врач выписал мне электронный рецепт.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-25"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "apteka",
@@ -546,9 +546,9 @@
       "example": "Apteka jest obok przystanku. — Аптека рядом с остановкой.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-25"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "gorączka",
@@ -557,9 +557,9 @@
       "example": "Mam gorączkę od wczoraj. — У меня температура со вчерашнего дня.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-25"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-02"
     },
     {
       "pl": "pisać",
@@ -835,6 +835,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-30"
+    },
+    {
+      "pl": "cmentarz",
+      "ru": "кладбище",
+      "pos": "noun-m",
+      "example": "W niedzielę jedziemy na cmentarz. — В воскресенье едем на кладбище.",
+      "topic": "Wszystkich Świętych",
+      "added": "2026-10-30",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-31"
+    },
+    {
+      "pl": "znicz",
+      "ru": "лампадка (свеча в стакане)",
+      "pos": "noun-m",
+      "example": "Zapalam znicz na grobie babci. — Зажигаю лампадку на могиле бабушки.",
+      "topic": "Wszystkich Świętych",
+      "added": "2026-10-30",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-31"
+    },
+    {
+      "pl": "grób",
+      "ru": "могила",
+      "pos": "noun-m",
+      "example": "Groby są pełne kwiatów. — Могилы полны цветов.",
+      "topic": "Wszystkich Świętych",
+      "added": "2026-10-30",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-31"
+    },
+    {
+      "pl": "kwiat",
+      "ru": "цветок",
+      "pos": "noun-m",
+      "example": "Kupuję kwiaty dla mamy. — Покупаю цветы для мамы.",
+      "topic": "Wszystkich Świętych",
+      "added": "2026-10-30",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-31"
+    },
+    {
+      "pl": "wspominać",
+      "ru": "вспоминать",
+      "pos": "verb",
+      "example": "Wspominamy dziadka przy stole. — Вспоминаем дедушку за столом.",
+      "topic": "Wszystkich Świętych",
+      "added": "2026-10-30",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-10-31"
     }
   ]
 }
