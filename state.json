@@ -29,7 +29,7 @@
       "theory",
       "practice"
     ],
-    "next_index": 0
+    "next_index": 1
   },
   "srs_intervals_days": {
     "1": 1,
@@ -42,5 +42,5 @@
   "review_words_per_day": 5,
   "polish_last_run": "2026-10-30",
   "tech_last_run": "2026-10-30",
-  "electric_last_run": "2026-10-29"
+  "electric_last_run": "2026-10-30"
 }

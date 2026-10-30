@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, sans-serif" role="img" aria-label="Пороги тока через тело и защита">
+  <rect width="760" height="400" rx="12" fill="#f8fafc"/>
+  <text x="20" y="30" font-size="17" font-weight="bold" fill="#0f172a">Ток через тело (50 Гц): что чувствует человек и что срабатывает</text>
+  <!-- scale bar -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#86efac"/><stop offset="0.35" stop-color="#fde047"/>
+      <stop offset="0.6" stop-color="#fb923c"/><stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+  </defs>
+  <rect x="60" y="50" width="40" height="320" rx="6" fill="url(#g)" stroke="#334155"/>
+  <g font-size="13" fill="#0f172a">
+    <line x1="100" y1="350" x2="130" y2="350" stroke="#334155"/><text x="136" y="354"><tspan font-weight="bold">0,5 мА</tspan> — почти не чувствуется</text>
+    <line x1="100" y1="300" x2="130" y2="300" stroke="#334155"/><text x="136" y="304"><tspan font-weight="bold">1–5 мА</tspan> — покалывание, можно отпустить</text>
+    <line x1="100" y1="250" x2="130" y2="250" stroke="#334155"/><text x="136" y="254"><tspan font-weight="bold">5–10 мА</tspan> — мышцы сводит, отпустить нельзя</text>
+    <line x1="100" y1="195" x2="130" y2="195" stroke="#2563eb" stroke-width="3"/><text x="136" y="199" fill="#1d4ed8"><tspan font-weight="bold">30 мА</tspan> — порог УЗО (różnicówka): отключит за десятки мс</text>
+    <line x1="100" y1="150" x2="130" y2="150" stroke="#334155"/><text x="136" y="154"><tspan font-weight="bold">40–50 мА, дольше 1–2 с</tspan> — возможна фибрилляция сердца</text>
+    <line x1="100" y1="80" x2="130" y2="80" stroke="#b91c1c" stroke-width="3"/><text x="136" y="84" fill="#b91c1c"><tspan font-weight="bold">≈230 мА</tspan> — касание фазы на мокром полу (230 В / 1000 Ом)</text>
+  </g>
+  <!-- breaker box -->
+  <rect x="540" y="230" width="200" height="140" rx="10" fill="#fff" stroke="#64748b"/>
+  <text x="640" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Автомат B16</text>
+  <text x="640" y="278" text-anchor="middle" font-size="12" fill="#475569">мгновенно: от ~80 А</text>
+  <text x="640" y="296" text-anchor="middle" font-size="12" fill="#475569">= 80 000 мА</text>
+  <text x="640" y="322" text-anchor="middle" font-size="13" fill="#b91c1c" font-weight="bold">230 мА он не видит</text>
+  <text x="640" y="344" text-anchor="middle" font-size="12" fill="#475569">защищает провод,</text>
+  <text x="640" y="360" text-anchor="middle" font-size="12" fill="#475569">а не человека</text>
+  <!-- pulse marker -->
+  <circle cx="80" cy="80" r="7" fill="#b91c1c">
+    <animate attributeName="r" values="5;10;5" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>
