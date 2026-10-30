@@ -6,7 +6,7 @@
 ## angular
 - [x] Signals глубже: computed, effect, когда effect — антипаттерн
 - [x] linkedSignal и resource / httpResource: асинхронные данные на сигналах
-- [ ] Zoneless Angular: как работает change detection без zone.js и как мигрировать
+- [x] Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - [ ] Deferrable views (@defer): стратегии триггеров и влияние на бандл
 - [ ] Control flow (@if/@for/@switch) и почему track важен для производительности
 - [ ] Новые signal-based формы
@@ -94,3 +94,4 @@
 - 2026-10-27 · ai · AI-агенты для кодинга в команде: правила, ревью, риски
 - 2026-10-28 · backend · NestJS для Angular-разработчика: те же идеи DI и декораторов
 - 2026-10-29 · classic · Паттерны: Strategy, Facade, Adapter во фронтенде
+- 2026-10-30 · angular · Zoneless Angular: как работает change detection без zone.js и как мигрировать

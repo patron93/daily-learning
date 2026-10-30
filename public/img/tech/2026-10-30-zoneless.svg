@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect width="720" height="380" fill="#fdfcf7" rx="16"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Кто запускает change detection</text>
+  <!-- left: zone.js -->
+  <rect x="20" y="52" width="330" height="310" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="185" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#b91c1c">zone.js: «на всякий случай»</text>
+  <g font-size="13" fill="#111827">
+    <rect x="40" y="96" width="120" height="26" rx="6" fill="#fff"/><text x="100" y="114" text-anchor="middle">setTimeout</text>
+    <rect x="40" y="128" width="120" height="26" rx="6" fill="#fff"/><text x="100" y="146" text-anchor="middle">Promise.then</text>
+    <rect x="40" y="160" width="120" height="26" rx="6" fill="#fff"/><text x="100" y="178" text-anchor="middle">mousemove</text>
+    <rect x="40" y="192" width="120" height="26" rx="6" fill="#fff"/><text x="100" y="210" text-anchor="middle">XHR / fetch</text>
+    <rect x="40" y="224" width="120" height="26" rx="6" fill="#fff"/><text x="100" y="242" text-anchor="middle">чужой виджет</text>
+  </g>
+  <g stroke="#dc2626" stroke-width="2" fill="none">
+    <path d="M160 109 L200 180"/><path d="M160 141 L200 180"/><path d="M160 173 L200 180"/><path d="M160 205 L200 180"/><path d="M160 237 L200 180"/>
+  </g>
+  <rect x="200" y="160" width="130" height="40" rx="8" fill="#dc2626"/>
+  <text x="265" y="178" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">NgZone</text>
+  <text x="265" y="193" text-anchor="middle" font-size="11" fill="#fff">onMicrotaskEmpty</text>
+  <rect x="200" y="230" width="130" height="34" rx="8" fill="#7f1d1d"/>
+  <text x="265" y="252" text-anchor="middle" font-size="13" fill="#fff">tick() всего дерева</text>
+  <path d="M265 200 L265 230" stroke="#7f1d1d" stroke-width="2"/>
+  <text x="185" y="300" text-anchor="middle" font-size="13" fill="#7f1d1d">+ мутации полей «сами» видны</text>
+  <text x="185" y="322" text-anchor="middle" font-size="13" fill="#7f1d1d">− лишние проверки, ~30 КБ, стектрейсы</text>
+  <!-- right: zoneless -->
+  <rect x="370" y="52" width="330" height="310" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="535" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#15803d">zoneless: по уведомлению</text>
+  <g font-size="13" fill="#111827">
+    <rect x="390" y="96" width="140" height="26" rx="6" fill="#fff"/><text x="460" y="114" text-anchor="middle">signal.set()</text>
+    <rect x="390" y="128" width="140" height="26" rx="6" fill="#fff"/><text x="460" y="146" text-anchor="middle">(click) в шаблоне</text>
+    <rect x="390" y="160" width="140" height="26" rx="6" fill="#fff"/><text x="460" y="178" text-anchor="middle">async pipe</text>
+    <rect x="390" y="192" width="140" height="26" rx="6" fill="#fff"/><text x="460" y="210" text-anchor="middle">setInput()</text>
+    <rect x="390" y="224" width="140" height="26" rx="6" fill="#fff"/><text x="460" y="242" text-anchor="middle">markForCheck()</text>
+  </g>
+  <g stroke="#16a34a" stroke-width="2" fill="none">
+    <path d="M530 109 L560 180"/><path d="M530 141 L560 180"/><path d="M530 173 L560 180"/><path d="M530 205 L560 180"/><path d="M530 237 L560 180"/>
+  </g>
+  <rect x="560" y="160" width="125" height="40" rx="8" fill="#16a34a"/>
+  <text x="622" y="178" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">Scheduler</text>
+  <text x="622" y="193" text-anchor="middle" font-size="11" fill="#fff">один tick на кадр</text>
+  <rect x="560" y="230" width="125" height="34" rx="8" fill="#14532d"/>
+  <text x="622" y="252" text-anchor="middle" font-size="13" fill="#fff">dirty-компоненты</text>
+  <path d="M622 200 L622 230" stroke="#14532d" stroke-width="2"/>
+  <text x="535" y="300" text-anchor="middle" font-size="13" fill="#14532d">this.x = 1 в setTimeout → тишина ❗</text>
+  <text x="535" y="322" text-anchor="middle" font-size="13" fill="#14532d">состояние для шаблона = сигнал</text>
+</svg>
