@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-31",
+  "track": "polish",
+  "topic": "Числительные 1–100 и «Ile kosztuje?»",
+  "questions": [
+    {"id": "num-1", "type": "choice", "prompt": "To kosztuje trzy ___.", "options": ["złote", "złoty", "złotych", "złotego"], "answer": "złote", "explain": "После 2, 3, 4 — złote: dwa, trzy, cztery złote."},
+    {"id": "num-2", "type": "choice", "prompt": "Bilet kosztuje dwanaście ___.", "options": ["złotych", "złote", "złoty"], "answer": "złotych", "explain": "12–14 — это «-naście», после них złotych, как в русском «двенадцать рублей»."},
+    {"id": "num-3", "type": "choice", "prompt": "Как по-польски 40?", "options": ["czterdzieści", "czterdziesiąt", "sorok", "czterysta"], "answer": "czterdzieści", "explain": "20–40 на -dzieści: dwadzieścia, trzydzieści, czterdzieści. С 50 уже -dziesiąt. Czterysta — это 400."},
+    {"id": "num-4", "type": "gap", "prompt": "50 = ___ (одним словом)", "answers": ["pięćdziesiąt"], "explain": "pięć + dziesiąt: pięćdziesiąt [пеньджЕшёнт]."},
+    {"id": "num-5", "type": "choice", "prompt": "Razem dwadzieścia jeden ___.", "options": ["złotych", "złoty", "złote"], "answer": "złotych", "explain": "В составном числе на «jeden» форма как после 5+: dwadzieścia jeden złotych (в русском было бы «двадцать один рубль»)."},
+    {"id": "num-6", "type": "gap", "prompt": "___ kosztuje ten chleb? (Сколько стоит этот хлеб?)", "answers": ["Ile", "ile"], "explain": "Ile kosztuje…? — Сколько стоит…?"},
+    {"id": "num-7", "type": "choice", "prompt": "Ile ___ te jabłka?", "options": ["kosztują", "kosztuje", "stoją", "kosztujesz"], "answer": "kosztują", "explain": "Jabłka — множественное число, поэтому kosztują. Stać значит «стоять», а не «стоить»."},
+    {"id": "num-8", "type": "choice", "prompt": "Кассир говорит «czternaście dziewięćdziesiąt dziewięć». Сколько платить?", "options": ["14,99 zł", "40,99 zł", "14,09 zł", "4,99 zł"], "answer": "14,99 zł", "explain": "Czternaście = 14, dziewięćdziesiąt dziewięć = 99. Кассиры просто называют два числа."},
+    {"id": "num-9", "type": "gap", "prompt": "Mam tylko pięć ___ (grosz).", "answers": ["groszy"], "explain": "После 5+ — groszy: jeden grosz, dwa grosze, pięć groszy."},
+    {"id": "num-10", "type": "choice", "prompt": "«Слишком дорого» по-польски:", "options": ["Za drogo", "Za tanio", "Za cenę", "Bardzo droga"], "answer": "Za drogo", "explain": "Za + наречие = «слишком»: za drogo — слишком дорого, za tanio — слишком дёшево."}
+  ]
+}

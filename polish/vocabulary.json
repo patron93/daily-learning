@@ -18,9 +18,9 @@
       "example": "Mój laptop jest na biurku. — Мой ноутбук на столе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-26"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-14"
     },
     {
       "pl": "spotkanie",
@@ -29,9 +29,9 @@
       "example": "Mamy spotkanie o dziesiątej. — У нас встреча в десять.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-26"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-14"
     },
     {
       "pl": "szef",
@@ -40,9 +40,9 @@
       "example": "Szef jest dziś w biurze. — Начальник сегодня в офисе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-26"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-14"
     },
     {
       "pl": "przerwa",
@@ -51,9 +51,9 @@
       "example": "Teraz mamy przerwę na kawę. — Сейчас у нас перерыв на кофе.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-26"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-14"
     },
     {
       "pl": "zadanie",
@@ -62,9 +62,9 @@
       "example": "To zadanie jest pilne. — Эта задача срочная.",
       "topic": "IT-офис",
       "added": "2026-10-15",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-26"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-14"
     },
     {
       "pl": "sklep",
@@ -890,6 +890,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-10-31"
+    },
+    {
+      "pl": "cena",
+      "ru": "цена",
+      "pos": "noun-f",
+      "example": "Jaka jest cena tej kurtki? — Какая цена у этой куртки?",
+      "topic": "Цены и деньги",
+      "added": "2026-10-31",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-01"
+    },
+    {
+      "pl": "złoty",
+      "ru": "злотый",
+      "pos": "noun-m",
+      "example": "To kosztuje dwadzieścia złotych. — Это стоит двадцать злотых.",
+      "topic": "Цены и деньги",
+      "added": "2026-10-31",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-01"
+    },
+    {
+      "pl": "grosz",
+      "ru": "грош (1/100 злотого)",
+      "pos": "noun-m",
+      "example": "Nie mam ani grosza. — У меня ни гроша.",
+      "topic": "Цены и деньги",
+      "added": "2026-10-31",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-01"
+    },
+    {
+      "pl": "drogi",
+      "ru": "дорогой (по цене)",
+      "pos": "adj",
+      "example": "Ten ser jest za drogi. — Этот сыр слишком дорогой.",
+      "topic": "Цены и деньги",
+      "added": "2026-10-31",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-01"
+    },
+    {
+      "pl": "tani",
+      "ru": "дешёвый",
+      "pos": "adj",
+      "example": "Ten sklep jest tani. — Этот магазин дешёвый.",
+      "topic": "Цены и деньги",
+      "added": "2026-10-31",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-01"
     }
   ]
 }
