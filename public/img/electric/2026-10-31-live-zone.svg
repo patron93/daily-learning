@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Arial, sans-serif">
+  <rect width="680" height="320" fill="#fdfcf7" rx="16"/>
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">Главный выключатель выключен. Что всё ещё под напряжением?</text>
+  <!-- live zone -->
+  <rect x="20" y="50" width="330" height="200" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="185" y="72" text-anchor="middle" font-size="14" font-weight="bold" fill="#b91c1c">ПОД НАПРЯЖЕНИЕМ ВСЕГДА</text>
+  <rect x="40" y="110" width="80" height="60" rx="8" fill="#fff" stroke="#374151" stroke-width="2"/>
+  <text x="80" y="137" text-anchor="middle" font-size="13" fill="#111827">Сеть</text>
+  <text x="80" y="155" text-anchor="middle" font-size="12" fill="#6b7280">OSD</text>
+  <rect x="160" y="105" width="90" height="70" rx="8" fill="#fff" stroke="#374151" stroke-width="2"/>
+  <text x="205" y="135" text-anchor="middle" font-size="13" fill="#111827">Счётчик</text>
+  <text x="205" y="153" text-anchor="middle" font-size="12" fill="#6b7280">licznik</text>
+  <line x1="120" y1="140" x2="160" y2="140" stroke="#dc2626" stroke-width="4">
+    <animate attributeName="stroke-opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="250" y1="140" x2="330" y2="140" stroke="#dc2626" stroke-width="4">
+    <animate attributeName="stroke-opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </line>
+  <text x="290" y="128" text-anchor="middle" font-size="11" fill="#b91c1c">вход</text>
+  <text x="185" y="210" text-anchor="middle" font-size="12" fill="#7f1d1d">зона OSD и электрика с SEP —</text>
+  <text x="185" y="228" text-anchor="middle" font-size="12" fill="#7f1d1d">не трогать, входные клеммы закрыть</text>
+  <!-- switch -->
+  <rect x="330" y="108" width="50" height="64" rx="6" fill="#e5e7eb" stroke="#111827" stroke-width="2"/>
+  <line x1="342" y1="150" x2="368" y2="128" stroke="#111827" stroke-width="3"/>
+  <text x="355" y="190" text-anchor="middle" font-size="11" fill="#111827">главный</text>
+  <text x="355" y="204" text-anchor="middle" font-size="11" fill="#111827">OFF</text>
+  <!-- dead zone -->
+  <rect x="395" y="50" width="265" height="200" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="527" y="72" text-anchor="middle" font-size="14" font-weight="bold" fill="#15803d">ОТКЛЮЧЕНО*</text>
+  <line x1="380" y1="140" x2="420" y2="140" stroke="#9ca3af" stroke-width="4"/>
+  <rect x="420" y="95" width="16" height="90" fill="#9ca3af"/>
+  <text x="428" y="200" text-anchor="middle" font-size="11" fill="#374151">шина</text>
+  <g fill="#fff" stroke="#374151" stroke-width="1.5">
+    <rect x="460" y="92" width="34" height="50" rx="4"/><rect x="504" y="92" width="34" height="50" rx="4"/>
+    <rect x="548" y="92" width="34" height="50" rx="4"/><rect x="592" y="92" width="34" height="50" rx="4"/>
+  </g>
+  <g font-size="10" text-anchor="middle" fill="#111827">
+    <text x="477" y="121">B10</text><text x="521" y="121">B16</text><text x="565" y="121">B16</text><text x="609" y="121">B20</text>
+  </g>
+  <line x1="436" y1="117" x2="460" y2="117" stroke="#9ca3af" stroke-width="2"/>
+  <text x="527" y="170" text-anchor="middle" font-size="12" fill="#14532d">линии квартиры</text>
+  <text x="527" y="210" text-anchor="middle" font-size="12" fill="#14532d">*только после проверки</text>
+  <text x="527" y="228" text-anchor="middle" font-size="12" fill="#14532d">индикатором (правило 3)</text>
+  <!-- backfeed note -->
+  <rect x="150" y="265" width="380" height="40" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="340" y="283" text-anchor="middle" font-size="13" fill="#111827">Есть PV, генератор, ИБП или аккумулятор?</text>
+  <text x="340" y="299" text-anchor="middle" font-size="13" fill="#111827">Они могут подать напряжение «сзади» — отключи и их</text>
+</svg>
