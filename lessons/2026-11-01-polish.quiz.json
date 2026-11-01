@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-01",
+  "track": "polish",
+  "topic": "Посылки и почта: nadać, odebrać, awizo",
+  "questions": [
+    {"id": "pc-1", "type": "choice", "prompt": "Chcę nadać paczkę do Mińska. Что хочет человек?", "options": ["Отправить посылку в Минск.", "Получить посылку из Минска.", "Надавать посылок в Минске.", "Отследить посылку до Минска."], "answer": "Отправить посылку в Минск.", "explain": "Nadać — сдать на отправку, отправить. Получить — odebrać."},
+    {"id": "pc-2", "type": "choice", "prompt": "SMS: «Paczka czeka na odbiór». Что значит odbiór?", "options": ["получение", "отбор", "отказ", "оплата"], "answer": "получение", "explain": "Odbiór — получение (от odebrać). Ложный друг: не «отбор»."},
+    {"id": "pc-3", "type": "gap", "prompt": "Muszę ___ paczkę z paczkomatu. (забрать)", "answers": ["odebrać"], "explain": "Odebrać paczkę — забрать посылку (сов. вид)."},
+    {"id": "pc-4", "type": "choice", "prompt": "Что такое list polecony?", "options": ["заказное письмо, выдаётся под подпись", "письмо авиапочтой", "рекламная рассылка", "письмо без марки"], "answer": "заказное письмо, выдаётся под подпись", "explain": "Polecony — от polecić (поручить, рекомендовать), а не от «полёта». Официальные бумаги приходят listem poleconym."},
+    {"id": "pc-5", "type": "choice", "prompt": "В ящике лежит awizo. Что делать?", "options": ["Идти на почту за отправлением", "Оплатить счёт за свет", "Ничего, это реклама", "Позвонить в urząd"], "answer": "Идти на почту за отправлением", "explain": "Awizo — извещение: тебя не застали дома, отправление ждёт на почте (обычно 14 дней)."},
+    {"id": "pc-6", "type": "choice", "prompt": "Zamówiłem za pobraniem. Как я плачу?", "options": ["при получении", "заранее картой", "в рассрочку", "никак, это подарок"], "answer": "при получении", "explain": "Za pobraniem — наложенным платежом, оплата при получении."},
+    {"id": "pc-7", "type": "choice", "prompt": "Кто такой odbiorca?", "options": ["получатель", "отправитель", "курьер", "почтальон"], "answer": "получатель", "explain": "Odbiorca — получатель, nadawca — отправитель."},
+    {"id": "pc-8", "type": "gap", "prompt": "Idę na ___. (почта, вин. падеж)", "answers": ["pocztę"], "explain": "Iść na + biernik: poczta → pocztę (-a → -ę)."},
+    {"id": "pc-9", "type": "choice", "prompt": "Mogę ___ przesyłkę w aplikacji. (отслеживать)", "options": ["śledzić", "nadać", "podpisać", "zwrócić"], "answer": "śledzić", "explain": "Śledzić przesyłkę — отслеживать отправление."},
+    {"id": "pc-10", "type": "choice", "prompt": "Paczka chusteczek — это…", "options": ["пачка салфеток", "посылка с платками", "компания друзей", "коробка конфет"], "answer": "пачка салфеток", "explain": "Paczka — и посылка, и пачка: paczka papierosów, paczka chusteczek."}
+  ]
+}

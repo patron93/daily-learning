@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="Arial, sans-serif">
+  <rect width="680" height="300" fill="#fdfcf7" rx="16"/>
+  <text x="340" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">Путь посылки · droga paczki</text>
+  <line x1="95" y1="120" x2="585" y2="120" stroke="#9ca3af" stroke-width="4" stroke-dasharray="10 8"/>
+  <g>
+    <circle cx="95" cy="120" r="42" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="95" y="116" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">nadać</text>
+    <text x="95" y="134" text-anchor="middle" font-size="12" fill="#1e3a8a">отправить</text>
+    <text x="95" y="190" text-anchor="middle" font-size="13" fill="#374151">nadawca</text>
+    <text x="95" y="207" text-anchor="middle" font-size="12" fill="#6b7280">отправитель</text>
+  </g>
+  <g>
+    <circle cx="258" cy="120" r="42" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="258" y="116" text-anchor="middle" font-size="15" font-weight="bold" fill="#78350f">w drodze</text>
+    <text x="258" y="134" text-anchor="middle" font-size="12" fill="#78350f">в пути</text>
+    <text x="258" y="190" text-anchor="middle" font-size="13" fill="#374151">śledzić przesyłkę</text>
+    <text x="258" y="207" text-anchor="middle" font-size="12" fill="#6b7280">отслеживать</text>
+  </g>
+  <g>
+    <circle cx="421" cy="120" r="42" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="421" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#7f1d1d">awizo /</text>
+    <text x="421" y="128" text-anchor="middle" font-size="14" font-weight="bold" fill="#7f1d1d">paczkomat</text>
+    <text x="421" y="190" text-anchor="middle" font-size="13" fill="#374151">kod odbioru</text>
+    <text x="421" y="207" text-anchor="middle" font-size="12" fill="#6b7280">код получения</text>
+  </g>
+  <g>
+    <circle cx="585" cy="120" r="42" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="585" y="116" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">odebrać</text>
+    <text x="585" y="134" text-anchor="middle" font-size="12" fill="#14532d">забрать</text>
+    <text x="585" y="190" text-anchor="middle" font-size="13" fill="#374151">odbiorca</text>
+    <text x="585" y="207" text-anchor="middle" font-size="12" fill="#6b7280">получатель</text>
+  </g>
+  <rect x="80" y="225" width="20" height="16" fill="#b45309" rx="2">
+    <animate attributeName="x" values="80;575;575" keyTimes="0;0.85;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="340" y="275" text-anchor="middle" font-size="13" fill="#4b5563">14 dni na odbiór → potem zwrot do nadawcy (возврат отправителю)</text>
+</svg>

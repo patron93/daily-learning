@@ -293,9 +293,9 @@
       "example": "Szukam mieszkania w Warszawie. — Я ищу квартиру в Варшаве.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-26"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-08"
     },
     {
       "pl": "pokój",
@@ -304,9 +304,9 @@
       "example": "Mieszkanie ma dwa pokoje. — В квартире две комнаты.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-26"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-08"
     },
     {
       "pl": "czynsz",
@@ -315,9 +315,9 @@
       "example": "Czynsz jest do dziesiątego. — Квартплата до десятого числа.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-26"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-08"
     },
     {
       "pl": "sąsiad",
@@ -326,9 +326,9 @@
       "example": "Mój sąsiad jest bardzo miły. — Мой сосед очень приятный.",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-26"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-08"
     },
     {
       "pl": "klucz",
@@ -337,9 +337,9 @@
       "example": "Gdzie są klucze do mieszkania? — Где ключи от квартиры?",
       "topic": "дом и квартира",
       "added": "2026-10-20",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-26"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-08"
     },
     {
       "pl": "chleb",
@@ -945,6 +945,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-01"
+    },
+    {
+      "pl": "poczta",
+      "ru": "почта",
+      "pos": "noun-f",
+      "example": "Idę na pocztę. — Я иду на почту.",
+      "topic": "Почта и посылки",
+      "added": "2026-11-01",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-02"
+    },
+    {
+      "pl": "paczka",
+      "ru": "посылка; пачка",
+      "pos": "noun-f",
+      "example": "Mam paczkę z Allegro. — У меня посылка с Allegro.",
+      "topic": "Почта и посылки",
+      "added": "2026-11-01",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-02"
+    },
+    {
+      "pl": "przesyłka",
+      "ru": "отправление (письмо или посылка)",
+      "pos": "noun-f",
+      "example": "Twoja przesyłka jest w drodze. — Твоё отправление в пути.",
+      "topic": "Почта и посылки",
+      "added": "2026-11-01",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-02"
+    },
+    {
+      "pl": "adres",
+      "ru": "адрес",
+      "pos": "noun-m",
+      "example": "Proszę podać adres. — Пожалуйста, укажите адрес.",
+      "topic": "Почта и посылки",
+      "added": "2026-11-01",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-02"
+    },
+    {
+      "pl": "odebrać",
+      "ru": "забрать, получить",
+      "pos": "verb",
+      "example": "Muszę odebrać paczkę. — Мне нужно забрать посылку.",
+      "topic": "Почта и посылки",
+      "added": "2026-11-01",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-02"
     }
   ]
 }
