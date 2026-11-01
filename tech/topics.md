@@ -96,3 +96,4 @@
 - 2026-10-29 · classic · Паттерны: Strategy, Facade, Adapter во фронтенде
 - 2026-10-30 · angular · Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - 2026-10-31 · leadership · Code review как инструмент роста, а не бутылочное горлышко
+- 2026-11-01 · news · Node.js 26 стал LTS «Lithium» (28.10.2026): план обновления для Angular-команды
