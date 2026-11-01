@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+  <rect width="720" height="360" fill="#fdfcf7" rx="16"/>
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1f2937">Три прибора — три разные работы</text>
+  <!-- screwdriver -->
+  <rect x="20" y="50" width="220" height="290" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="130" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#7f1d1d">Отвёртка-пробник</text>
+  <text x="130" y="94" text-anchor="middle" font-size="11" fill="#7f1d1d">próbnik neonowy</text>
+  <rect x="122" y="104" width="16" height="70" rx="6" fill="#fde68a" stroke="#92400e"/>
+  <circle cx="130" cy="140" r="5" fill="#f97316"><animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <line x1="130" y1="174" x2="130" y2="200" stroke="#6b7280" stroke-width="4"/>
+  <text x="130" y="222" text-anchor="middle" font-size="12" fill="#374151">цепь: фаза → лампа →</text>
+  <text x="130" y="238" text-anchor="middle" font-size="12" fill="#374151">ТЫ → пол → земля</text>
+  <text x="130" y="268" text-anchor="middle" font-size="12" fill="#b91c1c">✗ сухая обувь = не светится</text>
+  <text x="130" y="286" text-anchor="middle" font-size="12" fill="#b91c1c">✗ не видит N–PE</text>
+  <text x="130" y="318" text-anchor="middle" font-size="13" font-weight="bold" fill="#7f1d1d">искать фазу, не проверять</text>
+  <!-- indicator -->
+  <rect x="250" y="50" width="220" height="290" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="360" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532d">Двухполюсный индикатор</text>
+  <text x="360" y="94" text-anchor="middle" font-size="11" fill="#14532d">PN-EN 61243-3</text>
+  <rect x="300" y="106" width="24" height="70" rx="8" fill="#facc15" stroke="#854d0e"/>
+  <rect x="396" y="106" width="24" height="70" rx="8" fill="#facc15" stroke="#854d0e"/>
+  <path d="M312 176 Q360 215 408 176" fill="none" stroke="#111827" stroke-width="3"/>
+  <g font-size="9" fill="#14532d"><text x="330" y="118">400</text><text x="330" y="132">230</text><text x="330" y="146">120</text><text x="334" y="160">50</text></g>
+  <circle cx="345" cy="128" r="4" fill="#16a34a"><animate attributeName="fill" values="#16a34a;#bbf7d0;#16a34a" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="360" y="232" text-anchor="middle" font-size="12" fill="#374151">напряжение МЕЖДУ щупами,</text>
+  <text x="360" y="248" text-anchor="middle" font-size="12" fill="#374151">тело не участвует</text>
+  <text x="360" y="272" text-anchor="middle" font-size="12" fill="#15803d">✓ L–N, L–PE, N–PE</text>
+  <text x="360" y="290" text-anchor="middle" font-size="12" fill="#15803d">✓ нагрузка гасит наводку</text>
+  <text x="360" y="318" text-anchor="middle" font-size="13" font-weight="bold" fill="#14532d">проверять отсутствие U</text>
+  <!-- multimeter -->
+  <rect x="480" y="50" width="220" height="290" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="590" y="76" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">Мультиметр</text>
+  <text x="590" y="94" text-anchor="middle" font-size="11" fill="#1e3a8a">multimetr</text>
+  <rect x="545" y="104" width="90" height="100" rx="10" fill="#1f2937"/>
+  <rect x="555" y="112" width="70" height="24" rx="3" fill="#a7f3d0"/>
+  <text x="590" y="130" text-anchor="middle" font-size="14" font-family="monospace" fill="#064e3b">26.5Ω</text>
+  <circle cx="560" cy="188" r="7" fill="#ef4444" stroke="#fff"/><text x="560" y="182" text-anchor="middle" font-size="7" fill="#fff" dy="-8">A</text>
+  <circle cx="590" cy="188" r="7" fill="#111" stroke="#fff"/>
+  <circle cx="620" cy="188" r="7" fill="#ef4444" stroke="#fff"/>
+  <g font-size="9" fill="#fff" text-anchor="middle"><text x="560" y="172">A</text><text x="590" y="172">COM</text><text x="620" y="172">VΩ</text></g>
+  <text x="590" y="232" text-anchor="middle" font-size="12" fill="#374151">измеряет числа: V, Ω, A</text>
+  <text x="590" y="256" text-anchor="middle" font-size="12" fill="#15803d">✓ Ω на обесточенном приборе</text>
+  <text x="590" y="274" text-anchor="middle" font-size="12" fill="#b91c1c">✗ щуп в A на фазе = КЗ</text>
+  <text x="590" y="292" text-anchor="middle" font-size="12" fill="#b91c1c">✗ 10 МОм видит наводку</text>
+  <text x="590" y="318" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">диагностика и прозвонка</text>
+</svg>
