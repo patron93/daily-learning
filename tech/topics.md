@@ -35,7 +35,7 @@
 ## architecture
 - [x] Монорепо: Nx, границы модулей, enforce-module-boundaries
 - [x] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
-- [ ] Feature-sliced / domain-driven структура фронтенда
+- [x] Feature-sliced / domain-driven структура фронтенда
 - [ ] Дизайн-системы и библиотеки компонентов: версионирование, токены
 - [ ] State management: классификация состояний (server, UI, URL, form)
 - [ ] BFF (Backend for Frontend) и API-контракты (OpenAPI, генерация клиентов)
@@ -97,3 +97,4 @@
 - 2026-10-30 · angular · Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - 2026-10-31 · leadership · Code review как инструмент роста, а не бутылочное горлышко
 - 2026-11-01 · news · Node.js 26 стал LTS «Lithium» (28.10.2026): план обновления для Angular-команды
+- 2026-11-02 · architecture · Feature-sliced / domain-driven структура фронтенда
