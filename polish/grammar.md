@@ -13,7 +13,7 @@
 - [x] (2026-10-27) Отрицание nie + родительный падеж (mam kawę → nie mam kawy)
 - [x] (2026-10-29) Винительный падеж (biernik): кого? что?
 - [x] (2026-10-31) Числительные 1–100 и «ile kosztuje?»
-- [ ] Mianownik vs narzędnik: «Jestem programistą»
+- [x] (2026-11-02) Mianownik vs narzędnik: «Jestem programistą»
 - [ ] Вежливые формы: Pan / Pani / Państwo
 
 ## A2

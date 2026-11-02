@@ -568,9 +568,9 @@
       "example": "Piszę maila do klienta. — Я пишу письмо клиенту.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-26"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "mówić",
@@ -579,9 +579,9 @@
       "example": "Mówię trochę po polsku. — Я немного говорю по-польски.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-26"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "robić",
@@ -590,9 +590,9 @@
       "example": "Co robisz w weekend? — Что делаешь на выходных?",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-26"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "uczyć się",
@@ -601,9 +601,9 @@
       "example": "Uczę się polskiego codziennie. — Я учу польский каждый день.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-26"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "iść",
@@ -612,9 +612,9 @@
       "example": "Idę na spotkanie. — Я иду на встречу.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-26"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-05"
     },
     {
       "pl": "kawa",
@@ -1000,6 +1000,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-02"
+    },
+    {
+      "pl": "programista",
+      "ru": "программист",
+      "pos": "noun-m",
+      "example": "Mój brat jest programistą. — Мой брат программист.",
+      "topic": "профессии",
+      "added": "2026-11-02",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-03"
+    },
+    {
+      "pl": "nauczyciel",
+      "ru": "учитель",
+      "pos": "noun-m",
+      "example": "Jestem nauczycielem angielskiego. — Я учитель английского.",
+      "topic": "профессии",
+      "added": "2026-11-02",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-03"
+    },
+    {
+      "pl": "kierowca",
+      "ru": "водитель",
+      "pos": "noun-m",
+      "example": "Kierowca autobusu jest miły. — Водитель автобуса приветливый.",
+      "topic": "профессии",
+      "added": "2026-11-02",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-03"
+    },
+    {
+      "pl": "pielęgniarka",
+      "ru": "медсестра",
+      "pos": "noun-f",
+      "example": "Moja żona jest pielęgniarką. — Моя жена медсестра.",
+      "topic": "профессии",
+      "added": "2026-11-02",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-03"
+    },
+    {
+      "pl": "inżynier",
+      "ru": "инженер",
+      "pos": "noun-m",
+      "example": "On jest inżynierem w dużej firmie. — Он инженер в большой фирме.",
+      "topic": "профессии",
+      "added": "2026-11-02",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-03"
     }
   ]
 }

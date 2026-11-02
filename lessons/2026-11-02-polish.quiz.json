@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-02",
+  "track": "polish",
+  "topic": "Mianownik vs narzędnik: «Jestem programistą»",
+  "questions": [
+    {
+      "id": "nz-1",
+      "type": "choice",
+      "prompt": "Mój brat jest ___ (programista).",
+      "options": [
+        "programistą",
+        "programista",
+        "programistę",
+        "programisty"
+      ],
+      "answer": "programistą",
+      "explain": "Być + существительное → narzędnik. Мужской род на -a: -a → -ą."
+    },
+    {
+      "id": "nz-2",
+      "type": "gap",
+      "prompt": "Jestem ___ (inżynier) w dużej firmie.",
+      "answers": [
+        "inżynierem"
+      ],
+      "explain": "Мужской род на согласный: + -em."
+    },
+    {
+      "id": "nz-3",
+      "type": "choice",
+      "prompt": "Какая фраза правильная?",
+      "options": [
+        "To jest kierowca.",
+        "To jest kierowcą.",
+        "To jest kierowcę.",
+        "To jest kierowcy."
+      ],
+      "answer": "To jest kierowca.",
+      "explain": "После «to jest» — именительный падеж (mianownik)."
+    },
+    {
+      "id": "nz-4",
+      "type": "gap",
+      "prompt": "Moja żona jest ___ (pielęgniarka).",
+      "answers": [
+        "pielęgniarką"
+      ],
+      "explain": "Женский род: -a → -ą."
+    },
+    {
+      "id": "nz-5",
+      "type": "choice",
+      "prompt": "Jestem ___ (zmęczony).",
+      "options": [
+        "zmęczony",
+        "zmęczonym",
+        "zmęczonego",
+        "zmęczoną"
+      ],
+      "answer": "zmęczony",
+      "explain": "Одно прилагательное без существительного после być остаётся в именительном."
+    },
+    {
+      "id": "nz-6",
+      "type": "choice",
+      "prompt": "On jest ___ nauczycielem.",
+      "options": [
+        "dobrym",
+        "dobry",
+        "dobrego",
+        "dobrą"
+      ],
+      "answer": "dobrym",
+      "explain": "Прилагательное согласуется с существительным в творительном: dobrym nauczycielem."
+    },
+    {
+      "id": "nz-7",
+      "type": "gap",
+      "prompt": "Wcześniej byłem ___ (nauczyciel).",
+      "answers": [
+        "nauczycielem"
+      ],
+      "explain": "И в прошедшем времени być + narzędnik: byłem nauczycielem."
+    },
+    {
+      "id": "nz-8",
+      "type": "choice",
+      "prompt": "Как спросить «Кто ты по профессии?»",
+      "options": [
+        "Kim jesteś z zawodu?",
+        "Kto jesteś z zawodu?",
+        "Co jesteś z zawodu?",
+        "Kogo jesteś z zawodu?"
+      ],
+      "answer": "Kim jesteś z zawodu?",
+      "explain": "Kim — творительный от kto, ответ тоже в творительном: Jestem programistą."
+    },
+    {
+      "id": "nz-9",
+      "type": "choice",
+      "prompt": "Narzędnik от «Polak»:",
+      "options": [
+        "Polakiem",
+        "Polakem",
+        "Polaką",
+        "Polaka"
+      ],
+      "answer": "Polakiem",
+      "explain": "После k и g окончание -iem: Polakiem, Belgiem."
+    },
+    {
+      "id": "nz-10",
+      "type": "gap",
+      "prompt": "Ona jest ___ (lekarz).",
+      "answers": [
+        "lekarzem"
+      ],
+      "explain": "Lekarz — мужской род на согласный: + -em. Так говорят и о женщине: Ona jest lekarzem."
+    }
+  ]
+}
