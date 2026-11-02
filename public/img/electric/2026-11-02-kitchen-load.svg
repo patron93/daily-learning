@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="Arial, sans-serif">
+  <rect width="680" height="340" fill="#fffdf7" rx="16"/>
+  <text x="340" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Одна линия розеток на кухне: токи складываются</text>
+  <rect x="30" y="70" width="110" height="170" rx="10" fill="#e5e7eb" stroke="#374151" stroke-width="2"/>
+  <text x="85" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">Щит</text>
+  <rect x="55" y="120" width="60" height="70" rx="6" fill="#ffffff" stroke="#374151"/>
+  <text x="85" y="152" text-anchor="middle" font-size="14" fill="#111827">линия</text>
+  <text x="85" y="172" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">16 А</text>
+  <line x1="140" y1="155" x2="620" y2="155" stroke="#dc2626" stroke-width="7"/>
+  <circle r="6" fill="#facc15"><animateMotion dur="1.6s" repeatCount="indefinite" path="M140,155 L620,155"/></circle>
+  <circle r="6" fill="#facc15"><animateMotion dur="1.6s" begin="0.5s" repeatCount="indefinite" path="M140,155 L620,155"/></circle>
+  <circle r="6" fill="#facc15"><animateMotion dur="1.6s" begin="1s" repeatCount="indefinite" path="M140,155 L620,155"/></circle>
+  <text x="250" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#b91c1c">23,7 А &gt; 16 А</text>
+  <g font-size="14" fill="#111827" text-anchor="middle">
+    <line x1="330" y1="155" x2="330" y2="215" stroke="#6b7280" stroke-width="3"/>
+    <rect x="270" y="215" width="120" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="330" y="242" font-weight="bold">Чайник</text><text x="330" y="264">2200 Вт · 9,6 А</text>
+    <line x1="460" y1="155" x2="460" y2="215" stroke="#6b7280" stroke-width="3"/>
+    <rect x="400" y="215" width="120" height="70" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="460" y="242" font-weight="bold">Микроволновка</text><text x="460" y="264">1250 Вт · 5,4 А</text>
+    <line x1="590" y1="155" x2="590" y2="215" stroke="#6b7280" stroke-width="3"/>
+    <rect x="530" y="215" width="130" height="70" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="595" y="242" font-weight="bold">Посудомойка</text><text x="595" y="264">2000 Вт · 8,7 А</text>
+  </g>
+  <text x="340" y="318" text-anchor="middle" font-size="14" fill="#374151">I = P / 230 В для каждого прибора, по общему кабелю идёт сумма: 9,6 + 5,4 + 8,7 = 23,7 А</text>
+</svg>

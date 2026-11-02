@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="Arial, sans-serif">
+  <rect width="680" height="320" fill="#fffdf7" rx="16"/>
+  <text x="340" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Ток один и тот же — 10 А. Нагрев разный: P = I² × R</text>
+  <rect x="30" y="56" width="300" height="230" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+  <text x="180" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Хороший контакт</text>
+  <rect x="60" y="110" width="110" height="34" fill="#b45309"/>
+  <rect x="170" y="104" width="110" height="46" rx="4" fill="#9ca3af"/>
+  <text x="180" y="186" text-anchor="middle" font-size="15" fill="#111827">R = 0,005 Ом</text>
+  <text x="180" y="212" text-anchor="middle" font-size="15" fill="#111827">10 × 10 × 0,005 = 0,5 Вт</text>
+  <text x="180" y="250" text-anchor="middle" font-size="14" fill="#15803d">чуть тёплый</text>
+  <rect x="350" y="56" width="300" height="230" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="500" y="84" text-anchor="middle" font-size="16" font-weight="bold" fill="#b91c1c">Плохой контакт (не дотянут винт)</text>
+  <rect x="380" y="110" width="110" height="34" fill="#b45309"/>
+  <rect x="496" y="104" width="110" height="46" rx="4" fill="#9ca3af"/>
+  <circle cx="493" cy="127" r="10" fill="#f97316">
+    <animate attributeName="r" values="7;14;7" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#f97316;#dc2626;#f97316" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="500" y="186" text-anchor="middle" font-size="15" fill="#111827">R = 0,1 Ом</text>
+  <text x="500" y="212" text-anchor="middle" font-size="15" fill="#111827">10 × 10 × 0,1 = 10 Вт</text>
+  <text x="500" y="250" text-anchor="middle" font-size="14" fill="#b91c1c">как паяльник в точке → пластик плавится</text>
+  <text x="340" y="308" text-anchor="middle" font-size="14" fill="#374151">Автомат видит только ток в линии (10 А — норма), поэтому перегрев контакта он не заметит</text>
+</svg>
