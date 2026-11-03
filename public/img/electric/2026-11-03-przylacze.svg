@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Arial, sans-serif">
+<rect width="720" height="300" fill="#fffdf7" rx="16"/>
+<text x="360" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">От трансформатора до щита: что чьё</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#374151"/></marker></defs>
+<rect x="20" y="90" width="100" height="80" rx="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+<text x="70.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Трансформатор</text>
+<text x="70.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">OSD, 230/400 В</text>
+<line x1="120" y1="130" x2="136" y2="130" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+<rect x="136" y="90" width="100" height="80" rx="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+<text x="186.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Przyłącze</text>
+<text x="186.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">кабель/линия OSD</text>
+<line x1="236" y1="130" x2="252" y2="130" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+<rect x="252" y="90" width="100" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="302.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Złącze</text>
+<text x="302.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">предохранители OSD</text>
+<line x1="352" y1="130" x2="368" y2="130" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+<rect x="368" y="90" width="100" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="418.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Licznik</text>
+<text x="418.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">+ zabezp. przedlicznikowe</text>
+<line x1="468" y1="130" x2="484" y2="130" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+<rect x="484" y="90" width="100" height="80" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="534.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">WLZ</text>
+<text x="534.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">стояк / линия к щиту</text>
+<line x1="584" y1="130" x2="600" y2="130" stroke="#374151" stroke-width="2" marker-end="url(#a)"/>
+<rect x="600" y="90" width="100" height="80" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="650.0" y="124" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Rozdzielnica</text>
+<text x="650.0" y="146" text-anchor="middle" font-size="10.5" fill="#374151">твой щит</text>
+<line x1="476" y1="66" x2="476" y2="200" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="476" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">после счётчика — без пломб OSD</text>
+<rect x="20" y="214" width="448" height="30" rx="8" fill="#fef2f2" stroke="#dc2626"/><text x="244" y="234" text-anchor="middle" font-size="13" fill="#991b1b">Зона оператора: пломбы, не трогать. Изменения — wniosek do OSD</text>
+<rect x="484" y="214" width="216" height="30" rx="8" fill="#ecfdf5" stroke="#16a34a"/><text x="592" y="234" text-anchor="middle" font-size="13" fill="#166534">Зона владельца / дома</text>
+<text x="360" y="276" text-anchor="middle" font-size="13" fill="#374151">Moc przyłączeniowa задаёт «ширину трубы»: какой предохранитель стоит перед счётчиком</text>
+</svg>
