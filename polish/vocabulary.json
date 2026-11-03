@@ -623,9 +623,9 @@
       "example": "Idziemy na kawę? — Пойдём на кофе?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-27"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-06"
     },
     {
       "pl": "ciastko",
@@ -634,9 +634,9 @@
       "example": "Do kawy biorę ciastko. — К кофе я беру пирожное.",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-27"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-06"
     },
     {
       "pl": "kubek",
@@ -645,9 +645,9 @@
       "example": "To mój kubek, nie twój! — Это моя кружка, не твоя!",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-27"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-06"
     },
     {
       "pl": "cukier",
@@ -656,9 +656,9 @@
       "example": "Pijesz kawę z cukrem? — Ты пьёшь кофе с сахаром?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-27"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-06"
     },
     {
       "pl": "chwila",
@@ -667,9 +667,9 @@
       "example": "Masz chwilę? — Есть минутка?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-27"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-06"
     },
     {
       "pl": "lodówka",
@@ -1055,6 +1055,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-03"
+    },
+    {
+      "pl": "miesiąc",
+      "ru": "месяц",
+      "pos": "noun-m",
+      "example": "Za miesiąc mam urlop. — Через месяц у меня отпуск.",
+      "topic": "Месяцы и календарь",
+      "added": "2026-11-03",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-04"
+    },
+    {
+      "pl": "tydzień",
+      "ru": "неделя",
+      "pos": "noun-m",
+      "example": "W tym tygodniu pracuję z domu. — На этой неделе я работаю из дома.",
+      "topic": "Месяцы и календарь",
+      "added": "2026-11-03",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-04"
+    },
+    {
+      "pl": "jesień",
+      "ru": "осень",
+      "pos": "noun-f",
+      "example": "Jesień w Polsce jest deszczowa. — Осень в Польше дождливая.",
+      "topic": "Месяцы и календарь",
+      "added": "2026-11-03",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-04"
+    },
+    {
+      "pl": "święto",
+      "ru": "праздник",
+      "pos": "noun-n",
+      "example": "Jedenastego listopada jest święto. — Одиннадцатого ноября праздник.",
+      "topic": "Месяцы и календарь",
+      "added": "2026-11-03",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-04"
+    },
+    {
+      "pl": "kalendarz",
+      "ru": "календарь",
+      "pos": "noun-m",
+      "example": "Sprawdzę w kalendarzu. — Проверю в календаре.",
+      "topic": "Месяцы и календарь",
+      "added": "2026-11-03",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-04"
     }
   ]
 }

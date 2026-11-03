@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-03",
+  "track": "polish",
+  "topic": "Названия месяцев: откуда они и как о них говорить",
+  "questions": [
+    {"id": "ms-1", "type": "choice", "prompt": "Listopad — это какой месяц?", "options": ["октябрь", "ноябрь", "сентябрь", "декабрь"], "answer": "ноябрь", "explain": "Listopad — «листья падают», ноябрь, как белорусский лістапад. В хорватском listopad — октябрь, не перепутай."},
+    {"id": "ms-2", "type": "choice", "prompt": "Октябрь по-польски — …", "options": ["październik", "listopad", "wrzesień", "grudzień"], "answer": "październik", "explain": "Październik от paździerze — костры льна. Белорусский кастрычнік назван по той же костре."},
+    {"id": "ms-3", "type": "choice", "prompt": "От какого растения назван wrzesień?", "options": ["вереск (wrzos)", "липа (lipa)", "лён", "роза"], "answer": "вереск (wrzos)", "explain": "Wrzesień — месяц, когда цветёт вереск (wrzos). По-белорусски верасень."},
+    {"id": "ms-4", "type": "gap", "prompt": "Mam urodziny w ___ (lipiec).", "answers": ["lipcu"], "explain": "W + местный падеж: lipiec → w lipcu (беглое -ie- выпадает)."},
+    {"id": "ms-5", "type": "choice", "prompt": "Как сказать «в феврале»?", "options": ["w lutym", "w lutu", "w lutie", "w lutej"], "answer": "w lutym", "explain": "Luty склоняется как прилагательное мужского рода: w lutym — как w dobrym."},
+    {"id": "ms-6", "type": "gap", "prompt": "Święto Niepodległości jest w ___ (listopad).", "answers": ["listopadzie"], "explain": "Listopad → w listopadzie: d перед -e смягчается в dzi, как w ogrodzie."},
+    {"id": "ms-7", "type": "choice", "prompt": "Как правильно написать по-польски?", "options": ["w październiku", "w Październiku", "w październiu", "we październik"], "answer": "w październiku", "explain": "Месяцы пишутся с маленькой буквы, местный падеж: październik → w październiku."},
+    {"id": "ms-8", "type": "gap", "prompt": "Dzieci idą do szkoły ___ wrześniu.", "answers": ["we"], "explain": "Перед стечением согласных w- предлог становится we: we wrześniu, we Wrocławiu."},
+    {"id": "ms-9", "type": "choice", "prompt": "Czerwiec — это…", "options": ["июнь", "июль", "август", "май"], "answer": "июнь", "explain": "Czerwiec — июнь (белорусский чэрвень). Июль — lipiec. Назван по жучку-червецу для красной краски."},
+    {"id": "ms-10", "type": "choice", "prompt": "Как по-польски «третьего ноября»?", "options": ["trzeciego listopada", "trzeci listopad", "trzecim listopadzie", "trzeciego listopad"], "answer": "trzeciego listopada", "explain": "Дата в родительном падеже: и числительное, и месяц — trzeciego listopada, как по-русски «третьего ноября»."}
+  ]
+}
