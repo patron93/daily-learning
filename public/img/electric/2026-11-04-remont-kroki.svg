@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="Arial, sans-serif">
+<rect width="720" height="250" fill="#fffdf7" rx="16"/>
+<text x="360" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Замена проводки: шаги и точки контроля</text>
+<defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#374151"/></marker></defs>
+<g font-size="12" text-anchor="middle">
+<rect x="14" y="70" width="104" height="80" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="66" y="100" font-weight="bold" fill="#14532d">1. План</text><text x="66" y="120" fill="#111827">точки, группы</text><text x="66" y="136" fill="#111827">ты</text>
+<rect x="132" y="70" width="104" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="184" y="100" font-weight="bold" fill="#78350f">2. Ревью</text><text x="184" y="120" fill="#111827">план с</text><text x="184" y="136" fill="#111827">электриком</text>
+<rect x="250" y="70" width="104" height="80" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="302" y="100" font-weight="bold" fill="#14532d">3. Трассы</text><text x="302" y="120" fill="#111827">штробы, кабель</text><text x="302" y="136" fill="#111827">ты, без тока</text>
+<rect x="368" y="70" width="104" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="420" y="100" font-weight="bold" fill="#78350f">4. Проверка</text><text x="420" y="120" fill="#111827">до штукатурки</text><text x="420" y="136" fill="#111827">+ фото трасс</text>
+<rect x="486" y="70" width="104" height="80" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="538" y="100" font-weight="bold" fill="#78350f">5. Щит</text><text x="538" y="120" fill="#111827">сборка или</text><text x="538" y="136" fill="#111827">проверка</text>
+<rect x="604" y="70" width="104" height="80" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="656" y="100" font-weight="bold" fill="#7f1d1d">6. Pomiary</text><text x="656" y="120" fill="#111827">protokół,</text><text x="656" y="136" fill="#111827">потом включение</text>
+</g>
+<g stroke="#374151" stroke-width="2"><line x1="118" y1="110" x2="130" y2="110" marker-end="url(#b)"/><line x1="236" y1="110" x2="248" y2="110" marker-end="url(#b)"/><line x1="354" y1="110" x2="366" y2="110" marker-end="url(#b)"/><line x1="472" y1="110" x2="484" y2="110" marker-end="url(#b)"/><line x1="590" y1="110" x2="602" y2="110" marker-end="url(#b)"/></g>
+<rect x="150" y="180" width="16" height="16" fill="#dcfce7" stroke="#16a34a"/><text x="174" y="193" font-size="13" fill="#111827">делаешь сам</text>
+<rect x="290" y="180" width="16" height="16" fill="#fef3c7" stroke="#d97706"/><text x="314" y="193" font-size="13" fill="#111827">с электриком SEP</text>
+<rect x="450" y="180" width="16" height="16" fill="#fee2e2" stroke="#dc2626"/><text x="474" y="193" font-size="13" fill="#111827">только электрик</text>
+<text x="360" y="230" text-anchor="middle" font-size="12" fill="#6b7280">Договорись с электриком до шага 1: протокол подписывают на то, что видели в открытых стенах</text>
+</svg>
