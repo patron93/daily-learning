@@ -57,7 +57,7 @@
 ## backend
 - [x] Node.js event loop глубже: microtasks, libuv
 - [x] NestJS для Angular-разработчика: те же идеи DI и декораторов
-- [ ] REST vs GraphQL vs tRPC: компромиссы
+- [x] REST vs GraphQL vs tRPC: компромиссы
 - [ ] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
 - [ ] PostgreSQL: индексы, EXPLAIN, N+1
 - [ ] Очереди и асинхронность: когда нужен message broker
@@ -99,3 +99,4 @@
 - 2026-11-01 · news · Node.js 26 стал LTS «Lithium» (28.10.2026): план обновления для Angular-команды
 - 2026-11-02 · architecture · Feature-sliced / domain-driven структура фронтенда
 - 2026-11-03 · ai · Prompt engineering для разработчиков: структура, примеры, XML-теги
+- 2026-11-04 · backend · REST vs GraphQL vs tRPC: компромиссы

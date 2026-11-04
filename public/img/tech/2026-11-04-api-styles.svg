@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+<rect width="720" height="360" fill="#fffdf7" rx="16"/>
+<text x="360" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Где живёт контракт и кто платит за сложность</text>
+<g font-size="13" fill="#111827">
+<rect x="20" y="56" width="220" height="284" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="130" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e3a8a">REST</text>
+<text x="34" y="112">Контракт: OpenAPI</text>
+<text x="34" y="132">Типы: codegen клиента</text>
+<text x="34" y="152">Форму данных решает сервер</text>
+<text x="34" y="182" fill="#15803d">+ HTTP-кеш, CDN, ETag</text>
+<text x="34" y="202" fill="#15803d">+ любые клиенты и языки</text>
+<text x="34" y="222" fill="#15803d">+ простая наблюдаемость</text>
+<text x="34" y="252" fill="#b91c1c">− over/under-fetching</text>
+<text x="34" y="272" fill="#b91c1c">− рассинхрон без codegen</text>
+<text x="130" y="320" text-anchor="middle" font-weight="bold" fill="#1e3a8a">публичное API</text>
+<rect x="250" y="56" width="220" height="284" rx="12" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+<text x="360" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#831843">GraphQL</text>
+<text x="264" y="112">Контракт: схема SDL</text>
+<text x="264" y="132">Типы: codegen по запросам</text>
+<text x="264" y="152">Форму данных решает клиент</text>
+<text x="264" y="182" fill="#15803d">+ ровно нужные поля</text>
+<text x="264" y="202" fill="#15803d">+ один запрос на экран</text>
+<text x="264" y="222" fill="#15803d">+ федерация доменов</text>
+<text x="264" y="252" fill="#b91c1c">− N+1, нужен DataLoader</text>
+<text x="264" y="272" fill="#b91c1c">− кеш и лимиты сложности</text>
+<text x="360" y="320" text-anchor="middle" font-weight="bold" fill="#831843">много клиентов и доменов</text>
+<rect x="480" y="56" width="220" height="284" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="590" y="84" text-anchor="middle" font-size="18" font-weight="bold" fill="#14532d">tRPC</text>
+<text x="494" y="112">Контракт: тип роутера в TS</text>
+<text x="494" y="132">Типы: import type, без codegen</text>
+<text x="494" y="152">Форму данных решает сервер</text>
+<text x="494" y="182" fill="#15803d">+ ошибка компиляции сразу</text>
+<text x="494" y="202" fill="#15803d">+ ноль схем и генерации</text>
+<text x="494" y="222" fill="#15803d">+ быстрая разработка</text>
+<text x="494" y="252" fill="#b91c1c">− только TS, нужен монорепо</text>
+<text x="494" y="272" fill="#b91c1c">− нет Angular-адаптера</text>
+<text x="590" y="320" text-anchor="middle" font-weight="bold" fill="#14532d">одна команда, монорепо</text>
+</g>
+</svg>
