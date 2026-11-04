@@ -14,7 +14,7 @@
 - [x] (2026-10-29) Винительный падеж (biernik): кого? что?
 - [x] (2026-10-31) Числительные 1–100 и «ile kosztuje?»
 - [x] (2026-11-02) Mianownik vs narzędnik: «Jestem programistą»
-- [ ] Вежливые формы: Pan / Pani / Państwo
+- [x] (2026-11-04) Вежливые формы: Pan / Pani / Państwo
 
 ## A2
 - [ ] Родительный падеж (dopełniacz): после количества, nie ma, bez, dla, do, od, z (откуда)

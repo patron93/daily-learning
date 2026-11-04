@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+<rect width="720" height="340" fill="#fffdf7" rx="16"/>
+<text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Вежливое «вы» по-польски = 3-е лицо</text>
+<text x="360" y="58" text-anchor="middle" font-size="13" fill="#6b7280">ty → Pan / Pani / Państwo, глагол как с on / ona / oni</text>
+<g font-size="15">
+  <rect x="30" y="80" width="200" height="110" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="130" y="110" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e3a8a">Pan</text>
+  <text x="130" y="134" text-anchor="middle" fill="#1e3a8a">к мужчине · как «on»</text>
+  <text x="130" y="164" text-anchor="middle" fill="#111827">Czy Pan <tspan font-weight="bold" fill="#dc2626">ma</tspan> czas?</text>
+  <rect x="260" y="80" width="200" height="110" rx="12" fill="#fce7f3" stroke="#db2777" stroke-width="2"/>
+  <text x="360" y="110" text-anchor="middle" font-size="22" font-weight="bold" fill="#831843">Pani</text>
+  <text x="360" y="134" text-anchor="middle" fill="#831843">к женщине · как «ona»</text>
+  <text x="360" y="164" text-anchor="middle" fill="#111827">Czy Pani <tspan font-weight="bold" fill="#dc2626">wie</tspan>, gdzie…?</text>
+  <rect x="490" y="80" width="200" height="110" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="590" y="110" text-anchor="middle" font-size="22" font-weight="bold" fill="#14532d">Państwo</text>
+  <text x="590" y="134" text-anchor="middle" fill="#14532d">к группе · как «oni»</text>
+  <text x="590" y="164" text-anchor="middle" fill="#111827">Czy Państwo <tspan font-weight="bold" fill="#dc2626">są</tspan> gotowi?</text>
+</g>
+<rect x="30" y="210" width="660" height="110" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="50" y="240" font-size="15" font-weight="bold" fill="#92400e">Сравни с «ty»:</text>
+<text x="50" y="266" font-size="15" fill="#111827">Masz czas? → Czy Pan <tspan font-weight="bold">ma</tspan> czas?      Wiesz? → Czy Pani <tspan font-weight="bold">wie</tspan>?</text>
+<text x="50" y="292" font-size="15" fill="#111827">❌ Czy Pan wiesz?   ✅ Czy Pan wie?   ❌ Czy wy macie? (фамильярно)   ✅ Czy Państwo mają?</text>
+</svg>

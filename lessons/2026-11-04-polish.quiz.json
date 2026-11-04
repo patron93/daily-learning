@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "track": "polish",
+  "topic": "Вежливые формы: Pan / Pani / Państwo",
+  "questions": [
+    {"id": "pp-1", "type": "choice", "prompt": "Czy Pan ___ długopis? (mieć)", "options": ["ma", "masz", "macie", "mam"], "answer": "ma", "explain": "С Pan глагол в 3-м лице, как с on: on ma → Pan ma."},
+    {"id": "pp-2", "type": "choice", "prompt": "Przepraszam, czy Pani ___, gdzie jest okienko numer trzy? (wiedzieć)", "options": ["wiesz", "wie", "wiecie", "wiem"], "answer": "wie", "explain": "Pani = как ona: ona wie → Pani wie. «Pani wiesz» — смесь 3-го и 2-го лица, типичная ошибка."},
+    {"id": "pp-3", "type": "choice", "prompt": "Czy Państwo ___ w kolejce? (być)", "options": ["jest", "są", "jesteście", "jesteśmy"], "answer": "są", "explain": "Państwo согласуется с глаголом в 3-м лице множественного числа, как oni: oni są → Państwo są."},
+    {"id": "pp-4", "type": "gap", "prompt": "Dziękuję ___ za pomoc. (к мужчине, дательный: komu?)", "answers": ["Panu", "panu"], "explain": "Dziękować komu? → дательный падеж: Pan → Panu."},
+    {"id": "pp-5", "type": "choice", "prompt": "Mogę z ___ porozmawiać? (к женщине)", "options": ["Pani", "Panią", "Panu", "Panem"], "answer": "Panią", "explain": "Z kim? — творительный падеж. У Pani он звучит как Panią: z Panią."},
+    {"id": "pp-6", "type": "choice", "prompt": "Как вежливо спросить незнакомого мужчину в очереди: «Вы последний?»", "options": ["Czy Pan jest ostatni?", "Czy jesteś ostatni?", "Czy wy jesteście ostatni?", "Czy Pan jesteś ostatni?"], "answer": "Czy Pan jest ostatni?", "explain": "Незнакомому — Pan + 3-е лицо (jest). Ty — слишком фамильярно, wy к одному человеку по-польски не используют."},
+    {"id": "pp-7", "type": "gap", "prompt": "Proszę ___, tu brakuje podpisu. (к мужчине, «прошу господина»)", "answers": ["Pana", "pana"], "explain": "Prosić kogo? — Pan в форме Pana: Proszę Pana."},
+    {"id": "pp-8", "type": "choice", "prompt": "Как начать официальное письмо женщине?", "options": ["Szanowna Pani", "Szanowny Panie", "Droga ty", "Szanowni Państwo"], "answer": "Szanowna Pani", "explain": "Szanowna Pani — к женщине, Szanowny Panie — к мужчине, Szanowni Państwo — к группе или когда адресат неизвестен. В письме Pani — с большой буквы."},
+    {"id": "pp-9", "type": "choice", "prompt": "Что значит «Mówmy sobie po imieniu»?", "options": ["Давай(те) на ты, по имени", "Скажите ваше имя", "Говорите громче", "Мы с вами незнакомы"], "answer": "Давай(те) на ты, по имени", "explain": "Это предложение перейти с Pan/Pani на ty. Пока его не прозвучало, со старшими и в учреждениях остаются на Pan/Pani."},
+    {"id": "pp-10", "type": "choice", "prompt": "Chcę złożyć ___ o kartę pobytu. (заявление)", "options": ["wniosek", "podpis", "okienko", "kolejkę"], "answer": "wniosek", "explain": "Złożyć wniosek — подать заявление. Złożyć podpis — поставить подпись, но «подпись о карте» по смыслу не подходит."}
+  ]
+}
