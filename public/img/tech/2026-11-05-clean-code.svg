@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Arial, sans-serif">
+<rect width="720" height="340" fill="#f8fafc" rx="16"/>
+<text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">«Clean Code» в 2026: что оставить, что переосмыслить</text>
+<rect x="24" y="54" width="324" height="264" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="186" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#14532d">✓ Оставить</text>
+<g font-size="14" fill="#14532d">
+<text x="44" y="118">• Говорящие имена, язык домена</text>
+<text x="44" y="150">• Ранний выход вместо вложенных if</text>
+<text x="44" y="182">• Без скрытых побочных эффектов</text>
+<text x="44" y="214">• Нет дублирования знаний (DRY)</text>
+<text x="44" y="246">• Правило бойскаута</text>
+<text x="44" y="278">• Тесты — часть кода</text>
+</g>
+<rect x="372" y="54" width="324" height="264" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="534" y="84" text-anchor="middle" font-size="17" font-weight="bold" fill="#78350f">↻ Переосмыслить</text>
+<g font-size="14" fill="#78350f">
+<text x="392" y="118">• «Функция ≤ 4 строк» →</text>
+<text x="408" y="138">глубокие модули, простой API</text>
+<text x="392" y="170">• «Комментарий = провал» →</text>
+<text x="408" y="190">комментируй «почему»</text>
+<text x="392" y="222">• Классы и мутабельные поля →</text>
+<text x="408" y="242">чистые функции, readonly</text>
+<text x="392" y="274">• Флаги-аргументы →</text>
+<text x="408" y="294">discriminated unions в TS</text>
+</g>
+</svg>

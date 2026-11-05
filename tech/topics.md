@@ -68,7 +68,7 @@
 - [x] SOLID на примерах Angular
 - [x] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
 - [x] Паттерны: Strategy, Facade, Adapter во фронтенде
-- [ ] «Clean Code» с критикой: что устарело
+- [x] «Clean Code» с критикой: что устарело
 - [ ] Закон Конвея и Team Topologies
 - [ ] «The Pragmatic Programmer»: ключевые идеи
 - [ ] «An Elegant Puzzle» (Will Larson): системы для инженерных организаций
@@ -100,3 +100,4 @@
 - 2026-11-02 · architecture · Feature-sliced / domain-driven структура фронтенда
 - 2026-11-03 · ai · Prompt engineering для разработчиков: структура, примеры, XML-теги
 - 2026-11-04 · backend · REST vs GraphQL vs tRPC: компромиссы
+- 2026-11-05 · classic · «Clean Code» с критикой: что устарело
