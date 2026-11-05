@@ -348,9 +348,9 @@
       "example": "Kupuję świeży chleb rano. — Я покупаю свежий хлеб утром.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-28"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "herbata",
@@ -359,9 +359,9 @@
       "example": "Herbata jest jeszcze gorąca. — Чай ещё горячий.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-28"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "mleko",
@@ -370,9 +370,9 @@
       "example": "Mleko jest w lodówce. — Молоко в холодильнике.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-28"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "jabłko",
@@ -381,9 +381,9 @@
       "example": "To jabłko jest bardzo słodkie. — Это яблоко очень сладкое.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-28"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "sól",
@@ -392,9 +392,9 @@
       "example": "Podaj mi sól, proszę. — Передай мне соль, пожалуйста.",
       "topic": "Еда",
       "added": "2026-10-21",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-28"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "kelner",
@@ -1165,6 +1165,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-05"
+    },
+    {
+      "pl": "pogoda",
+      "ru": "погода",
+      "pos": "noun-f",
+      "example": "Jaka jest dzisiaj pogoda? — Какая сегодня погода?",
+      "topic": "Погода",
+      "added": "2026-11-05",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-06"
+    },
+    {
+      "pl": "deszcz",
+      "ru": "дождь",
+      "pos": "noun-m",
+      "example": "Od rana pada deszcz. — С утра идёт дождь.",
+      "topic": "Погода",
+      "added": "2026-11-05",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-06"
+    },
+    {
+      "pl": "parasol",
+      "ru": "зонт",
+      "pos": "noun-m",
+      "example": "Weź parasol, bo pada. — Возьми зонт, идёт дождь.",
+      "topic": "Погода",
+      "added": "2026-11-05",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-06"
+    },
+    {
+      "pl": "wiatr",
+      "ru": "ветер",
+      "pos": "noun-m",
+      "example": "Dzisiaj wieje silny wiatr. — Сегодня дует сильный ветер.",
+      "topic": "Погода",
+      "added": "2026-11-05",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-06"
+    },
+    {
+      "pl": "mokry",
+      "ru": "мокрый",
+      "pos": "adj",
+      "example": "Mam mokre buty. — У меня мокрые ботинки.",
+      "topic": "Погода",
+      "added": "2026-11-05",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-06"
     }
   ]
 }

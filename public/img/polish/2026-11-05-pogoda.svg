@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Arial, sans-serif">
+<rect width="720" height="360" fill="#f8fafc" rx="16"/>
+<text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">Прогноз погоды: ложные друзья</text>
+<g font-size="15">
+<!-- row 1 -->
+<rect x="24" y="56" width="672" height="54" rx="10" fill="#fef3c7" stroke="#d97706"/>
+<text x="44" y="89" font-weight="bold" fill="#78350f" font-size="18">⚡ burza</text>
+<text x="200" y="89" fill="#78350f">= гроза (гром, молния)</text>
+<text x="470" y="89" fill="#b91c1c">≠ буря → wichura</text>
+<!-- row 2 -->
+<rect x="24" y="120" width="672" height="54" rx="10" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="44" y="153" font-weight="bold" fill="#0c4a6e" font-size="18">☀ pogodny</text>
+<text x="200" y="153" fill="#0c4a6e">= ясный; жизнерадостный</text>
+<text x="470" y="153" fill="#b91c1c">≠ «погодный»</text>
+<!-- row 3 -->
+<rect x="24" y="184" width="672" height="54" rx="10" fill="#f1f5f9" stroke="#64748b"/>
+<text x="44" y="217" font-weight="bold" fill="#1e293b" font-size="18">🌫 mgła</text>
+<text x="200" y="217" fill="#1e293b">= туман</text>
+<text x="470" y="217" fill="#b91c1c">≠ мгла, темнота</text>
+<!-- row 4 -->
+<rect x="24" y="248" width="672" height="54" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+<text x="44" y="281" font-weight="bold" fill="#14532d" font-size="18">🌧 pada deszcz</text>
+<text x="200" y="281" fill="#14532d">= идёт дождь («падает»)</text>
+<text x="470" y="281" fill="#b91c1c">≠ idzie deszcz</text>
+</g>
+<text x="360" y="336" text-anchor="middle" font-size="14" fill="#475569">Leje jak z cebra! — Льёт как из ведра! · Pogoda pod psem — собачья погода</text>
+</svg>

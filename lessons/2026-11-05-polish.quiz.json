@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "track": "polish",
+  "topic": "Pogoda: идиомы и ложные друзья",
+  "questions": [
+    {"id": "pog-1", "type": "choice", "prompt": "Как по-польски «Идёт дождь»?", "options": ["Pada deszcz.", "Idzie deszcz.", "Jest deszcz.", "Leci deszcz."], "answer": "Pada deszcz.", "explain": "Осадки по-польски «падают»: pada deszcz, pada śnieg. Idzie deszcz звучит как «дождь приближается»."},
+    {"id": "pog-2", "type": "choice", "prompt": "W nocy była burza. Что было ночью?", "options": ["гроза", "буря с сильным ветром", "метель", "туман"], "answer": "гроза", "explain": "Burza — гроза с громом и молнией. Сильный ветер — wichura, буря на море — sztorm."},
+    {"id": "pog-3", "type": "choice", "prompt": "Ona jest bardzo pogodna. Что это значит?", "options": ["Она очень жизнерадостная.", "Она следит за прогнозом погоды.", "Она очень капризная.", "Она часто мёрзнет."], "answer": "Она очень жизнерадостная.", "explain": "Pogodny про человека — светлый, жизнерадостный; про день — ясный, безоблачный."},
+    {"id": "pog-4", "type": "gap", "prompt": "Ale ___! Nie mam parasola. (льёт)", "answers": ["leje"], "explain": "Ale leje! — Ну и льёт! От глагола lać — лить."},
+    {"id": "pog-5", "type": "gap", "prompt": "Leje jak z ___! (как из ведра)", "answers": ["cebra"], "explain": "Ceber — деревянная кадка. Leje jak z cebra — льёт как из ведра."},
+    {"id": "pog-6", "type": "choice", "prompt": "Как сказать «Говорят, завтра будет дождь»?", "options": ["Jutro ma padać.", "Jutro idzie padać.", "Jutro jest padać.", "Jutro pada będzie."], "answer": "Jutro ma padać.", "explain": "Прогнозы и слухи о будущем — через mieć: ma padać, ma być ciepło."},
+    {"id": "pog-7", "type": "gap", "prompt": "Weź parasol, bo ___ deszcz. (идёт)", "answers": ["pada"], "explain": "Pada deszcz — идёт дождь."},
+    {"id": "pog-8", "type": "choice", "prompt": "Rano na drodze jest mgła. Что на дороге?", "options": ["туман", "темнота", "гололёд", "лужи"], "answer": "туман", "explain": "Mgła — туман. Гололёд — gołoledź, скользко — ślisko."},
+    {"id": "pog-9", "type": "choice", "prompt": "Pogoda pod psem — это…", "options": ["собачья, отвратительная погода", "погода для прогулки с собакой", "жаркая погода", "переменная облачность"], "answer": "собачья, отвратительная погода", "explain": "Идиома совпадает по смыслу с русским «собачья погода»."},
+    {"id": "pog-10", "type": "gap", "prompt": "Nie mam ___ (parasol) i jestem mokry.", "answers": ["parasola"], "explain": "После отрицания nie mam — родительный падеж: parasol → parasola."}
+  ]
+}
