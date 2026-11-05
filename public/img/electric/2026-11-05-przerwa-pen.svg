@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Arial, sans-serif">
+<rect width="720" height="330" fill="#fffdf7" rx="16"/>
+<text x="360" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Обрыв PEN в TN-C с занулением: корпус «под фазой»</text>
+<g font-size="13">
+<rect x="20" y="70" width="110" height="160" rx="8" fill="#e5e7eb" stroke="#6b7280"/>
+<text x="75" y="155" text-anchor="middle" fill="#111827">Сеть 230 В</text>
+<line x1="130" y1="100" x2="380" y2="100" stroke="#92400e" stroke-width="3"/>
+<text x="140" y="94" fill="#92400e">L (фаза)</text>
+<line x1="130" y1="200" x2="230" y2="200" stroke="#a16207" stroke-width="4" stroke-dasharray="10 4"/>
+<text x="140" y="222" fill="#a16207">PEN</text>
+<!-- break -->
+<line x1="232" y1="188" x2="248" y2="212" stroke="#dc2626" stroke-width="3"/>
+<line x1="248" y1="188" x2="232" y2="212" stroke="#dc2626" stroke-width="3"/>
+<text x="240" y="245" text-anchor="middle" fill="#dc2626" font-weight="bold">обрыв</text>
+<line x1="250" y1="200" x2="560" y2="200" stroke="#dc2626" stroke-width="4" stroke-dasharray="10 4">
+<animate attributeName="stroke" values="#dc2626;#fca5a5;#dc2626" dur="1s" repeatCount="indefinite"/></line>
+<!-- kettle -->
+<rect x="380" y="80" width="120" height="70" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="440" y="110" text-anchor="middle" fill="#78350f" font-weight="bold">Чайник</text>
+<text x="440" y="130" text-anchor="middle" fill="#78350f">спираль ≈ 26,5 Ом</text>
+<line x1="440" y1="150" x2="440" y2="200" stroke="#dc2626" stroke-width="3"/>
+<!-- washing machine housing -->
+<rect x="560" y="160" width="130" height="90" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="625" y="195" text-anchor="middle" fill="#7f1d1d" font-weight="bold">Корпус стиралки</text>
+<text x="625" y="218" text-anchor="middle" fill="#7f1d1d">≈ 230 В!</text>
+<text x="625" y="238" text-anchor="middle" fill="#7f1d1d" font-size="11">(штырь занулён)</text>
+</g>
+<text x="360" y="290" text-anchor="middle" font-size="14" fill="#111827">Человек 1000 Ом: I = 230 / (1000 + 26,5) ≈ 224 мА — в 7 раз выше 30 мА</text>
+<text x="360" y="312" text-anchor="middle" font-size="13" fill="#4b5563">Автомат не видит такой ток, УЗО в TN-C не помогает</text>
+</svg>
