@@ -17,7 +17,7 @@
 - [x] (2026-11-04) Вежливые формы: Pan / Pani / Państwo
 
 ## A2
-- [ ] Родительный падеж (dopełniacz): после количества, nie ma, bez, dla, do, od, z (откуда)
+- [x] (2026-11-06) Родительный падеж (dopełniacz): после количества, nie ma, bez, dla, do, od, z (откуда)
 - [ ] Местный падеж (miejscownik): w/na + где? (w Warszawie, na poczcie)
 - [ ] Iść vs chodzić, jechać vs jeździć
 - [ ] Прошедшее время (czas przeszły): byłem/byłam, robiłem

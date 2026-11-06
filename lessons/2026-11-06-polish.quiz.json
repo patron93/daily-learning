@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-06",
+  "track": "polish",
+  "topic": "Dopełniacz: количество и предлоги",
+  "questions": [
+    {"id": "gen-1", "type": "choice", "prompt": "Poproszę butelkę ___ (woda).", "options": ["wody", "wodę", "woda", "wodą"], "answer": "wody", "explain": "Содержимое тары всегда в родительном: butelka wody. Женский род: -a → -y."},
+    {"id": "gen-2", "type": "gap", "prompt": "Kawa bez ___ (cukier), proszę.", "answers": ["cukru"], "explain": "Bez + родительный. Cukier теряет e и получает -u: cukru."},
+    {"id": "gen-3", "type": "choice", "prompt": "Как сказать «Я иду в магазин»?", "options": ["Idę do sklepu.", "Idę w sklep.", "Idę na sklep.", "Idę do sklep."], "answer": "Idę do sklepu.", "explain": "Направление «в магазин, на работу, к врачу» по-польски — do + родительный: do sklepu."},
+    {"id": "gen-4", "type": "gap", "prompt": "To prezent dla ___ (mama).", "answers": ["mamy"], "explain": "Dla + родительный: mama → mamy."},
+    {"id": "gen-5", "type": "choice", "prompt": "Mam trochę ___ (czas).", "options": ["czasu", "czas", "czasa", "czasem"], "answer": "czasu", "explain": "Trochę (немного) требует родительного. Czas — из тех мужских, что берут -u: czasu."},
+    {"id": "gen-6", "type": "gap", "prompt": "Piję szklankę ___ (mleko).", "answers": ["mleka"], "explain": "Средний род -o → -a в родительном: mleko → mleka."},
+    {"id": "gen-7", "type": "choice", "prompt": "Wracam z ___ (praca) o osiemnastej.", "options": ["pracy", "pracą", "pracę", "praca"], "answer": "pracy", "explain": "Z в значении «откуда» (с работы, из Польши) — с родительным. Z + творительный — это «с кем/чем»."},
+    {"id": "gen-8", "type": "choice", "prompt": "Какая форма правильная: «кусок хлеба»?", "options": ["kawałek chleba", "kawałek chleb", "kawałka chleba", "kawałek chlebem"], "answer": "kawałek chleba", "explain": "Kawałek — в именительном (подлежащее), chleb — в родительном: chleba."},
+    {"id": "gen-9", "type": "choice", "prompt": "Kawa z mlekiem — какой падеж у mlekiem и почему?", "options": ["Творительный: z = «с чем»", "Родительный: z = «откуда»", "Винительный: после kawa", "Именительный"], "answer": "Творительный: z = «с чем»", "explain": "Z с творительным — «вместе с»; z с родительным — «из, с (откуда)»: z pracy."},
+    {"id": "gen-10", "type": "gap", "prompt": "Jestem u ___ (lekarz).", "answers": ["lekarza"], "explain": "U + родительный, как в русском «у врача». Живой мужской род: + -a."}
+  ]
+}

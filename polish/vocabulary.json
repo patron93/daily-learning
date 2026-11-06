@@ -678,9 +678,9 @@
       "example": "W lodówce nie ma mleka. — В холодильнике нет молока.",
       "topic": "Отрицание: nie + родительный падеж",
       "added": "2026-10-27",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-28"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-09"
     },
     {
       "pl": "masło",
@@ -689,9 +689,9 @@
       "example": "Nie mam masła. — У меня нет масла.",
       "topic": "Отрицание: nie + родительный падеж",
       "added": "2026-10-27",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-28"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-09"
     },
     {
       "pl": "jajko",
@@ -700,9 +700,9 @@
       "example": "Kupuję jajka na śniadanie. — Я покупаю яйца на завтрак.",
       "topic": "Отрицание: nie + родительный падеж",
       "added": "2026-10-27",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-28"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-09"
     },
     {
       "pl": "ser",
@@ -711,9 +711,9 @@
       "example": "Nie jem sera wieczorem. — Я не ем сыр вечером.",
       "topic": "Отрицание: nie + родительный падеж",
       "added": "2026-10-27",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-28"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-09"
     },
     {
       "pl": "woda",
@@ -722,9 +722,9 @@
       "example": "Woda gazowana czy niegazowana? — Вода с газом или без?",
       "topic": "Отрицание: nie + родительный падеж",
       "added": "2026-10-27",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-28"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-09"
     },
     {
       "pl": "zawód",
@@ -1220,6 +1220,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-06"
+    },
+    {
+      "pl": "butelka",
+      "ru": "бутылка",
+      "pos": "noun-f",
+      "example": "Poproszę butelkę wody. — Бутылку воды, пожалуйста.",
+      "topic": "Количество и упаковки",
+      "added": "2026-11-06",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-07"
+    },
+    {
+      "pl": "szklanka",
+      "ru": "стакан",
+      "pos": "noun-f",
+      "example": "Piję szklankę mleka. — Я пью стакан молока.",
+      "topic": "Количество и упаковки",
+      "added": "2026-11-06",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-07"
+    },
+    {
+      "pl": "kawałek",
+      "ru": "кусок, кусочек",
+      "pos": "noun-m",
+      "example": "Kawałek tortu? — Кусочек торта?",
+      "topic": "Количество и упаковки",
+      "added": "2026-11-06",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-07"
+    },
+    {
+      "pl": "opakowanie",
+      "ru": "упаковка",
+      "pos": "noun-n",
+      "example": "Jedno opakowanie jajek, proszę. — Одну упаковку яиц, пожалуйста.",
+      "topic": "Количество и упаковки",
+      "added": "2026-11-06",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-07"
+    },
+    {
+      "pl": "trochę",
+      "ru": "немного",
+      "pos": "adv",
+      "example": "Mam trochę czasu. — У меня есть немного времени.",
+      "topic": "Количество и упаковки",
+      "added": "2026-11-06",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-07"
     }
   ]
 }
