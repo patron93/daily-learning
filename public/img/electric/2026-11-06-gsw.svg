@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" font-family="Arial, sans-serif">
+<rect width="780" height="480" fill="#fffdf7" rx="16"/>
+<text x="390" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Главная шина уравнивания (GSW) у ввода в дом</text>
+<rect x="30" y="60" width="150" height="90" rx="10" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+<text x="105" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Złącze OSD</text>
+<text x="105" y="110" text-anchor="middle" font-size="12" fill="#4b5563">L1 L2 L3 + PEN</text>
+<text x="105" y="128" text-anchor="middle" font-size="11" fill="#4b5563">(TN-C)</text>
+<rect x="250" y="60" width="200" height="90" rx="10" fill="#ffffff" stroke="#374151" stroke-width="2"/>
+<text x="350" y="86" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Главный щит</text>
+<text x="350" y="106" text-anchor="middle" font-size="12" fill="#4b5563">PEN → N (синий) + PE</text>
+<text x="350" y="124" text-anchor="middle" font-size="12" fill="#4b5563">дальше по дому TN-S</text>
+<line x1="180" y1="105" x2="250" y2="105" stroke="#a16207" stroke-width="4" stroke-dasharray="10 4"/>
+<text x="215" y="98" text-anchor="middle" font-size="11" fill="#a16207">PEN</text>
+<rect x="160" y="230" width="460" height="34" rx="6" fill="#facc15" stroke="#a16207" stroke-width="2"/>
+<text x="390" y="252" text-anchor="middle" font-size="15" font-weight="bold" fill="#713f12">GSW — główna szyna wyrównawcza</text>
+<line x1="350" y1="150" x2="350" y2="230" stroke="#16a34a" stroke-width="4"/>
+<line x1="350" y1="150" x2="350" y2="230" stroke="#facc15" stroke-width="4" stroke-dasharray="6 6"/>
+<text x="360" y="195" font-size="12" fill="#15803d">PE щита (≥ 6 мм²)</text>
+<g stroke-width="4">
+<line x1="200" y1="264" x2="200" y2="330" stroke="#16a34a"/><line x1="200" y1="264" x2="200" y2="330" stroke="#facc15" stroke-dasharray="6 6"/>
+<line x1="300" y1="264" x2="300" y2="330" stroke="#16a34a"/><line x1="300" y1="264" x2="300" y2="330" stroke="#facc15" stroke-dasharray="6 6"/>
+<line x1="400" y1="264" x2="400" y2="330" stroke="#16a34a"/><line x1="400" y1="264" x2="400" y2="330" stroke="#facc15" stroke-dasharray="6 6"/>
+<line x1="500" y1="264" x2="500" y2="330" stroke="#16a34a"/><line x1="500" y1="264" x2="500" y2="330" stroke="#facc15" stroke-dasharray="6 6"/>
+<line x1="590" y1="264" x2="590" y2="330" stroke="#16a34a"/><line x1="590" y1="264" x2="590" y2="330" stroke="#facc15" stroke-dasharray="6 6"/>
+</g>
+<rect x="150" y="330" width="100" height="56" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+<text x="200" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">Водопровод</text>
+<text x="200" y="372" text-anchor="middle" font-size="11" fill="#1e3a8a">металл, на входе</text>
+<rect x="255" y="330" width="90" height="56" rx="8" fill="#fef3c7" stroke="#d97706"/>
+<text x="300" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#92400e">Газ</text>
+<text x="300" y="372" text-anchor="middle" font-size="11" fill="#92400e">за изол. вставкой</text>
+<rect x="350" y="330" width="100" height="56" rx="8" fill="#fee2e2" stroke="#dc2626"/>
+<text x="400" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#991b1b">Отопление</text>
+<text x="400" y="372" text-anchor="middle" font-size="11" fill="#991b1b">металл. трубы</text>
+<rect x="455" y="330" width="90" height="56" rx="8" fill="#f3f4f6" stroke="#6b7280"/>
+<text x="500" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">Арматура,</text>
+<text x="500" y="372" text-anchor="middle" font-size="11" fill="#111827">конструкции</text>
+<rect x="550" y="330" width="90" height="56" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="595" y="354" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Молниезащ.,</text>
+<text x="595" y="372" text-anchor="middle" font-size="11" fill="#5b21b6">антенна, PV</text>
+<line x1="620" y1="247" x2="700" y2="247" stroke="#16a34a" stroke-width="5"/>
+<line x1="700" y1="247" x2="700" y2="420" stroke="#16a34a" stroke-width="5"/>
+<text x="708" y="300" font-size="12" fill="#15803d">przewód</text>
+<text x="708" y="316" font-size="12" fill="#15803d">uziemiający</text>
+<rect x="20" y="420" width="740" height="44" fill="#d6c3a5" rx="6"/>
+<text x="40" y="447" font-size="13" fill="#3f2d12">грунт</text>
+<rect x="560" y="428" width="190" height="16" rx="3" fill="#9ca3af" stroke="#4b5563"/>
+<text x="655" y="458" text-anchor="middle" font-size="12" font-weight="bold" fill="#111827">uziom fundamentowy</text>
+<path d="M650 424 l0 4 M610 424 l0 4" stroke="#4b5563"/>
+</svg>
