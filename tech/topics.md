@@ -7,7 +7,7 @@
 - [x] Signals глубже: computed, effect, когда effect — антипаттерн
 - [x] linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - [x] Zoneless Angular: как работает change detection без zone.js и как мигрировать
-- [ ] Deferrable views (@defer): стратегии триггеров и влияние на бандл
+- [x] Deferrable views (@defer): стратегии триггеров и влияние на бандл
 - [ ] Control flow (@if/@for/@switch) и почему track важен для производительности
 - [ ] Новые signal-based формы
 - [ ] SSR + hydration (incremental hydration, event replay)
@@ -101,3 +101,4 @@
 - 2026-11-03 · ai · Prompt engineering для разработчиков: структура, примеры, XML-теги
 - 2026-11-04 · backend · REST vs GraphQL vs tRPC: компромиссы
 - 2026-11-05 · classic · «Clean Code» с критикой: что устарело
+- 2026-11-06 · angular · Deferrable views (@defer): стратегии триггеров и влияние на бандл

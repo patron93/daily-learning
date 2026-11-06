@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" font-family="Arial, sans-serif">
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect width="780" height="430" fill="#fffdf7" rx="16"/>
+<text x="390" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">@defer: prefetch отдельно, render отдельно</text>
+<line x1="40" y1="80" x2="740" y2="80" stroke="#9ca3af" stroke-width="2" marker-end="url(#ar)"/>
+<text x="740" y="70" text-anchor="end" font-size="12" fill="#6b7280">время →</text>
+<circle cx="90" cy="80" r="7" fill="#6b7280"/><text x="90" y="104" text-anchor="middle" font-size="12" fill="#111827">страница</text><text x="90" y="119" text-anchor="middle" font-size="12" fill="#111827">отрисована</text>
+<circle cx="300" cy="80" r="7" fill="#2563eb"/><text x="300" y="104" text-anchor="middle" font-size="12" fill="#1d4ed8">prefetch on idle:</text><text x="300" y="119" text-anchor="middle" font-size="12" fill="#1d4ed8">качаем чанк</text>
+<circle cx="560" cy="80" r="7" fill="#16a34a"/><text x="560" y="104" text-anchor="middle" font-size="12" fill="#15803d">on viewport / interaction:</text><text x="560" y="119" text-anchor="middle" font-size="12" fill="#15803d">рисуем сразу, без спиннера</text>
+<rect x="300" y="128" width="200" height="10" rx="5" fill="#bfdbfe"/>
+<text x="400" y="154" text-anchor="middle" font-size="11" fill="#1d4ed8">загрузка JS идёт в фоне</text>
+<rect x="30" y="180" width="160" height="70" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+<text x="110" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">@placeholder</text>
+<text x="110" y="228" text-anchor="middle" font-size="11" fill="#4b5563">до триггера; skeleton</text>
+<text x="110" y="242" text-anchor="middle" font-size="11" fill="#4b5563">с фиксированной высотой</text>
+<rect x="230" y="180" width="160" height="70" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+<text x="310" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">@loading</text>
+<text x="310" y="228" text-anchor="middle" font-size="11" fill="#4b5563">только если чанк</text>
+<text x="310" y="242" text-anchor="middle" font-size="11" fill="#4b5563">ещё не скачан (after/minimum)</text>
+<rect x="430" y="180" width="160" height="70" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="510" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">контент</text>
+<text x="510" y="228" text-anchor="middle" font-size="11" fill="#4b5563">компонент из</text>
+<text x="510" y="242" text-anchor="middle" font-size="11" fill="#4b5563">отдельного чанка</text>
+<rect x="620" y="180" width="130" height="70" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="685" y="208" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">@error</text>
+<text x="685" y="228" text-anchor="middle" font-size="11" fill="#4b5563">чанк не загрузился</text>
+<line x1="190" y1="215" x2="228" y2="215" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="390" y1="215" x2="428" y2="215" stroke="#374151" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M110 250 C110 300, 510 300, 510 252" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar)"/>
+<text x="310" y="300" text-anchor="middle" font-size="12" fill="#15803d">чанк уже в кеше после prefetch → сразу контент</text>
+<line x1="590" y1="215" x2="618" y2="215" stroke="#374151" stroke-width="2" stroke-dasharray="4 3"/>
+<rect x="30" y="325" width="720" height="85" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+<text x="50" y="352" font-size="14" font-weight="bold" fill="#1e3a8a">Отдельный чанк будет, только если:</text>
+<text x="50" y="375" font-size="13" fill="#111827">• зависимость standalone  • не упомянута вне @defer в этом файле (и в viewChild)</text>
+<text x="50" y="397" font-size="13" fill="#111827">• SSR рендерит только @placeholder; hydrate on … — для incremental hydration</text>
+</svg>
