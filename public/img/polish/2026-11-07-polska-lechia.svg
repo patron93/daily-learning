@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, sans-serif">
+<rect width="760" height="400" fill="#fffdf7" rx="16"/>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Одна страна — два корня имени</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">кто от «Polanie» (pole — поле), а кто от «Lędzianie / Lech»</text>
+<rect x="20" y="80" width="345" height="230" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="192" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#b91c1c">Polanie → Polonia</text>
+<text x="192" y="132" text-anchor="middle" font-size="13" fill="#4b5563">«люди поля»</text>
+<text x="45" y="168" font-size="15" fill="#111827">🇵🇱 польский — <tspan font-weight="bold">Polska</tspan></text>
+<text x="45" y="196" font-size="15" fill="#111827">английский — <tspan font-weight="bold">Poland</tspan></text>
+<text x="45" y="224" font-size="15" fill="#111827">французский — <tspan font-weight="bold">Pologne</tspan></text>
+<text x="45" y="252" font-size="15" fill="#111827">немецкий — <tspan font-weight="bold">Polen</tspan></text>
+<text x="45" y="280" font-size="15" fill="#111827">русский — <tspan font-weight="bold">Польша</tspan></text>
+<rect x="395" y="80" width="345" height="230" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="567" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#1d4ed8">Lędzianie / Lech → Lechia</text>
+<text x="567" y="132" text-anchor="middle" font-size="13" fill="#4b5563">племя с юго-востока и легендарный Лех</text>
+<text x="420" y="168" font-size="15" fill="#111827">литовский — <tspan font-weight="bold">Lenkija</tspan></text>
+<text x="420" y="196" font-size="15" fill="#111827">венгерский — <tspan font-weight="bold">Lengyelország</tspan></text>
+<text x="420" y="224" font-size="15" fill="#111827">турецкий — <tspan font-weight="bold">Lehistan</tspan></text>
+<text x="420" y="252" font-size="15" fill="#111827">древнерусский — <tspan font-weight="bold">ляхи</tspan></text>
+<text x="420" y="280" font-size="13" fill="#4b5563">(сегодня звучит устаревше)</text>
+<rect x="20" y="326" width="720" height="58" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="380" y="351" text-anchor="middle" font-size="15" fill="#111827"><tspan font-weight="bold">Rzeczpospolita</tspan> = rzecz (дело) + pospolita (общая) = лат. <tspan font-style="italic">res publica</tspan></text>
+<text x="380" y="372" text-anchor="middle" font-size="13" fill="#4b5563">Polska, Polak — с большой буквы · polski, po polsku — с маленькой</text>
+</svg>

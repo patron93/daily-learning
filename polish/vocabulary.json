@@ -733,9 +733,9 @@
       "example": "Z zawodu jestem programistą. — По профессии я программист.",
       "topic": "Ложные друзья в IT-офисе",
       "added": "2026-10-28",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-29"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-10"
     },
     {
       "pl": "termin",
@@ -744,9 +744,9 @@
       "example": "Termin mija w piątek. — Срок истекает в пятницу.",
       "topic": "Ложные друзья в IT-офисе",
       "added": "2026-10-28",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-29"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-10"
     },
     {
       "pl": "uwaga",
@@ -755,9 +755,9 @@
       "example": "Mam jedną uwagę do kodu. — У меня одно замечание к коду.",
       "topic": "Ложные друзья в IT-офисе",
       "added": "2026-10-28",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-29"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-10"
     },
     {
       "pl": "narada",
@@ -766,9 +766,9 @@
       "example": "Narada jest o dziesiątej. — Совещание в десять.",
       "topic": "Ложные друзья в IT-офисе",
       "added": "2026-10-28",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-29"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-10"
     },
     {
       "pl": "pilny",
@@ -777,9 +777,9 @@
       "example": "To jest pilne zadanie. — Это срочная задача.",
       "topic": "Ложные друзья в IT-офисе",
       "added": "2026-10-28",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-29"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-10"
     },
     {
       "pl": "kurtka",
@@ -1275,6 +1275,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-07"
+    },
+    {
+      "pl": "flaga",
+      "ru": "флаг",
+      "pos": "noun-f",
+      "example": "Na balkonie wisi biało-czerwona flaga. — На балконе висит бело-красный флаг.",
+      "topic": "11 listopada, Polska",
+      "added": "2026-11-07",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-08"
+    },
+    {
+      "pl": "hymn",
+      "ru": "гимн",
+      "pos": "noun-m",
+      "example": "Wszyscy śpiewają hymn. — Все поют гимн.",
+      "topic": "11 listopada, Polska",
+      "added": "2026-11-07",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-08"
+    },
+    {
+      "pl": "niepodległość",
+      "ru": "независимость",
+      "pos": "noun-f",
+      "example": "Jedenastego listopada świętujemy niepodległość. — Одиннадцатого ноября мы празднуем независимость.",
+      "topic": "11 listopada, Polska",
+      "added": "2026-11-07",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-08"
+    },
+    {
+      "pl": "państwo",
+      "ru": "государство; господа, супруги",
+      "pos": "noun-n",
+      "example": "Polska to duże państwo. — Польша — большое государство.",
+      "topic": "11 listopada, Polska",
+      "added": "2026-11-07",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-08"
+    },
+    {
+      "pl": "dzień wolny",
+      "ru": "выходной день",
+      "pos": "phrase",
+      "example": "We wtorek mamy dzień wolny. — Во вторник у нас выходной.",
+      "topic": "11 listopada, Polska",
+      "added": "2026-11-07",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-08"
     }
   ]
 }

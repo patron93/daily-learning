@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-07",
+  "track": "polish",
+  "topic": "Polska, Lechia, Rzeczpospolita: откуда имя страны",
+  "questions": [
+    {"id": "pl-1", "type": "choice", "prompt": "От какого слова происходит название племени Polanie, а значит и Polska?", "options": ["pole", "pół", "polować", "Polak"], "answer": "pole", "explain": "Polanie — «люди поля», жители расчищенных открытых земель вокруг Гнезно и Познани."},
+    {"id": "pl-2", "type": "choice", "prompt": "Как Польшу называют по-литовски?", "options": ["Lenkija", "Polonija", "Polska", "Lehistan"], "answer": "Lenkija", "explain": "Литовское Lenkija, как и венгерское Lengyelország, идёт от племени Lędzianie."},
+    {"id": "pl-3", "type": "choice", "prompt": "Что буквально значит Rzeczpospolita?", "options": ["общее дело", "польская земля", "королевство", "свободная страна"], "answer": "общее дело", "explain": "Rzecz (дело, вещь) + pospolita (общая) — калька латинского res publica."},
+    {"id": "pl-4", "type": "gap", "prompt": "Mieszkam w ___ (Polska).", "answers": ["Polsce"], "explain": "Polska склоняется как прилагательное-существительное: w Polsce — в Польше."},
+    {"id": "pl-5", "type": "gap", "prompt": "Jestem z ___ (Polska), a ty?", "answers": ["Polski"], "explain": "Z (откуда) + родительный: z Polski — из Польши."},
+    {"id": "pl-6", "type": "choice", "prompt": "Как правильно написать?", "options": ["Mówię po polsku, bo jestem Polakiem.", "Mówię po Polsku, bo jestem Polakiem.", "Mówię po polsku, bo jestem polakiem.", "Mówię Po Polsku, bo jestem Polakiem."], "answer": "Mówię po polsku, bo jestem Polakiem.", "explain": "Жители (Polak, Polka) — с большой буквы, язык и прилагательные (po polsku, język polski) — с маленькой."},
+    {"id": "pl-7", "type": "choice", "prompt": "Что значит «Mam jutro wolne»?", "options": ["У меня завтра выходной", "Я завтра свободен от долгов", "У меня завтра свободное место", "Я завтра медленный"], "answer": "У меня завтра выходной", "explain": "Wolne, dzień wolny — выходной день. Wolny — «свободный»."},
+    {"id": "pl-8", "type": "choice", "prompt": "Какого рода niepodległość?", "options": ["ż", "m", "n"], "answer": "ż", "explain": "Существительные на -ość всегда женского рода: niepodległość, miłość, radość."},
+    {"id": "pl-9", "type": "choice", "prompt": "В какой фразе państwo значит «государство»?", "options": ["Polska to duże państwo.", "Proszę Państwa, zaczynamy!", "Państwo Kowalscy już są.", "Czy Państwo chcą kawy?"], "answer": "Polska to duże państwo.", "explain": "В остальных фразах Państwo — вежливое «вы, господа» или «супруги». С большой буквы, когда это обращение."},
+    {"id": "pl-10", "type": "gap", "prompt": "Biało-czerwona ___ wisi na balkonie. (флаг)", "answers": ["flaga"], "explain": "Flaga — женского рода, поэтому biało-czerwona."}
+  ]
+}
