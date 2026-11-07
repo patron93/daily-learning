@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Arial, sans-serif">
+<rect width="760" height="440" fill="#ffffff" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Каскад защиты: при КЗ должна отключиться только своя линия</text>
+<g font-size="13">
+<rect x="245" y="50" width="270" height="48" rx="8" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<text x="380" y="70" text-anchor="middle" font-weight="bold" fill="#1e293b">Защита OSD перед счётчиком</text>
+<text x="380" y="88" text-anchor="middle" fill="#475569">вставка gG 25 А или селективный (E)</text>
+<line x1="380" y1="98" x2="380" y2="118" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="270" y="120" width="220" height="44" rx="8" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+<text x="380" y="139" text-anchor="middle" font-weight="bold" fill="#854d0e">Rozłącznik izolacyjny</text>
+<text x="380" y="156" text-anchor="middle" fill="#475569">главный выключатель, без защиты</text>
+<line x1="380" y1="164" x2="380" y2="184" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="270" y="186" width="220" height="40" rx="8" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+<text x="380" y="211" text-anchor="middle" font-weight="bold" fill="#7e22ce">УЗО 30 мА (следующий урок)</text>
+<line x1="380" y1="226" x2="380" y2="246" stroke="#475569" stroke-width="2"/>
+<line x1="110" y1="246" x2="650" y2="246" stroke="#475569" stroke-width="2"/>
+<line x1="110" y1="246" x2="110" y2="264" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="290" y1="246" x2="290" y2="264" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="470" y1="246" x2="470" y2="264" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="650" y1="246" x2="650" y2="264" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="50" y="266" width="120" height="50" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="110" y="288" text-anchor="middle" font-weight="bold" fill="#15803d">B10 · свет</text>
+<text x="110" y="306" text-anchor="middle" fill="#15803d">работает ✓</text>
+<rect x="230" y="266" width="120" height="50" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+<text x="290" y="288" text-anchor="middle" font-weight="bold" fill="#b91c1c">B16 · розетки</text>
+<text x="290" y="306" text-anchor="middle" fill="#b91c1c">отключился ✗</text>
+<rect x="410" y="266" width="120" height="50" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="470" y="288" text-anchor="middle" font-weight="bold" fill="#15803d">B16 · кухня</text>
+<text x="470" y="306" text-anchor="middle" fill="#15803d">работает ✓</text>
+<rect x="590" y="266" width="120" height="50" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="650" y="288" text-anchor="middle" font-weight="bold" fill="#15803d">B16 · стиралка</text>
+<text x="650" y="306" text-anchor="middle" fill="#15803d">работает ✓</text>
+<text x="290" y="338" text-anchor="middle" font-size="22" fill="#dc2626">⚡</text>
+<text x="290" y="356" text-anchor="middle" fill="#b91c1c">КЗ в розетке, 500 А</text>
+<rect x="20" y="372" width="720" height="56" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="1.5"/>
+<text x="40" y="395" fill="#111827"><tspan font-weight="bold" fill="#c2410c">Ошибка:</tspan> вместо разъединителя главный автомат B25. При 500 А его порог 125 А тоже превышен —</text>
+<text x="40" y="415" fill="#111827">отключаются оба, и гаснет вся квартира. Два обычных автомата подряд при КЗ почти не селективны.</text>
+</g>
+</svg>

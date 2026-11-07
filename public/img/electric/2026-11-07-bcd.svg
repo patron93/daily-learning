@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#ffffff" rx="16"/>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Характеристики B, C, D: ток → время отключения</text>
+<line x1="90.0" y1="70" x2="90.0" y2="330" stroke="#e5e7eb"/>
+<text x="90.0" y="348" text-anchor="middle" font-size="11" fill="#374151">1</text>
+<line x1="112.3" y1="70" x2="112.3" y2="330" stroke="#e5e7eb"/>
+<text x="112.3" y="348" text-anchor="middle" font-size="11" fill="#374151">1,13</text>
+<line x1="157.7" y1="70" x2="157.7" y2="330" stroke="#e5e7eb"/>
+<text x="157.7" y="348" text-anchor="middle" font-size="11" fill="#374151">1,45</text>
+<line x1="216.4" y1="70" x2="216.4" y2="330" stroke="#e5e7eb"/>
+<text x="216.4" y="348" text-anchor="middle" font-size="11" fill="#374151">2</text>
+<line x1="290.3" y1="70" x2="290.3" y2="330" stroke="#e5e7eb"/>
+<text x="290.3" y="348" text-anchor="middle" font-size="11" fill="#374151">3</text>
+<line x1="383.4" y1="70" x2="383.4" y2="330" stroke="#e5e7eb"/>
+<text x="383.4" y="348" text-anchor="middle" font-size="11" fill="#374151">5</text>
+<line x1="509.7" y1="70" x2="509.7" y2="330" stroke="#e5e7eb"/>
+<text x="509.7" y="348" text-anchor="middle" font-size="11" fill="#374151">10</text>
+<line x1="636.1" y1="70" x2="636.1" y2="330" stroke="#e5e7eb"/>
+<text x="636.1" y="348" text-anchor="middle" font-size="11" fill="#374151">20</text>
+<line x1="710.0" y1="70" x2="710.0" y2="330" stroke="#e5e7eb"/>
+<text x="710.0" y="348" text-anchor="middle" font-size="11" fill="#374151">30</text>
+<line x1="90" y1="330.0" x2="710" y2="330.0" stroke="#e5e7eb"/>
+<text x="84" y="334.0" text-anchor="end" font-size="11" fill="#374151">0,01 с</text>
+<line x1="90" y1="286.7" x2="710" y2="286.7" stroke="#e5e7eb"/>
+<text x="84" y="290.7" text-anchor="end" font-size="11" fill="#374151">0,1 с</text>
+<line x1="90" y1="243.3" x2="710" y2="243.3" stroke="#e5e7eb"/>
+<text x="84" y="247.3" text-anchor="end" font-size="11" fill="#374151">1 с</text>
+<line x1="90" y1="200.0" x2="710" y2="200.0" stroke="#e5e7eb"/>
+<text x="84" y="204.0" text-anchor="end" font-size="11" fill="#374151">10 с</text>
+<line x1="90" y1="156.7" x2="710" y2="156.7" stroke="#e5e7eb"/>
+<text x="84" y="160.7" text-anchor="end" font-size="11" fill="#374151">100 с</text>
+<line x1="90" y1="89.2" x2="710" y2="89.2" stroke="#e5e7eb"/>
+<text x="84" y="93.2" text-anchor="end" font-size="11" fill="#374151">1 час</text>
+<text x="400" y="368" text-anchor="middle" font-size="12" fill="#374151">ток, кратность номинала (× In), логарифмическая шкала</text>
+<polyline fill="none" stroke="#6b7280" stroke-width="3" points="157.7,89.2 166.6,94.4 175.5,99.1 184.4,103.6 193.3,107.9 202.2,111.9 211.1,115.7 220.0,119.4 228.9,123.0 237.8,126.4 246.7,129.7 255.6,132.9 264.5,136.0 273.4,139.1 282.2,142.1 290.3,213.0"/>
+<rect x="290.3" y="213.0" width="93.1" height="117.0" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" stroke-width="2"/>
+<text x="336.8" y="205.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">B</text>
+<text x="336.8" y="309.3" text-anchor="middle" font-size="11" fill="#2563eb">3–5×In</text>
+<rect x="383.4" y="213.0" width="126.4" height="117.0" fill="#16a34a" fill-opacity="0.18" stroke="#16a34a" stroke-width="2"/>
+<text x="446.6" y="205.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">C</text>
+<text x="446.6" y="309.3" text-anchor="middle" font-size="11" fill="#16a34a">5–10×In</text>
+<rect x="509.7" y="213.0" width="126.4" height="117.0" fill="#dc2626" fill-opacity="0.18" stroke="#dc2626" stroke-width="2"/>
+<text x="572.9" y="205.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+<text x="572.9" y="309.3" text-anchor="middle" font-size="11" fill="#dc2626">10–20×In</text>
+<line x1="112.3" y1="89.2" x2="112.3" y2="70" stroke="#9333ea" stroke-width="2" stroke-dasharray="5,4"/>
+<text x="118.3" y="84" font-size="11" fill="#7e22ce">1,13×In: не отключится за 1 час</text>
+<circle cx="157.7" cy="89.2" r="5" fill="#9333ea"/>
+<text x="195.7" y="113.2" font-size="11" fill="#7e22ce">1,45×In: отключится быстрее 1 часа</text>
+<text x="207.0" y="179.3" font-size="12" fill="#374151">тепловая часть</text>
+<text x="207.0" y="194.3" font-size="12" fill="#374151">(перегрузка)</text>
+<rect x="440" y="378" width="300" height="32" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="590" y="399" text-anchor="middle" font-size="12" fill="#111827">цветные зоны — мгновенная часть (КЗ), &lt; 0,1 с</text>
+<text x="20" y="399" font-size="12" fill="#111827">B16: мгновенно с 80 А · C16: со 160 А · D16: с 320 А</text>
+</svg>
