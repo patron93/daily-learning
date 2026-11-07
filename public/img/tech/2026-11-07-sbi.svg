@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" font-family="Arial, sans-serif">
+<rect width="800" height="330" fill="#ffffff" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">SBI(I): фидбек как разговор, а не приговор</text>
+<g font-size="13">
+<rect x="20" y="62" width="140" height="120" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="90" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Situation</text>
+<text x="90" y="112" text-anchor="middle" fill="#111827">когда и где</text>
+<text x="90" y="134" text-anchor="middle" fill="#4b5563">«на вчерашнем</text>
+<text x="90" y="152" text-anchor="middle" fill="#4b5563">демо»</text>
+<rect x="175" y="62" width="140" height="120" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+<text x="245" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Behavior</text>
+<text x="245" y="112" text-anchor="middle" fill="#111827">что видит камера</text>
+<text x="245" y="134" text-anchor="middle" fill="#4b5563">«перебил Аню</text>
+<text x="245" y="152" text-anchor="middle" fill="#4b5563">трижды»</text>
+<rect x="330" y="62" width="140" height="120" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="400" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#c2410c">Impact</text>
+<text x="400" y="112" text-anchor="middle" fill="#111827">последствия</text>
+<text x="400" y="134" text-anchor="middle" fill="#4b5563">«её вариант</text>
+<text x="400" y="152" text-anchor="middle" fill="#4b5563">не обсудили»</text>
+<rect x="485" y="62" width="140" height="120" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+<text x="555" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#7e22ce">Intent</text>
+<text x="555" y="112" text-anchor="middle" fill="#111827">спросить и слушать</text>
+<text x="555" y="134" text-anchor="middle" fill="#4b5563">«что ты хотел</text>
+<text x="555" y="152" text-anchor="middle" fill="#4b5563">добиться?»</text>
+<rect x="640" y="62" width="140" height="120" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<text x="710" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e293b">Next step</text>
+<text x="710" y="112" text-anchor="middle" fill="#111827">договорённость</text>
+<text x="710" y="134" text-anchor="middle" fill="#4b5563">«как сделаем</text>
+<text x="710" y="152" text-anchor="middle" fill="#4b5563">в следующий раз?»</text>
+</g>
+<g stroke="#6b7280" stroke-width="2" marker-end="url(#a)">
+<line x1="160" y1="122" x2="173" y2="122"/><line x1="315" y1="122" x2="328" y2="122"/><line x1="470" y1="122" x2="483" y2="122"/><line x1="625" y1="122" x2="638" y2="122"/>
+</g>
+<text x="245" y="208" text-anchor="middle" font-size="13" fill="#4b5563">говоришь ты: факты и эффект</text>
+<line x1="20" y1="196" x2="470" y2="196" stroke="#94a3b8" stroke-width="2"/>
+<text x="632" y="208" text-anchor="middle" font-size="13" fill="#4b5563">говорит он: решение — вместе</text>
+<line x1="485" y1="196" x2="780" y2="196" stroke="#94a3b8" stroke-width="2"/>
+<rect x="20" y="230" width="370" height="80" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="40" y="256" font-size="14" font-weight="bold" fill="#b91c1c">❌ Ярлык</text>
+<text x="40" y="280" font-size="13" fill="#111827">«Ты не командный игрок»</text>
+<text x="40" y="299" font-size="13" fill="#111827">«Ты всегда срываешь сроки»</text>
+<rect x="410" y="230" width="370" height="80" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+<text x="430" y="256" font-size="14" font-weight="bold" fill="#15803d">✅ Наблюдение</text>
+<text x="430" y="280" font-size="13" fill="#111827">«Во вторник ты смержил PR без апрува,</text>
+<text x="430" y="299" font-size="13" fill="#111827">в среду упал checkout на 40 минут»</text>
+</svg>
