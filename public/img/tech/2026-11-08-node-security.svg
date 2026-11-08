@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#ffffff" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="380" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Security-релиз Node.js: таймлайн и приоритеты</text>
+<line x1="60" y1="100" x2="700" y2="100" stroke="#475569" stroke-width="3" marker-end="url(#a)"/>
+<circle cx="110" cy="100" r="9" fill="#2563eb"/>
+<text x="110" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d4ed8">4 ноября</text>
+<text x="110" y="128" text-anchor="middle" font-size="12" fill="#334155">pre-alert:</text>
+<text x="110" y="144" text-anchor="middle" font-size="12" fill="#334155">22 / 24 / 26, HIGH</text>
+<rect x="190" y="84" width="230" height="32" rx="8" fill="#eff6ff" stroke="#3b82f6"/>
+<text x="305" y="105" text-anchor="middle" font-size="12" fill="#1e3a8a">подготовка: инвентаризация, владелец</text>
+<circle cx="480" cy="100" r="9" fill="#dc2626"/>
+<text x="480" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#b91c1c">11 ноября</text>
+<text x="480" y="128" text-anchor="middle" font-size="12" fill="#334155">патчи + CVE</text>
+<text x="480" y="144" text-anchor="middle" font-size="12" fill="#334155">детали публичны</text>
+<circle cx="630" cy="100" r="9" fill="#16a34a"/>
+<text x="630" y="74" text-anchor="middle" font-size="14" font-weight="bold" fill="#15803d">+2 дня</text>
+<text x="630" y="128" text-anchor="middle" font-size="12" fill="#334155">прод обновлён</text>
+<g font-size="13">
+<rect x="30" y="180" width="170" height="150" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="115" y="205" text-anchor="middle" font-weight="bold" fill="#b91c1c">SSR / BFF в проде</text>
+<text x="115" y="230" text-anchor="middle" fill="#334155">слушает интернет</text>
+<text x="115" y="250" text-anchor="middle" fill="#334155">HTTP-парсер, TLS</text>
+<text x="115" y="300" text-anchor="middle" font-weight="bold" fill="#b91c1c">48 часов</text>
+<rect x="210" y="180" width="170" height="150" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="295" y="205" text-anchor="middle" font-weight="bold" fill="#c2410c">CI и сборка</text>
+<text x="295" y="230" text-anchor="middle" fill="#334155">чужой код зависимостей</text>
+<text x="295" y="250" text-anchor="middle" fill="#334155">секреты, npm-токены</text>
+<text x="295" y="300" text-anchor="middle" font-weight="bold" fill="#c2410c">неделя</text>
+<rect x="390" y="180" width="170" height="150" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="475" y="205" text-anchor="middle" font-weight="bold" fill="#15803d">Ноутбуки команды</text>
+<text x="475" y="230" text-anchor="middle" fill="#334155">.nvmrc в PR</text>
+<text x="475" y="250" text-anchor="middle" fill="#334155">nvm / fnm / Volta</text>
+<text x="475" y="300" text-anchor="middle" font-weight="bold" fill="#15803d">обычный цикл</text>
+<rect x="570" y="180" width="170" height="150" rx="12" fill="#f8fafc" stroke="#64748b" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="655" y="205" text-anchor="middle" font-weight="bold" fill="#334155">Node 20 и старше</text>
+<text x="655" y="230" text-anchor="middle" fill="#334155">EOL: тоже уязвим,</text>
+<text x="655" y="250" text-anchor="middle" fill="#334155">но патча не будет</text>
+<text x="655" y="300" text-anchor="middle" font-weight="bold" fill="#334155">только переезд</text>
+</g>
+<text x="380" y="372" text-anchor="middle" font-size="13" fill="#475569">SPA без SSR: Node есть только при сборке, в браузерный бандл уязвимости рантайма не попадают</text>
+<text x="380" y="396" text-anchor="middle" font-size="12" fill="#64748b">источник: pre-alert Node.js, oss-security, 4.11.2026</text>
+</svg>
