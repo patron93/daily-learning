@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="Arial, sans-serif">
+<rect width="760" height="430" fill="#fffdf7" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Miejscownik: gdzie? o czym?</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">смотри на последнюю согласную основы — она выбирает окончание</text>
+<rect x="280" y="74" width="200" height="40" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<text x="380" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e293b">w / na / o / przy / po</text>
+<line x1="330" y1="114" x2="140" y2="146" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="380" y1="114" x2="380" y2="146" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="430" y1="114" x2="620" y2="146" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="20" y="150" width="235" height="200" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+<text x="137" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">твёрдая основа → -e</text>
+<text x="137" y="196" text-anchor="middle" font-size="12" fill="#475569">+ смягчение согласной</text>
+<text x="38" y="226" font-size="14" fill="#111827">kino → w ki<tspan fill="#dc2626" font-weight="bold">nie</tspan></text>
+<text x="38" y="252" font-size="14" fill="#111827">miasto → w mie<tspan fill="#dc2626" font-weight="bold">ście</tspan></text>
+<text x="38" y="278" font-size="14" fill="#111827">biuro → w biu<tspan fill="#dc2626" font-weight="bold">rze</tspan></text>
+<text x="38" y="304" font-size="14" fill="#111827">biblioteka → w bibliote<tspan fill="#dc2626" font-weight="bold">ce</tspan></text>
+<text x="38" y="330" font-size="14" fill="#111827">Warszawa → w Warsza<tspan fill="#dc2626" font-weight="bold">wie</tspan></text>
+<rect x="263" y="150" width="235" height="200" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="380" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">k, g, ch, мягкая → -u</text>
+<text x="380" y="196" text-anchor="middle" font-size="12" fill="#475569">мужской и средний род</text>
+<text x="281" y="226" font-size="14" fill="#111827">bank → w ban<tspan fill="#16a34a" font-weight="bold">ku</tspan></text>
+<text x="281" y="252" font-size="14" fill="#111827">dworzec → na dwor<tspan fill="#16a34a" font-weight="bold">cu</tspan></text>
+<text x="281" y="278" font-size="14" fill="#111827">szpital → w szpita<tspan fill="#16a34a" font-weight="bold">lu</tspan></text>
+<text x="281" y="304" font-size="14" fill="#111827">pokój → w poko<tspan fill="#16a34a" font-weight="bold">ju</tspan></text>
+<text x="281" y="330" font-size="13" fill="#7c2d12">❗ dom → w dom<tspan font-weight="bold">u</tspan>, syn, pan</text>
+<rect x="506" y="150" width="235" height="200" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+<text x="623" y="176" text-anchor="middle" font-size="15" font-weight="bold" fill="#7e22ce">мягкая ż / -i → -y, -i</text>
+<text x="623" y="196" text-anchor="middle" font-size="12" fill="#475569">женский род</text>
+<text x="524" y="226" font-size="14" fill="#111827">ulica → na uli<tspan fill="#9333ea" font-weight="bold">cy</tspan></text>
+<text x="524" y="252" font-size="14" fill="#111827">kuchnia → w kuch<tspan fill="#9333ea" font-weight="bold">ni</tspan></text>
+<text x="524" y="278" font-size="14" fill="#111827">noc → w no<tspan fill="#9333ea" font-weight="bold">cy</tspan></text>
+<text x="524" y="304" font-size="14" fill="#111827">praca → w pra<tspan fill="#9333ea" font-weight="bold">cy</tspan></text>
+<text x="524" y="330" font-size="14" fill="#111827">Białoruś → na Białoru<tspan fill="#9333ea" font-weight="bold">si</tspan></text>
+<rect x="20" y="362" width="720" height="52" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="380" y="384" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Множественное число — всегда -ach: w sklepach, w bankach, na ulicach</text>
+<text x="380" y="404" text-anchor="middle" font-size="13" fill="#92400e">na, где русский говорит «в»: na lotnisku, na uczelni, na Białorusi, na spotkaniu</text>
+</svg>

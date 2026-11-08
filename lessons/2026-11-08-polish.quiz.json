@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "track": "polish",
+  "topic": "Miejscownik: w/na + где?",
+  "questions": [
+    {"id": "loc-1", "type": "choice", "prompt": "Wieczorem jesteśmy w ___ (kino).", "options": ["kinie", "kinu", "kino", "kina"], "answer": "kinie", "explain": "Средний род с твёрдой основой: -o → -e со смягчением n → ni: w kinie."},
+    {"id": "loc-2", "type": "gap", "prompt": "Mam konto w ___ (bank).", "answers": ["banku"], "explain": "Основа на -k в мужском роде берёт -u: w banku."},
+    {"id": "loc-3", "type": "choice", "prompt": "Czekam na ciebie na ___ (dworzec).", "options": ["dworcu", "dworzecu", "dworcie", "dworca"], "answer": "dworcu", "explain": "E выпадает (dworzec → dworc-), основа на мягкую c → -u: na dworcu. Dworca — родительный."},
+    {"id": "loc-4", "type": "gap", "prompt": "Moja żona pracuje w ___ (biblioteka).", "answers": ["bibliotece"], "explain": "Женский род, основа на k: k → c и окончание -e: w bibliotece (как w Polsce, w aptece)."},
+    {"id": "loc-5", "type": "choice", "prompt": "Mój brat leży w ___ (szpital).", "options": ["szpitalu", "szpitale", "szpitalie", "szpitala"], "answer": "szpitalu", "explain": "Основа на функционально мягкую l → -u: w szpitalu."},
+    {"id": "loc-6", "type": "choice", "prompt": "Как сказать «Я в аэропорту»?", "options": ["Jestem na lotnisku.", "Jestem w lotnisku.", "Jestem na lotnisko.", "Jestem w lotniskie."], "answer": "Jestem na lotnisku.", "explain": "Аэропорт — одно из «na»-мест: na lotnisku. Основа на k → -u."},
+    {"id": "loc-7", "type": "gap", "prompt": "Za chwilę będę w ___ (dom).", "answers": ["domu"], "explain": "Исключение: dom, syn, pan берут -u, хотя основа твёрдая: w domu."},
+    {"id": "loc-8", "type": "choice", "prompt": "Pracuję w ___ (biuro).", "options": ["biurze", "biuru", "biurie", "biura"], "answer": "biurze", "explain": "Твёрдая основа на r: r → rz + -e: w biurze."},
+    {"id": "loc-9", "type": "choice", "prompt": "Как правильно: «Я родился в Беларуси»?", "options": ["Urodziłem się na Białorusi.", "Urodziłem się w Białorusi.", "Urodziłem się na Białoruś.", "Urodziłem się w Białorusie."], "answer": "Urodziłem się na Białorusi.", "explain": "Беларусь, Украина, Литва, Венгрия — с na: na Białorusi. Польша, Германия — с w: w Polsce, w Niemczech."},
+    {"id": "loc-10", "type": "gap", "prompt": "Mówimy o nowym ___ (film).", "answers": ["filmie"], "explain": "O + местный падеж. Твёрдая m → mi + -e: o filmie."}
+  ]
+}

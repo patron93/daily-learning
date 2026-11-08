@@ -403,9 +403,9 @@
       "example": "Kelner zaraz przyjdzie. — Официант сейчас подойдёт.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-30"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "stolik",
@@ -414,9 +414,9 @@
       "example": "Mamy wolny stolik przy oknie? — У нас есть свободный столик у окна?",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-30"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "zupa",
@@ -425,9 +425,9 @@
       "example": "Dziś zupa dnia to żurek. — Сегодня суп дня — журек.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-30"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "rachunek",
@@ -436,9 +436,9 @@
       "example": "Poproszę rachunek. — Счёт, пожалуйста.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-30"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "napiwek",
@@ -447,9 +447,9 @@
       "example": "Zostawiłem napiwek dla kelnera. — Я оставил чаевые официанту.",
       "topic": "Ресторан",
       "added": "2026-10-22",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-30"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "czytać",
@@ -1330,6 +1330,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-08"
+    },
+    {
+      "pl": "kino",
+      "ru": "кинотеатр, кино",
+      "pos": "noun-n",
+      "example": "Wieczorem jesteśmy w kinie. — Вечером мы в кино.",
+      "topic": "город",
+      "added": "2026-11-08",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-09"
+    },
+    {
+      "pl": "dworzec",
+      "ru": "вокзал",
+      "pos": "noun-m",
+      "example": "Czekam na ciebie na dworcu. — Жду тебя на вокзале.",
+      "topic": "город",
+      "added": "2026-11-08",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-09"
+    },
+    {
+      "pl": "bank",
+      "ru": "банк",
+      "pos": "noun-m",
+      "example": "Mam konto w banku PKO. — У меня счёт в банке PKO.",
+      "topic": "город",
+      "added": "2026-11-08",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-09"
+    },
+    {
+      "pl": "biblioteka",
+      "ru": "библиотека",
+      "pos": "noun-f",
+      "example": "Pracuję dziś w bibliotece. — Сегодня я работаю в библиотеке.",
+      "topic": "город",
+      "added": "2026-11-08",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-09"
+    },
+    {
+      "pl": "szpital",
+      "ru": "больница",
+      "pos": "noun-m",
+      "example": "Mój brat leży w szpitalu. — Мой брат лежит в больнице.",
+      "topic": "город",
+      "added": "2026-11-08",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-09"
     }
   ]
 }
