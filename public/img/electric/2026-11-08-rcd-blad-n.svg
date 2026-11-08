@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, sans-serif">
+<rect width="760" height="380" fill="#ffffff" rx="16"/>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Ноль после УЗО — только для «своих» линий</text>
+<g font-size="13">
+<rect x="20" y="50" width="350" height="310" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="195" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">✅ Правильно</text>
+<rect x="60" y="100" width="90" height="60" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="105" y="135" text-anchor="middle" font-weight="bold" fill="#1d4ed8">УЗО 1</text>
+<rect x="60" y="220" width="90" height="60" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="105" y="255" text-anchor="middle" font-weight="bold" fill="#1d4ed8">УЗО 2</text>
+<line x1="150" y1="115" x2="300" y2="115" stroke="#b45309" stroke-width="3"/>
+<line x1="150" y1="145" x2="300" y2="145" stroke="#2563eb" stroke-width="3"/>
+<text x="230" y="108" text-anchor="middle" fill="#b45309">L1</text>
+<text x="230" y="163" text-anchor="middle" fill="#2563eb">N1 → кухня</text>
+<line x1="150" y1="235" x2="300" y2="235" stroke="#b45309" stroke-width="3"/>
+<line x1="150" y1="265" x2="300" y2="265" stroke="#2563eb" stroke-width="3"/>
+<text x="230" y="228" text-anchor="middle" fill="#b45309">L2</text>
+<text x="230" y="283" text-anchor="middle" fill="#2563eb">N2 → комнаты</text>
+<text x="195" y="330" text-anchor="middle" fill="#14532d">у каждого УЗО своя шинка N</text>
+<rect x="390" y="50" width="350" height="310" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+<text x="565" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#b91c1c">❌ Неправильно</text>
+<rect x="430" y="100" width="90" height="60" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="475" y="135" text-anchor="middle" font-weight="bold" fill="#1d4ed8">УЗО 1</text>
+<rect x="430" y="220" width="90" height="60" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="475" y="255" text-anchor="middle" font-weight="bold" fill="#1d4ed8">УЗО 2</text>
+<line x1="520" y1="115" x2="700" y2="115" stroke="#b45309" stroke-width="3"/>
+<text x="610" y="108" text-anchor="middle" fill="#b45309">L1 → кухня</text>
+<line x1="520" y1="235" x2="700" y2="235" stroke="#b45309" stroke-width="3"/>
+<text x="610" y="228" text-anchor="middle" fill="#b45309">L2 → комнаты</text>
+<line x1="520" y1="145" x2="640" y2="145" stroke="#2563eb" stroke-width="3"/>
+<line x1="520" y1="265" x2="640" y2="265" stroke="#2563eb" stroke-width="3"/>
+<rect x="630" y="140" width="22" height="130" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="670" y="200" fill="#1d4ed8">общая</text>
+<text x="670" y="216" fill="#1d4ed8">шина N</text>
+<path d="M640,200 C600,200 560,240 525,262" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4">
+<animate attributeName="stroke-dashoffset" values="0;-18" dur="0.8s" repeatCount="indefinite"/></path>
+<text x="565" y="315" text-anchor="middle" fill="#7f1d1d">ток кухни возвращается через УЗО 2</text>
+<text x="565" y="335" text-anchor="middle" font-weight="bold" fill="#7f1d1d">баланс ломается → ложные срабатывания</text>
+</g>
+</svg>

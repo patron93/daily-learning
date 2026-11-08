@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#ffffff" rx="16"/>
+<defs>
+<marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b45309"/></marker>
+<marker id="b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+<marker id="g" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+</defs>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">УЗО — весы для тока: сколько ушло по L, столько должно вернуться по N</text>
+<line x1="40" y1="110" x2="700" y2="110" stroke="#b45309" stroke-width="4"/>
+<line x1="40" y1="170" x2="700" y2="170" stroke="#2563eb" stroke-width="4"/>
+<text x="30" y="115" text-anchor="end" font-size="15" font-weight="bold" fill="#b45309">L</text>
+<text x="30" y="175" text-anchor="end" font-size="15" font-weight="bold" fill="#2563eb">N</text>
+<line x1="90" y1="95" x2="150" y2="95" stroke="#b45309" stroke-width="2" marker-end="url(#r)">
+<animate attributeName="x1" values="60;120;60" dur="2s" repeatCount="indefinite"/><animate attributeName="x2" values="120;180;120" dur="2s" repeatCount="indefinite"/></line>
+<line x1="150" y1="185" x2="90" y2="185" stroke="#2563eb" stroke-width="2" marker-end="url(#b)">
+<animate attributeName="x1" values="180;120;180" dur="2s" repeatCount="indefinite"/><animate attributeName="x2" values="120;60;120" dur="2s" repeatCount="indefinite"/></line>
+<ellipse cx="260" cy="140" rx="40" ry="70" fill="none" stroke="#475569" stroke-width="12"/>
+<text x="260" y="238" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">железное кольцо</text>
+<text x="260" y="255" text-anchor="middle" font-size="12" fill="#475569">поля L и N гасят друг друга</text>
+<rect x="320" y="200" width="120" height="44" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="380" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">расцепитель</text>
+<text x="380" y="236" text-anchor="middle" font-size="12" fill="#92400e">разница ≥ 30 мА</text>
+<line x1="300" y1="190" x2="320" y2="215" stroke="#d97706" stroke-width="2"/>
+<rect x="560" y="80" width="110" height="120" rx="10" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+<text x="615" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">прибор</text>
+<text x="615" y="155" text-anchor="middle" font-size="12" fill="#475569">10 А</text>
+<circle cx="500" cy="300" r="14" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+<line x1="500" y1="314" x2="500" y2="350" stroke="#92400e" stroke-width="3"/>
+<line x1="500" y1="325" x2="470" y2="300" stroke="#92400e" stroke-width="3"/>
+<line x1="470" y1="300" x2="470" y2="112" stroke="#92400e" stroke-width="2" stroke-dasharray="4 3"/>
+<line x1="500" y1="350" x2="485" y2="380" stroke="#92400e" stroke-width="3"/>
+<line x1="500" y1="350" x2="515" y2="380" stroke="#92400e" stroke-width="3"/>
+<line x1="420" y1="392" x2="600" y2="392" stroke="#16a34a" stroke-width="4"/>
+<text x="610" y="397" font-size="13" fill="#15803d">земля / пол</text>
+<line x1="530" y1="300" x2="530" y2="380" stroke="#dc2626" stroke-width="2" marker-end="url(#g)">
+<animate attributeName="stroke-opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/></line>
+<text x="540" y="320" font-size="13" font-weight="bold" fill="#dc2626">утечка 230 мА</text>
+<text x="540" y="338" font-size="12" fill="#dc2626">мимо N, в пол</text>
+<rect x="40" y="290" width="360" height="100" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="56" y="314" font-size="13" fill="#14532d">Исправно: L 10,000 А, N 10,000 А → разница 0</text>
+<text x="56" y="338" font-size="13" fill="#7f1d1d">Касание фазы: L 10,230 А, N 10,000 А</text>
+<text x="56" y="362" font-size="13" font-weight="bold" fill="#7f1d1d">разница 230 мА → отключение ≤ 40 мс</text>
+<text x="56" y="382" font-size="12" fill="#475569">автомат B16 эти 0,23 А даже не заметит</text>
+</svg>
