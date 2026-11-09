@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+<rect width="760" height="360" fill="#f8fafc" rx="16"/>
+<defs><marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">Каскад SPD: импульс «срезается» ступенями</text>
+<!-- lightning -->
+<path d="M50 50 L36 90 L50 90 L38 130" stroke="#eab308" stroke-width="5" fill="none" stroke-linejoin="round"/>
+<text x="44" y="150" text-anchor="middle" font-size="12" fill="#713f12">молния /</text>
+<text x="44" y="164" text-anchor="middle" font-size="12" fill="#713f12">коммутация</text>
+<!-- line -->
+<line x1="80" y1="100" x2="720" y2="100" stroke="#7c2d12" stroke-width="4"/>
+<text x="90" y="90" font-size="13" fill="#7c2d12">L (фаза)</text>
+<line x1="80" y1="250" x2="720" y2="250" stroke="#16a34a" stroke-width="4" stroke-dasharray="10 5"/>
+<text x="90" y="272" font-size="13" fill="#15803d">PE → заземлитель</text>
+<g font-size="13">
+<rect x="160" y="140" width="120" height="70" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="220" y="168" text-anchor="middle" font-weight="bold" fill="#7f1d1d">Тип 1</text>
+<text x="220" y="190" text-anchor="middle" fill="#7f1d1d">ввод, 10/350</text>
+<line x1="220" y1="100" x2="220" y2="140" stroke="#334155" stroke-width="2"/>
+<line x1="220" y1="210" x2="220" y2="250" stroke="#334155" stroke-width="2"/>
+<rect x="360" y="140" width="120" height="70" rx="8" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="420" y="168" text-anchor="middle" font-weight="bold" fill="#7c2d12">Тип 2</text>
+<text x="420" y="190" text-anchor="middle" fill="#7c2d12">щит, 8/20</text>
+<line x1="420" y1="100" x2="420" y2="140" stroke="#334155" stroke-width="2"/>
+<line x1="420" y1="210" x2="420" y2="250" stroke="#334155" stroke-width="2"/>
+<rect x="540" y="140" width="110" height="70" rx="8" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+<text x="595" y="168" text-anchor="middle" font-weight="bold" fill="#713f12">Тип 3</text>
+<text x="595" y="190" text-anchor="middle" fill="#713f12">у прибора</text>
+<line x1="595" y1="100" x2="595" y2="140" stroke="#334155" stroke-width="2"/>
+<line x1="595" y1="210" x2="595" y2="250" stroke="#334155" stroke-width="2"/>
+<rect x="680" y="80" width="60" height="40" rx="6" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="710" y="105" text-anchor="middle" fill="#0c4a6e">котёл</text>
+</g>
+<!-- impulse arrows down -->
+<path d="M220 215 L220 245" stroke="#dc2626" stroke-width="3" marker-end="url(#ar)" opacity="0">
+<animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+</path>
+<g font-size="14" font-weight="bold">
+<text x="130" y="320" text-anchor="middle" fill="#b91c1c">~6 кВ</text>
+<text x="320" y="320" text-anchor="middle" fill="#c2410c">≤ 4 кВ</text>
+<text x="510" y="320" text-anchor="middle" fill="#a16207">≤ 1,5–2,5 кВ</text>
+<text x="690" y="320" text-anchor="middle" fill="#15803d">прибор цел</text>
+</g>
+<text x="380" y="345" text-anchor="middle" font-size="12" fill="#475569">Тип 3 без типа 2 перед ним не работает · между ступенями — кабель, ≤ ~10 м до защищаемой техники</text>
+<!-- moving pulse -->
+<circle r="7" fill="#dc2626" cy="100" cx="80">
+<animate attributeName="cx" values="80;700" dur="3s" repeatCount="indefinite"/>
+<animate attributeName="r" values="10;8;5;3" keyTimes="0;0.3;0.6;1" dur="3s" repeatCount="indefinite"/>
+</circle>
+</svg>

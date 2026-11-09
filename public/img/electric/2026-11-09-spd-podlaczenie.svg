@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Arial, sans-serif">
+<rect width="760" height="340" fill="#f8fafc" rx="16"/>
+<text x="380" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">Длина подключения SPD решает</text>
+<g font-size="13">
+<!-- left good -->
+<rect x="20" y="50" width="350" height="230" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+<text x="195" y="74" text-anchor="middle" font-weight="bold" fill="#14532d">✅ Коротко, схема «V»</text>
+<line x1="40" y1="110" x2="350" y2="110" stroke="#7c2d12" stroke-width="4"/>
+<text x="44" y="102" fill="#7c2d12">L с главного выключателя</text>
+<path d="M150 110 L170 140 L190 110" stroke="#334155" stroke-width="3" fill="none"/>
+<rect x="140" y="140" width="60" height="60" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="170" y="175" text-anchor="middle" font-weight="bold" fill="#7c2d12">SPD</text>
+<line x1="170" y1="200" x2="170" y2="225" stroke="#16a34a" stroke-width="3"/>
+<line x1="60" y1="225" x2="330" y2="225" stroke="#16a34a" stroke-width="5"/>
+<text x="250" y="218" fill="#15803d">шина PE рядом</text>
+<text x="195" y="258" text-anchor="middle" fill="#14532d">a + b ≤ 0,5 м → на технике ≈ Up (1,5 кВ)</text>
+<!-- right bad -->
+<rect x="390" y="50" width="350" height="230" rx="12" fill="#fef2f2" stroke="#dc2626"/>
+<text x="565" y="74" text-anchor="middle" font-weight="bold" fill="#7f1d1d">❌ «Хвосты» по метру</text>
+<line x1="410" y1="110" x2="720" y2="110" stroke="#7c2d12" stroke-width="4"/>
+<path d="M440 110 C 440 150, 520 120, 540 150" stroke="#334155" stroke-width="3" fill="none"/>
+<rect x="510" y="150" width="60" height="50" rx="6" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+<text x="540" y="180" text-anchor="middle" font-weight="bold" fill="#7c2d12">SPD</text>
+<path d="M540 200 C 560 240, 640 200, 690 235" stroke="#16a34a" stroke-width="3" fill="none"/>
+<line x1="660" y1="235" x2="720" y2="235" stroke="#16a34a" stroke-width="5"/>
+<text x="690" y="228" text-anchor="middle" fill="#15803d">PE</text>
+<text x="565" y="262" text-anchor="middle" fill="#7f1d1d">~2 м провода → +~2 кВ → на технике ≈ 3,5 кВ</text>
+</g>
+<text x="380" y="310" text-anchor="middle" font-size="13" fill="#475569">Грубое правило производителей: порядка 1 кВ «сверху» на каждый метр подключения при быстром импульсе</text>
+</svg>
