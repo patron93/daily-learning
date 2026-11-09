@@ -788,9 +788,9 @@
       "example": "Kupuję ciepłą kurtkę na zimę. — Я покупаю тёплую куртку на зиму.",
       "topic": "Одежда и магазин",
       "added": "2026-10-29",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-30"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "sweter",
@@ -799,9 +799,9 @@
       "example": "Mam nowy sweter. — У меня новый свитер.",
       "topic": "Одежда и магазин",
       "added": "2026-10-29",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-30"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "czapka",
@@ -810,9 +810,9 @@
       "example": "Zakładam czapkę, bo jest zimno. — Надеваю шапку, потому что холодно.",
       "topic": "Одежда и магазин",
       "added": "2026-10-29",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-30"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "rozmiar",
@@ -821,9 +821,9 @@
       "example": "Jaki rozmiar Pan nosi? — Какой размер вы носите?",
       "topic": "Одежда и магазин",
       "added": "2026-10-29",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-30"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "przymierzać",
@@ -832,9 +832,9 @@
       "example": "Czy mogę przymierzyć tę kurtkę? — Можно примерить эту куртку?",
       "topic": "Одежда и магазин",
       "added": "2026-10-29",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-30"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-12"
     },
     {
       "pl": "cmentarz",
@@ -1385,6 +1385,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-09"
+    },
+    {
+      "pl": "przystojny",
+      "ru": "симпатичный, красивый (о мужчине)",
+      "pos": "adj",
+      "example": "Twój brat jest bardzo przystojny. — Твой брат очень симпатичный.",
+      "topic": "Внешность и характер",
+      "added": "2026-11-09",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-10"
+    },
+    {
+      "pl": "ładny",
+      "ru": "красивый, симпатичный",
+      "pos": "adj",
+      "example": "Masz ładny sweter. — У тебя красивый свитер.",
+      "topic": "Внешность и характер",
+      "added": "2026-11-09",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-10"
+    },
+    {
+      "pl": "miły",
+      "ru": "приятный, милый, любезный",
+      "pos": "adj",
+      "example": "Nasz nowy szef jest bardzo miły. — Наш новый начальник очень приятный.",
+      "topic": "Внешность и характер",
+      "added": "2026-11-09",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-10"
+    },
+    {
+      "pl": "wesoły",
+      "ru": "весёлый",
+      "pos": "adj",
+      "example": "Ona jest zawsze wesoła. — Она всегда весёлая.",
+      "topic": "Внешность и характер",
+      "added": "2026-11-09",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-10"
+    },
+    {
+      "pl": "zły",
+      "ru": "злой; сердитый; плохой",
+      "pos": "adj",
+      "example": "Jestem zły na siebie. — Я злюсь на себя.",
+      "topic": "Внешность и характер",
+      "added": "2026-11-09",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-10"
     }
   ]
 }

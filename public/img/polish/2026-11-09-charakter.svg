@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Arial, sans-serif">
+<rect width="720" height="420" fill="#f8fafc" rx="16"/>
+<text x="360" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">Внешность и характер: ложные друзья</text>
+<g font-size="15">
+<rect x="24" y="54" width="672" height="50" rx="10" fill="#fef3c7" stroke="#d97706"/>
+<text x="44" y="85" font-weight="bold" fill="#78350f" font-size="18">gruby</text>
+<text x="220" y="85" fill="#78350f">= толстый</text>
+<text x="470" y="85" fill="#b91c1c">≠ грубый → niegrzeczny</text>
+<rect x="24" y="112" width="672" height="50" rx="10" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="44" y="143" font-weight="bold" fill="#0c4a6e" font-size="18">przystojny</text>
+<text x="220" y="143" fill="#0c4a6e">= красивый (мужчина)</text>
+<text x="470" y="143" fill="#b91c1c">≠ пристойный → przyzwoity</text>
+<rect x="24" y="170" width="672" height="50" rx="10" fill="#fee2e2" stroke="#dc2626"/>
+<text x="44" y="201" font-weight="bold" fill="#7f1d1d" font-size="18">zły</text>
+<text x="220" y="201" fill="#7f1d1d">= злой · сердитый · плохой</text>
+<text x="470" y="201" fill="#b91c1c">zła odpowiedź = ошибка</text>
+<rect x="24" y="228" width="672" height="50" rx="10" fill="#f1f5f9" stroke="#64748b"/>
+<text x="44" y="259" font-weight="bold" fill="#1e293b" font-size="18">dziwny</text>
+<text x="220" y="259" fill="#1e293b">= странный</text>
+<text x="470" y="259" fill="#b91c1c">≠ дивный → cudowny</text>
+<rect x="24" y="286" width="672" height="50" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+<text x="44" y="317" font-weight="bold" fill="#14532d" font-size="18">uprzejmy</text>
+<text x="220" y="317" fill="#14532d">= вежливый, любезный</text>
+<text x="470" y="317" fill="#b91c1c">≠ упрямый → uparty</text>
+<rect x="24" y="344" width="672" height="50" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="44" y="375" font-weight="bold" fill="#4c1d95" font-size="18">bystry</text>
+<text x="220" y="375" fill="#4c1d95">= сообразительный</text>
+<text x="470" y="375" fill="#b91c1c">быстрый → szybki</text>
+</g>
+</svg>

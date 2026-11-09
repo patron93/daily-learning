@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "track": "polish",
+  "topic": "Внешность и характер: ложные друзья",
+  "questions": [
+    {"id": "char-1", "type": "choice", "prompt": "Gruba książka — это…", "options": ["толстая книга", "грубая книга", "скучная книга", "старая книга"], "answer": "толстая книга", "explain": "Gruby — толстый. «Грубый» по-польски — niegrzeczny или chamski."},
+    {"id": "char-2", "type": "choice", "prompt": "Koleżanka mówi: «Twój brat jest przystojny». Это…", "options": ["комплимент: он симпатичный", "он ведёт себя прилично", "он стоит рядом", "он очень высокий"], "answer": "комплимент: он симпатичный", "explain": "Przystojny — красивый, видный (о мужчине). «Пристойный» — przyzwoity."},
+    {"id": "char-3", "type": "choice", "prompt": "Szef jest dziś zły. Что с шефом?", "options": ["он сердитый", "он заболел", "он весёлый", "его нет на работе"], "answer": "он сердитый", "explain": "Zły про состояние человека — сердитый, рассерженный."},
+    {"id": "char-4", "type": "choice", "prompt": "To była zła odpowiedź. Какой был ответ?", "options": ["неправильный", "злобный", "длинный", "вежливый"], "answer": "неправильный", "explain": "Zły про вещи и решения — плохой, неправильный: zła odpowiedź, zły pomysł."},
+    {"id": "char-5", "type": "choice", "prompt": "Как по-польски «упрямый»?", "options": ["uparty", "uprzejmy", "uważny", "uprzywilejowany"], "answer": "uparty", "explain": "Uparty — упрямый (uparty jak osioł). Uprzejmy — наоборот, вежливый."},
+    {"id": "char-6", "type": "gap", "prompt": "Pani w urzędzie była bardzo ___ (вежливая).", "answers": ["uprzejma", "miła"], "explain": "Uprzejmy/uprzejma — вежливый, любезный; женский род на -a."},
+    {"id": "char-7", "type": "choice", "prompt": "To dziwne! — Что это значит?", "options": ["Это странно!", "Это дивно!", "Это смешно!", "Это дорого!"], "answer": "Это странно!", "explain": "Dziwny — странный. «Дивный» — cudowny, wspaniały."},
+    {"id": "char-8", "type": "gap", "prompt": "Ona jest zawsze ___ (весёлая).", "answers": ["wesoła"], "explain": "Wesoły → wesoła в женском роде."},
+    {"id": "char-9", "type": "choice", "prompt": "Bystry chłopak — это…", "options": ["смышлёный парень", "быстрый бегун", "худой парень", "весёлый парень"], "answer": "смышлёный парень", "explain": "Про человека bystry — сообразительный. Про скорость — szybki."},
+    {"id": "char-10", "type": "choice", "prompt": "Jaki jest nowy kolega? — Jest bardzo ___.", "options": ["miły", "miłym", "miłego", "miła"], "answer": "miły", "explain": "После jest без существительного — прилагательное в именительном: jest miły. Творительный — только с существительным: jest miłym człowiekiem."}
+  ]
+}
