@@ -36,7 +36,7 @@
 - [x] Монорепо: Nx, границы модулей, enforce-module-boundaries
 - [x] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - [x] Feature-sliced / domain-driven структура фронтенда
-- [ ] Дизайн-системы и библиотеки компонентов: версионирование, токены
+- [x] Дизайн-системы и библиотеки компонентов: версионирование, токены
 - [ ] State management: классификация состояний (server, UI, URL, form)
 - [ ] BFF (Backend for Frontend) и API-контракты (OpenAPI, генерация клиентов)
 - [ ] Web performance: Core Web Vitals (LCP, INP, CLS) на практике
@@ -104,3 +104,4 @@
 - 2026-11-06 · angular · Deferrable views (@defer): стратегии триггеров и влияние на бандл
 - 2026-11-07 · leadership · Feedback: модель SBI и как давать сложный фидбек
 - 2026-11-08 · news · Node.js security-релиз 11 ноября (pre-alert): плейбук патчей рантайма для команды
+- 2026-11-09 · architecture · Дизайн-системы и библиотеки компонентов: версионирование, токены

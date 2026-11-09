@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, sans-serif">
+<rect width="760" height="400" fill="#f8fafc" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">Три уровня токенов и пайплайн</text>
+<g font-size="14">
+<rect x="30" y="60" width="210" height="110" rx="10" fill="#e2e8f0" stroke="#64748b"/>
+<text x="135" y="84" text-anchor="middle" font-weight="bold" fill="#1e293b">1. Примитивы</text>
+<text x="135" y="110" text-anchor="middle" fill="#334155">blue.600 = #2563eb</text>
+<text x="135" y="132" text-anchor="middle" fill="#334155">space.4 = 16px</text>
+<text x="135" y="156" text-anchor="middle" fill="#b91c1c" font-size="12">компоненты сюда не ходят</text>
+<rect x="275" y="60" width="210" height="110" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+<text x="380" y="84" text-anchor="middle" font-weight="bold" fill="#1e3a8a">2. Семантика</text>
+<text x="380" y="110" text-anchor="middle" fill="#1e3a8a">action.primary → blue.600</text>
+<text x="380" y="132" text-anchor="middle" fill="#1e3a8a">surface.danger → red.50</text>
+<text x="380" y="156" text-anchor="middle" fill="#1d4ed8" font-size="12">здесь живут темы и бренды</text>
+<rect x="520" y="60" width="210" height="110" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+<text x="625" y="84" text-anchor="middle" font-weight="bold" fill="#14532d">3. Компонент</text>
+<text x="625" y="110" text-anchor="middle" fill="#14532d">button.bg →</text>
+<text x="625" y="132" text-anchor="middle" fill="#14532d">action.primary</text>
+<text x="625" y="156" text-anchor="middle" fill="#15803d" font-size="12">точка кастомизации</text>
+<line x1="240" y1="115" x2="272" y2="115" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="485" y1="115" x2="517" y2="115" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="30" y="220" width="200" height="70" rx="10" fill="#fef3c7" stroke="#d97706"/>
+<text x="130" y="248" text-anchor="middle" font-weight="bold" fill="#78350f">*.tokens.json</text>
+<text x="130" y="270" text-anchor="middle" fill="#78350f" font-size="12">DTCG 2025.10, в git, через PR</text>
+<rect x="280" y="220" width="200" height="70" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="380" y="248" text-anchor="middle" font-weight="bold" fill="#4c1d95">Style Dictionary</text>
+<text x="380" y="270" text-anchor="middle" fill="#4c1d95" font-size="12">или Terrazzo — генератор</text>
+<line x1="230" y1="255" x2="277" y2="255" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<rect x="530" y="200" width="200" height="34" rx="8" fill="#fff" stroke="#94a3b8"/>
+<text x="630" y="222" text-anchor="middle" fill="#0f172a">CSS vars --ds-*</text>
+<rect x="530" y="240" width="200" height="34" rx="8" fill="#fff" stroke="#94a3b8"/>
+<text x="630" y="262" text-anchor="middle" fill="#0f172a">SCSS / TS-константы</text>
+<rect x="530" y="280" width="200" height="34" rx="8" fill="#fff" stroke="#94a3b8"/>
+<text x="630" y="302" text-anchor="middle" fill="#0f172a">Figma (Tokens Studio)</text>
+<line x1="480" y1="255" x2="527" y2="217" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="480" y1="255" x2="527" y2="257" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<line x1="480" y1="255" x2="527" y2="297" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<text x="380" y="350" text-anchor="middle" fill="#334155">Удалить/переименовать токен или CSS-переменную = major. Добавить = minor.</text>
+<text x="380" y="374" text-anchor="middle" fill="#334155">Старое имя живёт алиасом одну мажорную версию (@deprecated).</text>
+</g>
+</svg>
