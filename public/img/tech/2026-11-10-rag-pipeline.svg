@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Arial, sans-serif">
+<rect width="800" height="440" fill="#f8fafc" rx="16"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<text x="400" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">RAG по документации: два конвейера</text>
+<!-- indexing -->
+<text x="24" y="66" font-size="14" font-weight="bold" fill="#7c3aed">ИНДЕКСАЦИЯ · офлайн, в CI при мёрже</text>
+<g font-size="12" text-anchor="middle">
+<rect x="20" y="78" width="130" height="62" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="85" y="104" font-weight="bold" fill="#4c1d95">Источники</text><text x="85" y="122" fill="#4c1d95">md, ADR, OpenAPI</text>
+<rect x="175" y="78" width="130" height="62" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="240" y="104" font-weight="bold" fill="#4c1d95">Чанкинг</text><text x="240" y="122" fill="#4c1d95">по заголовкам</text>
+<rect x="330" y="78" width="130" height="62" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="395" y="104" font-weight="bold" fill="#4c1d95">+ контекст</text><text x="395" y="122" fill="#4c1d95">крошки, 1–2 фразы</text>
+<rect x="485" y="78" width="130" height="62" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="550" y="104" font-weight="bold" fill="#4c1d95">Эмбеддинги</text><text x="550" y="122" fill="#4c1d95">+ BM25-индекс</text>
+<rect x="640" y="78" width="140" height="62" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="710" y="104" font-weight="bold" fill="#78350f">Postgres</text><text x="710" y="122" fill="#78350f">pgvector + tsvector</text>
+</g>
+<g stroke="#475569" stroke-width="2" marker-end="url(#a)">
+<line x1="150" y1="109" x2="172" y2="109"/><line x1="305" y1="109" x2="327" y2="109"/><line x1="460" y1="109" x2="482" y2="109"/><line x1="615" y1="109" x2="637" y2="109"/>
+</g>
+<!-- query -->
+<text x="24" y="196" font-size="14" font-weight="bold" fill="#0369a1">ЗАПРОС · онлайн, на каждый вопрос</text>
+<g font-size="12" text-anchor="middle">
+<rect x="20" y="210" width="120" height="62" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="80" y="236" font-weight="bold" fill="#0c4a6e">Вопрос</text><text x="80" y="254" fill="#0c4a6e">+ права юзера</text>
+<rect x="165" y="200" width="130" height="38" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="230" y="224" fill="#0c4a6e">векторы · топ-50</text>
+<rect x="165" y="246" width="130" height="38" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="230" y="270" fill="#0c4a6e">BM25 · топ-50</text>
+<rect x="320" y="210" width="120" height="62" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="380" y="236" font-weight="bold" fill="#0c4a6e">RRF</text><text x="380" y="254" fill="#0c4a6e">Σ 1/(60+rank)</text>
+<rect x="465" y="210" width="130" height="62" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="530" y="236" font-weight="bold" fill="#0c4a6e">Реранкер</text><text x="530" y="254" fill="#0c4a6e">→ топ 5–20</text>
+<rect x="620" y="210" width="160" height="62" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="700" y="236" font-weight="bold" fill="#14532d">LLM</text><text x="700" y="254" fill="#14532d">ответ + ссылки</text>
+</g>
+<g stroke="#475569" stroke-width="2" marker-end="url(#a)" fill="none">
+<line x1="140" y1="232" x2="162" y2="220"/><line x1="140" y1="250" x2="162" y2="264"/>
+<line x1="295" y1="220" x2="317" y2="234"/><line x1="295" y1="264" x2="317" y2="250"/>
+<line x1="440" y1="241" x2="462" y2="241"/><line x1="595" y1="241" x2="617" y2="241"/>
+<path d="M710 140 C 710 170, 300 170, 235 197" stroke-dasharray="5 4"/>
+</g>
+<!-- eval + alternatives -->
+<rect x="20" y="310" width="370" height="108" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="36" y="336" font-size="14" font-weight="bold" fill="#9a3412">Eval: recall@k</text>
+<text x="36" y="358" font-size="12" fill="#7c2d12">30 реальных вопросов → правильный документ</text>
+<text x="36" y="378" font-size="12" fill="#7c2d12">попал ли он в топ-k? Считается без LLM, за секунды.</text>
+<text x="36" y="398" font-size="12" fill="#7c2d12">Гоняйте при каждом изменении чанкинга.</text>
+<rect x="410" y="310" width="370" height="108" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+<text x="426" y="336" font-size="14" font-weight="bold" fill="#334155">Может, RAG не нужен?</text>
+<text x="426" y="358" font-size="12" fill="#334155">• всё ≤ ~200k токенов → весь корпус в промпт</text>
+<text x="426" y="378" font-size="12" fill="#334155">  + prompt caching</text>
+<text x="426" y="398" font-size="12" fill="#334155">• код в репо → агентный поиск (grep, чтение файлов)</text>
+</svg>
