@@ -128,9 +128,9 @@
       "example": "Czekam na przystanku. — Я жду на остановке.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-31"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "bilet",
@@ -139,9 +139,9 @@
       "example": "Kupiłem bilet w automacie. — Я купил билет в автомате.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-31"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "tramwaj",
@@ -150,9 +150,9 @@
       "example": "Jadę do pracy tramwajem. — Я еду на работу на трамвае.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-31"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "przesiadka",
@@ -161,9 +161,9 @@
       "example": "Mam jedną przesiadkę. — У меня одна пересадка.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-31"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "spóźnienie",
@@ -172,9 +172,9 @@
       "example": "Pociąg ma spóźnienie. — Поезд опаздывает.",
       "topic": "Транспорт · ударение",
       "added": "2026-10-17",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-10-31"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "imieniny",
@@ -1440,6 +1440,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-10"
+    },
+    {
+      "pl": "chodzić",
+      "ru": "ходить (регулярно)",
+      "pos": "verb",
+      "example": "Codziennie chodzę do pracy. — Каждый день я хожу на работу.",
+      "topic": "Транспорт и движение",
+      "added": "2026-11-10",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-11"
+    },
+    {
+      "pl": "jechać",
+      "ru": "ехать (сейчас, в одну сторону)",
+      "pos": "verb",
+      "example": "Jadę do Krakowa. — Я еду в Краков.",
+      "topic": "Транспорт и движение",
+      "added": "2026-11-10",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-11"
+    },
+    {
+      "pl": "jeździć",
+      "ru": "ездить (регулярно)",
+      "pos": "verb",
+      "example": "Często jeżdżę tramwajem. — Я часто езжу на трамвае.",
+      "topic": "Транспорт и движение",
+      "added": "2026-11-10",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-11"
+    },
+    {
+      "pl": "rower",
+      "ru": "велосипед",
+      "pos": "noun-m",
+      "example": "Latem jeżdżę do biura rowerem. — Летом я езжу в офис на велосипеде.",
+      "topic": "Транспорт и движение",
+      "added": "2026-11-10",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-11"
+    },
+    {
+      "pl": "pociąg",
+      "ru": "поезд",
+      "pos": "noun-m",
+      "example": "Pociąg do Gdańska jedzie trzy godziny. — Поезд до Гданьска едет три часа.",
+      "topic": "Транспорт и движение",
+      "added": "2026-11-10",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-11"
     }
   ]
 }

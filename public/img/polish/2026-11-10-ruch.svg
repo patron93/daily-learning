@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Глаголы движения: 2 вопроса — 4 глагола</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">1) ногами или на транспорте?  2) сейчас в одну сторону или регулярно?</text>
+<!-- column headers -->
+<rect x="200" y="78" width="260" height="44" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+<text x="330" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#92400e">сейчас, в одну сторону</text>
+<text x="330" y="115" text-anchor="middle" font-size="12" fill="#92400e">teraz, właśnie, jutro</text>
+<rect x="480" y="78" width="260" height="44" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="610" y="99" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b21b6">регулярно, вообще</text>
+<text x="610" y="115" text-anchor="middle" font-size="12" fill="#5b21b6">codziennie, często, zawsze</text>
+<!-- row headers -->
+<rect x="20" y="138" width="165" height="120" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+<text x="102" y="180" text-anchor="middle" font-size="30">🚶</text>
+<text x="102" y="212" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">пешком</text>
+<text x="102" y="232" text-anchor="middle" font-size="12" fill="#166534">pieszo</text>
+<rect x="20" y="274" width="165" height="120" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="102" y="316" text-anchor="middle" font-size="30">🚋</text>
+<text x="102" y="348" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e40af">на транспорте</text>
+<text x="102" y="368" text-anchor="middle" font-size="12" fill="#1e40af">autobus, pociąg, rower, winda</text>
+<!-- cells -->
+<rect x="200" y="138" width="260" height="120" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="330" y="178" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">iść</text>
+<text x="330" y="204" text-anchor="middle" font-size="13" fill="#374151">idę, idziesz, idą</text>
+<text x="330" y="232" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">Idę do sklepu.</text>
+<rect x="480" y="138" width="260" height="120" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="610" y="178" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">chodzić</text>
+<text x="610" y="204" text-anchor="middle" font-size="13" fill="#374151">chodzę, chodzisz, chodzą</text>
+<text x="610" y="232" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">Codziennie chodzę do pracy.</text>
+<rect x="200" y="274" width="260" height="120" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="330" y="314" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">jechać</text>
+<text x="330" y="340" text-anchor="middle" font-size="13" fill="#374151">jadę, jedziesz, jadą</text>
+<text x="330" y="368" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">Jadę tramwajem do biura.</text>
+<rect x="480" y="274" width="260" height="120" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="610" y="314" text-anchor="middle" font-size="26" font-weight="bold" fill="#111827">jeździć</text>
+<text x="610" y="340" text-anchor="middle" font-size="13" fill="#374151">jeżdżę, jeździsz, jeżdżą</text>
+<text x="610" y="368" text-anchor="middle" font-size="13" font-style="italic" fill="#6b7280">Często jeżdżę rowerem.</text>
+<text x="380" y="412" text-anchor="middle" font-size="12" fill="#b91c1c">⚠ «Поезд идёт» → Pociąg jedzie. В автобусе ты всегда jedziesz, а не idziesz.</text>
+</svg>

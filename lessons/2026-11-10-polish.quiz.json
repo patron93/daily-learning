@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-10",
+  "track": "polish",
+  "topic": "Глаголы движения: iść / chodzić, jechać / jeździć",
+  "questions": [
+    {"id": "ruch-1", "type": "choice", "prompt": "Teraz ___ do sklepu (пешком, сейчас).", "options": ["idę", "chodzę", "jadę", "jeżdżę"], "answer": "idę", "explain": "Пешком + прямо сейчас в одну сторону → iść: idę."},
+    {"id": "ruch-2", "type": "choice", "prompt": "Codziennie ___ do pracy tramwajem.", "options": ["jeżdżę", "jadę", "chodzę", "idę"], "answer": "jeżdżę", "explain": "Транспорт + регулярно (codziennie) → jeździć: jeżdżę."},
+    {"id": "ruch-3", "type": "choice", "prompt": "Как сказать «Поезд уже идёт!»?", "options": ["Pociąg już jedzie!", "Pociąg już idzie!", "Pociąg już chodzi!", "Pociąg już jeździ!"], "answer": "Pociąg już jedzie!", "explain": "Про транспорт поляки говорят jechać: pociąg jedzie, autobus jedzie. Iść — только пешком."},
+    {"id": "ruch-4", "type": "gap", "prompt": "Jutro ___ (jechać, ja) do Krakowa pociągiem.", "answers": ["jadę"], "explain": "Jechać: ja jadę (с «a»), ty jedziesz, oni jadą."},
+    {"id": "ruch-5", "type": "gap", "prompt": "Oni często ___ (jeździć) rowerem.", "answers": ["jeżdżą"], "explain": "Jeździć: ja jeżdżę, oni jeżdżą — в этих формах źdź → żdż."},
+    {"id": "ruch-6", "type": "gap", "prompt": "We wtorki ___ (chodzić, ja) na siłownię.", "answers": ["chodzę"], "explain": "Регулярно (we wtorki) + пешком → chodzić: chodzę."},
+    {"id": "ruch-7", "type": "choice", "prompt": "Ты в автобусе, друг звонит: «Gdzie jesteś?» Что ответишь?", "options": ["Jadę autobusem do domu.", "Idę autobusem do domu.", "Chodzę autobusem do domu.", "Jeżdżę autobusem do domu."], "answer": "Jadę autobusem do domu.", "explain": "Сейчас, в одну сторону, на транспорте → jadę. «Idę autobusem» — типичная ошибка русскоговорящих."},
+    {"id": "ruch-8", "type": "choice", "prompt": "Коллега спрашивает: «O co chodzi?» Что он имеет в виду?", "options": ["В чём дело?", "Куда ты ходишь?", "С кем ты встречаешься?", "Когда ты пойдёшь?"], "answer": "В чём дело?", "explain": "O co chodzi? — устойчивое выражение «в чём дело?». Chodzi o… — «речь идёт о…»."},
+    {"id": "ruch-9", "type": "gap", "prompt": "Dziecko ma rok i już ___ (chodzić, ono).", "answers": ["chodzi"], "explain": "Умение ходить вообще — chodzić: dziecko chodzi."},
+    {"id": "ruch-10", "type": "choice", "prompt": "Как правильно: «Я еду на лифте на пятый этаж»?", "options": ["Jadę windą na piąte piętro.", "Idę windą na piąte piętro.", "Jeżdżę windą na piąte piętro teraz.", "Chodzę windą na piąte piętro."], "answer": "Jadę windą na piąte piętro.", "explain": "Лифт — тоже транспорт, значит jechać. Сейчас, один раз → jadę."}
+  ]
+}
