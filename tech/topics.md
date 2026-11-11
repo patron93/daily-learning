@@ -58,7 +58,7 @@
 - [x] Node.js event loop глубже: microtasks, libuv
 - [x] NestJS для Angular-разработчика: те же идеи DI и декораторов
 - [x] REST vs GraphQL vs tRPC: компромиссы
-- [ ] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
+- [x] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
 - [ ] PostgreSQL: индексы, EXPLAIN, N+1
 - [ ] Очереди и асинхронность: когда нужен message broker
 - [ ] Docker для фронтендера: multi-stage build, nginx для SPA
@@ -106,3 +106,4 @@
 - 2026-11-08 · news · Node.js security-релиз 11 ноября (pre-alert): плейбук патчей рантайма для команды
 - 2026-11-09 · architecture · Дизайн-системы и библиотеки компонентов: версионирование, токены
 - 2026-11-10 · ai · RAG: как построить поиск по документации проекта
+- 2026-11-11 · backend · Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE и BFF (по RFC 10017, август 2026)
