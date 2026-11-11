@@ -458,9 +458,9 @@
       "example": "Wieczorem czytam książkę. — Вечером я читаю книгу.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-31"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-18"
     },
     {
       "pl": "słuchać",
@@ -469,9 +469,9 @@
       "example": "Słuchasz podcastów w tramwaju? — Ты слушаешь подкасты в трамвае?",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-31"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-18"
     },
     {
       "pl": "oglądać",
@@ -480,9 +480,9 @@
       "example": "W piątek oglądamy film. — В пятницу мы смотрим фильм.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-31"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-18"
     },
     {
       "pl": "pamiętać",
@@ -491,9 +491,9 @@
       "example": "Pamiętam twoje imię. — Я помню твоё имя.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-31"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-18"
     },
     {
       "pl": "odpoczywać",
@@ -502,9 +502,9 @@
       "example": "W weekend odpoczywam w domu. — На выходных я отдыхаю дома.",
       "topic": "Свободное время: глаголы -am/-asz",
       "added": "2026-10-23",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-10-31"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-18"
     },
     {
       "pl": "lekarz",
@@ -1495,6 +1495,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-11"
+    },
+    {
+      "pl": "ziemniak",
+      "ru": "картофель, картофелина",
+      "pos": "noun-m",
+      "example": "Na obiad są ziemniaki i kotlet. — На обед картошка и котлета.",
+      "topic": "Региональные слова и rogal świętomarciński",
+      "added": "2026-11-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-12"
+    },
+    {
+      "pl": "bułka",
+      "ru": "булка, булочка",
+      "pos": "noun-f",
+      "example": "Poproszę dwie bułki. — Две булочки, пожалуйста.",
+      "topic": "Региональные слова и rogal świętomarciński",
+      "added": "2026-11-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-12"
+    },
+    {
+      "pl": "rogal",
+      "ru": "рогалик, круассан",
+      "pos": "noun-m",
+      "example": "Dziś w Poznaniu wszyscy jedzą rogale. — Сегодня в Познани все едят рогалики.",
+      "topic": "Региональные слова и rogal świętomarciński",
+      "added": "2026-11-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-12"
+    },
+    {
+      "pl": "piekarnia",
+      "ru": "пекарня",
+      "pos": "noun-f",
+      "example": "Piekarnia jest otwarta od szóstej. — Пекарня открыта с шести.",
+      "topic": "Региональные слова и rogal świętomarciński",
+      "added": "2026-11-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-12"
+    },
+    {
+      "pl": "słodki",
+      "ru": "сладкий",
+      "pos": "adj",
+      "example": "Ten rogal jest bardzo słodki. — Этот рогалик очень сладкий.",
+      "topic": "Региональные слова и rogal świętomarciński",
+      "added": "2026-11-11",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-12"
     }
   ]
 }

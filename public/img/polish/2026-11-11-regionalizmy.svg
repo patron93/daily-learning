@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Одна вещь — разные слова в регионах</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">литературное слово понятно везде, региональное — узнавай на слух</text>
+<g>
+<rect x="20" y="80" width="230" height="300" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+<text x="135" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#15803d">Литературный</text>
+<text x="135" y="128" text-anchor="middle" font-size="12" fill="#4b5563">вся Польша, ценники, офис</text>
+<text x="40" y="168" font-size="16" fill="#111827">🥔 ziemniaki</text>
+<text x="40" y="208" font-size="16" fill="#111827">🚋 tramwaj</text>
+<text x="40" y="248" font-size="16" fill="#111827">🥐 drożdżówka</text>
+<text x="40" y="288" font-size="16" fill="#111827">🌳 na dworze</text>
+<text x="40" y="328" font-size="16" fill="#111827">☝ tylko</text>
+</g>
+<g>
+<rect x="265" y="80" width="230" height="300" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="380" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#c2410c">Poznań</text>
+<text x="380" y="128" text-anchor="middle" font-size="12" fill="#4b5563">gwara poznańska</text>
+<text x="285" y="168" font-size="16" font-weight="bold" fill="#111827">pyry</text>
+<text x="285" y="208" font-size="16" font-weight="bold" fill="#111827">bimba</text>
+<text x="285" y="248" font-size="16" font-weight="bold" fill="#111827">szneka z glancem</text>
+<text x="285" y="288" font-size="16" fill="#6b7280">na dworze</text>
+<text x="285" y="328" font-size="16" font-weight="bold" fill="#111827">ino</text>
+</g>
+<g>
+<rect x="510" y="80" width="230" height="300" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="625" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d4ed8">Kraków / юг</text>
+<text x="625" y="128" text-anchor="middle" font-size="12" fill="#4b5563">Małopolska, Podhale</text>
+<text x="530" y="168" font-size="16" font-weight="bold" fill="#111827">grule, kartofle</text>
+<text x="530" y="208" font-size="16" fill="#6b7280">tramwaj</text>
+<text x="530" y="248" font-size="16" fill="#6b7280">drożdżówka</text>
+<text x="530" y="288" font-size="16" font-weight="bold" fill="#111827">na polu</text>
+<text x="530" y="328" font-size="16" font-weight="bold" fill="#111827">ino</text>
+</g>
+<text x="380" y="405" text-anchor="middle" font-size="13" fill="#4b5563">серым — совпадает с литературным; жирным — региональное слово</text>
+</svg>

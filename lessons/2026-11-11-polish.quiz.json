@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-11",
+  "track": "polish",
+  "topic": "Региональные слова: pyry, bimba, na polu; rogal świętomarciński",
+  "questions": [
+    {"id": "reg-1", "type": "choice", "prompt": "Что значит познанское слово «pyry»?", "options": ["ziemniaki", "bułki", "rogale", "tramwaje"], "answer": "ziemniaki", "explain": "Pyra — познанское название картофеля; литературно ziemniak, разговорно kartofel."},
+    {"id": "reg-2", "type": "choice", "prompt": "В Познани говорят: «Jadę bimbą». На чём едет человек?", "options": ["na tramwaju (tramwajem)", "na rowerze", "pociągiem", "autobusem"], "answer": "na tramwaju (tramwajem)", "explain": "Bimba — познанское слово для трамвая."},
+    {"id": "reg-3", "type": "choice", "prompt": "Краковянин говорит: «Dzieci są na polu». Где дети?", "options": ["на улице, снаружи", "в поле за городом", "в школе", "на огороде"], "answer": "на улице, снаружи", "explain": "Краковское na polu = варшавское na dworze — «на улице, на свежем воздухе»."},
+    {"id": "reg-4", "type": "choice", "prompt": "Какое слово для картофеля стоит на ценнике в любом магазине Польши?", "options": ["ziemniaki", "pyry", "grule", "bulby"], "answer": "ziemniaki", "explain": "Ziemniaki — литературная норма; pyry и grule — региональные варианты."},
+    {"id": "reg-5", "type": "gap", "prompt": "Kraków: na polu = Warszawa: na ___", "answers": ["dworze"], "explain": "Na dworze — литературное «на улице, снаружи»."},
+    {"id": "reg-6", "type": "choice", "prompt": "Чем начинён rogal świętomarciński?", "options": ["białym makiem", "serem", "mięsem", "kapustą"], "answer": "białym makiem", "explain": "Классическая начинка — белый мак с орехами и миндалём, сверху глазурь."},
+    {"id": "reg-7", "type": "choice", "prompt": "Познанское «szneka z glancem» — это…", "options": ["drożdżówka z lukrem", "kanapka z serem", "zupa z ziemniakami", "kawa z mlekiem"], "answer": "drożdżówka z lukrem", "explain": "Szneka — сдобная булочка, glanc — глазурь (lukier)."},
+    {"id": "reg-8", "type": "gap", "prompt": "Ten rogal jest bardzo ___ (сладкий).", "answers": ["słodki"], "explain": "Rogal — мужской род, поэтому słodki."},
+    {"id": "reg-9", "type": "choice", "prompt": "«Chcę ino jedną bułkę.» Что значит «ino»?", "options": ["tylko", "jeszcze", "bardzo", "teraz"], "answer": "tylko", "explain": "Ino — региональное (Познань, горы) «только» = tylko."},
+    {"id": "reg-10", "type": "gap", "prompt": "Kupuję chleb w ___ (пекарня; где? — miejscownik).", "answers": ["piekarni"], "explain": "W + miejscownik: piekarnia → w piekarni."}
+  ]
+}
