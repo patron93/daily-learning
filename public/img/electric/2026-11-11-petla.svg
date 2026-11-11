@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+</defs>
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Петля короткого замыкания: путь тока при пробое на корпус</text>
+<text x="380" y="54" text-anchor="middle" font-size="13" fill="#4b5563">Zs = Ze (сеть до щита) + сопротивление фазы и PE твоей линии</text>
+<!-- трансформатор -->
+<rect x="30" y="110" width="110" height="170" rx="10" fill="#e0e7ff" stroke="#4338ca" stroke-width="2"/>
+<text x="85" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#3730a3">Трансфор-</text>
+<text x="85" y="158" text-anchor="middle" font-size="14" font-weight="bold" fill="#3730a3">матор</text>
+<text x="85" y="182" text-anchor="middle" font-size="12" fill="#3730a3">(stacja trafo)</text>
+<text x="85" y="250" text-anchor="middle" font-size="12" fill="#3730a3">230 В</text>
+<!-- щит -->
+<rect x="330" y="110" width="110" height="170" rx="10" fill="#f3f4f6" stroke="#374151" stroke-width="2"/>
+<text x="385" y="138" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Щит</text>
+<rect x="355" y="150" width="60" height="34" rx="4" fill="#fff" stroke="#111827"/>
+<text x="385" y="172" text-anchor="middle" font-size="13" font-weight="bold">B16</text>
+<text x="385" y="250" text-anchor="middle" font-size="11" fill="#374151">PEN → PE + N</text>
+<!-- прибор -->
+<rect x="610" y="110" width="120" height="170" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+<text x="670" y="138" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Стиральная</text>
+<text x="670" y="156" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">машина</text>
+<text x="670" y="200" text-anchor="middle" font-size="22">⚡</text>
+<text x="670" y="222" text-anchor="middle" font-size="12" fill="#b91c1c">пробой на корпус</text>
+<text x="670" y="262" text-anchor="middle" font-size="12" fill="#b91c1c">корпус ≈ 100–115 В</text>
+<!-- провода -->
+<line x1="140" y1="167" x2="355" y2="167" stroke="#92400e" stroke-width="5"/>
+<line x1="415" y1="167" x2="610" y2="167" stroke="#92400e" stroke-width="5"/>
+<text x="245" y="158" text-anchor="middle" font-size="12" fill="#92400e">L (сеть)</text>
+<text x="512" y="158" text-anchor="middle" font-size="12" fill="#92400e">L — фаза линии</text>
+<line x1="610" y1="245" x2="440" y2="245" stroke="#16a34a" stroke-width="5" stroke-dasharray="10 5"/>
+<text x="525" y="236" text-anchor="middle" font-size="12" fill="#15803d">PE — защитный</text>
+<line x1="330" y1="245" x2="140" y2="245" stroke="#2563eb" stroke-width="5"/>
+<text x="235" y="236" text-anchor="middle" font-size="12" fill="#1d4ed8">PEN (сеть)</text>
+<!-- путь тока -->
+<path d="M150,190 L600,190" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ar)">
+<animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="2.5s" repeatCount="indefinite"/>
+</path>
+<path d="M600,222 L150,222" fill="none" stroke="#dc2626" stroke-width="2.5" marker-end="url(#ar)">
+<animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="2.5s" begin="1.2s" repeatCount="indefinite"/>
+</path>
+<text x="380" y="207" text-anchor="middle" font-size="12" font-weight="bold" fill="#dc2626">Ik = 230 / Zs</text>
+<!-- подписи зон -->
+<line x1="30" y1="305" x2="330" y2="305" stroke="#4338ca" stroke-width="2"/>
+<text x="180" y="325" text-anchor="middle" font-size="13" fill="#3730a3">Ze — сеть OSD, ты на неё не влияешь</text>
+<line x1="440" y1="305" x2="730" y2="305" stroke="#b45309" stroke-width="2"/>
+<text x="585" y="325" text-anchor="middle" font-size="13" fill="#92400e">твоя линия: длина × 2, сечение</text>
+<rect x="110" y="345" width="540" height="56" rx="10" fill="#fee2e2" stroke="#dc2626"/>
+<text x="380" y="368" text-anchor="middle" font-size="14" font-weight="bold" fill="#7f1d1d">Условие: Zs × Ia ≤ 230 В, отключение ≤ 0,4 с</text>
+<text x="380" y="390" text-anchor="middle" font-size="13" fill="#7f1d1d">B16 → Ia = 80 А → Zs ≤ 2,88 Ом (при измерении ≤ 1,92 Ом)</text>
+</svg>

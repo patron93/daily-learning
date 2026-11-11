@@ -4,6 +4,7 @@ import './quiz.css'
 import LessonQuiz from './components/LessonQuiz.vue'
 import CircuitDemo from './components/CircuitDemo.vue'
 import Trainer from './components/Trainer.vue'
+import LoopCalc from './components/LoopCalc.vue'
 
 export default {
   extends: DefaultTheme,
@@ -11,5 +12,6 @@ export default {
     app.component('LessonQuiz', LessonQuiz)
     app.component('CircuitDemo', CircuitDemo)
     app.component('Trainer', Trainer)
+    app.component('LoopCalc', LoopCalc)
   },
 } satisfies Theme
