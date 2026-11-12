@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="Arial, sans-serif">
+<rect width="760" height="430" fill="#fffdf7" rx="16"/>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Czas przeszły: robi-ć → robi + ł + окончание</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">лицо вшито в глагол — местоимение не нужно</text>
+<rect x="30" y="78" width="160" height="40" rx="8" fill="#e5e7eb"/>
+<text x="110" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">лицо</text>
+<rect x="200" y="78" width="250" height="40" rx="8" fill="#dbeafe"/>
+<text x="325" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">он (m)</text>
+<rect x="460" y="78" width="270" height="40" rx="8" fill="#fce7f3"/>
+<text x="595" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#be185d">она (ż)</text>
+<g font-size="16" fill="#111827">
+<text x="110" y="150" text-anchor="middle">ja</text><text x="325" y="150" text-anchor="middle">robi<tspan fill="#1d4ed8" font-weight="bold">łem</tspan></text><text x="595" y="150" text-anchor="middle">robi<tspan fill="#be185d" font-weight="bold">łam</tspan></text>
+<text x="110" y="185" text-anchor="middle">ty</text><text x="325" y="185" text-anchor="middle">robi<tspan fill="#1d4ed8" font-weight="bold">łeś</tspan></text><text x="595" y="185" text-anchor="middle">robi<tspan fill="#be185d" font-weight="bold">łaś</tspan></text>
+<text x="110" y="220" text-anchor="middle">on / ona</text><text x="325" y="220" text-anchor="middle">robi<tspan fill="#1d4ed8" font-weight="bold">ł</tspan></text><text x="595" y="220" text-anchor="middle">robi<tspan fill="#be185d" font-weight="bold">ła</tspan></text>
+</g>
+<line x1="30" y1="238" x2="730" y2="238" stroke="#d1d5db" stroke-dasharray="6 4"/>
+<rect x="200" y="246" width="250" height="34" rx="8" fill="#dcfce7"/>
+<text x="325" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#15803d">есть мужчина → -li-</text>
+<rect x="460" y="246" width="270" height="34" rx="8" fill="#fef3c7"/>
+<text x="595" y="268" text-anchor="middle" font-size="14" font-weight="bold" fill="#b45309">все остальные → -ły-</text>
+<g font-size="16" fill="#111827">
+<text x="110" y="310" text-anchor="middle">my</text><text x="325" y="310" text-anchor="middle">robi<tspan fill="#15803d" font-weight="bold">liśmy</tspan></text><text x="595" y="310" text-anchor="middle">robi<tspan fill="#b45309" font-weight="bold">łyśmy</tspan></text>
+<text x="110" y="345" text-anchor="middle">wy</text><text x="325" y="345" text-anchor="middle">robi<tspan fill="#15803d" font-weight="bold">liście</tspan></text><text x="595" y="345" text-anchor="middle">robi<tspan fill="#b45309" font-weight="bold">łyście</tspan></text>
+<text x="110" y="380" text-anchor="middle">oni / one</text><text x="325" y="380" text-anchor="middle">robi<tspan fill="#15803d" font-weight="bold">li</tspan></text><text x="595" y="380" text-anchor="middle">robi<tspan fill="#b45309" font-weight="bold">ły</tspan></text>
+</g>
+<text x="380" y="414" text-anchor="middle" font-size="13" fill="#4b5563">mieć → miałem, но oni mieli · iść → szedłem, szłam · być → byłem, byłam</text>
+</svg>

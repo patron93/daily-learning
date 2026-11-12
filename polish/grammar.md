@@ -20,7 +20,7 @@
 - [x] (2026-11-06) Родительный падеж (dopełniacz): после количества, nie ma, bez, dla, do, od, z (откуда)
 - [x] (2026-11-08) Местный падеж (miejscownik): w/na + где? (w Warszawie, na poczcie)
 - [x] (2026-11-10) Iść vs chodzić, jechać vs jeździć
-- [ ] Прошедшее время (czas przeszły): byłem/byłam, robiłem
+- [x] (2026-11-12) Прошедшее время (czas przeszły): byłem/byłam, robiłem
 - [ ] Будущее время: będę + инфинитив / będę robił, совершенный вид
 - [ ] Вид глагола: robić/zrobić, pisać/napisać
 - [ ] Модальные: musieć, móc, chcieć, woleć, trzeba, można

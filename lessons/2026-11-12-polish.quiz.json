@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-12",
+  "track": "polish",
+  "topic": "Прошедшее время (czas przeszły)",
+  "questions": [
+    {"id": "past-1", "type": "choice", "prompt": "Anna mówi: «Wczoraj ___ w kinie.»", "options": ["byłam", "byłem", "była", "byłaś"], "answer": "byłam", "explain": "Говорит женщина о себе: ja + ż → byłam. Byłem — так скажет мужчина."},
+    {"id": "past-2", "type": "gap", "prompt": "(ty, m) Co ___ (robić) w weekend?", "answers": ["robiłeś"], "explain": "Ty + мужской род: robi + ł + eś → robiłeś."},
+    {"id": "past-3", "type": "choice", "prompt": "Mama i tata ___ na spacerze.", "options": ["byli", "były", "był", "była"], "answer": "byli", "explain": "В группе есть мужчина (tata) → мужско-личная форма byli."},
+    {"id": "past-4", "type": "choice", "prompt": "Koty ___ głodne.", "options": ["były", "byli", "był", "było"], "answer": "były", "explain": "Животные — не «мужские лица», поэтому были → były, даже если коты-самцы."},
+    {"id": "past-5", "type": "gap", "prompt": "(ja, ż) W sobotę ___ (sprzątać) mieszkanie.", "answers": ["sprzątałam"], "explain": "Sprzątać → sprzątał- + am (ja, женщина)."},
+    {"id": "past-6", "type": "choice", "prompt": "Как правильно: «Я (m) имел время»?", "options": ["Miałem czas.", "Mielem czas.", "Miełem czas.", "Mam czas."], "answer": "Miałem czas.", "explain": "У глаголов на -eć в единственном числе e → a: mieć → miałem. Mam czas — это настоящее время."},
+    {"id": "past-7", "type": "choice", "prompt": "«Он шёл на работу» — это:", "options": ["Szedł do pracy.", "Iśł do pracy.", "Szłem do pracy.", "Idzie do pracy."], "answer": "Szedł do pracy.", "explain": "Iść в прошедшем неправильный: szedł (он), szła (она), szli (они) — как русское «шёл, шла»."},
+    {"id": "past-8", "type": "gap", "prompt": "(my, m) W niedzielę ___ (gotować) obiad razem.", "answers": ["gotowaliśmy"], "explain": "My + мужско-личная форма: gotowa + li + śmy. Ударение: go-to-WA-liś-my."},
+    {"id": "past-9", "type": "choice", "prompt": "Что значит вопрос «Jak minął weekend?»", "options": ["Как прошли выходные?", "Когда будут выходные?", "Где ты был в выходные?", "Почему ты не пришёл?"], "answer": "Как прошли выходные?", "explain": "Minąć — пройти, минуть. Типичный понедельничный вопрос в польском офисе."},
+    {"id": "past-10", "type": "choice", "prompt": "«Zupę i pierogi» — что приготовили?", "options": ["суп и вареники", "суп и пироги", "суп и пирожные", "суп и блины"], "answer": "суп и вареники", "explain": "Pierogi — ложный друг: это вареники. Пирог по-польски — ciasto или placek."}
+  ]
+}

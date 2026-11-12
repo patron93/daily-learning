@@ -843,9 +843,9 @@
       "example": "W niedzielę jedziemy na cmentarz. — В воскресенье едем на кладбище.",
       "topic": "Wszystkich Świętych",
       "added": "2026-10-30",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-31"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "znicz",
@@ -854,9 +854,9 @@
       "example": "Zapalam znicz na grobie babci. — Зажигаю лампадку на могиле бабушки.",
       "topic": "Wszystkich Świętych",
       "added": "2026-10-30",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-31"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "grób",
@@ -865,9 +865,9 @@
       "example": "Groby są pełne kwiatów. — Могилы полны цветов.",
       "topic": "Wszystkich Świętych",
       "added": "2026-10-30",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-31"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "kwiat",
@@ -876,9 +876,9 @@
       "example": "Kupuję kwiaty dla mamy. — Покупаю цветы для мамы.",
       "topic": "Wszystkich Świętych",
       "added": "2026-10-30",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-31"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "wspominać",
@@ -887,9 +887,9 @@
       "example": "Wspominamy dziadka przy stole. — Вспоминаем дедушку за столом.",
       "topic": "Wszystkich Świętych",
       "added": "2026-10-30",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-10-31"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-15"
     },
     {
       "pl": "cena",
@@ -1550,6 +1550,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-12"
+    },
+    {
+      "pl": "wczoraj",
+      "ru": "вчера",
+      "pos": "adv",
+      "example": "Wczoraj byłem w kinie. — Вчера я был в кино.",
+      "topic": "Прошедшее время (czas przeszły)",
+      "added": "2026-11-12",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-13"
+    },
+    {
+      "pl": "weekend",
+      "ru": "выходные",
+      "pos": "noun-m",
+      "example": "Co robiłaś w weekend? — Что ты делала на выходных?",
+      "topic": "Прошедшее время (czas przeszły)",
+      "added": "2026-11-12",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-13"
+    },
+    {
+      "pl": "spacer",
+      "ru": "прогулка",
+      "pos": "noun-m",
+      "example": "W niedzielę byliśmy na spacerze. — В воскресенье мы были на прогулке.",
+      "topic": "Прошедшее время (czas przeszły)",
+      "added": "2026-11-12",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-13"
+    },
+    {
+      "pl": "sprzątać",
+      "ru": "убирать(ся), делать уборку",
+      "pos": "verb",
+      "example": "W sobotę sprzątałam mieszkanie. — В субботу я убиралась в квартире.",
+      "topic": "Прошедшее время (czas przeszły)",
+      "added": "2026-11-12",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-13"
+    },
+    {
+      "pl": "gotować",
+      "ru": "готовить (еду); варить",
+      "pos": "verb",
+      "example": "Wczoraj gotowałem zupę. — Вчера я варил суп.",
+      "topic": "Прошедшее время (czas przeszły)",
+      "added": "2026-11-12",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-13"
     }
   ]
 }
