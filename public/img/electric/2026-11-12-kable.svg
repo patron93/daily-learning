@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" font-family="Arial, sans-serif">
+<rect width="780" height="470" fill="#ffffff" rx="16"/>
+<text x="390" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Четыре кабеля в разрезе</text>
+<text x="390" y="54" text-anchor="middle" font-size="13" fill="#4b5563">медь — буквы нет; Y — ПВХ; D — drut; K — kabel; p — плоский</text>
+<!-- YDYp -->
+<g>
+<rect x="30" y="90" width="160" height="56" rx="26" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+<circle cx="70" cy="118" r="16" fill="#92400e"/><circle cx="70" cy="118" r="7" fill="#d97706"/>
+<circle cx="110" cy="118" r="16" fill="#2563eb"/><circle cx="110" cy="118" r="7" fill="#d97706"/>
+<circle cx="150" cy="118" r="16" fill="#16a34a"/><path d="M 136 110 A 16 16 0 0 1 158 104" stroke="#facc15" stroke-width="6" fill="none"/><circle cx="150" cy="118" r="7" fill="#d97706"/>
+<text x="110" y="180" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">YDYp 3x2,5 żo</text>
+<text x="110" y="200" text-anchor="middle" font-size="12" fill="#374151">плоский, drut</text>
+<text x="110" y="216" text-anchor="middle" font-size="12" fill="#374151">под штукатурку</text>
+</g>
+<!-- YDY -->
+<g>
+<circle cx="300" cy="118" r="42" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+<circle cx="285" cy="104" r="15" fill="#92400e"/><circle cx="285" cy="104" r="7" fill="#d97706"/>
+<circle cx="316" cy="104" r="15" fill="#2563eb"/><circle cx="316" cy="104" r="7" fill="#d97706"/>
+<circle cx="300" cy="132" r="15" fill="#16a34a"/><path d="M 287 126 A 15 15 0 0 1 308 119" stroke="#facc15" stroke-width="6" fill="none"/><circle cx="300" cy="132" r="7" fill="#d97706"/>
+<text x="300" y="180" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">YDY 3x2,5 żo</text>
+<text x="300" y="200" text-anchor="middle" font-size="12" fill="#374151">круглый, drut</text>
+<text x="300" y="216" text-anchor="middle" font-size="12" fill="#374151">в гофре, на поверхности</text>
+</g>
+<!-- YKY -->
+<g>
+<circle cx="480" cy="118" r="50" fill="#111827"/>
+<circle cx="480" cy="118" r="40" fill="#9ca3af"/>
+<circle cx="465" cy="104" r="15" fill="#92400e"/><circle cx="465" cy="104" r="7" fill="#d97706"/>
+<circle cx="496" cy="104" r="15" fill="#2563eb"/><circle cx="496" cy="104" r="7" fill="#d97706"/>
+<circle cx="480" cy="132" r="15" fill="#16a34a"/><path d="M 467 126 A 15 15 0 0 1 488 119" stroke="#facc15" stroke-width="6" fill="none"/><circle cx="480" cy="132" r="7" fill="#d97706"/>
+<text x="480" y="190" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">YKY 3x2,5 żo</text>
+<text x="480" y="210" text-anchor="middle" font-size="12" fill="#374151">kabel 0,6/1 kV, толстая оболочка</text>
+<text x="480" y="226" text-anchor="middle" font-size="12" fill="#374151">в землю, на улицу</text>
+</g>
+<!-- H07V-K -->
+<g>
+<circle cx="670" cy="118" r="20" fill="#2563eb"/>
+<g fill="#d97706"><circle cx="670" cy="118" r="3"/><circle cx="664" cy="113" r="3"/><circle cx="676" cy="113" r="3"/><circle cx="664" cy="123" r="3"/><circle cx="676" cy="123" r="3"/><circle cx="670" cy="109" r="3"/><circle cx="670" cy="127" r="3"/></g>
+<text x="670" y="180" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">H07V-K (LgY)</text>
+<text x="670" y="200" text-anchor="middle" font-size="12" fill="#374151">1 жила, linka, без оболочки</text>
+<text x="670" y="216" text-anchor="middle" font-size="12" fill="#374151">в щите, в трубах</text>
+</g>
+<line x1="30" y1="250" x2="750" y2="250" stroke="#e5e7eb" stroke-width="2"/>
+<text x="390" y="280" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Медь против алюминия: линия 20 м, 2,5 мм², ток 16 А</text>
+<g font-size="14">
+<text x="40" y="318" fill="#111827">Сопротивление линии</text>
+<rect x="250" y="303" width="190" height="20" fill="#d97706"/><text x="448" y="318" fill="#92400e">Cu 0,28 Ом</text>
+<rect x="250" y="327" width="306" height="20" fill="#9ca3af"/><text x="564" y="342" fill="#374151">Al 0,45 Ом</text>
+<text x="40" y="380" fill="#111827">Тепло в проводе</text>
+<rect x="250" y="365" width="190" height="20" fill="#d97706"/><text x="448" y="380" fill="#92400e">Cu ≈ 72 Вт</text>
+<rect x="250" y="389" width="303" height="20" fill="#9ca3af"/><text x="561" y="404" fill="#374151">Al ≈ 115 Вт</text>
+</g>
+<text x="390" y="446" text-anchor="middle" font-size="13" fill="#b91c1c">Главная беда Al — контакты: окисление, «текучесть» под винтом, хрупкость. До 10 мм² — только медь (WT § 183)</text>
+</svg>
