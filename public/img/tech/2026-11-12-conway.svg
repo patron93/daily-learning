@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#ffffff" rx="16"/>
+<text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Закон Конвея: как общаются команды — так связан код</text>
+<line x1="380" y1="50" x2="380" y2="400" stroke="#e5e7eb" stroke-width="2"/>
+<text x="190" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#b91c1c">Команды по слоям</text>
+<text x="570" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">Команды по потокам (stream-aligned)</text>
+<g font-size="13" fill="#111827">
+<rect x="40" y="86" width="300" height="44" rx="8" fill="#fee2e2" stroke="#ef4444"/><text x="190" y="113" text-anchor="middle">Команда фронтенда (Angular)</text>
+<rect x="40" y="150" width="300" height="44" rx="8" fill="#fee2e2" stroke="#ef4444"/><text x="190" y="177" text-anchor="middle">Команда бэкенда (API)</text>
+<rect x="40" y="214" width="300" height="44" rx="8" fill="#fee2e2" stroke="#ef4444"/><text x="190" y="241" text-anchor="middle">Команда БД / DBA</text>
+<path d="M 120 280 L 120 96" stroke="#7c3aed" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+<path d="M 260 280 L 260 96" stroke="#0891b2" stroke-width="3" fill="none" stroke-dasharray="6 4"/>
+<text x="120" y="298" text-anchor="middle" fill="#7c3aed">фича «Заказ»</text>
+<text x="260" y="298" text-anchor="middle" fill="#0891b2">фича «Каталог»</text>
+<text x="190" y="330" text-anchor="middle" fill="#b91c1c">каждая фича режет все слои →</text>
+<text x="190" y="348" text-anchor="middle" fill="#b91c1c">передачи работы, ожидание, общий shared/</text>
+<rect x="400" y="86" width="160" height="172" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+<text x="480" y="110" text-anchor="middle" font-weight="bold">Команда «Заказ»</text>
+<text x="480" y="140" text-anchor="middle">UI</text><text x="480" y="165" text-anchor="middle">API</text><text x="480" y="190" text-anchor="middle">данные</text>
+<rect x="580" y="86" width="160" height="172" rx="10" fill="#cffafe" stroke="#0891b2"/>
+<text x="660" y="110" text-anchor="middle" font-weight="bold">Команда «Каталог»</text>
+<text x="660" y="140" text-anchor="middle">UI</text><text x="660" y="165" text-anchor="middle">API</text><text x="660" y="190" text-anchor="middle">данные</text>
+<line x1="560" y1="225" x2="580" y2="225" stroke="#111827" stroke-width="2"/>
+<text x="570" y="248" text-anchor="middle" font-size="11" fill="#374151">контракт</text>
+<rect x="400" y="280" width="340" height="44" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+<text x="570" y="307" text-anchor="middle">Platform: дизайн-система, CI, observability (as-a-Service)</text>
+<line x1="480" y1="258" x2="480" y2="280" stroke="#16a34a" stroke-width="2"/>
+<line x1="660" y1="258" x2="660" y2="280" stroke="#16a34a" stroke-width="2"/>
+<text x="570" y="348" text-anchor="middle" fill="#15803d">фича живёт внутри одной команды →</text>
+<text x="570" y="366" text-anchor="middle" fill="#15803d">границы кода = границы команд</text>
+</g>
+<text x="380" y="400" text-anchor="middle" font-size="12" fill="#6b7280">Inverse Conway: сначала меняем команды и их взаимодействия — архитектура подтягивается следом</text>
+</svg>

@@ -69,7 +69,7 @@
 - [x] SOLID в Angular подробно: good vs bad (запрошено на 2026-10-22, см. feedback.md)
 - [x] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [x] «Clean Code» с критикой: что устарело
-- [ ] Закон Конвея и Team Topologies
+- [x] Закон Конвея и Team Topologies
 - [ ] «The Pragmatic Programmer»: ключевые идеи
 - [ ] «An Elegant Puzzle» (Will Larson): системы для инженерных организаций
 - [ ] «The Manager's Path» (Camille Fournier): глава про тимлида
@@ -107,3 +107,4 @@
 - 2026-11-09 · architecture · Дизайн-системы и библиотеки компонентов: версионирование, токены
 - 2026-11-10 · ai · RAG: как построить поиск по документации проекта
 - 2026-11-11 · backend · Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE и BFF (по RFC 10017, август 2026)
+- 2026-11-12 · classic · Закон Конвея и Team Topologies (2-е издание, 2025)
