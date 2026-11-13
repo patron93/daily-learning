@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial, sans-serif">
+<rect width="800" height="400" fill="#fffdf7" rx="16"/>
+<text x="400" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Один и тот же кабель 2,5 мм² — разный допустимый ток (Cu, ПВХ, 30 °C)</text>
+<g font-size="14">
+  <!-- C -->
+  <rect x="30" y="60" width="230" height="260" rx="12" fill="#e5e7eb"/>
+  <text x="145" y="86" text-anchor="middle" font-weight="bold" fill="#111827">C — в штукатурке</text>
+  <rect x="60" y="100" width="170" height="130" fill="#d6b38a"/>
+  <text x="145" y="120" text-anchor="middle" font-size="12" fill="#5b3a1a">кирпич / бетон</text>
+  <rect x="115" y="150" width="60" height="16" rx="8" fill="#f8fafc" stroke="#475569"/>
+  <circle cx="130" cy="158" r="4" fill="#92400e"/><circle cx="145" cy="158" r="4" fill="#2563eb"/><circle cx="160" cy="158" r="4" fill="#65a30d"/>
+  <path d="M145 145 L145 110 M130 145 L115 115 M160 145 L175 115" stroke="#dc2626" stroke-width="2"/>
+  <text x="145" y="250" text-anchor="middle" fill="#111827">тепло уходит в стену</text>
+  <text x="145" y="295" text-anchor="middle" font-size="26" font-weight="bold" fill="#15803d">27 А</text>
+
+  <!-- B1 -->
+  <rect x="285" y="60" width="230" height="260" rx="12" fill="#e5e7eb"/>
+  <text x="400" y="86" text-anchor="middle" font-weight="bold" fill="#111827">B1 — в гофре (peszel)</text>
+  <rect x="315" y="100" width="170" height="130" fill="#d6b38a"/>
+  <circle cx="400" cy="158" r="24" fill="#fde68a" stroke="#ca8a04" stroke-width="3"/>
+  <circle cx="390" cy="152" r="5" fill="#92400e"/><circle cx="410" cy="152" r="5" fill="#2563eb"/><circle cx="400" cy="168" r="5" fill="#65a30d"/>
+  <text x="400" y="250" text-anchor="middle" fill="#111827">воздух в трубке мешает</text>
+  <text x="400" y="295" text-anchor="middle" font-size="26" font-weight="bold" fill="#ca8a04">24 А</text>
+
+  <!-- A1 -->
+  <rect x="540" y="60" width="230" height="260" rx="12" fill="#e5e7eb"/>
+  <text x="655" y="86" text-anchor="middle" font-weight="bold" fill="#111827">A1 — в утеплённой стене</text>
+  <rect x="570" y="100" width="170" height="130" fill="#fde047"/>
+  <path d="M575 110 q10 10 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 M575 215 q10 10 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" stroke="#a16207" fill="none"/>
+  <circle cx="655" cy="158" r="24" fill="#fef3c7" stroke="#ca8a04" stroke-width="3"/>
+  <circle cx="645" cy="152" r="5" fill="#92400e"/><circle cx="665" cy="152" r="5" fill="#2563eb"/><circle cx="655" cy="168" r="5" fill="#65a30d"/>
+  <text x="655" y="250" text-anchor="middle" fill="#111827">минвата держит тепло</text>
+  <text x="655" y="295" text-anchor="middle" font-size="26" font-weight="bold" fill="#dc2626">19,5 А</text>
+</g>
+<text x="400" y="350" text-anchor="middle" font-size="15" fill="#111827">B16 подходит везде (16 ≤ 19,5) · B20 в A1 уже нельзя (20 больше 19,5)</text>
+<text x="400" y="376" text-anchor="middle" font-size="13" fill="#6b7280">значения по PN-HD 60364-5-52, однофазная линия; пучок из нескольких линий — ещё ниже</text>
+</svg>
