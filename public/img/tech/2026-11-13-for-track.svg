@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Arial, sans-serif">
+<rect width="800" height="440" fill="#f8fafc" rx="16"/>
+<text x="400" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">@for: что происходит с DOM, когда удалили первый элемент и пришёл новый массив</text>
+<text x="400" y="58" text-anchor="middle" font-size="13" fill="#475569">было: [A, B, C] → стало: [B', C'] (новые объекты с теми же id)</text>
+<g font-size="14">
+  <!-- column 1 -->
+  <rect x="20" y="80" width="245" height="330" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="142" y="106" text-anchor="middle" font-weight="bold" fill="#14532d">track item.id ✔</text>
+  <rect x="45" y="125" width="195" height="36" rx="8" fill="#fecaca"/><text x="142" y="148" text-anchor="middle" fill="#7f1d1d">view A — удалён</text>
+  <rect x="45" y="170" width="195" height="36" rx="8" fill="#fff"/><text x="142" y="193" text-anchor="middle" fill="#0f172a">view B — переиспользован</text>
+  <rect x="45" y="215" width="195" height="36" rx="8" fill="#fff"/><text x="142" y="238" text-anchor="middle" fill="#0f172a">view C — переиспользован</text>
+  <text x="142" y="290" text-anchor="middle" fill="#14532d">1 удаление,</text>
+  <text x="142" y="310" text-anchor="middle" fill="#14532d">биндинги обновлены,</text>
+  <text x="142" y="330" text-anchor="middle" fill="#14532d">фокус и состояние</text>
+  <text x="142" y="350" text-anchor="middle" fill="#14532d">остались у своих строк</text>
+
+  <!-- column 2 -->
+  <rect x="278" y="80" width="245" height="330" rx="12" fill="#fef9c3" stroke="#ca8a04"/>
+  <text x="400" y="106" text-anchor="middle" font-weight="bold" fill="#713f12">track item (ссылка) ⚠</text>
+  <rect x="303" y="125" width="195" height="36" rx="8" fill="#fecaca"/><text x="400" y="148" text-anchor="middle" fill="#7f1d1d">A, B, C — все удалены</text>
+  <rect x="303" y="170" width="195" height="36" rx="8" fill="#bfdbfe"/><text x="400" y="193" text-anchor="middle" fill="#1e3a8a">B' — создан заново</text>
+  <rect x="303" y="215" width="195" height="36" rx="8" fill="#bfdbfe"/><text x="400" y="238" text-anchor="middle" fill="#1e3a8a">C' — создан заново</text>
+  <text x="400" y="290" text-anchor="middle" fill="#713f12">новые ссылки = новые</text>
+  <text x="400" y="310" text-anchor="middle" fill="#713f12">элементы: весь список</text>
+  <text x="400" y="330" text-anchor="middle" fill="#713f12">перерисован, фокус потерян</text>
+  <text x="400" y="350" text-anchor="middle" fill="#713f12">dev-предупреждение NG0956</text>
+
+  <!-- column 3 -->
+  <rect x="536" y="80" width="245" height="330" rx="12" fill="#fee2e2" stroke="#dc2626"/>
+  <text x="658" y="106" text-anchor="middle" font-weight="bold" fill="#7f1d1d">track $index ✘</text>
+  <rect x="561" y="125" width="195" height="36" rx="8" fill="#fff"/><text x="658" y="148" text-anchor="middle" fill="#0f172a">view #0 ← данные B'</text>
+  <rect x="561" y="170" width="195" height="36" rx="8" fill="#fff"/><text x="658" y="193" text-anchor="middle" fill="#0f172a">view #1 ← данные C'</text>
+  <rect x="561" y="215" width="195" height="36" rx="8" fill="#fecaca"/><text x="658" y="238" text-anchor="middle" fill="#7f1d1d">view #2 — удалён</text>
+  <text x="658" y="290" text-anchor="middle" fill="#7f1d1d">view «приклеены» к позиции:</text>
+  <text x="658" y="310" text-anchor="middle" fill="#7f1d1d">внутреннее состояние A</text>
+  <text x="658" y="330" text-anchor="middle" fill="#7f1d1d">(раскрыт, введён текст)</text>
+  <text x="658" y="350" text-anchor="middle" fill="#7f1d1d">теперь показано у B'</text>
+</g>
+<text x="400" y="430" text-anchor="middle" font-size="12" fill="#64748b">$index — только для статичных списков; по умолчанию — стабильный id сущности</text>
+</svg>

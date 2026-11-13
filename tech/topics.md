@@ -8,7 +8,7 @@
 - [x] linkedSignal и resource / httpResource: асинхронные данные на сигналах
 - [x] Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - [x] Deferrable views (@defer): стратегии триггеров и влияние на бандл
-- [ ] Control flow (@if/@for/@switch) и почему track важен для производительности
+- [x] Control flow (@if/@for/@switch) и почему track важен для производительности
 - [ ] Новые signal-based формы
 - [ ] SSR + hydration (incremental hydration, event replay)
 - [ ] DI изнутри: иерархия инжекторов, inject() vs constructor, environment injectors
@@ -108,3 +108,4 @@
 - 2026-11-10 · ai · RAG: как построить поиск по документации проекта
 - 2026-11-11 · backend · Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE и BFF (по RFC 10017, август 2026)
 - 2026-11-12 · classic · Закон Конвея и Team Topologies (2-е издание, 2025)
+- 2026-11-13 · angular · Control flow (@if/@for/@switch) и почему track важен для производительности
