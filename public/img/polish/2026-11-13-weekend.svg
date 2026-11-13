@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Ложные друзья выходных</text>
+<text x="380" y="60" text-anchor="middle" font-size="14" fill="#6b7280">звучит как по-русски — значит другое</text>
+<g font-size="17">
+  <rect x="30" y="80" width="340" height="90" rx="12" fill="#fde68a"/>
+  <text x="50" y="112" font-weight="bold" fill="#92400e">wesele</text>
+  <text x="50" y="138" fill="#111827">✔ свадьба (застолье с танцами)</text>
+  <text x="50" y="160" fill="#b91c1c">✘ не «веселье»</text>
+
+  <rect x="390" y="80" width="340" height="90" rx="12" fill="#bfdbfe"/>
+  <text x="410" y="112" font-weight="bold" fill="#1e3a8a">wpaść</text>
+  <text x="410" y="138" fill="#111827">✔ заскочить в гости</text>
+  <text x="410" y="160" fill="#b91c1c">✘ не «впасть»</text>
+
+  <rect x="30" y="185" width="340" height="90" rx="12" fill="#bbf7d0"/>
+  <text x="50" y="217" font-weight="bold" fill="#14532d">pasować</text>
+  <text x="50" y="243" fill="#111827">✔ подходить, устраивать</text>
+  <text x="50" y="265" fill="#b91c1c">✘ не «пасовать»</text>
+
+  <rect x="390" y="185" width="340" height="90" rx="12" fill="#fbcfe8"/>
+  <text x="410" y="217" font-weight="bold" fill="#831843">nie dam rady</text>
+  <text x="410" y="243" fill="#111827">✔ не получится, не успею</text>
+  <text x="410" y="265" fill="#b91c1c">✘ не «не дам совета»</text>
+
+  <rect x="30" y="290" width="340" height="90" rx="12" fill="#ddd6fe"/>
+  <text x="50" y="322" font-weight="bold" fill="#4c1d95">spadam!</text>
+  <text x="50" y="348" fill="#111827">✔ я пошёл (разг.)</text>
+  <text x="50" y="370" fill="#b91c1c">✘ не «я падаю»</text>
+
+  <rect x="390" y="290" width="340" height="90" rx="12" fill="#fed7aa"/>
+  <text x="410" y="322" font-weight="bold" fill="#7c2d12">na razie!</text>
+  <text x="410" y="348" fill="#111827">✔ пока! (до встречи)</text>
+  <text x="410" y="370" fill="#b91c1c">✘ не «на раз»</text>
+</g>
+<text x="380" y="405" text-anchor="middle" font-size="13" fill="#6b7280">Piątek, piąteczek, piątunio! 🎉</text>
+</svg>

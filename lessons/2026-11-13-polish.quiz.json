@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-13",
+  "track": "polish",
+  "topic": "Договориться о встрече и ложные друзья выходных",
+  "questions": [
+    {"id": "wk-1", "type": "choice", "prompt": "Kolega mówi: «W sobotę idę na wesele». Куда он идёт?", "options": ["на свадьбу", "на весёлую вечеринку", "на концерт", "на прогулку"], "answer": "на свадьбу", "explain": "Wesele — свадебное застолье. «Веселье» по-польски zabawa или radość."},
+    {"id": "wk-2", "type": "choice", "prompt": "Как вежливо и мягко отказаться от приглашения?", "options": ["Niestety nie dam rady.", "Spadaj!", "Nie pasuję.", "Jestem wesele."], "answer": "Niestety nie dam rady.", "explain": "Nie dam rady — «не получится, не справлюсь». Spadaj! — грубое «отвали!»."},
+    {"id": "wk-3", "type": "gap", "prompt": "___ ci piątek o siódmej? (Тебе подходит пятница в семь?)", "answers": ["Pasuje"], "explain": "Pasować — «подходить, устраивать»: pasuje ci? / nie pasuje mi."},
+    {"id": "wk-4", "type": "choice", "prompt": "Что значит «Wpadnij do nas jutro!»?", "options": ["Заскакивай к нам завтра!", "Не впадай в панику завтра!", "Позвони нам завтра!", "Упади к нам завтра!"], "answer": "Заскакивай к нам завтра!", "explain": "Wpaść в разговоре — «заскочить, заглянуть в гости»."},
+    {"id": "wk-5", "type": "gap", "prompt": "Wczoraj ___ się z Anią na kawę. (я, m — договорился)", "answers": ["umówiłem"], "explain": "Umówić się → прошедшее время, ja + m: umówiłem się."},
+    {"id": "wk-6", "type": "choice", "prompt": "Друг прощается: «Dobra, spadam!». Что он имеет в виду?", "options": ["Ладно, я пошёл!", "Ладно, я падаю!", "Ладно, я устал!", "Ладно, я опоздал!"], "answer": "Ладно, я пошёл!", "explain": "Spadać в разговоре — «уходить, сваливать». Между друзьями нормально, в официальной обстановке не говори."},
+    {"id": "wk-7", "type": "choice", "prompt": "Что значит «Na razie!»?", "options": ["Пока!", "На один раз!", "Сразу!", "Ещё раз!"], "answer": "Пока!", "explain": "Na razie — «пока что», самое частое неформальное прощание."},
+    {"id": "wk-8", "type": "choice", "prompt": "Как сказать «Может, сбегаем на пиво?»", "options": ["Może skoczymy na piwo?", "Może upadniemy na piwo?", "Może pasujemy na piwo?", "Może spadamy na piwo?"], "answer": "Może skoczymy na piwo?", "explain": "Skoczyć — «прыгнуть», а в разговоре «сбегать, быстро сходить»."},
+    {"id": "wk-9", "type": "gap", "prompt": "To jest mój ___ z pracy. (знакомый)", "answers": ["znajomy"], "explain": "Znajomy (m) — знакомый, приятель; для женщины — znajoma."},
+    {"id": "wk-10", "type": "choice", "prompt": "Как сказать «Договорились!» группе друзей?", "options": ["Jesteśmy umówieni!", "Jesteśmy wesele!", "Mamy randkę!", "Nie damy rady!"], "answer": "Jesteśmy umówieni!", "explain": "Umówieni — «договорённые»: так подтверждают встречу. Одному мужчине — jestem umówiony."}
+  ]
+}

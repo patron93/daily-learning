@@ -898,9 +898,9 @@
       "example": "Jaka jest cena tej kurtki? — Какая цена у этой куртки?",
       "topic": "Цены и деньги",
       "added": "2026-10-31",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-01"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-16"
     },
     {
       "pl": "złoty",
@@ -909,9 +909,9 @@
       "example": "To kosztuje dwadzieścia złotych. — Это стоит двадцать злотых.",
       "topic": "Цены и деньги",
       "added": "2026-10-31",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-01"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-16"
     },
     {
       "pl": "grosz",
@@ -920,9 +920,9 @@
       "example": "Nie mam ani grosza. — У меня ни гроша.",
       "topic": "Цены и деньги",
       "added": "2026-10-31",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-01"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-16"
     },
     {
       "pl": "drogi",
@@ -931,9 +931,9 @@
       "example": "Ten ser jest za drogi. — Этот сыр слишком дорогой.",
       "topic": "Цены и деньги",
       "added": "2026-10-31",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-01"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-16"
     },
     {
       "pl": "tani",
@@ -942,9 +942,9 @@
       "example": "Ten sklep jest tani. — Этот магазин дешёвый.",
       "topic": "Цены и деньги",
       "added": "2026-10-31",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-01"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-16"
     },
     {
       "pl": "poczta",
@@ -1605,6 +1605,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-13"
+    },
+    {
+      "pl": "impreza",
+      "ru": "вечеринка, тусовка; мероприятие",
+      "pos": "noun-f",
+      "example": "W sobotę jest impreza u Marka. — В субботу вечеринка у Марка.",
+      "topic": "Договориться о встрече: фразы на выходные",
+      "added": "2026-11-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-14"
+    },
+    {
+      "pl": "umówić się",
+      "ru": "договориться (о встрече)",
+      "pos": "verb",
+      "example": "Umówiłem się z kolegą na piątek. — Я договорился с коллегой на пятницу.",
+      "topic": "Договориться о встрече: фразы на выходные",
+      "added": "2026-11-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-14"
+    },
+    {
+      "pl": "wpaść",
+      "ru": "заскочить, заглянуть (в гости)",
+      "pos": "verb",
+      "example": "Wpadnij do nas jutro! — Заскакивай к нам завтра!",
+      "topic": "Договориться о встрече: фразы на выходные",
+      "added": "2026-11-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-14"
+    },
+    {
+      "pl": "znajomy",
+      "ru": "знакомый, приятель",
+      "pos": "noun-m",
+      "example": "To mój znajomy z pracy. — Это мой знакомый с работы.",
+      "topic": "Договориться о встрече: фразы на выходные",
+      "added": "2026-11-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-14"
+    },
+    {
+      "pl": "piwo",
+      "ru": "пиво",
+      "pos": "noun-n",
+      "example": "Może skoczymy na piwo? — Может, сбегаем на пиво?",
+      "topic": "Договориться о встрече: фразы на выходные",
+      "added": "2026-11-13",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-14"
     }
   ]
 }
