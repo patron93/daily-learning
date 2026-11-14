@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" font-family="Arial, sans-serif">
+<rect width="700" height="420" fill="#ffffff" rx="16"/>
+<text x="350" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Разрез траншеи (wykop) для кабеля до 1 кВ</text>
+<rect x="40" y="60" width="620" height="16" fill="#4ade80"/>
+<text x="50" y="54" font-size="12" fill="#166534">поверхность (газон)</text>
+<rect x="40" y="76" width="620" height="324" fill="#d6b48a"/>
+<polygon points="200,76 500,76 470,370 230,370" fill="#a47148"/>
+<rect x="236" y="300" width="228" height="70" fill="#fde68a"/>
+<text x="350" y="318" text-anchor="middle" font-size="12" fill="#78350f">песок 10 см над кабелем</text>
+<text x="350" y="364" text-anchor="middle" font-size="12" fill="#78350f">песок 10 см под кабелем</text>
+<circle cx="320" cy="338" r="11" fill="#111827"/><circle cx="320" cy="338" r="5" fill="#b45309"/>
+<text x="338" y="342" font-size="12" font-weight="bold" fill="#111827">YKY 3×6</text>
+<circle cx="420" cy="338" r="9" fill="none" stroke="#6b7280" stroke-width="3"/>
+<text x="436" y="356" font-size="11" fill="#374151">пустая труба</text>
+<rect x="250" y="196" width="200" height="6" fill="#2563eb"/>
+<text x="350" y="190" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e3a8a">синяя taśma ostrzegawcza</text>
+<text x="350" y="220" text-anchor="middle" font-size="12" fill="#1e3a8a">25–35 см над кабелем</text>
+<text x="350" y="260" text-anchor="middle" font-size="12" fill="#f9fafb">грунт, утрамбовать</text>
+<line x1="560" y1="76" x2="560" y2="338" stroke="#111827" stroke-width="2"/>
+<polygon points="554,86 560,76 566,86" fill="#111827"/><polygon points="554,328 560,338 566,328" fill="#111827"/>
+<text x="572" y="200" font-size="14" font-weight="bold" fill="#111827">≥ 0,7 м</text>
+<text x="572" y="220" font-size="11" fill="#111827">(0,5 м под тротуаром,</text>
+<text x="572" y="234" font-size="11" fill="#111827">0,9 м на сельхозземле)</text>
+<text x="350" y="392" text-anchor="middle" font-size="12" fill="#f9fafb">N SEP-E-004 · труба обязательна под дорожкой, на вводе в здание и на пересечениях</text>
+</svg>

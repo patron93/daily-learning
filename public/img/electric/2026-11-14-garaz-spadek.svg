@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Arial, sans-serif">
+<rect width="780" height="400" fill="#ffffff" rx="16"/>
+<text x="390" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Кабель до гаража 40 м: падение напряжения</text>
+<text x="390" y="54" text-anchor="middle" font-size="13" fill="#4b5563">однофазная линия, медь, ΔU = I × 0,0175 × 80 / S, плюс 0,5 % до щита дома</text>
+<rect x="30" y="72" width="110" height="60" rx="8" fill="#e5e7eb" stroke="#6b7280"/>
+<text x="85" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Щит дома</text>
+<text x="85" y="118" text-anchor="middle" font-size="12" fill="#374151">B16 / B25</text>
+<line x1="140" y1="102" x2="640" y2="102" stroke="#b45309" stroke-width="6" stroke-dasharray="14 6">
+<animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/>
+</line>
+<text x="390" y="92" text-anchor="middle" font-size="13" fill="#92400e">YKY в земле, L = 40 м (туда и обратно 80 м)</text>
+<rect x="640" y="72" width="110" height="60" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+<text x="695" y="98" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e3a8a">Гараж</text>
+<text x="695" y="118" text-anchor="middle" font-size="12" fill="#1e3a8a">подщит</text>
+<line x1="200" y1="160" x2="200" y2="360" stroke="#9ca3af"/>
+<text x="195" y="364" text-anchor="end" font-size="12" fill="#6b7280">0 %</text>
+<line x1="200" y1="360" x2="740" y2="360" stroke="#9ca3af"/>
+<line x1="560" y1="160" x2="560" y2="360" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="560" y="378" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="bold">3 %</text>
+<text x="380" y="378" text-anchor="middle" font-size="12" fill="#6b7280">1,5 %</text>
+<text x="20" y="190" font-size="13" fill="#111827">2,5 мм² · 16 А</text>
+<rect x="200" y="176" width="528" height="24" fill="#fca5a5"/><text x="722" y="193" text-anchor="end" font-size="13" font-weight="bold" fill="#7f1d1d">4,4 % ✘</text>
+<text x="20" y="232" font-size="13" fill="#111827">4 мм² · 16 А</text>
+<rect x="200" y="218" width="352" height="24" fill="#fde68a"/><text x="546" y="235" text-anchor="end" font-size="13" font-weight="bold" fill="#78350f">2,9 % впритык</text>
+<text x="20" y="274" font-size="13" fill="#111827">6 мм² · 16 А</text>
+<rect x="200" y="260" width="254" height="24" fill="#86efac"/><text x="448" y="277" text-anchor="end" font-size="13" font-weight="bold" fill="#14532d">2,1 % ✔</text>
+<text x="20" y="316" font-size="13" fill="#111827">6 мм² · 24,6 А</text>
+<text x="20" y="332" font-size="11" fill="#6b7280">подщит, зимний пик</text>
+<rect x="200" y="302" width="396" height="24" fill="#fde68a"/><text x="590" y="319" text-anchor="end" font-size="13" font-weight="bold" fill="#78350f">3,3 %</text>
+</svg>
