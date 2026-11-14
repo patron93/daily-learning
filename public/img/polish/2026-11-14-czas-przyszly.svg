@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="34" text-anchor="middle" font-size="21" font-weight="bold" fill="#111827">Czas przyszły: два пути в будущее</text>
+<text x="380" y="58" text-anchor="middle" font-size="13" fill="#4b5563">wczoraj byłem → dziś jestem → jutro będę</text>
+<line x1="60" y1="88" x2="700" y2="88" stroke="#9ca3af" stroke-width="3"/>
+<polygon points="700,80 716,88 700,96" fill="#9ca3af"/>
+<circle cx="150" cy="88" r="8" fill="#6b7280"/><text x="150" y="116" text-anchor="middle" font-size="14" fill="#374151">wczoraj · byłem</text>
+<circle cx="380" cy="88" r="8" fill="#2563eb"/><text x="380" y="116" text-anchor="middle" font-size="14" fill="#1d4ed8" font-weight="bold">dziś · jestem</text>
+<circle cx="610" cy="88" r="8" fill="#16a34a"/><text x="610" y="116" text-anchor="middle" font-size="14" fill="#15803d" font-weight="bold">jutro · będę</text>
+<rect x="30" y="140" width="340" height="250" rx="12" fill="#dbeafe"/>
+<text x="200" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">несовершенный вид: процесс</text>
+<text x="200" y="190" text-anchor="middle" font-size="13" fill="#1e3a8a">«буду делать»</text>
+<rect x="55" y="205" width="290" height="40" rx="8" fill="#ffffff"/>
+<text x="200" y="231" text-anchor="middle" font-size="16" fill="#111827"><tspan font-weight="bold" fill="#16a34a">będę</tspan> + pracować</text>
+<text x="200" y="266" text-anchor="middle" font-size="13" fill="#374151">или</text>
+<rect x="55" y="276" width="290" height="40" rx="8" fill="#ffffff"/>
+<text x="200" y="302" text-anchor="middle" font-size="16" fill="#111827"><tspan font-weight="bold" fill="#16a34a">będę</tspan> + pracował / pracowała</text>
+<text x="200" y="340" text-anchor="middle" font-size="13" fill="#1e3a8a">с musieć / móc / chcieć — только -ł:</text>
+<text x="200" y="362" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e3a8a">będę musiał(a)</text>
+<rect x="390" y="140" width="340" height="250" rx="12" fill="#dcfce7"/>
+<text x="560" y="168" text-anchor="middle" font-size="16" font-weight="bold" fill="#14532d">совершенный вид: результат</text>
+<text x="560" y="190" text-anchor="middle" font-size="13" fill="#14532d">«сделаю» — одним словом</text>
+<g font-size="15" fill="#111827">
+<text x="430" y="226">robię</text><text x="530" y="226">→</text><text x="570" y="226" font-weight="bold" fill="#15803d">zrobię</text>
+<text x="430" y="256">piszę</text><text x="530" y="256">→</text><text x="570" y="256" font-weight="bold" fill="#15803d">napiszę</text>
+<text x="430" y="286">pakuję</text><text x="530" y="286">→</text><text x="570" y="286" font-weight="bold" fill="#15803d">spakuję</text>
+<text x="430" y="316">odwiedzam</text><text x="530" y="316">→</text><text x="570" y="316" font-weight="bold" fill="#15803d">odwiedzę</text>
+</g>
+<rect x="420" y="336" width="280" height="36" rx="8" fill="#fee2e2"/>
+<text x="560" y="360" text-anchor="middle" font-size="15" fill="#b91c1c" font-weight="bold">✘ będę zrobić — нельзя</text>
+</svg>

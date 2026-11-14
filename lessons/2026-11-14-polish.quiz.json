@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-14",
+  "track": "polish",
+  "topic": "Будущее время (czas przyszły)",
+  "questions": [
+    {"id": "fut-1", "type": "choice", "prompt": "Jutro ___ w pracy cały dzień. (ja)", "options": ["będę", "będzie", "będziesz", "byłem"], "answer": "będę", "explain": "Ja + być в будущем → będę. Będzie — он/она, będziesz — ты."},
+    {"id": "fut-2", "type": "gap", "prompt": "Gdzie ___ (wy, być) w sobotę?", "answers": ["będziecie"], "explain": "Wy + być в будущем → będziecie."},
+    {"id": "fut-3", "type": "choice", "prompt": "Как правильно сказать «Завтра я напишу отчёт»?", "options": ["Jutro napiszę raport.", "Jutro będę napisać raport.", "Jutro będę napiszę raport.", "Jutro piszę raport wczoraj."], "answer": "Jutro napiszę raport.", "explain": "Napisać — совершенный вид: будущее образуется одним словом (napiszę), без będę."},
+    {"id": "fut-4", "type": "choice", "prompt": "Anna mówi: «W niedzielę będę ___.» (odpoczywać)", "options": ["odpoczywać", "odpoczywał", "odpocznę", "odpoczywali"], "answer": "odpoczywać", "explain": "Będę + инфинитив — самый безопасный вариант для любого рода. Вариант с -ł для Анны был бы odpoczywała, а не odpoczywał."},
+    {"id": "fut-5", "type": "choice", "prompt": "Jutro będę ___ wcześnie wstać. (мужчина, musieć)", "options": ["musiał", "musieć", "muszę", "musiała"], "answer": "musiał", "explain": "С модальными глаголами (musieć, móc, chcieć) в будущем используется форма на -ł: będę musiał."},
+    {"id": "fut-6", "type": "gap", "prompt": "W weekend ___ (odwiedzić, my) babcię.", "answers": ["odwiedzimy"], "explain": "Odwiedzić — совершенный вид: my → odwiedzimy («навестим»)."},
+    {"id": "fut-7", "type": "choice", "prompt": "Что значит «jutro rano»?", "options": ["завтра утром", "утро завтра не наступит", "сегодня утром", "вчера утром"], "answer": "завтра утром", "explain": "Jutro — «завтра» (ложный друг русского «утро»), rano — «утро/утром»."},
+    {"id": "fut-8", "type": "choice", "prompt": "Na urlop pojedziemy w ___.", "options": ["góry", "górach", "górze", "góra"], "answer": "góry", "explain": "Куда? — w + винительный: w góry. Где? — w górach (местный)."},
+    {"id": "fut-9", "type": "choice", "prompt": "Rodzice ___ w domu w niedzielę.", "options": ["będą", "będzie", "będziemy", "są byli"], "answer": "będą", "explain": "Oni (rodzice) + być в будущем → będą."},
+    {"id": "fut-10", "type": "gap", "prompt": "Jutro rano ___ (spakować, ja) walizkę.", "answers": ["spakuję"], "explain": "Spakować — совершенный вид, спрягается как pakować: ja → spakuję («соберу»)."}
+  ]
+}

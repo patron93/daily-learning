@@ -183,9 +183,9 @@
       "example": "Dziś są imieniny Łukasza. — Сегодня именины Лукаша.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-02"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-28"
     },
     {
       "pl": "życzenia",
@@ -194,9 +194,9 @@
       "example": "Składam ci najlepsze życzenia! — Поздравляю тебя от всей души!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-02"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-28"
     },
     {
       "pl": "prezent",
@@ -205,9 +205,9 @@
       "example": "Mam dla ciebie mały prezent. — У меня для тебя маленький подарок.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-02"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-28"
     },
     {
       "pl": "tort",
@@ -216,9 +216,9 @@
       "example": "Kupiłem tort czekoladowy. — Я купил шоколадный торт.",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-02"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-28"
     },
     {
       "pl": "zaproszenie",
@@ -227,9 +227,9 @@
       "example": "Dziękuję za zaproszenie! — Спасибо за приглашение!",
       "topic": "Праздники",
       "added": "2026-10-18",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-02"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-11-28"
     },
     {
       "pl": "zespół",
@@ -1660,6 +1660,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-14"
+    },
+    {
+      "pl": "jutro",
+      "ru": "завтра",
+      "pos": "adv",
+      "example": "Jutro będę w pracy. — Завтра я буду на работе.",
+      "topic": "Будущее время: планы, отпуск, поездки",
+      "added": "2026-11-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-15"
+    },
+    {
+      "pl": "urlop",
+      "ru": "отпуск",
+      "pos": "noun-m",
+      "example": "W grudniu będę miał urlop. — В декабре у меня будет отпуск.",
+      "topic": "Будущее время: планы, отпуск, поездки",
+      "added": "2026-11-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-15"
+    },
+    {
+      "pl": "góry",
+      "ru": "горы (ед. góra)",
+      "pos": "noun-pl",
+      "example": "Na urlop pojedziemy w góry. — В отпуск мы поедем в горы.",
+      "topic": "Будущее время: планы, отпуск, поездки",
+      "added": "2026-11-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-15"
+    },
+    {
+      "pl": "walizka",
+      "ru": "чемодан",
+      "pos": "noun-f",
+      "example": "Jutro spakuję walizkę. — Завтра соберу чемодан.",
+      "topic": "Будущее время: планы, отпуск, поездки",
+      "added": "2026-11-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-15"
+    },
+    {
+      "pl": "odwiedzić",
+      "ru": "навестить, проведать (сов.)",
+      "pos": "verb",
+      "example": "W weekend odwiedzę rodziców. — На выходных навещу родителей.",
+      "topic": "Будущее время: планы, отпуск, поездки",
+      "added": "2026-11-14",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-15"
     }
   ]
 }
