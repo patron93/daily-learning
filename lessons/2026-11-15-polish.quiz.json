@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-15",
+  "track": "polish",
+  "topic": "Andrzejki: гадания и слова праздника",
+  "questions": [
+    {"id": "and-1", "type": "choice", "prompt": "Когда в Польше празднуют andrzejki?", "options": ["вечером 29 ноября", "6 декабря", "2 ноября", "в ночь на Ивана Купалу"], "answer": "вечером 29 ноября", "explain": "Andrzejki — канун дня св. Андрея (30 ноября), поэтому вечер 29-го. 6 декабря — mikołajki, 2 ноября — Zaduszki."},
+    {"id": "and-2", "type": "choice", "prompt": "Через что льют воск при lanie wosku?", "options": ["przez ucho klucza", "przez sito", "przez okno", "przez butelkę"], "answer": "przez ucho klucza", "explain": "Традиция: горячий воск льют через ушко ключа (ucho klucza) в холодную воду."},
+    {"id": "and-3", "type": "choice", "prompt": "Что значит «dobra wróżka» в польской сказке?", "options": ["добрая фея", "добрая ворожея из деревни", "хорошее гадание", "добрая соседка"], "answer": "добрая фея", "explain": "Wróżka — и гадалка, и фея. В сказках это именно фея: Wróżka Zębuszka — зубная фея. Само гадание — wróżba."},
+    {"id": "and-4", "type": "gap", "prompt": "W piątek ___ (вечером) idę na andrzejki.", "answers": ["wieczorem"], "explain": "«Когда?» — творительный падеж: wieczór → wieczorem. Ó при склонении превращается в o."},
+    {"id": "and-5", "type": "choice", "prompt": "Idę ___ andrzejki.", "options": ["na", "w", "do", "przy"], "answer": "na", "explain": "На праздник и вечеринку идём «na»: na andrzejki, na imieniny, na urodziny."},
+    {"id": "and-6", "type": "gap", "prompt": "Wczoraj byłem na ___ (andrzejki).", "answers": ["andrzejkach"], "explain": "Где? — местный падеж мн. ч.: -ach. Na andrzejkach, na imieninach."},
+    {"id": "and-7", "type": "choice", "prompt": "Какого рода слово przyszłość?", "options": ["женского", "мужского", "среднего", "только мн. ч."], "answer": "женского", "explain": "Przyszłość — ż, как все слова на -ość: ta przyszłość, w przyszłości."},
+    {"id": "and-8", "type": "choice", "prompt": "Какое слово, как и andrzejki, бывает только во множественном числе?", "options": ["imieniny", "święto", "wieczór", "wróżba"], "answer": "imieniny", "explain": "Imieniny, urodziny, andrzejki, mikołajki — pluralia tantum. Święto, wieczór, wróżba имеют единственное число."},
+    {"id": "and-9", "type": "gap", "prompt": "Zapal ___ (świeca), proszę.", "answers": ["świecę"], "explain": "Zapalić что? — винительный: -a → -ę, świeca → świecę."},
+    {"id": "and-10", "type": "choice", "prompt": "Как по-польски маленькая свечка на торте?", "options": ["świeczka", "świeca", "wosk", "znicz"], "answer": "świeczka", "explain": "Świeczka — уменьшительное от świeca. Znicz — лампадка на могилу (урок 1 ноября)."}
+  ]
+}

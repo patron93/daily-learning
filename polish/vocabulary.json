@@ -513,9 +513,9 @@
       "example": "Muszę iść do lekarza. — Мне нужно сходить к врачу.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-02"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-22"
     },
     {
       "pl": "przychodnia",
@@ -524,9 +524,9 @@
       "example": "Przychodnia jest otwarta do osiemnastej. — Поликлиника открыта до шести вечера.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-02"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-22"
     },
     {
       "pl": "recepta",
@@ -535,9 +535,9 @@
       "example": "Lekarz wystawił mi e-receptę. — Врач выписал мне электронный рецепт.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-02"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-22"
     },
     {
       "pl": "apteka",
@@ -546,9 +546,9 @@
       "example": "Apteka jest obok przystanku. — Аптека рядом с остановкой.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-02"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-22"
     },
     {
       "pl": "gorączka",
@@ -557,9 +557,9 @@
       "example": "Mam gorączkę od wczoraj. — У меня температура со вчерашнего дня.",
       "topic": "У врача: разговорные фразы",
       "added": "2026-10-24",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-02"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-22"
     },
     {
       "pl": "pisać",
@@ -1715,6 +1715,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-15"
+    },
+    {
+      "pl": "wróżba",
+      "ru": "гадание, предсказание",
+      "pos": "noun-f",
+      "example": "Na andrzejkach są wróżby. — На Анджейках гадают.",
+      "topic": "Andrzejki",
+      "added": "2026-11-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-16"
+    },
+    {
+      "pl": "wosk",
+      "ru": "воск",
+      "pos": "noun-m",
+      "example": "Leję gorący wosk do wody. — Лью горячий воск в воду.",
+      "topic": "Andrzejki",
+      "added": "2026-11-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-16"
+    },
+    {
+      "pl": "świeca",
+      "ru": "свеча",
+      "pos": "noun-f",
+      "example": "Zapal świecę, proszę. — Зажги, пожалуйста, свечу.",
+      "topic": "Andrzejki",
+      "added": "2026-11-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-16"
+    },
+    {
+      "pl": "przyszłość",
+      "ru": "будущее",
+      "pos": "noun-f",
+      "example": "Co mówi wróżba o przyszłości? — Что говорит гадание о будущем?",
+      "topic": "Andrzejki",
+      "added": "2026-11-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-16"
+    },
+    {
+      "pl": "wieczór",
+      "ru": "вечер",
+      "pos": "noun-m",
+      "example": "W sobotę wieczorem jest impreza. — В субботу вечером вечеринка.",
+      "topic": "Andrzejki",
+      "added": "2026-11-15",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-16"
     }
   ]
 }
