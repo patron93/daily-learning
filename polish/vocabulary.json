@@ -953,9 +953,9 @@
       "example": "Idę na pocztę. — Я иду на почту.",
       "topic": "Почта и посылки",
       "added": "2026-11-01",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-02"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-19"
     },
     {
       "pl": "paczka",
@@ -964,9 +964,9 @@
       "example": "Mam paczkę z Allegro. — У меня посылка с Allegro.",
       "topic": "Почта и посылки",
       "added": "2026-11-01",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-02"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-19"
     },
     {
       "pl": "przesyłka",
@@ -975,9 +975,9 @@
       "example": "Twoja przesyłka jest w drodze. — Твоё отправление в пути.",
       "topic": "Почта и посылки",
       "added": "2026-11-01",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-02"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-19"
     },
     {
       "pl": "adres",
@@ -986,9 +986,9 @@
       "example": "Proszę podać adres. — Пожалуйста, укажите адрес.",
       "topic": "Почта и посылки",
       "added": "2026-11-01",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-02"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-19"
     },
     {
       "pl": "odebrać",
@@ -997,9 +997,9 @@
       "example": "Muszę odebrać paczkę. — Мне нужно забрать посылку.",
       "topic": "Почта и посылки",
       "added": "2026-11-01",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-02"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-19"
     },
     {
       "pl": "programista",
@@ -1770,6 +1770,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-16"
+    },
+    {
+      "pl": "kupić",
+      "ru": "купить",
+      "pos": "verb",
+      "example": "Muszę kupić prezent dla mamy. — Мне надо купить подарок маме.",
+      "topic": "список дел",
+      "added": "2026-11-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-17"
+    },
+    {
+      "pl": "zapłacić",
+      "ru": "заплатить",
+      "pos": "verb",
+      "example": "Zapłaciłem już za prąd. — Я уже заплатил за электричество.",
+      "topic": "список дел",
+      "added": "2026-11-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-17"
+    },
+    {
+      "pl": "wysłać",
+      "ru": "отправить, выслать",
+      "pos": "verb",
+      "example": "Wyślę ci maila po spotkaniu. — Отправлю тебе письмо после встречи.",
+      "topic": "список дел",
+      "added": "2026-11-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-17"
+    },
+    {
+      "pl": "skończyć",
+      "ru": "закончить",
+      "pos": "verb",
+      "example": "Skończyłam projekt w piątek. — Я закончила проект в пятницу.",
+      "topic": "список дел",
+      "added": "2026-11-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-17"
+    },
+    {
+      "pl": "naprawić",
+      "ru": "починить, исправить",
+      "pos": "verb",
+      "example": "Kto naprawi ten błąd? — Кто исправит этот баг?",
+      "topic": "список дел",
+      "added": "2026-11-16",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-17"
     }
   ]
 }

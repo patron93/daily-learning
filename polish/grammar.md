@@ -22,7 +22,7 @@
 - [x] (2026-11-10) Iść vs chodzić, jechać vs jeździć
 - [x] (2026-11-12) Прошедшее время (czas przeszły): byłem/byłam, robiłem
 - [x] (2026-11-14) Будущее время: będę + инфинитив / będę robił, совершенный вид
-- [ ] Вид глагола: robić/zrobić, pisać/napisać
+- [x] (2026-11-16) Вид глагола: robić/zrobić, pisać/napisać
 - [ ] Модальные: musieć, móc, chcieć, woleć, trzeba, można
 - [ ] Возвратное się и его место в предложении
 - [ ] Дательный падеж (celownik): komu? + «podoba mi się»

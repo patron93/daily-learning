@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-16",
+  "track": "polish",
+  "topic": "Вид глагола (aspekt): robić / zrobić",
+  "questions": [
+    {"id": "asp-1", "type": "choice", "prompt": "Какая пара «несовершенный — совершенный» правильная?", "options": ["czytać — przeczytać", "czytać — naczytać", "czytać — zczytać", "czytać — poczytywać"], "answer": "czytać — przeczytać", "explain": "Czytać → przeczytać, как русское «читать → прочитать»: приставка prze- = «про-»."},
+    {"id": "asp-2", "type": "choice", "prompt": "Wczoraj ___ raport cały dzień, ale go nie skończyłem.", "options": ["pisałem", "napisałem", "napiszę", "piszę"], "answer": "pisałem", "explain": "«Весь день» и незаконченный результат — процесс, нужен несовершенный вид: pisałem."},
+    {"id": "asp-3", "type": "gap", "prompt": "W końcu ___ (kupić, ja, m, прошедшее) nowy rower!", "answers": ["kupiłem"], "explain": "W końcu (наконец) — результат, совершенный вид: kupić → kupiłem."},
+    {"id": "asp-4", "type": "choice", "prompt": "Как правильно: «Я закончил писать отчёт»?", "options": ["Skończyłem pisać raport.", "Skończyłem napisać raport.", "Skończyłem napisałem raport.", "Kończyłem napisać raport."], "answer": "Skończyłem pisać raport.", "explain": "После kończyć/skończyć и zaczynać/zacząć ставится только несовершенный инфинитив: pisać."},
+    {"id": "asp-5", "type": "choice", "prompt": "Codziennie ___ chleb w piekarni.", "options": ["kupuję", "kupię", "kupiłem", "kupić"], "answer": "kupuję", "explain": "Codziennie — повторение, а настоящее время бывает только у несовершенного вида: kupować → kupuję."},
+    {"id": "asp-6", "type": "choice", "prompt": "Что значит «Wyślę ci maila jutro»?", "options": ["Отправлю тебе письмо завтра", "Отправляю тебе письмо завтра", "Я отправил тебе письмо вчера", "Буду отправлять тебе письма"], "answer": "Отправлю тебе письмо завтра", "explain": "Wysłać — совершенный вид, поэтому форма wyślę уже означает будущее: «отправлю»."},
+    {"id": "asp-7", "type": "gap", "prompt": "Nie ___ (płacić, ty, повелит.) jeszcze, poczekaj!", "answers": ["płać"], "explain": "Запрет «не делай» обычно несовершенного вида: nie płać. А просьба сделать — zapłać."},
+    {"id": "asp-8", "type": "choice", "prompt": "«Szef skończył spotkanie o piątej» — что это значит?", "options": ["Шеф закончил совещание в пять", "Шеф скончался на совещании в пять", "Шеф начал совещание в пять", "Шеф перенёс совещание на пять"], "answer": "Шеф закончил совещание в пять", "explain": "Skończyć — «закончить», а не «скончаться». Ложный друг для русского уха."},
+    {"id": "asp-9", "type": "choice", "prompt": "Какая пара образована разными словами (а не приставкой или суффиксом)?", "options": ["brać — wziąć", "robić — zrobić", "kupować — kupić", "płacić — zapłacić"], "answer": "brać — wziąć", "explain": "Brać — wziąć (брать — взять), как и mówić — powiedzieć: такие пары учат наизусть."},
+    {"id": "asp-10", "type": "gap", "prompt": "Naprawiałem błąd cały dzień, ale go nie ___ (naprawić, ja, m, прошедшее).", "answers": ["naprawiłem"], "explain": "«Чинил, но не починил»: процесс — naprawiałem, отсутствие результата — nie naprawiłem (совершенный вид)."}
+  ]
+}
