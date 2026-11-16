@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect width="760" height="360" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Пять видов состояния + производное</text>
+  <g font-size="13">
+    <rect x="20" y="55" width="135" height="95" rx="10" fill="#e3f0fb" stroke="#1f5fa8"/>
+    <text x="87" y="78" text-anchor="middle" font-weight="bold" fill="#1f5fa8">Серверное</text>
+    <text x="87" y="100" text-anchor="middle" fill="#333">правда: бэкенд</text>
+    <text x="87" y="122" text-anchor="middle" fill="#333">httpResource</text>
+    <rect x="168" y="55" width="135" height="95" rx="10" fill="#fdf0dc" stroke="#c77700"/>
+    <text x="235" y="78" text-anchor="middle" font-weight="bold" fill="#c77700">URL</text>
+    <text x="235" y="100" text-anchor="middle" fill="#333">правда: адрес</text>
+    <text x="235" y="122" text-anchor="middle" fill="#333">router + input()</text>
+    <rect x="316" y="55" width="135" height="95" rx="10" fill="#efe6fa" stroke="#6a3fa0"/>
+    <text x="383" y="78" text-anchor="middle" font-weight="bold" fill="#6a3fa0">Форма</text>
+    <text x="383" y="100" text-anchor="middle" fill="#333">правда: черновик</text>
+    <text x="383" y="122" text-anchor="middle" fill="#333">Signal Forms</text>
+    <rect x="464" y="55" width="135" height="95" rx="10" fill="#e6f4e7" stroke="#2e7d32"/>
+    <text x="531" y="78" text-anchor="middle" font-weight="bold" fill="#2e7d32">Локальное UI</text>
+    <text x="531" y="100" text-anchor="middle" fill="#333">правда: компонент</text>
+    <text x="531" y="122" text-anchor="middle" fill="#333">signal()</text>
+    <rect x="612" y="55" width="128" height="95" rx="10" fill="#fbe4e4" stroke="#b23b3b"/>
+    <text x="676" y="78" text-anchor="middle" font-weight="bold" fill="#b23b3b">Глобальное</text>
+    <text x="676" y="100" text-anchor="middle" fill="#333">сессия, флаги</text>
+    <text x="676" y="122" text-anchor="middle" fill="#333">сервис / Store</text>
+  </g>
+  <g stroke="#888" stroke-width="2" fill="none">
+    <path d="M87 150 L330 230"/><path d="M235 150 L350 230"/><path d="M383 150 L380 230"/><path d="M531 150 L410 230"/><path d="M676 150 L430 230"/>
+  </g>
+  <rect x="260" y="230" width="240" height="60" rx="10" fill="#fff" stroke="#444" stroke-dasharray="6 4"/>
+  <text x="380" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">Производное: computed()</text>
+  <text x="380" y="276" text-anchor="middle" font-size="12" fill="#555">вычисляется, никогда не хранится</text>
+  <circle r="5" fill="#1f5fa8"><animateMotion dur="2.5s" repeatCount="indefinite" path="M87 150 L330 230"/></circle>
+  <circle r="5" fill="#c77700"><animateMotion dur="2.5s" begin="0.5s" repeatCount="indefinite" path="M235 150 L350 230"/></circle>
+  <text x="380" y="330" text-anchor="middle" font-size="13" fill="#555">Вопрос ревью: «у этого значения какой хозяин?» — а не «в какой стор его положить?»</text>
+</svg>

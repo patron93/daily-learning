@@ -37,7 +37,7 @@
 - [x] Micro-frontends: Module Federation / Native Federation, когда оно того не стоит
 - [x] Feature-sliced / domain-driven структура фронтенда
 - [x] Дизайн-системы и библиотеки компонентов: версионирование, токены
-- [ ] State management: классификация состояний (server, UI, URL, form)
+- [x] State management: классификация состояний (server, UI, URL, form)
 - [ ] BFF (Backend for Frontend) и API-контракты (OpenAPI, генерация клиентов)
 - [ ] Web performance: Core Web Vitals (LCP, INP, CLS) на практике
 - [ ] Кеширование на фронте: HTTP-кеш, Service Worker, stale-while-revalidate
@@ -111,3 +111,4 @@
 - 2026-11-13 · angular · Control flow (@if/@for/@switch) и почему track важен для производительности
 - 2026-11-14 · leadership · Tech debt: как продавать его бизнесу и планировать
 - 2026-11-15 · news · Конец LTS Angular 20 (28.11.2026) и годовой цикл мажоров: план переезда 20 → 21 → 22
+- 2026-11-16 · architecture · State management: классификация состояний (server, URL, form, UI, global) в Angular 22
