@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Arial, sans-serif">
+  <rect width="760" height="330" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">16 А через контакт: P = I² × R</text>
+  <!-- good -->
+  <text x="190" y="65" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e7d32">Хороший контакт</text>
+  <rect x="40" y="95" width="130" height="34" fill="#c87533"/>
+  <rect x="210" y="95" width="130" height="34" fill="#c87533"/>
+  <rect x="160" y="85" width="60" height="54" rx="6" fill="#9aa5b1" stroke="#555"/>
+  <text x="190" y="117" text-anchor="middle" font-size="12" fill="#fff">клемма</text>
+  <text x="190" y="170" text-anchor="middle" font-size="14" fill="#333">R ≈ 0,001 Ом</text>
+  <text x="190" y="194" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e7d32">P ≈ 0,26 Вт</text>
+  <text x="190" y="216" text-anchor="middle" font-size="13" fill="#555">почти не греется</text>
+  <!-- bad -->
+  <text x="570" y="65" text-anchor="middle" font-size="16" font-weight="bold" fill="#b23b3b">Плохой контакт / скрутка</text>
+  <rect x="420" y="95" width="130" height="34" fill="#c87533"/>
+  <rect x="590" y="95" width="130" height="34" fill="#c87533"/>
+  <path d="M545 112 q12 -22 25 0 t25 0" fill="none" stroke="#8a4a1d" stroke-width="10"/>
+  <circle cx="570" cy="112" r="20" fill="#ff5a1f" opacity="0.5">
+    <animate attributeName="r" values="14;30;14" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.15;0.7" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="570" y="170" text-anchor="middle" font-size="14" fill="#333">R ≈ 0,05 Ом</text>
+  <text x="570" y="194" text-anchor="middle" font-size="15" font-weight="bold" fill="#b23b3b">P ≈ 12,8 Вт</text>
+  <text x="570" y="216" text-anchor="middle" font-size="13" fill="#555">как паяльник в точке с горошину</text>
+  <!-- loop -->
+  <rect x="120" y="245" width="520" height="64" rx="10" fill="#fff3e8" stroke="#c77700"/>
+  <text x="380" y="270" text-anchor="middle" font-size="14" fill="#333">нагрев → окисел и ослабление прижима → R растёт → ещё больше нагрев</text>
+  <text x="380" y="293" text-anchor="middle" font-size="13" fill="#b23b3b">Автомат и УЗО этого не видят: ток в линии обычный</text>
+</svg>

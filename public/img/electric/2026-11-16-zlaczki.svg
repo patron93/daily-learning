@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect width="760" height="360" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Как правильно соединять</text>
+  <!-- 1 strip -->
+  <text x="130" y="65" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f5fa8">1. Зачистка по метке</text>
+  <rect x="30" y="90" width="120" height="22" rx="4" fill="#8b5a2b"/>
+  <rect x="150" y="96" width="70" height="10" fill="#c87533"/>
+  <line x1="150" y1="125" x2="220" y2="125" stroke="#333"/>
+  <line x1="150" y1="120" x2="150" y2="130" stroke="#333"/><line x1="220" y1="120" x2="220" y2="130" stroke="#333"/>
+  <text x="185" y="145" text-anchor="middle" font-size="12" fill="#333">≈ 11 мм (WAGO 221)</text>
+  <text x="130" y="175" text-anchor="middle" font-size="12" fill="#555">медь не торчит, изоляция</text>
+  <text x="130" y="191" text-anchor="middle" font-size="12" fill="#555">не попадает под контакт</text>
+  <!-- 2 ferrule -->
+  <text x="380" y="65" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f5fa8">2. Линка → гильза</text>
+  <rect x="280" y="90" width="80" height="22" rx="4" fill="#555"/>
+  <g stroke="#c87533" stroke-width="2"><line x1="360" y1="94" x2="392" y2="88"/><line x1="360" y1="101" x2="395" y2="101"/><line x1="360" y1="108" x2="392" y2="114"/></g>
+  <text x="378" y="132" text-anchor="middle" font-size="12" fill="#b23b3b">✘ без гильзы</text>
+  <rect x="300" y="150" width="60" height="22" rx="4" fill="#555"/>
+  <rect x="360" y="148" width="22" height="26" fill="#d33"/>
+  <rect x="382" y="154" width="50" height="14" fill="#c0c0c0" stroke="#777"/>
+  <text x="380" y="195" text-anchor="middle" font-size="12" fill="#2e7d32">✔ tulejka, обжата praską</text>
+  <!-- 3 wago -->
+  <text x="625" y="65" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f5fa8">3. Клемма 221</text>
+  <rect x="560" y="85" width="130" height="80" rx="8" fill="#e8f1fa" stroke="#1f5fa8" opacity="0.9"/>
+  <rect x="575" y="70" width="22" height="30" rx="3" fill="#f39c12"/>
+  <rect x="613" y="70" width="22" height="30" rx="3" fill="#f39c12"/>
+  <rect x="651" y="70" width="22" height="30" rx="3" fill="#f39c12"/>
+  <rect x="575" y="140" width="98" height="8" fill="#b0b8c0"/>
+  <g fill="#c87533"><rect x="582" y="115" width="8" height="38"/><rect x="620" y="115" width="8" height="38"/><rect x="658" y="115" width="8" height="38"/></g>
+  <g fill="#8b5a2b"><rect x="579" y="153" width="14" height="50"/><rect x="617" y="153" width="14" height="50"/><rect x="655" y="153" width="14" height="50"/></g>
+  <text x="625" y="225" text-anchor="middle" font-size="12" fill="#333">одна жила — одно гнездо,</text>
+  <text x="625" y="241" text-anchor="middle" font-size="12" fill="#333">видно через прозрачный корпус</text>
+  <!-- bottom -->
+  <rect x="40" y="270" width="680" height="70" rx="10" fill="#fdecea" stroke="#b23b3b"/>
+  <text x="380" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#b23b3b">✘ Не делаем: скрутка + изолента, медь + алюминий случайной клеммой,</text>
+  <text x="380" y="318" text-anchor="middle" font-size="14" font-weight="bold" fill="#b23b3b">две жилы в одно гнездо, соединение без коробки в штробе</text>
+</svg>
