@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Arial, sans-serif">
+  <rect width="780" height="400" fill="#fbfaf6" rx="12"/>
+  <text x="390" y="32" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">MCP: один host, несколько серверов</text>
+  <rect x="30" y="60" width="260" height="310" rx="10" fill="#eef3fb" stroke="#1a3d7c" stroke-width="2"/>
+  <text x="160" y="88" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a3d7c">Host</text>
+  <text x="160" y="108" text-anchor="middle" font-size="13" fill="#444">IDE / агент + LLM</text>
+  <g font-size="14" fill="#222">
+    <rect x="60" y="135" width="200" height="50" rx="8" fill="#fff" stroke="#1a3d7c"/>
+    <text x="160" y="165" text-anchor="middle">client 1</text>
+    <rect x="60" y="205" width="200" height="50" rx="8" fill="#fff" stroke="#1a3d7c"/>
+    <text x="160" y="235" text-anchor="middle">client 2</text>
+    <rect x="60" y="275" width="200" height="50" rx="8" fill="#fff" stroke="#1a3d7c"/>
+    <text x="160" y="305" text-anchor="middle">client 3</text>
+  </g>
+  <g stroke="#888" stroke-width="2" fill="none">
+    <line x1="260" y1="160" x2="440" y2="110"/>
+    <line x1="260" y1="230" x2="440" y2="215"/>
+    <line x1="260" y1="300" x2="440" y2="320"/>
+  </g>
+  <g font-size="12" fill="#666">
+    <text x="330" y="122">stdio</text>
+    <text x="330" y="215">stdio</text>
+    <text x="300" y="330">Streamable HTTP + OAuth</text>
+  </g>
+  <g font-size="14">
+    <rect x="440" y="70" width="310" height="80" rx="10" fill="#e8f5e9" stroke="#2e7d32"/>
+    <text x="455" y="95" font-weight="bold" fill="#2e7d32">ng mcp (Angular CLI)</text>
+    <text x="455" y="117" fill="#333">tools: search_documentation,</text>
+    <text x="455" y="136" fill="#333">find_examples, list_projects…</text>
+    <rect x="440" y="175" width="310" height="80" rx="10" fill="#e8f5e9" stroke="#2e7d32"/>
+    <text x="455" y="200" font-weight="bold" fill="#2e7d32">acme-ui (ваш design system)</text>
+    <text x="455" y="222" fill="#333">tools: find_component</text>
+    <text x="455" y="241" fill="#333">resources: токены, гайды</text>
+    <rect x="440" y="280" width="310" height="80" rx="10" fill="#fdf1e4" stroke="#c26a12"/>
+    <text x="455" y="305" font-weight="bold" fill="#c26a12">GitHub / трекер (удалённый)</text>
+    <text x="455" y="327" fill="#333">tools с записью → только</text>
+    <text x="455" y="346" fill="#333">с подтверждением человека</text>
+  </g>
+  <text x="390" y="390" text-anchor="middle" font-size="12" fill="#666">Tools вызывает модель · Resources выбирает приложение · Prompts запускает пользователь</text>
+</svg>

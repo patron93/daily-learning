@@ -49,7 +49,7 @@
 - [x] AI-агенты для кодинга в команде: правила, ревью, риски
 - [x] Prompt engineering для разработчиков: структура, примеры, XML-теги
 - [x] RAG: как построить поиск по документации проекта
-- [ ] MCP (Model Context Protocol): что это и зачем фронтендеру
+- [x] MCP (Model Context Protocol): что это и зачем фронтендеру
 - [ ] Встраивание LLM во фронтенд: streaming-ответы, UX ожидания
 - [ ] Оценка качества LLM-фич (evals)
 - [ ] Angular + AI: генерация кода, best practices, llms.txt
@@ -112,3 +112,4 @@
 - 2026-11-14 · leadership · Tech debt: как продавать его бизнесу и планировать
 - 2026-11-15 · news · Конец LTS Angular 20 (28.11.2026) и годовой цикл мажоров: план переезда 20 → 21 → 22
 - 2026-11-16 · architecture · State management: классификация состояний (server, URL, form, UI, global) в Angular 22
+- 2026-11-17 · ai · MCP (Model Context Protocol): примитивы, ng mcp, свой сервер, stateless-ревизия 2026-07-28
