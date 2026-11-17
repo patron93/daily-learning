@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-17",
+  "track": "polish",
+  "topic": "Поломки дома: awaria, korki, bateria, hydraulik",
+  "questions": [
+    {"id": "aw-1", "type": "choice", "prompt": "Sąsiad mówi: «W bloku jest awaria wody». Что случилось?", "options": ["в доме нет воды из-за поломки", "у дома была авария на машине", "соседа затопило", "вода стала дороже"], "answer": "в доме нет воды из-за поломки", "explain": "Awaria — поломка техники или сетей. Дорожная авария — wypadek или stłuczka."},
+    {"id": "aw-2", "type": "choice", "prompt": "Что значит «Cieknie bateria w kuchni»?", "options": ["Течёт смеситель на кухне", "Течёт батарея отопления", "Села батарейка на кухне", "Капает с потолка"], "answer": "Течёт смеситель на кухне", "explain": "Bateria в ванной и на кухне — смеситель. Батарея отопления — kaloryfer или grzejnik."},
+    {"id": "aw-3", "type": "gap", "prompt": "Wywaliło ___! Nie ma prądu w kuchni. (выбило пробки)", "answers": ["korki"], "explain": "Wywaliło korki — разговорное «выбило пробки», хотя в щитке давно автоматы."},
+    {"id": "aw-4", "type": "choice", "prompt": "Течёт труба под мойкой. Кого вызвать?", "options": ["hydraulika", "elektryka", "kierowcę", "programistę"], "answer": "hydraulika", "explain": "Hydraulik — сантехник. Zadzwonić po hydraulika — вызвать сантехника (винительный падеж: hydraulik → hydraulika)."},
+    {"id": "aw-5", "type": "choice", "prompt": "Как по-польски «кухонная мойка»?", "options": ["zlew", "umywalka", "odpływ", "kran"], "answer": "zlew", "explain": "Zlew — кухонная мойка. Umywalka — раковина в ванной, odpływ — слив, сток."},
+    {"id": "aw-6", "type": "gap", "prompt": "___ światło, nic nie widzę! (включи)", "answers": ["Zapal", "zapal", "Włącz", "włącz"], "explain": "Zapalić światło — самая бытовая фраза «включить свет»; włączyć тоже верно."},
+    {"id": "aw-7", "type": "choice", "prompt": "Przepaliła się żarówka. Что произошло?", "options": ["Перегорела лампочка", "Сгорела розетка", "Пропало отопление", "Перегрелся чайник"], "answer": "Перегорела лампочка", "explain": "Przepalić się — перегореть; żarówka (ż) — лампочка, поэтому przepaliła."},
+    {"id": "aw-8", "type": "choice", "prompt": "Lodówka (ż) перестала работать. Как сказать правильно?", "options": ["Zepsuła się lodówka.", "Zepsuł się lodówka.", "Zepsuło się lodówka.", "Psuje lodówka."], "answer": "Zepsuła się lodówka.", "explain": "Zepsuć się — сломаться. Lodówka женского рода, поэтому форма на -ła."},
+    {"id": "aw-9", "type": "gap", "prompt": "Chciałbym ___ awarię do administracji. (сообщить)", "answers": ["zgłosić"], "explain": "Zgłosić awarię — официально сообщить о поломке."},
+    {"id": "aw-10", "type": "choice", "prompt": "Kaloryfer jest zimny. Что не работает?", "options": ["батарея отопления", "смеситель", "холодильник", "лампочка"], "answer": "батарея отопления", "explain": "Kaloryfer (или grzejnik) — батарея отопления. Ogrzewanie — отопление в целом."}
+  ]
+}

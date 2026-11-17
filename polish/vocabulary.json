@@ -1008,9 +1008,9 @@
       "example": "Mój brat jest programistą. — Мой брат программист.",
       "topic": "профессии",
       "added": "2026-11-02",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-03"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-20"
     },
     {
       "pl": "nauczyciel",
@@ -1019,9 +1019,9 @@
       "example": "Jestem nauczycielem angielskiego. — Я учитель английского.",
       "topic": "профессии",
       "added": "2026-11-02",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-03"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-20"
     },
     {
       "pl": "kierowca",
@@ -1030,9 +1030,9 @@
       "example": "Kierowca autobusu jest miły. — Водитель автобуса приветливый.",
       "topic": "профессии",
       "added": "2026-11-02",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-03"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-20"
     },
     {
       "pl": "pielęgniarka",
@@ -1041,9 +1041,9 @@
       "example": "Moja żona jest pielęgniarką. — Моя жена медсестра.",
       "topic": "профессии",
       "added": "2026-11-02",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-03"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-20"
     },
     {
       "pl": "inżynier",
@@ -1052,9 +1052,9 @@
       "example": "On jest inżynierem w dużej firmie. — Он инженер в большой фирме.",
       "topic": "профессии",
       "added": "2026-11-02",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-03"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-20"
     },
     {
       "pl": "miesiąc",
@@ -1825,6 +1825,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-17"
+    },
+    {
+      "pl": "prąd",
+      "ru": "электричество, ток",
+      "pos": "noun-m",
+      "example": "Nie ma prądu w całym bloku. — Во всём доме нет электричества.",
+      "topic": "дом и поломки",
+      "added": "2026-11-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-18"
+    },
+    {
+      "pl": "gniazdko",
+      "ru": "розетка",
+      "pos": "noun-n",
+      "example": "Gniazdko w kuchni nie działa. — Розетка на кухне не работает.",
+      "topic": "дом и поломки",
+      "added": "2026-11-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-18"
+    },
+    {
+      "pl": "żarówka",
+      "ru": "лампочка",
+      "pos": "noun-f",
+      "example": "Przepaliła się żarówka w łazience. — В ванной перегорела лампочка.",
+      "topic": "дом и поломки",
+      "added": "2026-11-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-18"
+    },
+    {
+      "pl": "ogrzewanie",
+      "ru": "отопление",
+      "pos": "noun-n",
+      "example": "Kiedy włączą ogrzewanie? — Когда включат отопление?",
+      "topic": "дом и поломки",
+      "added": "2026-11-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-18"
+    },
+    {
+      "pl": "hydraulik",
+      "ru": "сантехник",
+      "pos": "noun-m",
+      "example": "Muszę zadzwonić po hydraulika. — Мне надо вызвать сантехника.",
+      "topic": "дом и поломки",
+      "added": "2026-11-17",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-18"
     }
   ]
 }

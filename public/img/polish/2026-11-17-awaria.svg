@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Arial, sans-serif">
+  <rect width="760" height="380" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Ложные друзья: поломки дома</text>
+  <text x="200" y="66" text-anchor="middle" font-size="14" fill="#666">польское слово</text>
+  <text x="430" y="66" text-anchor="middle" font-size="14" fill="#b23b3b">кажется…</text>
+  <text x="640" y="66" text-anchor="middle" font-size="14" fill="#2e7d32">на самом деле</text>
+  <g font-size="17">
+    <rect x="30" y="80" width="700" height="50" rx="8" fill="#eef3fb"/>
+    <text x="60" y="111" font-weight="bold" fill="#1a3d7c">awaria</text>
+    <text x="430" y="111" text-anchor="middle" fill="#b23b3b">✗ ДТП</text>
+    <text x="640" y="111" text-anchor="middle" fill="#2e7d32">✓ поломка, отключение</text>
+    <rect x="30" y="138" width="700" height="50" rx="8" fill="#f7f1e6"/>
+    <text x="60" y="169" font-weight="bold" fill="#1a3d7c">wywaliło korki</text>
+    <text x="430" y="169" text-anchor="middle" fill="#b23b3b">✗ вывалились пробки</text>
+    <text x="640" y="169" text-anchor="middle" fill="#2e7d32">✓ выбило автоматы</text>
+    <rect x="30" y="196" width="700" height="50" rx="8" fill="#eef3fb"/>
+    <text x="60" y="227" font-weight="bold" fill="#1a3d7c">bateria (w łazience)</text>
+    <text x="430" y="227" text-anchor="middle" fill="#b23b3b">✗ батарея отопления</text>
+    <text x="640" y="227" text-anchor="middle" fill="#2e7d32">✓ смеситель</text>
+    <rect x="30" y="254" width="700" height="50" rx="8" fill="#f7f1e6"/>
+    <text x="60" y="285" font-weight="bold" fill="#1a3d7c">hydraulik</text>
+    <text x="430" y="285" text-anchor="middle" fill="#b23b3b">✗ инженер-гидравлик</text>
+    <text x="640" y="285" text-anchor="middle" fill="#2e7d32">✓ сантехник</text>
+    <rect x="30" y="312" width="700" height="50" rx="8" fill="#eef3fb"/>
+    <text x="60" y="343" font-weight="bold" fill="#1a3d7c">zlew</text>
+    <text x="430" y="343" text-anchor="middle" fill="#b23b3b">✗ слив</text>
+    <text x="640" y="343" text-anchor="middle" fill="#2e7d32">✓ кухонная мойка</text>
+  </g>
+</svg>
