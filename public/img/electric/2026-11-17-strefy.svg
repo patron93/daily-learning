@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="Arial, sans-serif">
+  <rect width="800" height="440" fill="#fbfaf6" rx="12"/>
+  <text x="400" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Зоны прокладки на стене (вид спереди, потолок 260 см)</text>
+  <!-- wall: x 60..740, y 50 (ceiling) .. 390 (floor); scale 340px/260cm ≈ 1.308 px/cm -->
+  <rect x="60" y="50" width="680" height="340" fill="#ffffff" stroke="#555" stroke-width="2"/>
+  <!-- horizontal zones -->
+  <rect x="60" y="69.6" width="680" height="39.2" fill="#ffd54f" opacity="0.45"/>
+  <rect x="60" y="331.2" width="680" height="39.2" fill="#ffd54f" opacity="0.45"/>
+  <!-- vertical zones: door at x 150..250 (height 205cm → y 122..390), window x 470..620 y 140..260 -->
+  <rect x="73" y="50" width="26" height="340" fill="#ffd54f" opacity="0.45"/>
+  <rect x="263" y="50" width="26" height="340" fill="#ffd54f" opacity="0.45"/>
+  <rect x="431" y="50" width="26" height="340" fill="#ffd54f" opacity="0.45"/>
+  <rect x="633" y="50" width="26" height="340" fill="#ffd54f" opacity="0.45"/>
+  <rect x="701" y="50" width="26" height="340" fill="#ffd54f" opacity="0.45"/>
+  <!-- door & window -->
+  <rect x="150" y="122" width="100" height="268" fill="#d7ccc8" stroke="#6d4c41" stroke-width="2"/>
+  <circle cx="238" cy="262" r="5" fill="#6d4c41"/>
+  <text x="200" y="250" text-anchor="middle" font-size="13" fill="#3e2723">дверь</text>
+  <rect x="470" y="140" width="150" height="120" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+  <text x="545" y="205" text-anchor="middle" font-size="13" fill="#0d47a1">окно</text>
+  <!-- preferred lines -->
+  <g stroke="#c62828" stroke-width="3" fill="none">
+    <line x1="60" y1="89.2" x2="740" y2="89.2" stroke-dasharray="10 6"/>
+    <line x1="60" y1="350.8" x2="740" y2="350.8" stroke-dasharray="10 6"/>
+    <!-- switch drop -->
+    <line x1="276" y1="89.2" x2="276" y2="243"/>
+    <!-- socket rise -->
+    <line x1="360" y1="89.2" x2="360" y2="341"/>
+  </g>
+  <!-- switch & socket -->
+  <rect x="268" y="243" width="16" height="16" fill="#fff" stroke="#222" stroke-width="2"/>
+  <rect x="352" y="341" width="16" height="16" fill="#fff" stroke="#222" stroke-width="2"/>
+  <circle cx="360" cy="349" r="3" fill="#222"/>
+  <!-- labels -->
+  <g font-size="12" fill="#333">
+    <text x="300" y="255">выключатель ~105–120 см</text>
+    <text x="376" y="330">розетка 30 см</text>
+    <text x="470" y="84">верхняя зона: 15–45 см под потолком</text>
+    <text x="470" y="384">нижняя зона: 15–45 см над полом</text>
+  </g>
+  <g font-size="13">
+    <rect x="70" y="400" width="18" height="12" fill="#ffd54f" opacity="0.6"/>
+    <text x="94" y="411" fill="#333">зона прокладки (кабели могут быть тут — не сверлить)</text>
+    <line x1="470" y1="406" x2="500" y2="406" stroke="#c62828" stroke-width="3" stroke-dasharray="10 6"/>
+    <text x="508" y="411" fill="#333">предпочтительная линия</text>
+    <text x="70" y="432" fill="#333">Вертикальные зоны 20 см: 10–30 см от углов, у двери со стороны ручки, у окна с обеих сторон</text>
+  </g>
+</svg>

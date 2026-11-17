@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Arial, sans-serif">
+  <rect width="760" height="340" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">От коробки к розетке: по зонам или по диагонали</text>
+  <rect x="80" y="50" width="600" height="260" fill="#fff" stroke="#555" stroke-width="2"/>
+  <text x="60" y="56" text-anchor="end" font-size="12" fill="#555">260</text>
+  <text x="60" y="314" text-anchor="end" font-size="12" fill="#555">0 см</text>
+  <!-- box at y for 230cm: 50 + (30/260)*260 = 80 ; socket at 30cm → y=280 ; horizontal 3m = 450px from x=150 to 600 -->
+  <circle cx="150" cy="80" r="11" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="150" y="68" text-anchor="middle" font-size="12" fill="#222">коробка</text>
+  <rect x="592" y="272" width="16" height="16" fill="#fff" stroke="#222" stroke-width="2"/>
+  <text x="600" y="303" text-anchor="middle" font-size="12" fill="#222">розетка</text>
+  <polyline points="161,80 600,80 600,272" fill="none" stroke="#2e7d32" stroke-width="4"/>
+  <line x1="158" y1="88" x2="594" y2="274" stroke="#c62828" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="380" y="72" text-anchor="middle" font-size="13" fill="#2e7d32">3,00 м по верхней зоне</text>
+  <text x="612" y="180" font-size="13" fill="#2e7d32">2,00 м вниз</text>
+  <text x="300" y="215" font-size="13" fill="#c62828" transform="rotate(23 300 215)">≈3,61 м — «короче», но никто не знает, где кабель</text>
+  <g font-size="14">
+    <text x="90" y="332" fill="#2e7d32" font-weight="bold">✓ по зонам: 5,30 м с запасом</text>
+    <text x="420" y="332" fill="#c62828" font-weight="bold">✗ диагональ: 3,91 м</text>
+  </g>
+</svg>
