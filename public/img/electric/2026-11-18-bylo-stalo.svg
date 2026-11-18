@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Arial, sans-serif">
+  <rect width="760" height="360" fill="#fbfaf6" rx="12"/>
+  <text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Было → стало: порядок защиты в щите</text>
+  <!-- old -->
+  <text x="185" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">Было: TN-C</text>
+  <g font-size="13" text-anchor="middle">
+    <rect x="95" y="76" width="180" height="34" rx="6" fill="#eee" stroke="#555"/><text x="185" y="98">licznik</text>
+    <rect x="95" y="130" width="180" height="34" rx="6" fill="#fdecea" stroke="#c0392b"/><text x="185" y="152">пробки 10 / 16 / 25 A</text>
+    <rect x="95" y="184" width="180" height="34" rx="6" fill="#fdecea" stroke="#c0392b"/><text x="185" y="206">Al 2 жилы: L + PEN</text>
+    <rect x="95" y="238" width="180" height="34" rx="6" fill="#fdecea" stroke="#c0392b"/><text x="185" y="260">розетка: штырь = N</text>
+  </g>
+  <g stroke="#888" stroke-width="2"><line x1="185" y1="110" x2="185" y2="130"/><line x1="185" y1="164" x2="185" y2="184"/><line x1="185" y1="218" x2="185" y2="238"/></g>
+  <text x="185" y="300" text-anchor="middle" font-size="12" fill="#c0392b">нет PE · нет УЗО · нет SPD</text>
+  <!-- arrow -->
+  <path d="M320 180 L390 180" stroke="#555" stroke-width="3" fill="none"/>
+  <path d="M390 172 L404 180 L390 188 Z" fill="#555"/>
+  <!-- new -->
+  <text x="570" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e7d32">Стало: TN-C-S</text>
+  <g font-size="13" text-anchor="middle">
+    <rect x="460" y="76" width="220" height="30" rx="6" fill="#eee" stroke="#555"/><text x="570" y="96">licznik</text>
+    <rect x="460" y="116" width="220" height="30" rx="6" fill="#e3f0fb" stroke="#1f5fa8"/><text x="570" y="136">rozłącznik główny</text>
+    <rect x="460" y="156" width="220" height="30" rx="6" fill="#fff8e1" stroke="#c77700"/><text x="570" y="176">PEN → PE + N (разделение)</text>
+    <rect x="460" y="196" width="220" height="30" rx="6" fill="#f3e5f5" stroke="#8e44ad"/><text x="570" y="216">SPD тип 2</text>
+    <rect x="460" y="236" width="220" height="30" rx="6" fill="#e8f5e9" stroke="#2e7d32"/><text x="570" y="256">2 × RCD 30 mA тип A</text>
+    <rect x="460" y="276" width="220" height="30" rx="6" fill="#e8f5e9" stroke="#2e7d32"/><text x="570" y="296">автоматы по кабелю, Cu 3 жилы</text>
+  </g>
+  <g stroke="#888" stroke-width="2"><line x1="570" y1="106" x2="570" y2="116"/><line x1="570" y1="146" x2="570" y2="156"/><line x1="570" y1="186" x2="570" y2="196"/><line x1="570" y1="226" x2="570" y2="236"/><line x1="570" y1="266" x2="570" y2="276"/></g>
+  <circle r="6" fill="#2e7d32"><animateMotion dur="3s" repeatCount="indefinite" path="M450 90 L450 290"/></circle>
+  <text x="570" y="336" text-anchor="middle" font-size="12" fill="#555">где делить PEN — решает электрик SEP по состоянию WLZ</text>
+</svg>
