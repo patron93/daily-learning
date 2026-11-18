@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-18",
+  "track": "polish",
+  "topic": "Модальные: musieć, móc, chcieć, woleć, trzeba, można",
+  "questions": [
+    {"id": "mod-1", "type": "choice", "prompt": "Jutro ___ iść do lekarza. (ja, musieć)", "options": ["muszę", "musię", "musisz", "musę"], "answer": "muszę", "explain": "У musieć в форме ja и oni s → sz: muszę, muszą."},
+    {"id": "mod-2", "type": "gap", "prompt": "Czy ___ Pan podpisać tutaj? (móc)", "answers": ["może"], "explain": "Pan/Pani спрягается как он/она: on może → może Pan."},
+    {"id": "mod-3", "type": "choice", "prompt": "Как правильно сказать «Я хочу купить билет»?", "options": ["Chcę kupić bilet.", "Chcieję kupić bilet.", "Chcę kupię bilet.", "Chce kupić bilet."], "answer": "Chcę kupić bilet.", "explain": "chcieć → chcę (без -i-), а второй глагол стоит в инфинитиве: kupić."},
+    {"id": "mod-4", "type": "choice", "prompt": "Что значит «Wolę herbatę niż kawę»?", "options": ["Я больше люблю чай, чем кофе", "Я по своей воле пью чай", "Я хочу чай и кофе", "Мне нельзя кофе"], "answer": "Я больше люблю чай, чем кофе", "explain": "Woleć — ложный друг: «предпочитать». Сравнение идёт через niż."},
+    {"id": "mod-5", "type": "choice", "prompt": "Табличка у стройки: «___ wchodzić!» Какой вариант означает именно запрет правилом?", "options": ["Nie wolno", "Nie można", "Nie trzeba", "Nie chcę"], "answer": "Nie wolno", "explain": "Nie wolno — запрещено правилами. Nie można — скорее «невозможно» или «не принято»."},
+    {"id": "mod-6", "type": "gap", "prompt": "___ złożyć wniosek do piątku. (надо, безлично)", "answers": ["Trzeba", "trzeba"], "explain": "Trzeba — безличное «надо», не спрягается."},
+    {"id": "mod-7", "type": "choice", "prompt": "Ты хочешь сказать, что умеешь плавать. Как?", "options": ["Umiem pływać.", "Mogę pływać.", "Muszę pływać.", "Wolno mi pływać."], "answer": "Umiem pływać.", "explain": "Навык — umieć. Móc — возможность или разрешение: mogę pływać = мне можно / есть время поплавать."},
+    {"id": "mod-8", "type": "gap", "prompt": "Wczoraj ___ czekać godzinę w kolejce. (я, мужчина, musieć, прош. вр.)", "answers": ["musiałem"], "explain": "Прошедшее время: musiał + -em для ja мужского рода. Женщина скажет musiałam."},
+    {"id": "mod-9", "type": "choice", "prompt": "Что значит «Nie musi Pan przychodzić»?", "options": ["Вам не обязательно приходить", "Вам нельзя приходить", "Вы не можете прийти", "Вы не хотите приходить"], "answer": "Вам не обязательно приходить", "explain": "Nie musieć — «не обязан, можно не делать», а не запрет. Запрет — nie wolno."},
+    {"id": "mod-10", "type": "choice", "prompt": "Надпись «Zakaz palenia» означает…", "options": ["Курить запрещено", "Место для курения", "Здесь топят печь", "Курение платное"], "answer": "Курить запрещено", "explain": "Zakaz + существительное на -nie: palić → palenie. Zakaz palenia = курить запрещено."}
+  ]
+}

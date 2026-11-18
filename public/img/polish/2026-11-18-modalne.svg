@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Arial, sans-serif">
+  <rect width="720" height="380" fill="#fbfaf6" rx="12"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Модальный глагол + инфинитив</text>
+  <text x="360" y="56" text-anchor="middle" font-size="14" fill="#555">Muszę iść · Mogę zapłacić · Chcę kupić · Wolę czekać</text>
+  <!-- header -->
+  <g font-size="15" font-weight="bold">
+    <text x="40" y="92" fill="#666">osoba</text>
+    <text x="170" y="92" fill="#c0392b">musieć</text>
+    <text x="310" y="92" fill="#1f5fa8">móc</text>
+    <text x="440" y="92" fill="#2e7d32">chcieć</text>
+    <text x="580" y="92" fill="#8e44ad">woleć</text>
+  </g>
+  <line x1="30" y1="100" x2="690" y2="100" stroke="#ccc"/>
+  <g font-size="15" fill="#333">
+    <text x="40" y="124">ja</text><text x="170" y="124">mu<tspan fill="#c0392b" font-weight="bold">szę</tspan></text><text x="310" y="124">mo<tspan fill="#1f5fa8" font-weight="bold">gę</tspan></text><text x="440" y="124">chc<tspan fill="#2e7d32" font-weight="bold">ę</tspan></text><text x="580" y="124">wol<tspan fill="#8e44ad" font-weight="bold">ę</tspan></text>
+    <text x="40" y="148">ty</text><text x="170" y="148">musisz</text><text x="310" y="148">możesz</text><text x="440" y="148">chcesz</text><text x="580" y="148">wolisz</text>
+    <text x="40" y="172">on/ona/Pan</text><text x="170" y="172">musi</text><text x="310" y="172">może</text><text x="440" y="172">chce</text><text x="580" y="172">woli</text>
+    <text x="40" y="196">my</text><text x="170" y="196">musimy</text><text x="310" y="196">możemy</text><text x="440" y="196">chcemy</text><text x="580" y="196">wolimy</text>
+    <text x="40" y="220">wy</text><text x="170" y="220">musicie</text><text x="310" y="220">możecie</text><text x="440" y="220">chcecie</text><text x="580" y="220">wolicie</text>
+    <text x="40" y="244">oni/one</text><text x="170" y="244">mu<tspan fill="#c0392b" font-weight="bold">szą</tspan></text><text x="310" y="244">mo<tspan fill="#1f5fa8" font-weight="bold">gą</tspan></text><text x="440" y="244">chc<tspan fill="#2e7d32" font-weight="bold">ą</tspan></text><text x="580" y="244">wol<tspan fill="#8e44ad" font-weight="bold">ą</tspan></text>
+  </g>
+  <!-- impersonal -->
+  <rect x="30" y="270" width="200" height="88" rx="10" fill="#fff3e0" stroke="#e67e22"/>
+  <text x="130" y="298" text-anchor="middle" font-size="18" font-weight="bold" fill="#e67e22">trzeba</text>
+  <text x="130" y="322" text-anchor="middle" font-size="14" fill="#444">надо, нужно</text>
+  <text x="130" y="344" text-anchor="middle" font-size="13" fill="#666">Trzeba czekać.</text>
+  <rect x="260" y="270" width="200" height="88" rx="10" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="360" y="298" text-anchor="middle" font-size="18" font-weight="bold" fill="#2e7d32">można</text>
+  <text x="360" y="322" text-anchor="middle" font-size="14" fill="#444">можно</text>
+  <text x="360" y="344" text-anchor="middle" font-size="13" fill="#666">Można płacić kartą?</text>
+  <rect x="490" y="270" width="200" height="88" rx="10" fill="#fdecea" stroke="#c0392b">
+    <animate attributeName="stroke-width" values="1;4;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="590" y="298" text-anchor="middle" font-size="18" font-weight="bold" fill="#c0392b">nie wolno</text>
+  <text x="590" y="322" text-anchor="middle" font-size="14" fill="#444">запрещено = ZAKAZ</text>
+  <text x="590" y="344" text-anchor="middle" font-size="13" fill="#666">Nie wolno palić.</text>
+</svg>
