@@ -59,7 +59,7 @@
 - [x] NestJS для Angular-разработчика: те же идеи DI и декораторов
 - [x] REST vs GraphQL vs tRPC: компромиссы
 - [x] Аутентификация: сессии vs JWT, OAuth2/OIDC, PKCE
-- [ ] PostgreSQL: индексы, EXPLAIN, N+1
+- [x] PostgreSQL: индексы, EXPLAIN, N+1
 - [ ] Очереди и асинхронность: когда нужен message broker
 - [ ] Docker для фронтендера: multi-stage build, nginx для SPA
 - [ ] CI/CD: кеширование, affected-сборки, preview-окружения
@@ -113,3 +113,4 @@
 - 2026-11-15 · news · Конец LTS Angular 20 (28.11.2026) и годовой цикл мажоров: план переезда 20 → 21 → 22
 - 2026-11-16 · architecture · State management: классификация состояний (server, URL, form, UI, global) в Angular 22
 - 2026-11-17 · ai · MCP (Model Context Protocol): примитивы, ng mcp, свой сервер, stateless-ревизия 2026-07-28
+- 2026-11-18 · backend · PostgreSQL: индексы, EXPLAIN, N+1
