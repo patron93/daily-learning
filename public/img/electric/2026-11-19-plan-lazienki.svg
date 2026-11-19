@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#ffffff" rx="16"/>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Пример: ванная 2,0 × 2,5 м, вид сверху</text>
+<rect x="180" y="60" width="400" height="320" fill="#f9fafb" stroke="#374151" stroke-width="5"/>
+<!-- zone 2 band around bath -->
+<rect x="180" y="60" width="340" height="168" fill="#fef3c7"/>
+<!-- zone 1 / bath -->
+<rect x="180" y="60" width="280" height="108" fill="#dbeafe"/>
+<rect x="190" y="68" width="262" height="92" rx="30" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+<text x="321" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffffff">ванна 1,7 м · зоны 0 и 1</text>
+<text x="490" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">2</text>
+<text x="300" y="205" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">зона 2 (60 см)</text>
+<!-- sink -->
+<rect x="470" y="260" width="100" height="60" rx="12" fill="#e5e7eb" stroke="#6b7280"/>
+<text x="520" y="295" text-anchor="middle" font-size="12" fill="#374151">umywalka</text>
+<!-- socket bad -->
+<circle cx="535" cy="215" r="11" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+<text x="535" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">✗</text>
+<text x="600" y="210" font-size="12" fill="#dc2626">в зоне 2 —</text>
+<text x="600" y="226" font-size="12" fill="#dc2626">нельзя 230 В</text>
+<!-- socket ok -->
+<circle cx="575" cy="345" r="11" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+<text x="575" y="350" text-anchor="middle" font-size="13" font-weight="bold" fill="#15803d">✓</text>
+<text x="600" y="342" font-size="12" fill="#15803d">у раковины,</text>
+<text x="600" y="358" font-size="12" fill="#15803d">вне зоны 2, IP44</text>
+<!-- washing machine -->
+<rect x="190" y="300" width="70" height="70" rx="6" fill="#ede9fe" stroke="#6d28d9"/>
+<text x="225" y="340" text-anchor="middle" font-size="11" fill="#5b21b6">pralka</text>
+<circle cx="275" cy="370" r="9" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+<text x="20" y="320" font-size="12" fill="#374151">розетка pralki:</text>
+<text x="20" y="336" font-size="12" fill="#374151">отдельная линия,</text>
+<text x="20" y="352" font-size="12" fill="#374151">RCD 30 мА, вне зон</text>
+<!-- door -->
+<path d="M400 380 A 70 70 0 0 1 470 310" fill="none" stroke="#9ca3af" stroke-dasharray="4 3"/>
+<text x="435" y="402" text-anchor="middle" font-size="12" fill="#6b7280">drzwi</text>
+<text x="20" y="80" font-size="12" fill="#374151">выключатель света —</text>
+<text x="20" y="96" font-size="12" fill="#374151">снаружи у двери</text>
+<text x="20" y="112" font-size="12" fill="#374151">или в комнате вне зон</text>
+</svg>
