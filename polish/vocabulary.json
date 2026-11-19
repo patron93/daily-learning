@@ -238,9 +238,9 @@
       "example": "Jestem liderem zespołu. — Я руководитель команды.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-05"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-12-03"
     },
     {
       "pl": "kolega",
@@ -249,9 +249,9 @@
       "example": "To jest mój kolega z pracy. — Это мой коллега по работе.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-05"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-12-03"
     },
     {
       "pl": "koleżanka",
@@ -260,9 +260,9 @@
       "example": "Ania jest moją koleżanką. — Аня — моя коллега.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-05"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-12-03"
     },
     {
       "pl": "firma",
@@ -271,9 +271,9 @@
       "example": "Nasza firma jest w Warszawie. — Наша компания в Варшаве.",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-05"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-12-03"
     },
     {
       "pl": "nazwisko",
@@ -282,9 +282,9 @@
       "example": "Jak ma pan na nazwisko? — Как ваша фамилия?",
       "topic": "Знакомство и команда",
       "added": "2026-10-19",
-      "box": 3,
-      "reviews": 2,
-      "next_review": "2026-11-05"
+      "box": 4,
+      "reviews": 3,
+      "next_review": "2026-12-03"
     },
     {
       "pl": "mieszkanie",
@@ -1935,6 +1935,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-19"
+    },
+    {
+      "pl": "prośba",
+      "ru": "просьба",
+      "pos": "noun-f",
+      "example": "Mam do Pana prośbę. — У меня к вам просьба.",
+      "topic": "вежливость",
+      "added": "2026-11-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-20"
+    },
+    {
+      "pl": "grzeczny",
+      "ru": "вежливый; послушный",
+      "pos": "adj",
+      "example": "Był bardzo grzeczny w urzędzie. — Он был очень вежлив в ужонде.",
+      "topic": "вежливость",
+      "added": "2026-11-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-20"
+    },
+    {
+      "pl": "uprzejmy",
+      "ru": "любезный, учтивый",
+      "pos": "adj",
+      "example": "Pani w okienku była uprzejma. — Пани в окошке была любезна.",
+      "topic": "вежливость",
+      "added": "2026-11-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-20"
+    },
+    {
+      "pl": "pomóc",
+      "ru": "помочь",
+      "pos": "verb",
+      "example": "Czy może mi Pan pomóc? — Не могли бы вы мне помочь?",
+      "topic": "вежливость",
+      "added": "2026-11-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-20"
+    },
+    {
+      "pl": "podać",
+      "ru": "подать, передать",
+      "pos": "verb",
+      "example": "Proszę podać sól. — Передайте, пожалуйста, соль.",
+      "topic": "вежливость",
+      "added": "2026-11-19",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-20"
     }
   ]
 }

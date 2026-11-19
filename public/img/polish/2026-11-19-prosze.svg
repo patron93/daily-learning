@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+<rect width="760" height="420" fill="#fffdf7" rx="16"/>
+<text x="380" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#111827">Proszę — одно слово, восемь ситуаций</text>
+<circle cx="380" cy="225" r="58" fill="#dc2626"/>
+<text x="380" y="233" text-anchor="middle" font-size="24" font-weight="bold" fill="#ffffff">Proszę</text>
+<g font-size="13" fill="#111827">
+<rect x="30" y="62" width="210" height="62" rx="10" fill="#fee2e2"/>
+<text x="135" y="86" text-anchor="middle" font-weight="bold">Kawę, proszę.</text>
+<text x="135" y="108" text-anchor="middle" fill="#4b5563">1. просьба — пожалуйста</text>
+<rect x="275" y="62" width="210" height="62" rx="10" fill="#dbeafe"/>
+<text x="380" y="86" text-anchor="middle" font-weight="bold">Proszę (bardzo).</text>
+<text x="380" y="108" text-anchor="middle" fill="#4b5563">2. «вот, держите»</text>
+<rect x="520" y="62" width="210" height="62" rx="10" fill="#dcfce7"/>
+<text x="625" y="86" text-anchor="middle" font-weight="bold">— Dziękuję! — Proszę.</text>
+<text x="625" y="108" text-anchor="middle" fill="#4b5563">3. «не за что»</text>
+<rect x="30" y="194" width="210" height="62" rx="10" fill="#fef3c7"/>
+<text x="135" y="218" text-anchor="middle" font-weight="bold">*stuk-stuk* — Proszę!</text>
+<text x="135" y="240" text-anchor="middle" fill="#4b5563">4. «войдите»</text>
+<rect x="520" y="194" width="210" height="62" rx="10" fill="#ede9fe"/>
+<text x="625" y="218" text-anchor="middle" font-weight="bold">Proszę? ↗</text>
+<text x="625" y="240" text-anchor="middle" fill="#4b5563">5. «простите, что?»</text>
+<rect x="30" y="326" width="210" height="62" rx="10" fill="#e0f2fe"/>
+<text x="135" y="350" text-anchor="middle" font-weight="bold">Proszę usiąść.</text>
+<text x="135" y="372" text-anchor="middle" fill="#4b5563">6. вежливый приказ</text>
+<rect x="275" y="326" width="210" height="62" rx="10" fill="#fce7f3"/>
+<text x="380" y="350" text-anchor="middle" font-weight="bold">Proszę pani, …</text>
+<text x="380" y="372" text-anchor="middle" fill="#4b5563">7. обращение</text>
+<rect x="520" y="326" width="210" height="62" rx="10" fill="#f3f4f6"/>
+<text x="625" y="350" text-anchor="middle" font-weight="bold">No proszę!</text>
+<text x="625" y="372" text-anchor="middle" fill="#4b5563">8. «надо же!»</text>
+</g>
+<g stroke="#9ca3af" stroke-width="2">
+<line x1="135" y1="124" x2="340" y2="185"/><line x1="380" y1="124" x2="380" y2="167"/><line x1="625" y1="124" x2="420" y2="185"/>
+<line x1="240" y1="225" x2="322" y2="225"/><line x1="520" y1="225" x2="438" y2="225"/>
+<line x1="135" y1="326" x2="340" y2="265"/><line x1="380" y1="326" x2="380" y2="283"/><line x1="625" y1="326" x2="420" y2="265"/>
+</g>
+</svg>

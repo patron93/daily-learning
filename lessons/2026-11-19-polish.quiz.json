@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-19",
+  "track": "polish",
+  "topic": "Proszę: восемь ситуаций",
+  "questions": [
+    {"id": "pr-1", "type": "choice", "prompt": "Ты стучишь в кабинет врача. Изнутри говорят «Proszę!». Что это значит?", "options": ["Войдите", "Подождите", "Пожалуйста, уйдите", "Не за что"], "answer": "Войдите", "explain": "Ответ на стук: Proszę! = «Входите»."},
+    {"id": "pr-2", "type": "choice", "prompt": "— Dziękuję za pomoc! — ___", "options": ["Proszę bardzo.", "Przepraszam.", "Słucham?", "Poproszę."], "answer": "Proszę bardzo.", "explain": "На «спасибо» отвечают Proszę / Proszę bardzo / Nie ma za co."},
+    {"id": "pr-3", "type": "choice", "prompt": "Ты хочешь спросить дорогу у прохожего: «Извините, где вокзал?»", "options": ["Przepraszam, gdzie jest dworzec?", "Proszę, gdzie jest dworzec?", "Poproszę, gdzie jest dworzec?", "Słucham, gdzie jest dworzec?"], "answer": "Przepraszam, gdzie jest dworzec?", "explain": "Привлечь внимание и извиниться — przepraszam. Proszę здесь — типичная ошибка русскоязычных."},
+    {"id": "pr-4", "type": "gap", "prompt": "Proszę ___ (usiąść / siadam / siądź) — выбери форму: «Садитесь, пожалуйста».", "answers": ["usiąść"], "explain": "Вежливый приказ: proszę + инфинитив."},
+    {"id": "pr-5", "type": "choice", "prompt": "Ты не расслышал кассира. Как вежливо переспросить?", "options": ["Proszę?", "Co?", "Proszę bardzo.", "No proszę!"], "answer": "Proszę?", "explain": "Proszę? или Słucham? с вопросительной интонацией. Голое Co? звучит грубовато."},
+    {"id": "pr-6", "type": "gap", "prompt": "В пекарне: «___ dwie bułki.» (мягкая форма «попрошу»)", "answers": ["Poproszę", "poproszę"], "explain": "Poproszę — самое частое вежливое начало заказа у кассы."},
+    {"id": "pr-7", "type": "choice", "prompt": "Что значит «No proszę, już skończyłeś?»", "options": ["Надо же, ты уже закончил?", "Пожалуйста, закончи уже!", "Прошу, не заканчивай.", "Извини, ты закончил?"], "answer": "Надо же, ты уже закончил?", "explain": "No proszę! выражает удивление: «надо же, вот это да»."},
+    {"id": "pr-8", "type": "choice", "prompt": "Ребёнок в школе тянет руку: «___, ja wiem!»", "options": ["Proszę pani", "Przepraszam pani", "Poproszę pani", "Pani proszę"], "answer": "Proszę pani", "explain": "Обращение к учительнице: Proszę pani / Proszę pana."},
+    {"id": "pr-9", "type": "choice", "prompt": "В письме из банка: «Uprzejmie informujemy, że…». Это значит:", "options": ["Настоящим сообщаем, что…", "Просим вас любезно сообщить…", "Извините, но…", "Спасибо, что…"], "answer": "Настоящим сообщаем, что…", "explain": "Застывшая официальная формула: uprzejmie informujemy — «сообщаем», дальше идёт суть."},
+    {"id": "pr-10", "type": "gap", "prompt": "Proszę ___ (podać) numer telefonu. — Назовите, пожалуйста, номер телефона.", "answers": ["podać"], "explain": "После proszę — инфинитив: proszę podać."}
+  ]
+}
