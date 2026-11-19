@@ -70,7 +70,7 @@
 - [x] Паттерны: Strategy, Facade, Adapter во фронтенде
 - [x] «Clean Code» с критикой: что устарело
 - [x] Закон Конвея и Team Topologies
-- [ ] «The Pragmatic Programmer»: ключевые идеи
+- [x] «The Pragmatic Programmer»: ключевые идеи
 - [ ] «An Elegant Puzzle» (Will Larson): системы для инженерных организаций
 - [ ] «The Manager's Path» (Camille Fournier): глава про тимлида
 - [ ] Mythical Man-Month: закон Брукса сегодня
@@ -114,3 +114,4 @@
 - 2026-11-16 · architecture · State management: классификация состояний (server, URL, form, UI, global) в Angular 22
 - 2026-11-17 · ai · MCP (Model Context Protocol): примитивы, ng mcp, свой сервер, stateless-ревизия 2026-07-28
 - 2026-11-18 · backend · PostgreSQL: индексы, EXPLAIN, N+1
+- 2026-11-19 · classic · «The Pragmatic Programmer» (20th Anniversary Edition): ETC, DRY как знание, tracer bullets, разбитые окна

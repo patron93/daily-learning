@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Arial, sans-serif">
+<rect width="760" height="400" fill="#ffffff" rx="16"/>
+<text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Tracer bullet против прототипа</text>
+<line x1="380" y1="50" x2="380" y2="385" stroke="#e5e7eb" stroke-width="2"/>
+<text x="190" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">Tracer bullet: тонкий срез, код остаётся</text>
+<text x="570" y="64" text-anchor="middle" font-size="15" font-weight="bold" fill="#b45309">Прототип: проверить идею, код выбросить</text>
+<g font-size="13" fill="#111827">
+<rect x="40" y="84" width="300" height="44" rx="8" fill="#e0f2fe"/><text x="60" y="111">UI: route + компонент</text>
+<rect x="40" y="140" width="300" height="44" rx="8" fill="#ede9fe"/><text x="60" y="167">State: сервис / store</text>
+<rect x="40" y="196" width="300" height="44" rx="8" fill="#fef3c7"/><text x="60" y="223">API: контракт + BFF</text>
+<rect x="40" y="252" width="300" height="44" rx="8" fill="#dcfce7"/><text x="60" y="279">БД / внешний сервис</text>
+</g>
+<line x1="270" y1="78" x2="270" y2="302" stroke="#15803d" stroke-width="6" stroke-linecap="round"/>
+<circle cx="270" cy="78" r="7" fill="#15803d"><animate attributeName="cy" values="78;302;78" dur="3s" repeatCount="indefinite"/></circle>
+<text x="190" y="330" text-anchor="middle" font-size="13" fill="#374151">работает end-to-end с первого дня,</text>
+<text x="190" y="350" text-anchor="middle" font-size="13" fill="#374151">дальше наращиваем «мясо» вокруг</text>
+<g font-size="13" fill="#111827">
+<rect x="420" y="84" width="300" height="44" rx="8" fill="#e0f2fe"/><text x="440" y="111">UI-макет на моках (Figma / Storybook)</text>
+<rect x="420" y="140" width="300" height="44" rx="8" fill="#f3f4f6" stroke="#d1d5db" stroke-dasharray="5 4"/><text x="440" y="167" fill="#9ca3af">State — нет</text>
+<rect x="420" y="196" width="300" height="44" rx="8" fill="#fef3c7"/><text x="440" y="223">или: спайк одной библиотеки</text>
+<rect x="420" y="252" width="300" height="44" rx="8" fill="#f3f4f6" stroke="#d1d5db" stroke-dasharray="5 4"/><text x="440" y="279" fill="#9ca3af">БД — нет</text>
+</g>
+<text x="570" y="330" text-anchor="middle" font-size="13" fill="#374151">отвечает на один вопрос</text>
+<text x="570" y="350" text-anchor="middle" font-size="13" fill="#b91c1c" font-weight="bold">и идёт в корзину, не в main</text>
+</svg>
