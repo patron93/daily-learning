@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-20",
+  "track": "polish",
+  "topic": "Возвратное się и его место в предложении",
+  "questions": [
+    {"id": "sie-1", "type": "choice", "prompt": "Какое предложение неправильное?", "options": ["Się spieszę.", "Spieszę się.", "Bardzo się spieszę.", "Dziś się nie spieszę."], "answer": "Się spieszę.", "explain": "Się безударное и не может начинать предложение: Spieszę się."},
+    {"id": "sie-2", "type": "choice", "prompt": "My ___ o siódmej. (budzić się)", "options": ["budzimy się", "budzimy siebie", "budzimysię", "budzimy sobie"], "answer": "budzimy się", "explain": "Się одно на все лица и пишется отдельно: my budzimy się."},
+    {"id": "sie-3", "type": "choice", "prompt": "Как по-польски «Я возвращаюсь домой»?", "options": ["Wracam do domu.", "Wracam się do domu.", "Się wracam do domu.", "Wracam sobie do domu."], "answer": "Wracam do domu.", "explain": "Ловушка: wracać по-польски не возвратный, хотя по-русски «возвращаться»."},
+    {"id": "sie-4", "type": "gap", "prompt": "Jak ___ nazywasz?", "answers": ["się"], "explain": "Классика второго места: Jak się nazywasz? — Как тебя зовут?"},
+    {"id": "sie-5", "type": "choice", "prompt": "«Мне надо спешить» — какой вариант звучит естественнее всего?", "options": ["Muszę się spieszyć.", "Się muszę spieszyć.", "Muszę spieszyć sobie.", "Muszę spieszyć."], "answer": "Muszę się spieszyć.", "explain": "С модальным глаголом się обычно встаёт сразу после него, на второе место. Без się смысл ломается."},
+    {"id": "sie-6", "type": "choice", "prompt": "Что значит «Tu się nie pali»?", "options": ["Здесь не курят", "Здесь ничего не горит", "Я здесь не курю", "Не сжигай себя"], "answer": "Здесь не курят", "explain": "Się + 3-е лицо без подлежащего = безличное «так (не) делают»."},
+    {"id": "sie-7", "type": "gap", "prompt": "Rano myję ___ ręce. (себе)", "answers": ["sobie"], "explain": "Действие на часть тела с дополнением: myję sobie ręce. Się — когда моешься целиком."},
+    {"id": "sie-8", "type": "choice", "prompt": "Как сказать «Я останусь дома»?", "options": ["Zostanę w domu.", "Zostanę się w domu.", "Się zostanę w domu.", "Zostaję sobie w domu."], "answer": "Zostanę w domu.", "explain": "Zostać — «остаться» без się. Ещё одна ложная возвратность."},
+    {"id": "sie-9", "type": "choice", "prompt": "Выбери правильный порядок слов: «Завтра я рано проснусь».", "options": ["Jutro się wcześnie obudzę.", "Się jutro wcześnie obudzę.", "Jutro wcześnie obudzę.", "Jutro wcześnie się obudzę się."], "answer": "Jutro się wcześnie obudzę.", "explain": "Первое слово (jutro), затем się, дальше остальное. Вариант Jutro obudzę się wcześnie тоже был бы правильным."},
+    {"id": "sie-10", "type": "gap", "prompt": "Wydaje mi ___, że pada deszcz.", "answers": ["się"], "explain": "Wydaje mi się — «мне кажется»: возвратный глагол wydawać się."}
+  ]
+}

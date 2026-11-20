@@ -568,9 +568,9 @@
       "example": "Piszę maila do klienta. — Я пишу письмо клиенту.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-05"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "mówić",
@@ -579,9 +579,9 @@
       "example": "Mówię trochę po polsku. — Я немного говорю по-польски.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-05"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "robić",
@@ -590,9 +590,9 @@
       "example": "Co robisz w weekend? — Что делаешь на выходных?",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-05"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "uczyć się",
@@ -601,9 +601,9 @@
       "example": "Uczę się polskiego codziennie. — Я учу польский каждый день.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-05"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "iść",
@@ -612,9 +612,9 @@
       "example": "Idę na spotkanie. — Я иду на встречу.",
       "topic": "Глаголы на -ę: piszę, mówię, uczę się",
       "added": "2026-10-25",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-05"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "kawa",
@@ -1990,6 +1990,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-20"
+    },
+    {
+      "pl": "budzić się",
+      "ru": "просыпаться",
+      "pos": "verb",
+      "example": "Codziennie budzę się o siódmej. — Каждый день я просыпаюсь в семь.",
+      "topic": "утро и возвратные глаголы",
+      "added": "2026-11-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-21"
+    },
+    {
+      "pl": "myć się",
+      "ru": "мыться, умываться",
+      "pos": "verb",
+      "example": "Rano myję się zimną wodą. — Утром я умываюсь холодной водой.",
+      "topic": "утро и возвратные глаголы",
+      "added": "2026-11-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-21"
+    },
+    {
+      "pl": "ubierać się",
+      "ru": "одеваться",
+      "pos": "verb",
+      "example": "Dziecko samo się ubiera. — Ребёнок сам одевается.",
+      "topic": "утро и возвратные глаголы",
+      "added": "2026-11-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-21"
+    },
+    {
+      "pl": "spieszyć się",
+      "ru": "спешить, торопиться",
+      "pos": "verb",
+      "example": "Przepraszam, bardzo się spieszę. — Извините, я очень спешу.",
+      "topic": "утро и возвратные глаголы",
+      "added": "2026-11-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-21"
+    },
+    {
+      "pl": "ręcznik",
+      "ru": "полотенце",
+      "pos": "noun-m",
+      "example": "Gdzie jest czysty ręcznik? — Где чистое полотенце?",
+      "topic": "утро и возвратные глаголы",
+      "added": "2026-11-20",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-21"
     }
   ]
 }

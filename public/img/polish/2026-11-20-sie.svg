@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, sans-serif">
+  <rect width="720" height="400" fill="#fbfaf6" rx="12"/>
+  <text x="360" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Się: отдельное слово, одно на всех</text>
+  <text x="360" y="56" text-anchor="middle" font-size="14" fill="#555">Русское -ся приклеено к глаголу, польское się «гуляет» по предложению</text>
+  <!-- conjugation -->
+  <g font-size="15" fill="#333">
+    <text x="40" y="92" font-weight="bold" fill="#666">myć się — мыться</text>
+    <text x="40" y="118">ja myję <tspan fill="#c0392b" font-weight="bold">się</tspan></text>
+    <text x="40" y="142">ty myjesz <tspan fill="#c0392b" font-weight="bold">się</tspan></text>
+    <text x="40" y="166">on myje <tspan fill="#c0392b" font-weight="bold">się</tspan></text>
+    <text x="40" y="190">my myjemy <tspan fill="#c0392b" font-weight="bold">się</tspan></text>
+    <text x="40" y="214">oni myją <tspan fill="#c0392b" font-weight="bold">się</tspan></text>
+    <text x="210" y="118" fill="#777">— я моюсь</text>
+    <text x="210" y="142" fill="#777">— ты моешься</text>
+    <text x="210" y="166" fill="#777">— он моется</text>
+    <text x="210" y="190" fill="#777">— мы моемся</text>
+    <text x="210" y="214" fill="#777">— они моются</text>
+  </g>
+  <line x1="370" y1="78" x2="370" y2="226" stroke="#ddd"/>
+  <!-- position -->
+  <g font-size="15">
+    <text x="395" y="92" font-weight="bold" fill="#666">Где стоит się?</text>
+    <text x="395" y="120" fill="#2e7d32">✓ Jak <tspan fill="#c0392b" font-weight="bold">się</tspan> nazywasz?</text>
+    <text x="395" y="146" fill="#2e7d32">✓ Rano <tspan fill="#c0392b" font-weight="bold">się</tspan> spieszę.</text>
+    <text x="395" y="172" fill="#2e7d32">✓ Spieszę <tspan fill="#c0392b" font-weight="bold">się</tspan>.</text>
+    <text x="395" y="198" fill="#c62828">✗ <tspan text-decoration="line-through"><tspan font-weight="bold">Się</tspan> spieszę.</tspan></text>
+    <text x="395" y="222" fill="#777" font-size="13">в начало предложения — никогда</text>
+  </g>
+  <!-- slots -->
+  <text x="360" y="268" text-anchor="middle" font-size="15" font-weight="bold" fill="#444">Любимое место — второе, сразу после первого слова или группы</text>
+  <g font-size="16" text-anchor="middle">
+    <rect x="40" y="288" width="140" height="44" rx="8" fill="#e3edf9" stroke="#1f5fa8"/>
+    <text x="110" y="316" fill="#1f5fa8">Jutro</text>
+    <rect x="195" y="288" width="90" height="44" rx="8" fill="#fbe3e0" stroke="#c0392b"/>
+    <text x="240" y="316" fill="#c0392b" font-weight="bold">się</text>
+    <rect x="300" y="288" width="160" height="44" rx="8" fill="#eef6ec" stroke="#2e7d32"/>
+    <text x="380" y="316" fill="#2e7d32">wcześnie</text>
+    <rect x="475" y="288" width="200" height="44" rx="8" fill="#eef6ec" stroke="#2e7d32"/>
+    <text x="575" y="316" fill="#2e7d32">obudzę.</text>
+  </g>
+  <text x="360" y="362" text-anchor="middle" font-size="14" fill="#555">«Завтра я рано проснусь». Так же нормально: Jutro obudzę się wcześnie.</text>
+  <text x="360" y="384" text-anchor="middle" font-size="13" fill="#888">1-е слово · się · остальное</text>
+</svg>
