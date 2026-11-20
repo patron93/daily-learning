@@ -9,7 +9,7 @@
 - [x] Zoneless Angular: как работает change detection без zone.js и как мигрировать
 - [x] Deferrable views (@defer): стратегии триггеров и влияние на бандл
 - [x] Control flow (@if/@for/@switch) и почему track важен для производительности
-- [ ] Новые signal-based формы
+- [x] Новые signal-based формы
 - [ ] SSR + hydration (incremental hydration, event replay)
 - [ ] DI изнутри: иерархия инжекторов, inject() vs constructor, environment injectors
 - [ ] Standalone-архитектура больших приложений, отказ от NgModule
@@ -115,3 +115,4 @@
 - 2026-11-17 · ai · MCP (Model Context Protocol): примитивы, ng mcp, свой сервер, stateless-ревизия 2026-07-28
 - 2026-11-18 · backend · PostgreSQL: индексы, EXPLAIN, N+1
 - 2026-11-19 · classic · «The Pragmatic Programmer» (20th Anniversary Edition): ETC, DRY как знание, tracer bullets, разбитые окна
+- 2026-11-20 · angular · Signal Forms (стабильны в Angular 22): FormField/FormRoot, схема, applyEach, миграция с Reactive Forms

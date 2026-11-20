@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Arial, sans-serif">
+  <rect width="760" height="420" fill="#fbfaf6" rx="12"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+  <text x="380" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">Signal Forms: модель — источник правды</text>
+  <text x="380" y="54" text-anchor="middle" font-size="13" fill="#555">Reactive Forms хранят копию значения в FormControl; Signal Forms работают поверх твоего signal()</text>
+  <!-- model -->
+  <rect x="30" y="90" width="200" height="90" rx="10" fill="#e3edf9" stroke="#1f5fa8"/>
+  <text x="130" y="116" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f5fa8">model = signal(...)</text>
+  <text x="130" y="140" text-anchor="middle" font-size="12" fill="#333">{ email: '', age: 0,</text>
+  <text x="130" y="158" text-anchor="middle" font-size="12" fill="#333">  items: [...] }</text>
+  <!-- schema -->
+  <rect x="30" y="230" width="200" height="110" rx="10" fill="#fff4e0" stroke="#d68910"/>
+  <text x="130" y="256" text-anchor="middle" font-size="15" font-weight="bold" fill="#b9770e">schema (path) =&gt;</text>
+  <text x="130" y="280" text-anchor="middle" font-size="12" fill="#333">required(path.email)</text>
+  <text x="130" y="298" text-anchor="middle" font-size="12" fill="#333">min(path.age, 18)</text>
+  <text x="130" y="316" text-anchor="middle" font-size="12" fill="#333">applyEach(path.items, ...)</text>
+  <!-- form -->
+  <rect x="290" y="150" width="190" height="110" rx="10" fill="#eef6ec" stroke="#2e7d32"/>
+  <text x="385" y="180" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e7d32">f = form(model, schema)</text>
+  <text x="385" y="206" text-anchor="middle" font-size="12" fill="#333">FieldTree: f.email, f.age,</text>
+  <text x="385" y="224" text-anchor="middle" font-size="12" fill="#333">f.items[0].name …</text>
+  <text x="385" y="246" text-anchor="middle" font-size="12" fill="#666">поле() → FieldState</text>
+  <line x1="230" y1="140" x2="288" y2="180" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="230" y1="285" x2="288" y2="235" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+  <!-- template -->
+  <rect x="540" y="90" width="195" height="90" rx="10" fill="#f3e5f5" stroke="#8e44ad"/>
+  <text x="637" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="#8e44ad">&lt;input</text>
+  <text x="637" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#8e44ad">[formField]="f.email"&gt;</text>
+  <text x="637" y="164" text-anchor="middle" font-size="12" fill="#555">двусторонняя связь</text>
+  <rect x="540" y="230" width="195" height="130" rx="10" fill="#fdecea" stroke="#c0392b"/>
+  <text x="637" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#c0392b">FieldState (сигналы)</text>
+  <text x="637" y="280" text-anchor="middle" font-size="12" fill="#333">value · errors() · valid()</text>
+  <text x="637" y="298" text-anchor="middle" font-size="12" fill="#333">touched() · dirty() · pending()</text>
+  <text x="637" y="316" text-anchor="middle" font-size="12" fill="#333">disabled() · hidden() · readonly()</text>
+  <text x="637" y="340" text-anchor="middle" font-size="12" fill="#666">всё derived, всё computed</text>
+  <line x1="480" y1="185" x2="538" y2="140" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="480" y1="225" x2="538" y2="280" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+  <!-- write back -->
+  <path d="M637,90 C637,66 130,66 130,88" fill="none" stroke="#1f5fa8" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#a)"/>
+  <text x="380" y="80" text-anchor="middle" font-size="12" fill="#1f5fa8">ввод пишет прямо в model</text>
+  <text x="380" y="395" text-anchor="middle" font-size="13" fill="#444">Нет valueChanges, нет updateValueAndValidity: зависимость отслеживается графом сигналов</text>
+</svg>
