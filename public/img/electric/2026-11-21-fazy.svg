@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Arial, sans-serif">
+<rect width="800" height="340" fill="#fafafa" rx="16"/>
+<text x="400" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111827">Вечер: духовка + стиралка + бойлер + чайник</text>
+<text x="200" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#991b1b">✗ всё на L1</text>
+<text x="600" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#166534">✓ разнесено по фазам</text>
+<line x1="60" y1="110" x2="360" y2="110" stroke="#dc2626" stroke-dasharray="6 4" stroke-width="2"/>
+<text x="62" y="104" font-size="11" fill="#dc2626">предохранитель 25 A</text>
+<line x1="460" y1="110" x2="760" y2="110" stroke="#dc2626" stroke-dasharray="6 4" stroke-width="2"/>
+<g>
+<rect x="80" y="70" width="60" height="230" fill="#ef4444"/>
+<rect x="170" y="290" width="60" height="10" fill="#93c5fd"/>
+<rect x="260" y="290" width="60" height="10" fill="#93c5fd"/>
+<rect x="480" y="186" width="60" height="114" fill="#60a5fa"/>
+<rect x="570" y="155" width="60" height="145" fill="#60a5fa"/>
+<rect x="660" y="232" width="60" height="68" fill="#60a5fa"/>
+</g>
+<g font-size="12" text-anchor="middle" fill="#111827">
+<text x="110" y="320">L1 ≈ 43 A</text><text x="200" y="320">L2 ≈ 0</text><text x="290" y="320">L3 ≈ 0</text>
+<text x="510" y="320">L1 ≈ 15 A</text><text x="600" y="320">L2 ≈ 19 A</text><text x="690" y="320">L3 ≈ 9 A</text>
+</g>
+<g font-size="11" fill="#1e3a8a" text-anchor="middle">
+<text x="510" y="180">духовка</text><text x="600" y="134">стиралка</text><text x="600" y="149">+ чайник</text><text x="690" y="226">бойлер</text>
+</g>
+</svg>
