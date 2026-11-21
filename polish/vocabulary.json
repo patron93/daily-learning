@@ -1118,9 +1118,9 @@
       "example": "Muszę iść do urzędu. — Мне надо идти в учреждение.",
       "topic": "Urząd: вежливые формы",
       "added": "2026-11-04",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-05"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "wniosek",
@@ -1129,9 +1129,9 @@
       "example": "Chcę złożyć wniosek. — Я хочу подать заявление.",
       "topic": "Urząd: вежливые формы",
       "added": "2026-11-04",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-05"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "podpis",
@@ -1140,9 +1140,9 @@
       "example": "Tu proszę złożyć podpis. — Здесь, пожалуйста, подпись.",
       "topic": "Urząd: вежливые формы",
       "added": "2026-11-04",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-05"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "kolejka",
@@ -1151,9 +1151,9 @@
       "example": "Kolejka jest bardzo długa. — Очередь очень длинная.",
       "topic": "Urząd: вежливые формы",
       "added": "2026-11-04",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-05"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "okienko",
@@ -1162,9 +1162,9 @@
       "example": "Proszę podejść do okienka numer trzy. — Подойдите, пожалуйста, к окошку номер три.",
       "topic": "Urząd: вежливые формы",
       "added": "2026-11-04",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-05"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-24"
     },
     {
       "pl": "pogoda",
@@ -2045,6 +2045,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-21"
+    },
+    {
+      "pl": "garnek",
+      "ru": "кастрюля",
+      "pos": "noun-m",
+      "example": "Woda w garnku już się gotuje. — Вода в кастрюле уже кипит.",
+      "topic": "кухня и посуда",
+      "added": "2026-11-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-22"
+    },
+    {
+      "pl": "patelnia",
+      "ru": "сковорода",
+      "pos": "noun-f",
+      "example": "Usmaż jajka na patelni. — Пожарь яйца на сковороде.",
+      "topic": "кухня и посуда",
+      "added": "2026-11-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-22"
+    },
+    {
+      "pl": "nóż",
+      "ru": "нож",
+      "pos": "noun-m",
+      "example": "Ten nóż jest bardzo ostry. — Этот нож очень острый.",
+      "topic": "кухня и посуда",
+      "added": "2026-11-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-22"
+    },
+    {
+      "pl": "łyżka",
+      "ru": "ложка (столовая)",
+      "pos": "noun-f",
+      "example": "Zupę jemy łyżką. — Суп едят ложкой.",
+      "topic": "кухня и посуда",
+      "added": "2026-11-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-22"
+    },
+    {
+      "pl": "widelec",
+      "ru": "вилка",
+      "pos": "noun-m",
+      "example": "Poproszę jeszcze jeden widelec. — Можно ещё одну вилку?",
+      "topic": "кухня и посуда",
+      "added": "2026-11-21",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-22"
     }
   ]
 }

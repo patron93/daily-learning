@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Arial, sans-serif">
+<rect width="800" height="400" fill="#fafafa" rx="16"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Ложные друзья на кухне</text>
+<text x="400" y="58" text-anchor="middle" font-size="13" fill="#4b5563">слышишь по-польски → думаешь по-русски → на самом деле</text>
+<g font-size="15">
+<rect x="30" y="76" width="740" height="52" rx="10" fill="#fee2e2"/>
+<text x="50" y="108" font-weight="bold" fill="#991b1b">pierogi</text><text x="210" y="108" fill="#6b7280">«пироги» ✗</text><text x="400" y="108" fill="#166534" font-weight="bold">вареники / пельмени ✓</text><text x="620" y="108" fill="#374151" font-size="13">пирог = ciasto, placek</text>
+<rect x="30" y="136" width="740" height="52" rx="10" fill="#ffedd5"/>
+<text x="50" y="168" font-weight="bold" fill="#9a3412">kanapka</text><text x="210" y="168" fill="#6b7280">«канапе» ✗</text><text x="400" y="168" fill="#166534" font-weight="bold">бутерброд ✓</text><text x="620" y="168" fill="#374151" font-size="13">kanapa = диван</text>
+<rect x="30" y="196" width="740" height="52" rx="10" fill="#fef9c3"/>
+<text x="50" y="228" font-weight="bold" fill="#854d0e">garnek</text><text x="210" y="228" fill="#6b7280">«горшок» ✗</text><text x="400" y="228" fill="#166534" font-weight="bold">кастрюля ✓</text><text x="620" y="228" fill="#374151" font-size="13">горшок = doniczka</text>
+<rect x="30" y="256" width="740" height="52" rx="10" fill="#dcfce7"/>
+<text x="50" y="288" font-weight="bold" fill="#166534">sałatka</text><text x="210" y="288" fill="#6b7280">«листья салата» ✗</text><text x="400" y="288" fill="#166534" font-weight="bold">салат-блюдо ✓</text><text x="620" y="288" fill="#374151" font-size="13">листья = sałata</text>
+<rect x="30" y="316" width="740" height="52" rx="10" fill="#dbeafe"/>
+<text x="50" y="348" font-weight="bold" fill="#1e40af">obiad</text><text x="210" y="348" fill="#6b7280">«в 13:00» ✗</text><text x="400" y="348" fill="#166534" font-weight="bold">горячее, часто в 15–17 ✓</text><text x="620" y="348" fill="#374151" font-size="13">ужин = kolacja</text>
+</g>
+</svg>
