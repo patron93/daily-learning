@@ -24,7 +24,7 @@
 - [x] Code review как инструмент роста, а не бутылочное горлышко
 - [x] Feedback: модель SBI и как давать сложный фидбек
 - [x] Tech debt: как продавать его бизнесу и планировать
-- [ ] Онбординг нового разработчика за 30/60/90 дней
+- [x] Онбординг нового разработчика за 30/60/90 дней
 - [ ] Psychological safety: исследование Google Project Aristotle и практика
 - [ ] Метрики команды: DORA, SPACE, почему velocity — плохая метрика
 - [ ] ADR (Architecture Decision Records): как фиксировать решения
@@ -116,3 +116,4 @@
 - 2026-11-18 · backend · PostgreSQL: индексы, EXPLAIN, N+1
 - 2026-11-19 · classic · «The Pragmatic Programmer» (20th Anniversary Edition): ETC, DRY как знание, tracer bullets, разбитые окна
 - 2026-11-20 · angular · Signal Forms (стабильны в Angular 22): FormField/FormRoot, схема, applyEach, миграция с Reactive Forms
+- 2026-11-21 · leadership · Онбординг нового разработчика за 30/60/90 дней: три слоя, buddy, первый PR за неделю, журнал удивлений

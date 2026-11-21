@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Arial, sans-serif">
+<rect width="800" height="420" fill="#fafafa" rx="16"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#111827">Онбординг 30/60/90: от «понимаю» к «влияю»</text>
+<line x1="60" y1="80" x2="760" y2="80" stroke="#9ca3af" stroke-width="3"/>
+<g font-size="13" fill="#374151" text-anchor="middle">
+<circle cx="70" cy="80" r="9" fill="#6b7280"/><text x="70" y="64">день 0</text>
+<circle cx="110" cy="80" r="7" fill="#2563eb"/><text x="122" y="104" font-size="11">первый PR</text>
+<circle cx="300" cy="80" r="9" fill="#2563eb"/><text x="300" y="64">30</text>
+<circle cx="520" cy="80" r="9" fill="#16a34a"/><text x="520" y="64">60</text>
+<circle cx="740" cy="80" r="9" fill="#9333ea"/><text x="740" y="64">90</text>
+</g>
+<g font-size="13">
+<rect x="80" y="120" width="210" height="170" rx="12" fill="#dbeafe"/>
+<text x="185" y="146" text-anchor="middle" font-weight="bold" fill="#1e40af" font-size="15">1–30: понимаю и могу</text>
+<text x="96" y="174" fill="#1e3a8a">• среда за 1 день</text>
+<text x="96" y="196" fill="#1e3a8a">• первый PR в прод за неделю</text>
+<text x="96" y="218" fill="#1e3a8a">• 2–3 good first issue</text>
+<text x="96" y="240" fill="#1e3a8a">• демо продукта, 1:1 с людьми</text>
+<text x="96" y="262" fill="#1e3a8a">• журнал удивлений</text>
+<rect x="300" y="120" width="210" height="170" rx="12" fill="#dcfce7"/>
+<text x="405" y="146" text-anchor="middle" font-weight="bold" fill="#166534" font-size="15">31–60: делаю сам</text>
+<text x="316" y="174" fill="#14532d">• фича от оценки до релиза</text>
+<text x="316" y="196" fill="#14532d">• ревьюит чужие PR</text>
+<text x="316" y="218" fill="#14532d">• планирование, дежурство</text>
+<text x="316" y="240" fill="#14532d">  в паре</text>
+<rect x="520" y="120" width="210" height="170" rx="12" fill="#f3e8ff"/>
+<text x="625" y="146" text-anchor="middle" font-weight="bold" fill="#6b21a8" font-size="15">61–90: влияю</text>
+<text x="536" y="174" fill="#581c87">• владеет модулем</text>
+<text x="536" y="196" fill="#581c87">  (CODEOWNERS)</text>
+<text x="536" y="218" fill="#581c87">• ADR / RFC с улучшением</text>
+<text x="536" y="240" fill="#581c87">• помогает следующему</text>
+</g>
+<g font-size="13" fill="#374151">
+<text x="80" y="322" font-weight="bold">Три слоя созревают с разной скоростью:</text>
+<rect x="80" y="334" width="230" height="16" rx="8" fill="#93c5fd"/><text x="320" y="347">технический — недели</text>
+<rect x="80" y="358" width="420" height="16" rx="8" fill="#86efac"/><text x="510" y="371">продуктовый — 1–2 месяца</text>
+<rect x="80" y="382" width="600" height="16" rx="8" fill="#d8b4fe"/><text x="690" y="395">социальный — 3+</text>
+</g>
+</svg>
