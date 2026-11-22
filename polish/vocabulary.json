@@ -623,9 +623,9 @@
       "example": "Idziemy na kawę? — Пойдём на кофе?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-06"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-29"
     },
     {
       "pl": "ciastko",
@@ -634,9 +634,9 @@
       "example": "Do kawy biorę ciastko. — К кофе я беру пирожное.",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-06"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-29"
     },
     {
       "pl": "kubek",
@@ -645,9 +645,9 @@
       "example": "To mój kubek, nie twój! — Это моя кружка, не твоя!",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-06"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-29"
     },
     {
       "pl": "cukier",
@@ -656,9 +656,9 @@
       "example": "Pijesz kawę z cukrem? — Ты пьёшь кофе с сахаром?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-06"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-29"
     },
     {
       "pl": "chwila",
@@ -667,9 +667,9 @@
       "example": "Masz chwilę? — Есть минутка?",
       "topic": "Zdrobnienia: kawka, chwileczka",
       "added": "2026-10-26",
-      "box": 2,
-      "reviews": 1,
-      "next_review": "2026-11-06"
+      "box": 3,
+      "reviews": 2,
+      "next_review": "2026-11-29"
     },
     {
       "pl": "lodówka",
@@ -2100,6 +2100,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-22"
+    },
+    {
+      "pl": "babcia",
+      "ru": "бабушка",
+      "pos": "noun-f",
+      "example": "Babcia mieszka na wsi. — Бабушка живёт в деревне.",
+      "topic": "семья и дательный падеж",
+      "added": "2026-11-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-23"
+    },
+    {
+      "pl": "dziadek",
+      "ru": "дедушка",
+      "pos": "noun-m",
+      "example": "Dziadek lubi czytać gazety. — Дедушка любит читать газеты.",
+      "topic": "семья и дательный падеж",
+      "added": "2026-11-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-23"
+    },
+    {
+      "pl": "brat",
+      "ru": "брат",
+      "pos": "noun-m",
+      "example": "Mój brat pracuje w Krakowie. — Мой брат работает в Кракове.",
+      "topic": "семья и дательный падеж",
+      "added": "2026-11-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-23"
+    },
+    {
+      "pl": "siostra",
+      "ru": "сестра",
+      "pos": "noun-f",
+      "example": "Siostra ma dwoje dzieci. — У сестры двое детей.",
+      "topic": "семья и дательный падеж",
+      "added": "2026-11-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-23"
+    },
+    {
+      "pl": "dziecko",
+      "ru": "ребёнок",
+      "pos": "noun-n",
+      "example": "Dziecko śpi w swoim pokoju. — Ребёнок спит в своей комнате.",
+      "topic": "семья и дательный падеж",
+      "added": "2026-11-22",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-23"
     }
   ]
 }

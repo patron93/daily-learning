@@ -25,7 +25,7 @@
 - [x] (2026-11-16) Вид глагола: robić/zrobić, pisać/napisać
 - [x] (2026-11-18) Модальные: musieć, móc, chcieć, woleć, trzeba, można
 - [x] (2026-11-20) Возвратное się и его место в предложении
-- [ ] Дательный падеж (celownik): komu? + «podoba mi się»
+- [x] (2026-11-22) Дательный падеж (celownik): komu? + «podoba mi się»
 - [ ] Творительный падеж: z kim? czym? (jadę autobusem)
 - [ ] Множественное число существительных: męskoosobowe vs niemęskoosobowe
 - [ ] Прилагательные: согласование и степени сравнения

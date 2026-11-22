@@ -1,0 +1,12 @@
+{"date":"2026-11-22","track":"polish","topic":"Дательный падеж (celownik): komu? и podoba mi się","questions":[
+{"id":"cel-1","type":"choice","prompt":"Kupię ___ kwiaty. (babcia)","options":["babci","babcię","babcie","babcią"],"answer":"babci","explain":"Kupić komu? — дательный. Мягкая основа женского рода: babcia → babci."},
+{"id":"cel-2","type":"choice","prompt":"Dam ___ książkę. (dziadek)","options":["dziadkowi","dziadku","dziadka","dziadkiem"],"answer":"dziadkowi","explain":"Мужской род в дательном обычно -owi, а -e- выпадает: dziadek → dziadkowi."},
+{"id":"cel-3","type":"gap","prompt":"Pomagam ___ w lekcjach. (siostra)","answers":["siostrze"],"explain":"Pomagać komu? Твёрдая основа женского рода: -ra → -rze, как в местном падеже (o siostrze)."},
+{"id":"cel-4","type":"choice","prompt":"Powiedz ___, że jutro przyjdę. (brat)","options":["bratu","bratowi","brata","bracie"],"answer":"bratu","explain":"Brat — из короткого списка мужских слов с окончанием -u: bratu, ojcu, panu, kotu, psu."},
+{"id":"cel-5","type":"gap","prompt":"Kupiłem ___ zabawkę. (dziecko)","answers":["dziecku"],"explain":"Средний род в дательном всегда -u: dziecko → dziecku."},
+{"id":"cel-6","type":"choice","prompt":"Как правильно сказать «Спасибо тебе!»?","options":["Dziękuję ci!","Dziękuję cię!","Dziękuję ciebie!","Dziękuję tobą!"],"answer":"Dziękuję ci!","explain":"Dziękować komu — дательный падеж, в отличие от русского «благодарить кого». Короткая форма — ci."},
+{"id":"cel-7","type":"choice","prompt":"Мне нравятся эти ботинки. — ___ mi się te buty.","options":["Podobają","Podoba","Lubię","Podobam"],"answer":"Podobają","explain":"Подлежащее — buty (мн. ч.), поэтому podobają się; тот, кому нравится, — в дательном (mi)."},
+{"id":"cel-8","type":"choice","prompt":"Как спросить, нравится ли тебе суп на вкус?","options":["Smakuje ci zupa?","Podoba ci się zupa?","Lubisz ci zupę?","Smakujesz zupę?"],"answer":"Smakuje ci zupa?","explain":"Про вкус еды говорят smakować komu. Podobać się — про внешний вид или впечатление."},
+{"id":"cel-9","type":"choice","prompt":"Как сказать «Мне холодно»?","options":["Jest mi zimno.","Mam zimno.","Jestem zimno.","Mnie zimny."],"answer":"Jest mi zimno.","explain":"Состояние выражается через дательный, как в русском: jest mi zimno / gorąco / smutno."},
+{"id":"cel-10","type":"choice","prompt":"Как сказать «Мне 30 лет»?","options":["Mam 30 lat.","Jest mi 30 lat.","Mi 30 lat.","Mnie jest 30 lat."],"answer":"Mam 30 lat.","explain":"Ловушка: возраст по-польски через mieć — mam 30 lat, а не через дательный."}
+]}

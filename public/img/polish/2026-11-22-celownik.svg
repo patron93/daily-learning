@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="400" rx="14" fill="#fbfaf6"/>
+  <text x="380" y="38" text-anchor="middle" font-size="22" font-weight="700" fill="#222">Celownik: komu? czemu? — кому? чему?</text>
+  <g>
+    <rect x="30" y="60" width="160" height="70" rx="10" fill="#fff3d6" stroke="#e0a400"/>
+    <text x="110" y="90" text-anchor="middle" font-size="18" font-weight="700" fill="#7a5600">Dam prezent</text>
+    <text x="110" y="114" text-anchor="middle" font-size="14" fill="#7a5600">дам подарок</text>
+    <path d="M195 95 H255" stroke="#888" stroke-width="3" marker-end="url(#a)"/>
+    <text x="225" y="84" text-anchor="middle" font-size="16" fill="#555">komu?</text>
+  </g>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#888"/></marker></defs>
+  <g font-size="16">
+    <rect x="265" y="58" width="150" height="34" rx="8" fill="#dbe9ff"/>
+    <text x="340" y="81" text-anchor="middle" fill="#1d4ea0">dziadk<tspan font-weight="700">owi</tspan></text>
+    <rect x="425" y="58" width="150" height="34" rx="8" fill="#dbe9ff"/>
+    <text x="500" y="81" text-anchor="middle" fill="#1d4ea0">brat<tspan font-weight="700">u</tspan></text>
+    <rect x="585" y="58" width="150" height="34" rx="8" fill="#ffdde4"/>
+    <text x="660" y="81" text-anchor="middle" fill="#a3203d">sio<tspan font-weight="700">strze</tspan></text>
+    <rect x="345" y="100" width="150" height="34" rx="8" fill="#ffdde4"/>
+    <text x="420" y="123" text-anchor="middle" fill="#a3203d">babc<tspan font-weight="700">i</tspan></text>
+    <rect x="505" y="100" width="150" height="34" rx="8" fill="#dcf3df"/>
+    <text x="580" y="123" text-anchor="middle" fill="#22672e">dzieck<tspan font-weight="700">u</tspan></text>
+  </g>
+  <g font-size="15">
+    <rect x="30" y="160" width="220" height="170" rx="10" fill="#eaf2ff" stroke="#5b8bd8"/>
+    <text x="140" y="188" text-anchor="middle" font-size="17" font-weight="700" fill="#1d4ea0">m — мужской</text>
+    <text x="45" y="216" fill="#1d4ea0">обычно <tspan font-weight="700">-owi</tspan></text>
+    <text x="45" y="240" fill="#333">szef → szefowi</text>
+    <text x="45" y="264" fill="#1d4ea0">короткий список <tspan font-weight="700">-u</tspan>:</text>
+    <text x="45" y="288" fill="#333">bratu, ojcu, panu,</text>
+    <text x="45" y="310" fill="#333">kotu, psu</text>
+    <rect x="270" y="160" width="220" height="170" rx="10" fill="#fff0f3" stroke="#d8607b"/>
+    <text x="380" y="188" text-anchor="middle" font-size="17" font-weight="700" fill="#a3203d">ż — женский</text>
+    <text x="285" y="216" fill="#a3203d">твёрдая: <tspan font-weight="700">-e</tspan> + чередование</text>
+    <text x="285" y="240" fill="#333">mama → mamie</text>
+    <text x="285" y="264" fill="#333">córka → córce</text>
+    <text x="285" y="288" fill="#a3203d">мягкая: <tspan font-weight="700">-i / -y</tspan></text>
+    <text x="285" y="310" fill="#333">Kasia → Kasi, ulica → ulicy</text>
+    <rect x="510" y="160" width="220" height="170" rx="10" fill="#effaf0" stroke="#4ea65b"/>
+    <text x="620" y="188" text-anchor="middle" font-size="17" font-weight="700" fill="#22672e">n — средний</text>
+    <text x="525" y="216" fill="#22672e">всегда <tspan font-weight="700">-u</tspan></text>
+    <text x="525" y="240" fill="#333">okno → oknu</text>
+    <text x="525" y="264" fill="#333">miasto → miastu</text>
+    <text x="525" y="300" fill="#555" font-size="14">местоимения:</text>
+    <text x="525" y="320" fill="#333" font-size="14">mi, ci, mu, jej, nam, im</text>
+  </g>
+  <rect x="30" y="345" width="700" height="40" rx="10" fill="#fff3d6"/>
+  <text x="380" y="371" text-anchor="middle" font-size="16" fill="#7a5600"><tspan font-weight="700">Podoba mi się</tspan> = мне нравится · <tspan font-weight="700">Dziękuję ci</tspan> = благодарю тебя (дательный!)</text>
+</svg>
