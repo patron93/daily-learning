@@ -117,3 +117,4 @@
 - 2026-11-19 · classic · «The Pragmatic Programmer» (20th Anniversary Edition): ETC, DRY как знание, tracer bullets, разбитые окна
 - 2026-11-20 · angular · Signal Forms (стабильны в Angular 22): FormField/FormRoot, схема, applyEach, миграция с Reactive Forms
 - 2026-11-21 · leadership · Онбординг нового разработчика за 30/60/90 дней: три слоя, buddy, первый PR за неделю, журнал удивлений
+- 2026-11-22 · news · Chrome 158: Web Install API (navigator.install, элемент install) для PWA + сдвиг TypeScript 7.1 RC
