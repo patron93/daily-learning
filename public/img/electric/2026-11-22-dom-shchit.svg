@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <rect width="800" height="430" rx="14" fill="#fbfaf6"/>
+  <text x="400" y="28" text-anchor="middle" font-size="19" font-weight="700" fill="#222">Главный щит дома 120 м²: группы по УЗО</text>
+  <rect x="20" y="48" width="140" height="44" rx="8" fill="#e5e7eb" stroke="#555"/><text x="90" y="68" text-anchor="middle" font-weight="700">Счётчик + WLZ</text><text x="90" y="84" text-anchor="middle">25–32 А, 3 фазы</text>
+  <rect x="190" y="48" width="140" height="44" rx="8" fill="#fde68a" stroke="#b45309"/><text x="260" y="68" text-anchor="middle" font-weight="700">Rozłącznik 3P</text><text x="260" y="84" text-anchor="middle">63 А</text>
+  <rect x="360" y="48" width="140" height="44" rx="8" fill="#fecaca" stroke="#b91c1c"/><text x="430" y="68" text-anchor="middle" font-weight="700">SPD T1+T2</text><text x="430" y="84" text-anchor="middle">3P+N</text>
+  <rect x="530" y="48" width="250" height="44" rx="8" fill="#e0e7ff" stroke="#4338ca"/><text x="655" y="68" text-anchor="middle" font-weight="700">Разделение PEN → N + PE</text><text x="655" y="84" text-anchor="middle">TN-C-S, шины N и PE</text>
+  <path d="M160 70 H186 M330 70 H356 M500 70 H526" stroke="#555" stroke-width="2"/>
+  <line x1="40" y1="112" x2="760" y2="112" stroke="#555" stroke-width="3"/>
+  <text x="400" y="106" text-anchor="middle" fill="#555">гребёнка L1 L2 L3 N</text>
+  <g>
+    <rect x="20" y="128" width="245" height="120" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="142" y="148" text-anchor="middle" font-weight="700" fill="#1e3a8a">RCD1 · комнаты</text>
+    <text x="32" y="170" fill="#1e3a8a">свет салон (L1), свет спальни (L2)</text>
+    <text x="32" y="190" fill="#1e3a8a">розетки салон, спальни 1–3</text>
+    <text x="32" y="210" fill="#1e3a8a">6 линий</text>
+    <rect x="278" y="128" width="245" height="120" rx="10" fill="#fef3c7" stroke="#d97706"/>
+    <text x="400" y="148" text-anchor="middle" font-weight="700" fill="#78350f">RCD2 · кухня</text>
+    <text x="290" y="170" fill="#78350f">K1 (L2), K2 (L3), духовка (L1)</text>
+    <text x="290" y="190" fill="#78350f">посудомойка, индукция 3P</text>
+    <text x="290" y="210" fill="#78350f">свет коридор/ванная · 6 линий</text>
+    <rect x="536" y="128" width="245" height="120" rx="10" fill="#cffafe" stroke="#0891b2"/>
+    <text x="658" y="148" text-anchor="middle" font-weight="700" fill="#155e75">RCD3 · мокрая зона</text>
+    <text x="548" y="170" fill="#155e75">розетки ванной (L2), стиралка (L2)</text>
+    <text x="548" y="190" fill="#155e75">сушилка (L1), бойлер ГВС (L3)</text>
+    <text x="548" y="210" fill="#155e75">4 линии</text>
+    <rect x="20" y="262" width="245" height="120" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="142" y="282" text-anchor="middle" font-weight="700" fill="#14532d">RCD4 · снаружи</text>
+    <text x="32" y="304" fill="#14532d">наружный свет, ворота,</text>
+    <text x="32" y="324" fill="#14532d">розетка террасы · кабель YKY</text>
+    <text x="32" y="344" fill="#14532d">3 линии</text>
+    <rect x="278" y="262" width="245" height="120" rx="10" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="400" y="282" text-anchor="middle" font-weight="700" fill="#4c1d95">RCD5 · критичное</text>
+    <text x="290" y="304" fill="#4c1d95">холодильник, роутер + сервер HA</text>
+    <text x="290" y="324" fill="#4c1d95">рекуператор, розетки техн., коридор</text>
+    <text x="290" y="344" fill="#4c1d95">5 линий</text>
+    <rect x="536" y="262" width="245" height="120" rx="10" fill="#ffe4e6" stroke="#e11d48"/>
+    <text x="658" y="282" text-anchor="middle" font-weight="700" fill="#881337">RCD6 · тепловой насос</text>
+    <text x="548" y="304" fill="#881337">компрессор C16 3P, тэн B16 3P</text>
+    <text x="548" y="324" fill="#881337">управление B10</text>
+    <text x="548" y="344" fill="#881337">тип УЗО и номиналы — по DTR</text>
+  </g>
+  <rect x="20" y="394" width="761" height="28" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-dasharray="6 4"/>
+  <text x="400" y="413" text-anchor="middle" fill="#374151">Резерв: место и кабели под зарядку EV (3P) и инвертор PV (3P) · запас 20–30 % модулей под умный дом</text>
+</svg>

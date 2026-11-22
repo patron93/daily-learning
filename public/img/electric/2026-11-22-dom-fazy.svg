@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Segoe UI, Arial, sans-serif" font-size="14">
+<rect width="760" height="380" rx="14" fill="#fbfaf6"/>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="700" fill="#222">Тяжёлый вечер (−15 °C, 18:00): ток на фазу</text>
+<line x1="70" y1="170" x2="700" y2="170" stroke="#e08a00" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="705" y="175" fill="#e08a00" font-size="13">25 А</text>
+<text x="75" y="164" fill="#e08a00" font-size="12">предохранитель 25 А ≈ 17 кВт</text>
+<line x1="70" y1="128" x2="700" y2="128" stroke="#c0262d" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="705" y="133" fill="#c0262d" font-size="13">32 А</text>
+<text x="75" y="122" fill="#c0262d" font-size="12">предохранитель 32 А ≈ 22 кВт</text>
+<rect x="130" y="150.2" width="60" height="169.8" fill="#4f8fdc"/>
+<text x="160" y="144.2" text-anchor="middle" fill="#1d4ea0" font-weight="700">28 А</text>
+<rect x="200" y="98.0" width="60" height="222.0" fill="#e2574c"/>
+<text x="230" y="92.0" text-anchor="middle" fill="#a3203d" font-weight="700">37 А</text>
+<text x="195" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#222">L1</text>
+<rect x="320" y="184.39999999999998" width="60" height="135.60000000000002" fill="#4f8fdc"/>
+<text x="350" y="178.39999999999998" text-anchor="middle" fill="#1d4ea0" font-weight="700">23 А</text>
+<rect x="390" y="132.2" width="60" height="187.8" fill="#e2574c"/>
+<text x="420" y="126.19999999999999" text-anchor="middle" fill="#a3203d" font-weight="700">31 А</text>
+<text x="385" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#222">L2</text>
+<rect x="510" y="189.8" width="60" height="130.2" fill="#4f8fdc"/>
+<text x="540" y="183.8" text-anchor="middle" fill="#1d4ea0" font-weight="700">22 А</text>
+<rect x="580" y="137.60000000000002" width="60" height="182.39999999999998" fill="#e2574c"/>
+<text x="610" y="131.60000000000002" text-anchor="middle" fill="#a3203d" font-weight="700">30 А</text>
+<text x="575" y="342" text-anchor="middle" font-size="16" font-weight="700" fill="#222">L3</text>
+<line x1="70" y1="320" x2="700" y2="320" stroke="#555"/>
+<rect x="130" y="352" width="16" height="14" fill="#4f8fdc"/><text x="152" y="364" fill="#333">без тэна насоса</text>
+<rect x="330" y="352" width="16" height="14" fill="#e2574c"/><text x="352" y="364" fill="#333">с тэном 6 кВт (+2 кВт на фазу)</text>
+</svg>
