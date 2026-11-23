@@ -1173,9 +1173,9 @@
       "example": "Jaka jest dzisiaj pogoda? — Какая сегодня погода?",
       "topic": "Погода",
       "added": "2026-11-05",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-06"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-26"
     },
     {
       "pl": "deszcz",
@@ -1184,9 +1184,9 @@
       "example": "Od rana pada deszcz. — С утра идёт дождь.",
       "topic": "Погода",
       "added": "2026-11-05",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-06"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-26"
     },
     {
       "pl": "parasol",
@@ -1195,9 +1195,9 @@
       "example": "Weź parasol, bo pada. — Возьми зонт, идёт дождь.",
       "topic": "Погода",
       "added": "2026-11-05",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-06"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-26"
     },
     {
       "pl": "wiatr",
@@ -1206,9 +1206,9 @@
       "example": "Dzisiaj wieje silny wiatr. — Сегодня дует сильный ветер.",
       "topic": "Погода",
       "added": "2026-11-05",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-06"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-26"
     },
     {
       "pl": "mokry",
@@ -1217,9 +1217,9 @@
       "example": "Mam mokre buty. — У меня мокрые ботинки.",
       "topic": "Погода",
       "added": "2026-11-05",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-06"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-26"
     },
     {
       "pl": "butelka",
@@ -2155,6 +2155,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-23"
+    },
+    {
+      "pl": "skarpeta",
+      "ru": "носок",
+      "pos": "noun-f",
+      "example": "Wieszam skarpetę przy kominku. — Вешаю носок у камина.",
+      "topic": "Mikołajki",
+      "added": "2026-11-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-24"
+    },
+    {
+      "pl": "cukierek",
+      "ru": "конфета",
+      "pos": "noun-m",
+      "example": "Dziecko dostało cukierka. — Ребёнок получил конфету.",
+      "topic": "Mikołajki",
+      "added": "2026-11-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-24"
+    },
+    {
+      "pl": "zabawka",
+      "ru": "игрушка",
+      "pos": "noun-f",
+      "example": "Ta zabawka jest dla syna. — Эта игрушка для сына.",
+      "topic": "Mikołajki",
+      "added": "2026-11-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-24"
+    },
+    {
+      "pl": "rózga",
+      "ru": "розга, прутик",
+      "pos": "noun-f",
+      "example": "Niegrzeczne dzieci dostają rózgę. — Непослушные дети получают розгу.",
+      "topic": "Mikołajki",
+      "added": "2026-11-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-24"
+    },
+    {
+      "pl": "komin",
+      "ru": "дымоход, труба на крыше (камин — kominek)",
+      "pos": "noun-m",
+      "example": "Mikołaj wchodzi przez komin. — Миколай залезает через трубу.",
+      "topic": "Mikołajki",
+      "added": "2026-11-23",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-24"
     }
   ]
 }

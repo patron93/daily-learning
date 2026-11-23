@@ -1,0 +1,129 @@
+{
+"date": "2026-11-23",
+"track": "polish",
+"topic": "Mikołajki: кто приносит подарки и komin — не камин",
+"questions": [
+{
+"id": "mik-1",
+"type": "choice",
+"prompt": "Kiedy w Polsce są Mikołajki?",
+"options": [
+"6 grudnia",
+"24 grudnia",
+"31 grudnia",
+"19 grudnia"
+],
+"answer": "6 grudnia",
+"explain": "Mikołajki — день святого Николая, 6 декабря. 24 декабря — Wigilia, 31-го — Sylwester."
+},
+{
+"id": "mik-2",
+"type": "choice",
+"prompt": "Gdzie dzieci tradycyjnie szukają prezentu na Mikołajki?",
+"options": [
+"pod poduszką albo w bucie",
+"w lodówce",
+"na balkonie",
+"w skrzynce pocztowej"
+],
+"answer": "pod poduszką albo w bucie",
+"explain": "Подарок кладут под подушку или в начищенный ботинок, который ставят вечером 5 декабря."
+},
+{
+"id": "mik-3",
+"type": "choice",
+"prompt": "Co oznacza słowo «komin»?",
+"options": [
+"дымоход, труба на крыше",
+"камин",
+"комната",
+"кухня"
+],
+"answer": "дымоход, труба на крыше",
+"explain": "Ложный друг: komin — дымоход. Камин — kominek."
+},
+{
+"id": "mik-4",
+"type": "gap",
+"prompt": "Wieczorem siedzimy przy ___ i pijemy herbatę. (камин, miejscownik)",
+"answers": [
+"kominku"
+],
+"explain": "Камин — kominek, przy + местный падеж: przy kominku."
+},
+{
+"id": "mik-5",
+"type": "choice",
+"prompt": "Kto przynosi prezenty w Wigilię w Wielkopolsce?",
+"options": [
+"Gwiazdor",
+"Dziadek Mróz",
+"Aniołek",
+"Dzieciątko"
+],
+"answer": "Gwiazdor",
+"explain": "В Великопольше, на Куявах и Поморье подарки приносит Gwiazdor (от gwiazda — звезда)."
+},
+{
+"id": "mik-6",
+"type": "choice",
+"prompt": "Jak poprawnie: «___ były super!»",
+"options": [
+"Mikołajki",
+"Mikołajka",
+"Mikołajek",
+"Mikołaje"
+],
+"answer": "Mikołajki",
+"explain": "Mikołajki — только множественное число, как imieniny и Andrzejki, поэтому глагол тоже во множественном: były."
+},
+{
+"id": "mik-7",
+"type": "choice",
+"prompt": "«Kogo wylosowałeś?» znaczy…",
+"options": [
+"Кого ты вытянул (в жеребьёвке)?",
+"Кого ты пригласил?",
+"Кому ты позвонил?",
+"Кого ты разбудил?"
+],
+"answer": "Кого ты вытянул (в жеребьёвке)?",
+"explain": "Losowanie — жеребьёвка, wylosować — вытянуть по жребию. Так спрашивают про офисный Secret Santa."
+},
+{
+"id": "mik-8",
+"type": "gap",
+"prompt": "Dziecko dostało ___ od Mikołaja. (cukierek, biernik)",
+"answers": [
+"cukierka"
+],
+"explain": "Cukierek теряет -e-: cukierka. Названия сладостей и фруктов мужского рода (cukierek, banan, ogórek) в разговорной речи берут в винительном окончание -a: zjeść cukierka, dostać banana."
+},
+{
+"id": "mik-9",
+"type": "choice",
+"prompt": "Co dostają niegrzeczne dzieci?",
+"options": [
+"rózgę",
+"zabawkę",
+"skarpetę",
+"cukierki"
+],
+"answer": "rózgę",
+"explain": "Rózga — розга, прутик. Сегодня это скорее шутка: золотая веточка в коробке со сладостями."
+},
+{
+"id": "mik-10",
+"type": "choice",
+"prompt": "«Co dostałeś na Gwiazdkę?» — o jaki dzień pytamy?",
+"options": [
+"o Wigilię, 24 grudnia",
+"o 6 grudnia",
+"o Sylwestra",
+"o urodziny"
+],
+"answer": "o Wigilię, 24 grudnia",
+"explain": "Gwiazdka — вечер подарков в Wigilię: ждут первой звезды на небе."
+}
+]
+}
