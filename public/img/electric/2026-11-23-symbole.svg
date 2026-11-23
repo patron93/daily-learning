@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="780" height="380" rx="14" fill="#fbfbf8"/>
+  <text x="390" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#222">Символы однолинейной схемы (упрощённо)</text>
+  <g stroke="#222" stroke-width="2.5" fill="none">
+    <!-- 1 rozłącznik -->
+    <line x1="70" y1="70" x2="70" y2="105"/><line x1="70" y1="140" x2="70" y2="170"/><line x1="70" y1="140" x2="52" y2="106"/>
+    <!-- 2 MCB -->
+    <line x1="200" y1="70" x2="200" y2="105"/><line x1="200" y1="140" x2="200" y2="170"/><line x1="200" y1="140" x2="182" y2="106"/>
+    <line x1="194" y1="99" x2="206" y2="111"/><line x1="206" y1="99" x2="194" y2="111"/>
+    <rect x="212" y="114" width="18" height="14"/>
+    <!-- 3 RCD -->
+    <line x1="330" y1="70" x2="330" y2="105"/><line x1="330" y1="140" x2="330" y2="170"/><line x1="330" y1="140" x2="312" y2="106"/>
+    <ellipse cx="330" cy="155" rx="16" ry="7"/>
+    <!-- 4 fuse -->
+    <line x1="460" y1="70" x2="460" y2="170"/><rect x="450" y="98" width="20" height="44"/>
+    <!-- 5 SPD -->
+    <line x1="590" y1="70" x2="590" y2="98"/><rect x="578" y="98" width="24" height="40"/><line x1="583" y1="130" x2="597" y2="106"/>
+    <line x1="590" y1="138" x2="590" y2="156"/><line x1="576" y1="156" x2="604" y2="156"/><line x1="581" y1="162" x2="599" y2="162"/><line x1="586" y1="168" x2="594" y2="168"/>
+    <!-- 6 lines with slashes -->
+    <line x1="660" y1="90" x2="760" y2="90"/>
+    <line x1="694" y1="98" x2="702" y2="82"/><line x1="706" y1="98" x2="714" y2="82"/><line x1="718" y1="98" x2="726" y2="82"/>
+    <line x1="660" y1="150" x2="760" y2="150"/>
+    <line x1="682" y1="158" x2="690" y2="142"/><line x1="694" y1="158" x2="702" y2="142"/><line x1="706" y1="158" x2="714" y2="142"/><line x1="718" y1="158" x2="726" y2="142"/><line x1="730" y1="158" x2="738" y2="142"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#222">
+    <text x="70" y="196" font-weight="700">rozłącznik</text><text x="70" y="216" fill="#555">выключатель Q1</text>
+    <text x="200" y="196" font-weight="700">MCB</text><text x="200" y="216" fill="#555">автомат F, B16</text>
+    <text x="330" y="196" font-weight="700">RCD</text><text x="330" y="216" fill="#555">УЗО FI, 30 мА</text>
+    <text x="460" y="196" font-weight="700">bezpiecznik</text><text x="460" y="216" fill="#555">предохранитель</text>
+    <text x="590" y="196" font-weight="700">SPD</text><text x="590" y="216" fill="#555">→ на PE (⏚)</text>
+    <text x="710" y="118" fill="#555">3 провода: L N PE</text>
+    <text x="710" y="180" fill="#555">5: L1 L2 L3 N PE</text>
+  </g>
+  <rect x="30" y="240" width="720" height="120" rx="10" fill="#eef4ff" stroke="#3a64c8"/>
+  <text x="50" y="268" font-size="15" font-weight="700" fill="#1d3f8f">Как читать знак: наклонная черта = контакт (разрыв цепи)</text>
+  <text x="50" y="292" font-size="14" fill="#1d3f8f">+ ничего — размыкает только рука (выключатель)</text>
+  <text x="50" y="314" font-size="14" fill="#1d3f8f">+ крестик и прямоугольник — сам размыкает при перегрузке и КЗ (автомат)</text>
+  <text x="50" y="336" font-size="14" fill="#1d3f8f">+ овал (кольцо-трансформатор) — сам размыкает при утечке тока (УЗО). Автомат + овал = RCBO</text>
+</svg>
