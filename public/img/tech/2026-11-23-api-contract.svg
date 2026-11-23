@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="780" height="360" rx="14" fill="#f8f9fb"/>
+  <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#667"/></marker></defs>
+  <text x="390" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#222">Контракт как единственный источник правды</text>
+  <g font-size="14">
+    <rect x="20" y="70" width="150" height="80" rx="10" fill="#e8f0ff" stroke="#3a64c8"/>
+    <text x="95" y="102" text-anchor="middle" font-weight="700" fill="#1d3f8f">openapi.yaml</text>
+    <text x="95" y="124" text-anchor="middle" fill="#1d3f8f">PR: бэк + фронт</text>
+    <path d="M172 110 H222" stroke="#667" stroke-width="2.5" marker-end="url(#ar)"/>
+    <rect x="226" y="62" width="170" height="96" rx="10" fill="#fff4e0" stroke="#d48a00"/>
+    <text x="311" y="90" text-anchor="middle" font-weight="700" fill="#7a4d00">CI бэкенда</text>
+    <text x="311" y="112" text-anchor="middle" fill="#7a4d00">lint (Spectral)</text>
+    <text x="311" y="132" text-anchor="middle" fill="#7a4d00">oasdiff breaking</text>
+    <text x="311" y="150" text-anchor="middle" font-size="12" fill="#b23a3a">❌ удалили поле → красный</text>
+    <path d="M398 110 H448" stroke="#667" stroke-width="2.5" marker-end="url(#ar)"/>
+    <rect x="452" y="70" width="140" height="80" rx="10" fill="#e9f7ea" stroke="#2e7d32"/>
+    <text x="522" y="102" text-anchor="middle" font-weight="700" fill="#1f5e22">генератор</text>
+    <text x="522" y="124" text-anchor="middle" fill="#1f5e22">типы + функции</text>
+    <path d="M594 110 H636" stroke="#667" stroke-width="2.5" marker-end="url(#ar)"/>
+    <rect x="640" y="70" width="122" height="80" rx="10" fill="#fde8ef" stroke="#c2185b"/>
+    <text x="701" y="102" text-anchor="middle" font-weight="700" fill="#8a1040">Angular</text>
+    <text x="701" y="124" text-anchor="middle" fill="#8a1040">httpResource</text>
+    <path d="M95 152 V230 H230" stroke="#667" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar)"/>
+    <rect x="234" y="200" width="170" height="64" rx="10" fill="#f1ecfb" stroke="#6a3fb5"/>
+    <text x="319" y="226" text-anchor="middle" font-weight="700" fill="#4a2a86">моки (MSW / Prism)</text>
+    <text x="319" y="248" text-anchor="middle" fill="#4a2a86">фронт не ждёт бэк</text>
+    <path d="M406 232 H690 V152" stroke="#667" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar)"/>
+    <rect x="470" y="180" width="180" height="40" rx="8" fill="#ffffff" stroke="#999"/>
+    <text x="560" y="205" text-anchor="middle" fill="#444">generate + git diff --exit-code</text>
+  </g>
+  <rect x="20" y="284" width="742" height="56" rx="10" fill="#ffffff" stroke="#bbb"/>
+  <text x="391" y="308" text-anchor="middle" font-size="14" fill="#333">BFF (владеет фронт-команда): агрегирует сервисы в API «под экран» — со своим контрактом</text>
+  <text x="391" y="328" text-anchor="middle" font-size="13" fill="#666">собирает и адаптирует данные, но не принимает бизнес-решений</text>
+</svg>

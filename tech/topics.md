@@ -38,7 +38,7 @@
 - [x] Feature-sliced / domain-driven структура фронтенда
 - [x] Дизайн-системы и библиотеки компонентов: версионирование, токены
 - [x] State management: классификация состояний (server, UI, URL, form)
-- [ ] BFF (Backend for Frontend) и API-контракты (OpenAPI, генерация клиентов)
+- [x] BFF (Backend for Frontend) и API-контракты (OpenAPI, генерация клиентов)
 - [ ] Web performance: Core Web Vitals (LCP, INP, CLS) на практике
 - [ ] Кеширование на фронте: HTTP-кеш, Service Worker, stale-while-revalidate
 - [ ] Error handling и observability на фронте (Sentry, OpenTelemetry)
@@ -118,3 +118,4 @@
 - 2026-11-20 · angular · Signal Forms (стабильны в Angular 22): FormField/FormRoot, схема, applyEach, миграция с Reactive Forms
 - 2026-11-21 · leadership · Онбординг нового разработчика за 30/60/90 дней: три слоя, buddy, первый PR за неделю, журнал удивлений
 - 2026-11-22 · news · Chrome 158: Web Install API (navigator.install, элемент install) для PWA + сдвиг TypeScript 7.1 RC
+- 2026-11-23 · architecture · BFF и API-контракты: OpenAPI, генерация клиентов, oasdiff
