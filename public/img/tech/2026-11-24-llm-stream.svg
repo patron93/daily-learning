@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="780" height="360" rx="14" fill="#fbfbf8"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+    <marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c14a4a"/></marker>
+  </defs>
+  <text x="390" y="32" text-anchor="middle" font-size="19" font-weight="700" fill="#222">Streaming LLM-ответа: кто с кем говорит</text>
+  <g font-size="14" fill="#222">
+    <rect x="30" y="60" width="200" height="120" rx="12" fill="#e3effd" stroke="#4a7fc1"/>
+    <text x="130" y="86" text-anchor="middle" font-weight="700">Angular</text>
+    <text x="45" y="110">resource stream</text>
+    <text x="45" y="130">signal value растёт</text>
+    <text x="45" y="150">рендер раз в кадр</text>
+    <text x="45" y="170">кнопка «Стоп»</text>
+
+    <rect x="290" y="60" width="200" height="120" rx="12" fill="#fff3d9" stroke="#c19a3a"/>
+    <text x="390" y="86" text-anchor="middle" font-weight="700">BFF</text>
+    <text x="305" y="110">ключ API, промпт</text>
+    <text x="305" y="130">лимиты, логи, RAG</text>
+    <text x="305" y="150">X-Accel-Buffering: no</text>
+    <text x="305" y="170">проброс abort</text>
+
+    <rect x="550" y="60" width="200" height="120" rx="12" fill="#e6f5e6" stroke="#4a9a4a"/>
+    <text x="650" y="86" text-anchor="middle" font-weight="700">LLM-провайдер</text>
+    <text x="565" y="110">генерирует токены</text>
+    <text x="565" y="130">stream: true</text>
+    <text x="565" y="150">платим за каждый</text>
+    <text x="565" y="170">токен до отмены</text>
+  </g>
+  <g stroke="#333" stroke-width="2" fill="none">
+    <line x1="232" y1="95" x2="286" y2="95" marker-end="url(#a)"/>
+    <line x1="492" y1="95" x2="546" y2="95" marker-end="url(#a)"/>
+    <line x1="546" y1="135" x2="494" y2="135" marker-end="url(#a)"/>
+    <line x1="286" y1="135" x2="234" y2="135" marker-end="url(#a)"/>
+  </g>
+  <g stroke="#c14a4a" stroke-width="2" stroke-dasharray="6 4" fill="none">
+    <path d="M130,182 L130,205 L650,205 L650,184" marker-end="url(#r)"/>
+  </g>
+  <g font-size="12" fill="#444">
+    <text x="236" y="88">POST</text>
+    <text x="236" y="152">SSE</text>
+    <text x="496" y="152">поток</text>
+    <text x="390" y="222" text-anchor="middle" fill="#c14a4a">abortSignal → отмена по всей цепочке</text>
+  </g>
+  <text x="30" y="262" font-size="15" font-weight="700" fill="#222">Время ожидания глазами пользователя</text>
+  <rect x="30" y="276" width="110" height="26" fill="#ddd"/>
+  <rect x="140" y="276" width="500" height="26" fill="#bcd7f5"/>
+  <rect x="640" y="276" width="110" height="26" fill="#c8e8c8"/>
+  <g font-size="13" fill="#222">
+    <text x="85" y="294" text-anchor="middle">TTFT</text>
+    <text x="390" y="294" text-anchor="middle">текст печатается: «Стоп» видна</text>
+    <text x="695" y="294" text-anchor="middle">готово</text>
+    <text x="30" y="326">0,3–0,8 с: статус «Ищу…»</text>
+    <text x="300" y="326">5–20 с: рендер markdown раз в кадр</text>
+    <text x="600" y="326">aria-live: «Ответ готов»</text>
+  </g>
+</svg>

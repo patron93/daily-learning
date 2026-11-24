@@ -50,7 +50,7 @@
 - [x] Prompt engineering для разработчиков: структура, примеры, XML-теги
 - [x] RAG: как построить поиск по документации проекта
 - [x] MCP (Model Context Protocol): что это и зачем фронтендеру
-- [ ] Встраивание LLM во фронтенд: streaming-ответы, UX ожидания
+- [x] Встраивание LLM во фронтенд: streaming-ответы, UX ожидания
 - [ ] Оценка качества LLM-фич (evals)
 - [ ] Angular + AI: генерация кода, best practices, llms.txt
 
@@ -119,3 +119,4 @@
 - 2026-11-21 · leadership · Онбординг нового разработчика за 30/60/90 дней: три слоя, buddy, первый PR за неделю, журнал удивлений
 - 2026-11-22 · news · Chrome 158: Web Install API (navigator.install, элемент install) для PWA + сдвиг TypeScript 7.1 RC
 - 2026-11-23 · architecture · BFF и API-контракты: OpenAPI, генерация клиентов, oasdiff
+- 2026-11-24 · ai · LLM во фронтенде: streaming через BFF и SSE, resource со stream и abortSignal, UX ожидания (TTFT, «Стоп», рендер раз в кадр, aria-live)
