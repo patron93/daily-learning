@@ -1,0 +1,12 @@
+{"date":"2026-11-24","track":"polish","topic":"Творительный падеж: z kim? czym?","questions":[
+{"id":"narz-1","type":"choice","prompt":"Jadę do pracy ___. (autobus)","options":["autobusem","autobusie","na autobusie","autobusa"],"answer":"autobusem","explain":"Транспорт — творительный без предлога: jechać czym? → autobusem."},
+{"id":"narz-2","type":"choice","prompt":"Wracam do domu ___. (taksówka)","options":["taksówką","taksówkę","taksówki","taksówkiem"],"answer":"taksówką","explain":"Женский род на -a в творительном получает -ą: taksówka → taksówką."},
+{"id":"narz-3","type":"gap","prompt":"Lecę do Mińska ___. (samolot)","answers":["samolotem"],"explain":"Мужской род → -em: samolot → samolotem."},
+{"id":"narz-4","type":"choice","prompt":"Mój brat jest ___. (lekarz)","options":["lekarzem","lekarz","lekarza","lekarzu"],"answer":"lekarzem","explain":"Być + профессия → творительный: jest lekarzem."},
+{"id":"narz-5","type":"gap","prompt":"Poproszę kawę z ___. (mleko)","answers":["mlekiem"],"explain":"Z + творительный = «с чем». Средний род на -ko → -kiem: mleko → mlekiem."},
+{"id":"narz-6","type":"choice","prompt":"Idę do kina z ___. (Marek)","options":["Markiem","Markem","Marka","Markowi"],"answer":"Markiem","explain":"После -k и -g окончание -iem: Marek → Markiem (а -e- выпадает)."},
+{"id":"narz-7","type":"choice","prompt":"Czy pójdziesz ___ na spacer? (я → со мной)","options":["ze mną","z mną","z mnie","ze mnie"],"answer":"ze mną","explain":"Местоимение ja в творительном — mną, а предлог перед ним становится ze: ze mną."},
+{"id":"narz-8","type":"choice","prompt":"Как правильно сказать «Я читаю в метро» (внутри вагона)?","options":["Czytam w metrze.","Czytam metrem.","Czytam na metrze.","Czytam z metrem."],"answer":"Czytam w metrze.","explain":"«Где, внутри» — w + местный падеж: w metrze. Metrem — это «на чём едешь»."},
+{"id":"narz-9","type":"gap","prompt":"Ona jest ___. (nauczycielka)","answers":["nauczycielką"],"explain":"Być + профессия → творительный, женский род -ą: nauczycielką."},
+{"id":"narz-10","type":"choice","prompt":"Wracam ___ pracy o szóstej. (с работы)","options":["z","ze","w","na"],"answer":"z","explain":"Здесь z + родительный (pracy) — «откуда». С творительным z значит «вместе с»: z kolegą."}
+]}

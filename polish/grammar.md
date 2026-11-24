@@ -26,7 +26,7 @@
 - [x] (2026-11-18) Модальные: musieć, móc, chcieć, woleć, trzeba, można
 - [x] (2026-11-20) Возвратное się и его место в предложении
 - [x] (2026-11-22) Дательный падеж (celownik): komu? + «podoba mi się»
-- [ ] Творительный падеж: z kim? czym? (jadę autobusem)
+- [x] (2026-11-24) Творительный падеж: z kim? czym? (jadę autobusem)
 - [ ] Множественное число существительных: męskoosobowe vs niemęskoosobowe
 - [ ] Прилагательные: согласование и степени сравнения
 - [ ] Предлоги места: przed, za, nad, pod, między, obok

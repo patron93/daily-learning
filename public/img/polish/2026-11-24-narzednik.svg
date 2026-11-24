@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="760" height="330" rx="14" fill="#fbfbf8"/>
+  <text x="380" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#222">Narzędnik: kim? czym? → окончание</text>
+  <g font-size="15" fill="#222">
+    <rect x="30" y="60" width="220" height="200" rx="12" fill="#e3effd" stroke="#4a7fc1"/>
+    <text x="140" y="88" text-anchor="middle" font-weight="700" font-size="17">m / n → -em</text>
+    <text x="50" y="122">autobus → autobus<tspan font-weight="700" fill="#1f5fa8">em</tspan></text>
+    <text x="50" y="150">samochód → samochod<tspan font-weight="700" fill="#1f5fa8">em</tspan></text>
+    <text x="50" y="178">metro → metr<tspan font-weight="700" fill="#1f5fa8">em</tspan></text>
+    <text x="50" y="216" font-size="13" fill="#555">после -k, -g → -iem:</text>
+    <text x="50" y="240">Marek → Mark<tspan font-weight="700" fill="#1f5fa8">iem</tspan></text>
+
+    <rect x="270" y="60" width="220" height="200" rx="12" fill="#fde7ec" stroke="#c14a6a"/>
+    <text x="380" y="88" text-anchor="middle" font-weight="700" font-size="17">ż → -ą</text>
+    <text x="290" y="122">taksówka → taksówk<tspan font-weight="700" fill="#a8213f">ą</tspan></text>
+    <text x="290" y="150">kawa → kaw<tspan font-weight="700" fill="#a8213f">ą</tspan></text>
+    <text x="290" y="178">siostra → siostr<tspan font-weight="700" fill="#a8213f">ą</tspan></text>
+    <text x="290" y="216" font-size="13" fill="#555">прилагательное тоже -ą:</text>
+    <text x="290" y="240">czerwon<tspan font-weight="700" fill="#a8213f">ą</tspan> taksówk<tspan font-weight="700" fill="#a8213f">ą</tspan></text>
+
+    <rect x="510" y="60" width="220" height="200" rx="12" fill="#e6f5e6" stroke="#4a9a4a"/>
+    <text x="620" y="88" text-anchor="middle" font-weight="700" font-size="17">мн. ч. → -ami</text>
+    <text x="530" y="122">z koleg<tspan font-weight="700" fill="#2c7a2c">ami</tspan></text>
+    <text x="530" y="150">z koleżank<tspan font-weight="700" fill="#2c7a2c">ami</tspan></text>
+    <text x="530" y="188" font-size="13" fill="#555">исключения:</text>
+    <text x="530" y="212">z dzie<tspan font-weight="700" fill="#2c7a2c">ćmi</tspan>, z lu<tspan font-weight="700" fill="#2c7a2c">dźmi</tspan></text>
+  </g>
+  <g font-size="15" fill="#222">
+    <text x="30" y="292"><tspan font-weight="700">Когда:</tspan> транспорт без предлога (jadę autobusem) · z + kim/czym (kawa z mlekiem) ·</text>
+    <text x="30" y="316">być + профессия (jestem programistą)</text>
+  </g>
+</svg>

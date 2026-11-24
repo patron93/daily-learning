@@ -1228,9 +1228,9 @@
       "example": "Poproszę butelkę wody. — Бутылку воды, пожалуйста.",
       "topic": "Количество и упаковки",
       "added": "2026-11-06",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-07"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "szklanka",
@@ -1239,9 +1239,9 @@
       "example": "Piję szklankę mleka. — Я пью стакан молока.",
       "topic": "Количество и упаковки",
       "added": "2026-11-06",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-07"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "kawałek",
@@ -1250,9 +1250,9 @@
       "example": "Kawałek tortu? — Кусочек торта?",
       "topic": "Количество и упаковки",
       "added": "2026-11-06",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-07"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "opakowanie",
@@ -1261,9 +1261,9 @@
       "example": "Jedno opakowanie jajek, proszę. — Одну упаковку яиц, пожалуйста.",
       "topic": "Количество и упаковки",
       "added": "2026-11-06",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-07"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "trochę",
@@ -1272,9 +1272,9 @@
       "example": "Mam trochę czasu. — У меня есть немного времени.",
       "topic": "Количество и упаковки",
       "added": "2026-11-06",
-      "box": 1,
-      "reviews": 0,
-      "next_review": "2026-11-07"
+      "box": 2,
+      "reviews": 1,
+      "next_review": "2026-11-27"
     },
     {
       "pl": "flaga",
@@ -2210,6 +2210,61 @@
       "box": 1,
       "reviews": 0,
       "next_review": "2026-11-24"
+    },
+    {
+      "pl": "autobus",
+      "ru": "автобус",
+      "pos": "noun-m",
+      "example": "Jadę do pracy autobusem. — Еду на работу на автобусе.",
+      "topic": "Творительный падеж: транспорт",
+      "added": "2026-11-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-25"
+    },
+    {
+      "pl": "samochód",
+      "ru": "машина, автомобиль",
+      "pos": "noun-m",
+      "example": "Wolę jeździć samochodem. — Предпочитаю ездить на машине.",
+      "topic": "Творительный падеж: транспорт",
+      "added": "2026-11-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-25"
+    },
+    {
+      "pl": "samolot",
+      "ru": "самолёт",
+      "pos": "noun-m",
+      "example": "Lecę do Mińska samolotem. — Лечу в Минск самолётом.",
+      "topic": "Творительный падеж: транспорт",
+      "added": "2026-11-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-25"
+    },
+    {
+      "pl": "taksówka",
+      "ru": "такси",
+      "pos": "noun-f",
+      "example": "Wracam taksówką, bo jest późno. — Возвращаюсь на такси, потому что поздно.",
+      "topic": "Творительный падеж: транспорт",
+      "added": "2026-11-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-25"
+    },
+    {
+      "pl": "metro",
+      "ru": "метро",
+      "pos": "noun-n",
+      "example": "W Warszawie jeżdżę metrem. — В Варшаве я езжу на метро.",
+      "topic": "Творительный падеж: транспорт",
+      "added": "2026-11-24",
+      "box": 1,
+      "reviews": 0,
+      "next_review": "2026-11-25"
     }
   ]
 }
